@@ -1,0 +1,384 @@
+// TABLE -- Tables are better than chairs lmao
+
+table {
+	width: 100%;
+	display: block;
+	margin: 10px 0;
+
+	tr {
+		display: flex;
+		justify-content: center;
+
+		td,
+		th {
+			display: flex;
+			flex-direction: column;
+			width: 200px;
+			padding: 15px 10px;
+			justify-content: center;
+			align-items: center;
+
+			b {
+				font-weight: 600;
+				color: #222;
+				letter-spacing: 1px;
+				white-space: pre;
+			}
+		}
+	}
+
+	thead {
+		display: block;
+
+		th {
+			font-size: 24px;
+			font-weight: normal;
+		}
+
+		.highlight {
+			background: #e66;
+			font-weight: 700;
+			color: #fff;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+	}
+
+	tbody {
+		font-size: 18px;
+		display: block;
+
+		// Doing the borders like that makes them prettier on the left and right than when just applying to the tbody
+		// Also, it fixes weird flex spacing issues
+		tr:first-child td {
+			border-top: 4px solid rgba(0,0,0,0.1);
+		}
+
+		tr:last-child td {
+			border-bottom: 4px solid rgba(0,0,0,0.1);
+		}
+
+		tr td:first-child {
+			border-left: 4px solid rgba(0,0,0,0.1);
+		}
+
+		tr td:last-child {
+			border-right: 4px solid rgba(0,0,0,0.1);
+		}
+
+		.highlight {
+			color: #e66;
+			font-weight: 700;
+			border-left: 4px solid #e66 !important;
+			border-right: 4px solid #e66 !important;
+		}
+
+		tr:first-child .highlight {
+			border-top: 4px solid #d65c5c;
+		}
+
+		tr:last-child .highlight {
+			border-bottom: 4px solid #e66;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+
+		tr:nth-child(odd) td {
+			background: #fff;
+		}
+
+		tr:nth-child(even) td {
+			background: #eaecee;
+		}
+
+		.mdi {
+			//color: #e66;
+			font-size: 24px;
+		}
+	}
+
+	.cathegory {
+		width: 300px;
+		text-align: left;
+		align-items: baseline;
+	}
+}
+// SLIDESHOW -- Because you can't have enough cute pics of Satania-sama, you gotta make a slideshow of them instead of choosing just one
+@keyframes image-appear {
+	0%,
+	100% {
+		transform: translateY(-15px);
+		opacity: 0;
+	}
+
+	10%,
+	90% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.slideshow {
+	text-align: center;
+
+	img {
+		display: none;
+		max-width: 100%;
+		animation-name: image-appear;
+		animation-duration: 2.5s;
+		animation-timing-function: ease-in-out;
+		opacity: 0;
+
+		&.shown {
+			display: inline-block;
+		}
+	}
+
+	.source {
+		position: absolute;
+		bottom: 10px;
+		right: 50%;
+		background: #e66;
+		color: #fff;
+		text-decoration: none;
+		padding: 5px 10px;
+		border-radius: 2px;
+		z-index: 100;
+		opacity: 0.8;
+	}
+
+	.source:hover {
+		background: #F77;
+		opacity: 1;
+	}
+}
+// COMPARE -- Because the other characters are terrible
+.compare {
+	display: flex;
+	overflow-x: auto;
+	justify-content: center;
+
+	.character {
+		margin: 10px;
+		display: inline-block;
+		width: 200px;
+		flex: 1 0 auto;
+		background: #EEE;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+		max-width: 360px;
+
+		img {
+			width: 100%;
+		}
+
+		.name {
+			font-size: 40px;
+			font-weight: 500;
+			background: #F7F7F7;
+			padding: 10px;
+			border-top: 2px solid #d5d5d5;
+
+			.small {
+				color: rgba(0,0,0,0.6);
+				font-size: 16px;
+			}
+		}
+
+		ul {
+			text-align: left;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+
+			li {
+				padding: 10px;
+				border-top: 2px solid #d5d5d5;
+			}
+		}
+	}
+}
+// GOOGLE DEFINITION -- Everything had to be remade from scratch...
+.google-searchbar {
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	height: 44px;
+	line-height: 44px;
+	padding: 0 16px;
+	font-size: 16px;
+	font-family: arial,"Roboto Light", "Noto",sans-serif;
+	font-weight: normal;
+	color: #000;
+	margin: 16px 0;
+	cursor: text;
+	text-align: left;
+	max-width: 512px;
+	width: 100%;
+	display: inline-block;
+
+	&:hover {
+		box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+	}
+
+	.buttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		float: right;
+		font-size: 24px;
+		color: #4285f4;
+
+		* {
+			cursor: pointer;
+		}
+
+		img {
+			margin: 0 16px;
+			display: none;
+		}
+	}
+}
+
+.google-definition {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	font-family: arial,sans-serif;
+	background: #fff;
+	padding: 16px;
+	margin: 16px 0;
+	color: #222;
+	border-radius: 2px;
+	text-align: left;
+	max-width: 512px;
+	width: 100%;
+	display: inline-block;
+
+	h1 {
+		font-size: 32px;
+		font-weight: lighter;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 18px;
+		margin: 0;
+		font-weight: normal;
+	}
+
+	#listen:hover {
+		color: #000;
+		cursor: pointer;
+		user-select:none;
+	}
+
+	.noun {
+		padding-top: 10px;
+		font-style: italic;
+		font-size: 13px;
+	}
+
+	.definition {
+		display: list-item;
+		margin-left: 30px;
+		padding-left: 0;
+		padding-top: 10px;
+		font-size: 13px;
+		font-weight: lighter;
+
+		b {
+			font-weight: bold;
+		}
+
+		&.no-bullet {
+			display: block;
+			margin-left: 0;
+			padding-left: 20px;
+		}
+
+		.example {
+			color: #878787;
+		}
+
+		.synonyms {
+			display: flex;
+
+			span:first-child {
+				margin-right: 3px;
+			}
+		}
+
+		a {
+			color: #1a0dab;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+// FLIPPING CARDS -- You click, they flip, simple enough
+.card {
+	text-align: left;
+	padding: 10px;
+	width: 220px;
+	height: 340px;
+	vertical-align: middle;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+	background: #fff;
+	cursor: pointer;
+	transition: 0.1s all ease-out;
+	font-size: 24px;
+	line-height: 1.1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-weight: 400;
+
+	b {
+		font-weight: 600;
+		color: #333;
+	}
+
+	&:hover {
+		width: 230px;
+		height: 350px;
+		margin: 10px;
+		padding: 15px;
+		background: #F5F5F5;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+	}
+
+	&.flipped {
+		background: #EEE;
+		width: 240px;
+		height: 360px;
+		margin: 5px;
+		padding: 20px;
+
+		.question {
+			display: none;
+		}
+
+		.answer {
+			display: block;
+		}
+	}
+
+	&:active {
+		background: #E5E5E5;
+		width: 220px;
+		height: 340px;
+		margin: 15px;
+		padding: 10px;
+	}
+
+	.answer {
+		display: none;
+		font-size: 20px;
+	}
+}

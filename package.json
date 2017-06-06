@@ -1,0 +1,40 @@
+{
+  "name": "satania-moe",
+  "version": "1.0.0",
+  "description": "A website to show everyone why Satania is the best waifu!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "waifu",
+    "satania",
+    "demon",
+    "daiakuma",
+    "moe",
+    "cute",
+    "gabriel",
+    "raphiel",
+    "vignette",
+    "gabriel",
+    "dropout",
+    "anime",
+    "manga"
+  ],
+  "author": "Pizzacus",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-clean-css": "^3.3.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

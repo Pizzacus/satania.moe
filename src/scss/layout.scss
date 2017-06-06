@@ -1,0 +1,199 @@
+// LAYOUT -- Every rules that relates to the general layout of the website goes here
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: top right;
+	background-attachment: fixed;
+
+	&.intro {
+		background-image: url("/img/back.jpg");
+	}
+
+	&.end {
+		background-image: url("/img/back_end.jpg");
+	}
+
+	.disclaimer {
+		margin: 10px;
+		font-size: 18px;
+		font-weight: 500;
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.scroll-notice {
+		position: absolute;
+		top: 80%;
+		font-size: 18pt;
+		.mdi {
+			font-size: 32pt;
+			vertical-align: middle;
+			margin-right: 5px;
+		}
+	}
+
+	.footer {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		z-index: 10;
+		font-size: 20px;
+		color: rgba(255,255,255,0.9);
+		text-shadow: 0 1px 5px #000;
+
+		b {
+			font-size: 22px;
+		}
+
+		a {
+			color: #e66;
+		}
+	}
+}
+
+.back-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 100%);
+	z-index: 5;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+	z-index: 10;
+
+	h1 {
+		font-size: 128px;
+		line-height: 128px;
+		margin: 0;
+		font-weight: normal;
+	}
+
+	h2 {
+		font-size: 32px;
+		margin: 0;
+		font-weight: normal;
+	}
+
+	p {
+		margin: 0 0 10px;
+	}
+
+	.button-container {
+		margin-top: 30px;
+	}
+}
+
+.section {
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0 10px;
+	background: #fff;
+	color: #404040;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	border-bottom: solid 2px #ddd;
+
+	&:nth-child(odd) {
+		background-color: #F5F7F9;
+	}
+
+	&:nth-child(even) {
+		background-color: #EAECEE;
+	}
+
+	.center,
+	.left,
+	.right {
+		display: inline-block;
+		width: 50%;
+		max-width: 512px;
+		z-index: 10;
+		padding: 50px 0;
+		margin: 0 10px;
+	}
+
+	.image {
+		padding: 0;
+		display: flex;
+	}
+
+	.left {
+		text-align: right;
+	}
+
+	.image.left {
+		justify-content: flex-end;
+	}
+
+	.image.right {
+		justify-content: flex-start;
+	}
+
+	.center {
+		width: 100%;
+		max-width: 1024px;
+		text-align: center;
+	}
+
+	h2 {
+		color: #444;
+		font-size: 42px;
+		font-weight: 500;
+		margin: 5px 0;
+	}
+
+	p {
+		color: #555;
+		font-size: 24px;
+		font-weight: 300;
+		line-height: 1.4;
+		margin: 24px 0 12px 0;
+
+		b {
+			font-weight: 500;
+			color: #444;
+		}
+	}
+
+	&.background {
+		padding: 30px 0;
+		text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+
+		h2 {
+			color: #fff;
+			font-size: 64px;
+			font-weight: 500;
+			margin: auto;
+		}
+
+		p {
+			color: #fff;
+			font-size: 32px;
+			margin: auto 16px;
+			font-weight: 400;
+		}
+	}
+}

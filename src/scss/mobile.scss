@@ -1,0 +1,110 @@
+// MOBILE -- Satania is everywhere, even on your phone <3
+@media (max-width: 1024px) {
+	@keyframes image-appear-mobile {
+		0%,
+		100% {
+			transform: translateY(-15px);
+			opacity: 0;
+		}
+
+		10%,
+		90% {
+			transform: translateY(0);
+			opacity: 0.5;
+		}
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	.section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		&.background {
+			h2 {
+				font-size: 36px;
+			}
+
+			p {
+				font-size: 18px;
+			}
+		}
+
+		.center,
+		.left,
+		.right {
+			width: 100%;
+			text-align: center;
+			padding: 10px;
+
+			& > h2 {
+				font-size: 36px;
+			}
+
+			& > p {
+				font-size: 18px;
+				font-weight: 400;
+			}
+		}
+
+		.image {
+			position: absolute;
+			top: 0;
+			display: flex;
+			justify-content: center !important;
+			padding: 0;
+			z-index: 5;
+			background: none;
+
+			img {
+				opacity: 0.5;
+			}
+		}
+
+		.slideshow img {
+			animation-name: image-appear-mobile;
+		}
+	}
+
+	.title {
+		h1 {
+			font-size: 84px;
+			line-height: 72px;
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+		h2 {
+			font-size: 26px;
+		}
+	}
+
+	table {
+		overflow-x: scroll;
+
+		tr {
+			display: inline-flex;
+		}
+
+		tr td,
+		tr th {
+			flex: none;
+		}
+	}
+
+	.compare {
+		justify-content: flex-start;
+	}
+
+	.slideshow .source {
+		width: 100px;
+		margin-right: -50px;
+		padding: 10px 20px;
+	}
+}
