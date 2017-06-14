@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
+    babili = require("gulp-babili");
     cleanCSS = require('gulp-clean-css'),
     concatCSS = require('gulp-concat-css'),
     sass = require('gulp-sass'),
@@ -39,7 +39,7 @@ gulp.task('scripts', function() {
     return gulp.src('src/js/**/*.js')
         .pipe(plumber())
         .pipe(concat('script.js'))
-        .pipe(uglify())
+        .pipe(babili())
         .pipe(gulp.dest('dist'))
         .pipe(browserSync.reload({
             stream: true
