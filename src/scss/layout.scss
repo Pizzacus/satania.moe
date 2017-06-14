@@ -14,10 +14,12 @@
 
 	&.intro {
 		background-image: url("/img/back.jpg");
+		background-image: url("./img/back.jpg");
 	}
 
 	&.end {
 		background-image: url("/img/back_end.jpg");
+		background-image: url("./img/back_end.jpg");
 	}
 
 	.disclaimer {
