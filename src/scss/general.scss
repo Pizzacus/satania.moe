@@ -28,8 +28,7 @@ img {
 	color: #fff;
 	text-decoration: none;
 	font-size: 20px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.25),
-	inset 0 -4px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.25), inset 0 -4px 0 rgba(0,0,0,0.2);
 	text-shadow: none;
 	font-weight: 500;
 	margin: 5px;
@@ -56,9 +55,52 @@ img {
 	}
 }
 
+.select-wrapper {
+	.select-button {
+		background: #eee;
+		padding: 0 20px;
+		padding-right: 60px;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+		font-size:18px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+
+
+		.mdi {
+			position:absolute;
+			top:0;
+			right:0;
+			width: 40px;
+			height:40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-left: 1px solid #ccc;
+		}
+	}
+
+	select {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	position: relative;
+	min-width: 125px;
+}
+
 .small {
 	font-size: 14px;
 	font-weight: 500;
 	display: block;
 	opacity: 0.65;
+}
+
+html[lang=en] .translate-only {
+	display: none;
 }

@@ -33,49 +33,63 @@
 </head>
 
 <body>
-	<div class="main intro">
+	<div i18n-group="main-intro" class="main intro">
 		<div class="back-overlay"></div>
 
 		<div class="title">
 			<h1 id="logo">Satania</h1>
 			<p>胡桃沢=サタニキア=マクドウェル</p>
-			<h2>The best Waifu. <b>Ever.</b></h2>
+			<h2 i18n="best-waifu-ever">The best Waifu. <b>Ever.</b></h2>
 
 			<div class="button-container">
-				<a class="button discord" href="https://discord.gg/rC9ebp7"><i class="mdi mdi-discord"></i>Join the Discord</a>
-				<a class="button reddit" href="https://reddit.com/r/satania"><i class="mdi mdi-reddit"></i>Join the Subreddit</a>
+				<a i18n="join-discord" class="button discord" href="https://discord.gg/rC9ebp7"><i class="mdi mdi-discord"></i>Join the Discord</a>
+				<a i18n="join-reddit" class="button reddit" href="https://reddit.com/r/satania"><i class="mdi mdi-reddit"></i>Join the Subreddit</a>
+				<span i18n="language-warning" class="small translate-only">(These community use English as their primary language)</span>
 			</div>
 
-			<span class="scroll-notice"><i class="mdi mdi-arrow-down"></i>Scroll to learn more!</span>
+			<span i18n="scroll-notice" class="scroll-notice"><i class="mdi mdi-arrow-down"></i>Scroll to learn more!</span>
 
-			<p class="mobile disclaimer">
+			<p i18n="mobile-disclaimer" class="mobile disclaimer">
 				I am really sorry, but the mobile version of this website was kinda rushed and <b>it's really shit</b>, I didn't think anyone would visit it on a phone tbh.
 			</p>
 		</div>
 
-		<div class="footer">
-			A glorious shitpost by some pizza named <b>Pizzacus</b>
+			<div class="language-select">
+				<div class="select-wrapper">
+					<div i18n="language-select" class="select-button">
+						Language
+						<i class="mdi mdi-chevron-down"></i>
+					</div>
+					<select id="locale-select">
+						<option value="default">English</option>
+						<option disabled value="fr">French</option>
+					</select>
+				</div>
+			</div>
+
+		<div i18n="credits" class="footer">
+			A glorious shitpost by some pizza named <b title="Kenyérlángos">Pizzacus</b>
 		</div>
 	</div>
 
 	<div class="scroll">
-		<div class="section">
+		<div i18n-group="become-a-satania-follower" class="section">
 			<div class="left image">
 				<img src="img/satania_thumbsup.png" alt="" />
 			</div>
 
 			<div class="right">
-				<h2>Become a Satania follower today!</h2>
-				<p><b>There are no steps to becoming a Satania follower</b>, all&nbsp;you have to do is to accept that Satania is the&nbsp;best&nbsp;character</p>
-				<span class="small">Well If you could make Satania memes and shitposts, that would help us a lot...</span>
+				<h2 i18n="large-text">Become a Satania follower today!</h2>
+				<p i18n="sub-text"><b>There are no steps to becoming a Satania follower</b>, all&nbsp;you have to do is to accept that Satania is the&nbsp;best&nbsp;character</p>
+				<span i18n="small-text" class="small">Well If you could make Satania memes and shitposts, that would help us a lot...</span>
 			</div>
 		</div>
 
-		<div class="section">
+		<div i18n-group="she-is-beautiful" class="section">
 			<div class="left">
-				<h2>A lovely smile.<br /> Two magnificent eyes.<br /> A stunning appearance.</h2>
-				<p>She's a really <b>pulchritudinous</b> person</p>
-				<span class="small">We Satania followers are very cultured people, so we only use a very cultured language</span>
+				<h2 i18n="large-text">A lovely smile.<br /> Two magnificent eyes.<br /> A stunning appearance.</h2>
+				<p i18n="sub-text">She's a really <b>pulchritudinous</b> person</p>
+				<span i18n="small-text" class="small">We Satania followers are very cultured people, so we only use a very cultured language</span>
 			</div>
 
 			<div class="right image">
@@ -83,21 +97,21 @@
 			</div>
 		</div>
 
-		<div class="section">
+		<div i18n-group="end-the-waifu-war" class="section">
 			<div class="left image">
 				<img src="img/satania_happy.png" alt="" />
 			</div>
 
 			<div class="right">
-				<h2>The best demon Waifu just&nbsp;for&nbsp;you.</h2>
-				<p>Let's end the waifu war with the <b>most kawaii demon in the world</b>!</p>
+				<h2 i18n="large-text">The best demon Waifu just&nbsp;for&nbsp;you.</h2>
+				<p i18n="sub-text">Let's end the waifu war with the <b>most kawaii demon in the world</b>!</p>
 			</div>
 		</div>
 
 		<div class="section">
-			<div class="center">
-				<h2>In short, she's just perfect.</h2>
-				<p>Even Google knows.</p>
+			<div i18n-group="she-is-perfect" class="center">
+				<h2 i18n="large-text">In short, she's just perfect.</h2>
+				<p i18n="sub-text">Even Google knows.</p>
 
 				<div id="searchbar" class="google-searchbar">
 					<span>satania</span>
@@ -108,45 +122,45 @@
 					</div>
 				</div><br />
 
-				<div class="google-definition">
-					<h1 id="definition-name">perfection</h1>
-					<h3>/pəˈfɛkʃ(ə)n/ <i id="listen" class="mdi mdi-volume-high"></i></h3>
+				<div i18n-group="google-definition" class="google-definition">
+					<h1 i18n="name" id="definition-name">perfection</h1>
+					<h3><span i18n="prononciation">/pəˈfɛkʃ(ə)n/</span> <i id="listen" class="mdi mdi-volume-high"></i></h3>
 
-					<div class="noun">
+					<div i18n="noun" class="noun">
 						noun
 					</div>
 
-					<div class="definition no-bullet">
-						the state or quality of being perfect.
+					<div i18n-group="definition-1" class="definition no-bullet">
+						<span i18n="definition">the state or quality of being perfect.</span>
 						<div class="example">
-							"the satiny perfection of <b>satania</b>'s skin"
+							<span i18n="example">"the satiny perfection of <b>satania</b>'s skin"</span>
 							<div class="synonyms">
-								<span><i>synonyms:</i></span>
-								<span>satania, flawlessness, <a href="https://www.google.fr/search?q=define+excellence&forcedict=excellence">excellence</a>, superbness, sublimity, exquisiteness, <a href="https://www.google.fr/search?q=define+magnificence&forcedict=magnificence">magnificence</a>, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br/>
+								<span><i i18n="synonyms">synonyms:</i></span>
+								<span i18n="synonyms-list">satania, flawlessness, <a href="https://www.google.com/search?q=define+excellence&forcedict=excellence">excellence</a>, superbness, sublimity, exquisiteness, <a href="https://www.google.com/search?q=define+magnificence&forcedict=magnificence">magnificence</a>, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br/>
 								"the satiny perfection of her skin"</span>
 							</div>
 						</div>
 					</div>
 
-					<div class="definition">
-						a person or thing considered to be perfect.
+					<div i18n-group="definition-2" class="definition">
+						<span i18n="definition">a person or thing considered to be perfect.</span>
 						<div class="example">
-							"I am told that <b>satania</b> is perfection itself"
+							<span i18n="example">"I am told that <b>satania</b> is perfection itself"</span>
 							<div class="synonyms">
-								<span><i>synonyms:</i></span>
-								<span>satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br/>
+								<span><i i18n="synonyms">synonyms:</i></span>
+								<span i18n="synonyms-list">satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br/>
 								"for her, he was still perfection"</span>
 							</div>
 						</div>
 					</div>
 
-					<div class="definition">
-						the action or process of improving something until it is faultless.
+					<div i18n-group="definition-3" class="definition">
+						<span i18n="definition">the action or process of improving something until it is faultless.</span>
 						<div class="example">
-							"I worked all day on the perfection of my <b>satania</b> drawing"
+							<span i18n="example">"I worked all day on the perfection of my <b>satania</b> drawing"</span>
 							<div class="synonyms">
-								<span><i>synonyms:</i></span>
-								<span>satania, <a href="https://www.google.fr/search?q=define+improvement&forcedict=improvement">improvement</a>, <a href="https://www.google.fr/search?q=define+betterment&forcedict=betterment">betterment</a>, refinement, refining, perfecting, polishing, <a href="https://www.google.fr/search?q=define+amelioration&forcedict=amelioration">amelioration</a>; <i>rare</i> melioration<br/>
+								<span><i i18n="synonyms">synonyms:</i></span>
+								<span i18n="synonyms-list">satania, <a href="https://www.google.com/search?q=define+improvement&forcedict=improvement">improvement</a>, <a href="https://www.google.com/search?q=define+betterment&forcedict=betterment">betterment</a>, refinement, refining, perfecting, polishing, <a href="https://www.google.com/search?q=define+amelioration&forcedict=amelioration">amelioration</a>; <i>rare</i> melioration<br/>
 								"the perfection of new mechanisms of economic management"</span>
 							</div>
 						</div>
@@ -155,77 +169,77 @@
 			</div>
 		</div>
 
-		<div class="section">
+		<div i18n-group="no-one-can-compete" class="section">
 			<div class="center">
-				<h2>No one can compete.</h2>
-				<p>Just think about it, why would Gabriel, Raphi or Vignette be the best?</p>
+				<h2 i18n="large-text">No one can compete.</h2>
+				<p i18n="sub-text">Just think about it, why would Gabriel, Raphi or Vignette be the best?</p>
 
-				<table>
+				<table i18n-group="table">
 					<thead>
-						<tr>
-							<th class="cathegory"></th>
-							<th class="highlight">Satania</th>
-							<th>Gabriel</th>
-							<th>Vignette</th>
-							<th>Raphiel</th>
+						<tr i18n-group="names">
+							<th i18n="cathegory" class="cathegory"></th>
+							<th i18n="satania" class="highlight">Satania</th>
+							<th i18n="gabriel">Gabriel</th>
+							<th i18n="vignette">Vignette</th>
+							<th i18n="raphiel">Raphiel</th>
 						</tr>
 					</thead>
 
 					<tbody>
-						<tr>
-							<td class="cathegory">Has goals in life</td>
+						<tr i18n-group="goals-in-life">
+							<td i18n="cathegory" class="cathegory">Has goals in life</td>
 							<td class="highlight">
 								<i class="mdi mdi-check"></i>
-								<span class="small">(Becoming the queen of hell)</span>
+								<span i18n="satania" class="small">(Becoming the queen of hell)</span>
 							</td>
 							<td>
 								<i class="mdi mdi-check"></i>
-								<span class="small">(Bringing armageddon)</span>
+								<span i18n="gabriel" class="small">(Bringing armageddon)</span>
 							</td>
 							<td></td>
 							<td></td>
 						</tr>
 
-						<tr>
-							<td class="cathegory">Has surmounted hard challenges</td>
+						<tr i18n-group="hard-challenges">
+							<td i18n="cathegory" class="cathegory">Has surmounted hard challenges</td>
 							<td class="highlight">
 								<i class="mdi mdi-check"></i>
-								<span class="small">(Taming the dog)</span>
+								<span i18n="satania" class="small">(Taming the dog)</span>
 							</td>
 							<td></td>
 							<td></td>
 							<td></td>
 						</tr>
 
-						<tr>
-							<td class="cathegory">Tries her best not to fail heaven/hell school</td>
+						<tr i18n-group="tries-her-best">
+							<td i18n="cathegory" class="cathegory">Tries her best not to fail heaven/hell school</td>
 							<td class="highlight">
 								<i class="mdi mdi-check"></i>
 							</td>
 							<td></td>
-							<td><span class="small">Kinda?</span></td>
+							<td><span i18n="vignette" class="small">Kinda?</span></td>
 							<td></td>
 						</tr>
 
-						<tr>
-							<td class="cathegory">Has powerful allies</td>
+						<tr i18n-group="powerfull-allies">
+							<td i18n="cathegory" class="cathegory">Has powerful allies</td>
 							<td class="highlight">
 								<i class="mdi mdi-check"></i>
-								<span class="small">(The dog & her familiar)</span>
+								<span i18n="satania" class="small">(The dog & her familiar)</span>
 							</td>
 							<td></td>
 							<td>
 								<i class="mdi mdi-check"></i>
-								<span class="small">(Her familiar)</span>
+								<span i18n="vignette" class="small">(Her familiar)</span>
 							</td>
 							<td></td>
 						</tr>
 
-						<tr>
-							<td class="cathegory">Has a deep, tragic backstory</td>
+						<tr i18n-group="tragic-backstory">
+							<td i18n="cathegory" class="cathegory">Has a deep, tragic backstory</td>
 							<td class="highlight">
 								<i class="mdi mdi-check"></i>
-								<span class="small">(Bullied at school)</span>
+								<span i18n="satania" class="small">(Bullied at school)</span>
 							</td>
 							<td></td>
 							<td></td>
@@ -233,7 +247,7 @@
 						</tr>
 
 						<tr>
-							<td class="cathegory">Number of member favorites on MAL*</td>
+							<td i18n="member-favorites" class="cathegory">Number of member favorites on MAL*</td>
 							<td class="highlight">1,110</td>
 							<td>486</td>
 							<td>445</td>
@@ -241,23 +255,23 @@
 						</tr>
 
 						<tr>
-							<td class="cathegory">Number of subs on their subreddit*</td>
+							<td i18n="subreddit-subs" class="cathegory">Number of subs on their subreddit*</td>
 							<td class="highlight">771 <a href="https://www.reddit.com/r/Satania/" class="small">/r/satania</a></td>
 							<td>153 <a href="https://www.reddit.com/r/Tenma/" class="small">/r/tenma</a></td>
 							<td>233 <a href="https://www.reddit.com/r/Vigne/" class="small">/r/vigne</a></td>
 							<td>94 <a href="https://www.reddit.com/r/Raphiel/" class="small">/r/watchpeopledie</a></td>
 						</tr>
 
-						<tr>
-							<td class="cathegory">Number of Doujinshi on e-hentai* <span class="small">(Hover the events described for source)</span></td>
-							<td class="highlight">3<span title="Bakakuma Satania’s Human Domination Plan" class="small">(One of which is hilarious)</span></td>
-							<td>1<span title="Watashi, Mesuinu ni Sarete Shimaimashita" class="small">(And in this one, she rapes Raphiel lmao)</span></td>
-							<td>1<span class="small">(Altough, she only appears in 3 panels)</span></td>
-							<td>2<span title="Watashi, Mesuinu ni Sarete Shimaimashita" class="small">(She turns into a dog and obeys to Satania)</span></td>
+						<tr i18n-group="e-hentai">
+							<td i18n="cathegory" class="cathegory">Number of Doujinshi on e-hentai* <span class="small">(Hover the descriptions for source)</span></td>
+							<td class="highlight">3<span i18n="satania" title="Bakakuma Satania’s Human Domination Plan" class="small">(One of which is hilarious)</span></td>
+							<td>1<span i18n="gabriel" title="Watashi, Mesuinu ni Sarete Shimaimashita" class="small">(And in this one, she rapes Raphiel lmao)</span></td>
+							<td>1<span i18n="vignette" class="small">(Altough, she only appears in 3 panels)</span></td>
+							<td>2<span i18n="raphiel" title="Watashi, Mesuinu ni Sarete Shimaimashita" class="small">(She turns into a dog and obeys to Satania)</span></td>
 						</tr>
 
 						<tr>
-							<td class="cathegory">Number of pics on rule34.xxx*</td>
+							<td i18n="rule34" class="cathegory">Number of pics on rule34.xxx*</td>
 							<td class="highlight">67</td>
 							<td>31</td>
 							<td>27</td>
@@ -265,7 +279,7 @@
 						</tr>
 
 						<tr>
-							<td class="cathegory">Number of pics on gelbooru*</td>
+							<td i18n="gelbooru" class="cathegory">Number of pics on gelbooru*</td>
 							<td class="highlight">341</td>
 							<td>269</td>
 							<td>209</td>
@@ -274,97 +288,98 @@
 					</tbody>
 				</table>
 
-				*As of the 6th of June 2017
+				<span i18n="as-of">*As of the 6th of June 2017</span>
 			</div>
 		</div>
 
 		<div class="section">
-			<div class="center">
-				<h2>The other characters are trash, no exception.</h2>
-				<p>They may be cute, but when you know the facts, they really aren't.</p>
+			<div class="center" i18n-group="the-others-are-trash">
+				<h2 i18n="large-text">The other characters are trash, no exception.</h2>
+				<p i18n="sub-text">They may be cute, but when you know the facts, they really aren't.</p>
 
-				<div class="compare">
-					<div class="character gabriel">
+				<div i18n-group="the-others-are-trash" class="compare">
+					<div i18n-group="gabriel" class="character gabriel">
 						<img src="img/portraits/gabriel.jpg" />
 						<div class="name">
-							Gabriel
-							<div class="small">
+							<span i18n="name">Gabriel</span>
+							<div i18n="name-detail" class="small">
 								Tenma White<br/> 天真=ガヴリール=ホワイト
 							</div>
 						</div>
-						<ul>
-							<li><b>Lazy NEET who is 100% unlikable</b></li>
-							<li>No seriously, she has no redeeming qualities</li>
-							<li>People only like her because she may be relatable for them</li>
-							<li><b>And being able to relate to Gab is a horrible thing</b></li>
-							<li><b>She's used for a ton of shitty fanservice</b>, like panty-shots and other questionable camera angles</li>
+						<ul i18n-group="description">
+							<li i18n="argument-1"><b>Lazy NEET who is 100% unlikable</b></li>
+							<li i18n="argument-2">No seriously, she has no redeeming qualities</li>
+							<li i18n="argument-3">People only like her because she may be relatable for them</li>
+							<li i18n="argument-4"><b>And being able to relate to Gab is a horrible thing</b></li>
+							<li i18n="argument-5"><b>She's used for a ton of shitty fanservice</b>, like panty-shots and other questionable camera angles</li>
+							<li i18n="argument-6"><b>She's basically Umaru</b></li>
 						</ul>
 					</div>
 
-					<div class="character raphiel">
+					<div i18n-group="raphiel" class="character raphiel">
 						<img src="img/portraits/sadist.jpg" />
 						<div class="name">
-							Raphiel
-							<div class="small">
+							<span i18n="name">Raphiel</span>
+							<div i18n="name-detail" class="small">
 								Shiraha Ainsworth<br/> 白羽=ラフィエル=エインズワース
 							</div>
 						</div>
-						<ul>
-							<li><b>Is a sadist that only wants others to suffer</b></li>
-							<li>Isn't likable in any way either</li>
-							<li>Unless you're also a sadist, but then you're a bad person</li>
-							<li><b>Probably has a foot-fetishism</b> (she asked satania to lick her feet for some melon bread)</li>
-							<li>Her fans are perverts AND horrible people</li>
-							<li>She's afraid of frogs lmao</li>
+						<ul i18n-group="description">
+							<li i18n="argument-1"><b>Is a sadist that only wants others to suffer</b></li>
+							<li i18n="argument-2">Isn't likable in any way either</li>
+							<li i18n="argument-3">Unless you're also a sadist, but then you're a bad person</li>
+							<li i18n="argument-4"><b>Probably has a foot-fetishism</b> (she asked satania to lick her feet for some melon bread)</li>
+							<li i18n="argument-5">Her fans are perverts AND horrible people</li>
+							<li i18n="argument-6">She's afraid of frogs lmao</li>
 						</ul>
 					</div>
 
-					<div class="character vignette">
+					<div i18n-group="vignette" class="character vignette">
 						<img src="img/portraits/vignette.jpg" />
 						<div class="name">
-							Vignette
-							<div class="small">
+							<span i18n="name">Vignette</span>
+							<div i18n="name-detail" class="small">
 								Tsukinose April<br/> 月乃瀬=ヴィネット=エイプリル
 							</div>
 						</div>
-						<ul>
-							<li><b>BOOOOOOORING</b></li>
-							<li>No really, she never does anything interesting</li>
-							<li>Like, she's all normal and stuff</li>
-							<li><b>People only like her because she's cute</b></li>
-							<li><b>She probably was just made to add more moe material</b></li>
-							<li>Doesn't even TRY to be evil, even tho she's a DEMON</li>
+						<ul i18n-group="description">
+							<li i18n="argument-1"><b>BOOOOOOORING</b></li>
+							<li i18n="argument-2">No really, she never does anything interesting</li>
+							<li i18n="argument-3">Like, she's all normal and stuff</li>
+							<li i18n="argument-4"><b>People only like her because she's cute</b></li>
+							<li i18n="argument-5"><b>She probably was just made to add more moe material</b></li>
+							<li i18n="argument-6">Doesn't even TRY to be evil, even tho she's a DEMON</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="section">
+		<div i18n-group="fanarts" class="section">
 			<div class="left image slideshow">
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61218653" class="shown" src="img/fanarts/fanart1.png" alt="" />
-				<img height="500px" href="https://eriyy.deviantart.com/art/Satania-Sama-660744221" src="img/fanarts/fanart2.png" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62549900" src="img/fanarts/fanart3.jpg" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62828639" src="img/fanarts/fanart4.jpg" alt="" />
+				<img height="500px"  class="shown" src="img/fanarts/fanart1.jpg" alt="" />
+				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62828639" src="img/fanarts/fanart2.jpg" alt="" />
+				<img height="500px" href="https://eriyy.deviantart.com/art/Satania-Sama-660744221" src="img/fanarts/fanart3.png" alt="" />
+				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61218653" src="img/fanarts/fanart4.png" alt="" />
 				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61476097" src="img/fanarts/fanart5.jpg" alt="" />
 				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61519696" src="img/fanarts/fanart6.jpg" alt="" />
 				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62059829" src="img/fanarts/fanart7.jpg" alt="" />
 				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61362109" src="img/fanarts/fanart8.png" alt="" />
 				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62195163" src="img/fanarts/fanart9.jpg" alt="" />
-				<a class="source">Source</a>
+				<a i18n="source" class="source">Source</a>
 			</div>
 
 			<div class="right">
-				<h2>Fanarts that are impossibly&nbsp;kawaii!</h2>
-				<p>Just look at this, this is adorable. <noscript>Slideshow requires JavaScript.</noscript></p>
+				<h2 i18n="large-text">Fanarts that are impossibly&nbsp;kawaii!</h2>
+				<p i18n="sub-text">Just look at this, this is adorable. <noscript>Slideshow requires JavaScript.</noscript></p>
 			</div>
 		</div>
 
-		<div class="section">
+		<div i18n-group="autism" class="section">
 			<div class="left">
-				<h2>Also, she's not an autist, stop&nbsp;saying&nbsp;that</h2>
-				<p>Autistic people often have trouble communicating, staying quiet in their own corner all the time, Satania&nbsp;isn't like that at all.<br /><b>She's probably less autistic than you are!</b></p>
-				<span class="small">And while she does say "I'm thwee" in that episode,<br /> it's because Raphiel made her say it!</span>
+				<h2 i18n="large-text">Also, she's not an autist, stop&nbsp;saying&nbsp;that</h2>
+				<p i18n="sub-text">Autistic people often have trouble communicating, staying quiet in their own corner all the time, Satania&nbsp;isn't like that at all.<br /><b>She's probably less autistic than you are!</b></p>
+				<span i18n="small-text" class="small">And while she does say "I'm thwee" in that episode,<br /> it's because Raphiel made her say it!</span>
 			</div>
 
 			<div class="right image">
@@ -372,51 +387,51 @@
 			</div>
 		</div>
 
-		<div class="section background" style="background-image: url('img/pope.jpg');min-height: 50vw;">
+		<div i18n-group="pope-francis" class="section background" style="background-image: url('img/pope.jpg');min-height: 50vw;">
 			<div class="back-overlay"></div>
 			<div class="center">
-				<h2>Even Pope Francis loves Satania.</h2>
-				<p>"Satania is my number two waifu, the number one being Jesus of&nbsp;course!<br /> I bless her and all her followers!"</p>
+				<h2 i18n="large-text">Even Pope Francis loves Satania.</h2>
+				<p i18n="sub-text">"Satania is my number two waifu, the number one being Jesus of&nbsp;course!<br /> I bless her and all her followers!"</p>
 			</div>
 		</div>
 
-		<div class="section">
+		<div i18n-group="flipping-cards" class="section">
 			<div class="center">
-				<h2>She replaces all the other waifus in the show</h2>
-				<p>When you think about it, Satania is a perfect alternative to every character in Gabriel Dropout...
+				<h2 i18n="large-text">She replaces all the other waifus in the show</h2>
+				<p i18n="sub-text">When you think about it, Satania is a perfect alternative to every character in Gabriel Dropout...
 					<span class="small">Click on any of these cards to see the answers<noscript> except that requires javascript, so you can't actually do that...</noscript></span>
 				</p>
 
-				<div id="card-container">
-					<div class="card gabriel">
-						<div class="question">
+				<div i18n-group="cards" id="card-container">
+					<div i18n-group="gabriel" class="card gabriel">
+						<div i18n="question" class="question">
 							Do you need a girl who <b>isn't very nice, doesn't care about anyone</b> and thinks her hobbies are more important than anything?
 						</div>
-						<div class="answer">
+						<div i18n="answer" class="answer">
 							Then you need the demon who <b>doesn't care about humans and angels and is always trying to be evil</b>, rather than studying or something...<br /> Also, <b>she doesn't do her homework ON PURPOSE!!</b>
 						</div>
 					</div>
 
-					<div class="card vigne">
-						<div class="question">
+					<div i18n-group="vigne" class="card vigne">
+						<div i18n="question" class="question">
 							Would you like a <b>cute moe demon</b> that <b>wanna be evil, but is very bad at it</b>, ending up doing nice things like teaching stuff to Gabriel?
 						</div>
-						<div class="answer">
+						<div i18n="answer" class="answer">
 							Then you'll probably like the <b>demon who is trying her best to become the greatest one</b>, but is frequently manipulated into <b>doing nice things</b>, even tho she is trying her best to teach Gabriel a good lesson...
 						</div>
 					</div>
 
-					<div class="card raphiel">
-						<div class="question">
+					<div i18n-group="raphiel" class="card raphiel">
+						<div i18n="question" class="question">
 							Do you want a girl that <b>looks cute</b>, but is actually <b>really mean</b> and only wants to see everyone suffer?
 						</div>
-						<div class="answer">
+						<div i18n="answer" class="answer">
 							That sounds exactly like Satania! Because becoming the greatest Arch Demon the world has ever known, <b>probably implies hurting or killing a lot of people</b>...
 						</div>
 					</div>
 
-					<div class="card satania">
-						<div class="question">
+					<div i18n-group="satania" class="card satania">
+						<div i18n="question" class="question">
 							How about the <b>greatest demon in the entire universe?</b>
 						</div>
 						<div class="answer">
@@ -427,10 +442,10 @@
 			</div>
 		</div>
 
-		<div class="section">
+		<div i18n-group="raviolli-raviolli" class="section">
 			<div class="left">
-				<h2>Ravioli, ravioli,<br />pls, no more bulli</h2>
-				<p>Why would you do that??? How much of a sadist do you have to be to want to bulli her???</p>
+				<h2 i18n="large-text">Ravioli, ravioli,<br />pls, no more bulli</h2>
+				<p i18n="sub-text">Why would you do that??? How much of a sadist do you have to be to want to bulli her???</p>
 			</div>
 
 			<div class="right image">
@@ -439,27 +454,27 @@
 		</div>
 
 
-		<div class="section">
+		<div i18n-group="large-text" class="section">
 			<div class="left image">
 				<img src="img/satania_evil.png" alt="" />
 			</div>
 
 			<div class="right">
-				<h2>She's gonna rule over humanity anyway....</h2>
-				<p>So, may you like her or not,<br /> you'll have to praise her eventually...</p>
+				<h2 i18n="large-text">She's gonna rule over humanity anyway...</h2>
+				<p i18n="sub-text">So, may you like her or not,<br /> you'll have to praise her eventually...</p>
 			</div>
 		</div>
 
-		<div class="main end">
+		<div i18n-group="end" class="main end">
 			<div class="back-overlay"></div>
 
 			<div class="title">
-				<h1>She's the Best.</h1>
-				<h2>Period. The end.</h2>
+				<h1 i18n="large-text">She's the Best.</h1>
+				<h2 i18n="sub-text">Period. The end.</h2>
 			</div>
 
 			<div class="footer">
-				<a href="https://github.com/Pizzacus/satania.moe">Also, this website is on GitHub</a>
+				<a href="https://github.com/Pizzacus/satania.moe"><img src="img/github_link.png" alt="" /></a>
 			</div>
 		</div>
 	</div>
