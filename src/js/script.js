@@ -152,7 +152,7 @@ document.getElementById("listen").onclick = function() {
 document.getElementById("card-container").onclick = function(e) {
 	// It is possible that e.target is a child of the card
 	// Quality code to solve that problem :ok_hand: :ok_hand: :ok_hand:
-	if (e.target.classList.contain("question") || e.target.classList.contain("answer")) {
+	if (e.target.classList.contains("question") || e.target.classList.contains("answer")) {
 		var card = e.target.parentElement;
 	} else if (e.target.tagName.toLowerCase() === "img" || e.target.tagName.toLowerCase() === "b") {
 		var card = e.target.parentElement.parentElement;
