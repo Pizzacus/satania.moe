@@ -54,18 +54,18 @@
 			</p>
 		</div>
 
-			<div class="language-select">
-				<div class="select-wrapper">
-					<div i18n="language-select" class="select-button">
-						Language
-						<i class="mdi mdi-chevron-down"></i>
-					</div>
-					<select id="locale-select">
+		<div class="language-select">
+			<div class="select-wrapper">
+				<div i18n="language-select" class="select-button">
+					Language
+					<i class="mdi mdi-chevron-down"></i>
+				</div>
+				<select id="locale-select">
 						<option value="default">English</option>
 						<option disabled value="fr">Français</option>
 					</select>
-				</div>
 			</div>
+		</div>
 
 		<div i18n="credits" class="footer">
 			A glorious shitpost by some pizza named <b title="Kenyérlángos">Pizzacus</b>
@@ -357,7 +357,7 @@
 
 		<div i18n-group="fanarts" class="section">
 			<div class="left image slideshow">
-				<img height="500px"  class="shown" src="img/fanarts/fanart1.jpg" alt="" />
+				<img height="500px" class="shown" src="img/fanarts/fanart1.jpg" alt="" />
 				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62828639" src="img/fanarts/fanart2.jpg" alt="" />
 				<img height="500px" href="https://eriyy.deviantart.com/art/Satania-Sama-660744221" src="img/fanarts/fanart3.png" alt="" />
 				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61218653" src="img/fanarts/fanart4.png" alt="" />
@@ -480,6 +480,23 @@
 	</div>
 
 	<script src="script.js"></script>
+
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-101177248-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
 
 </html>
