@@ -8,6 +8,8 @@ var gulp = require('gulp'),
     concatCSS = require('gulp-concat-css'),
     sass = require('gulp-sass'),
 	htmlmin = require('gulp-htmlmin'),
+	del = require('del'),
+	runSequence = require('run-sequence'),
     browserSync = require('browser-sync');
 
 gulp.task('browser-sync', function() {
@@ -58,17 +60,25 @@ gulp.task("html", function() {
         }));
 });
 
+gulp.task("clean", function() {
+	return del('dist/**/*');
+});
+
 gulp.task("other-files", function() {
-	return gulp.src(["src/**/*", "!src/scss/**/*.scss", "!src/js/**/*.js", "!src/*.html", "!**/Thumbs.db"], { nodir: true })
+	return gulp.src(["src/**/*", "!src/scss/**/*.scss", "!src/js/**/*.js", "!src/*.html", "!**/Thumbs.db", "!src/img/High Resolution and PSDs/**/*"], { nodir: true })
 	.pipe(gulp.dest("dist"))
 	.pipe(browserSync.reload({
 		stream: true
 	}));
 })
 
-gulp.task("build", ["styles", "scripts", "html", "other-files"]);
+gulp.task("build", function () {
+	runSequence("clean", ["styles", "scripts", "html", "other-files"]);
+});
 
-gulp.task('serve', ['browser-sync'], function() {
+gulp.task('serve', function() {
+	runSequence("build", "browser-sync");
+	
     gulp.watch("src/scss/**/*.scss", ['styles']);
     gulp.watch("src/js/**/*.js", ['scripts']);
     gulp.watch("src/*.html", ['html']);
