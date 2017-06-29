@@ -99,7 +99,7 @@
 	},
 	"the-others-are-trash": {
 		"large-text": "Os outros personagens são um lixo, sem exceções.",
-		"sub-text": "Eles podem ser bonitinhos, mas quando você conhece a verdade na verdade eles não são.",
+		"sub-text": "Elas podem ser bonitinhas, mas quando você sabe os fatos, na realidade elas não são.",
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
@@ -107,10 +107,10 @@
 				"description": {
 					"argument-1": "<b>Uma preguiçosa sem vida que é 100% antipática</b>",
 					"argument-2": "Sério, ela não tem nenhuma qualidade boa",
-					"argument-3": "Pessoas só gostam dela porque eles se veem nela",
+					"argument-3": "Pessoas só gostam dela porque ela é fofa",
 					"argument-4": "<b>E se ver na Gab é uma coisa horrível</b>",
 					"argument-5": "<b>Ela é usada por uma tonelada de fanservice horrível</b>, como calcinhas aparecendo e outros outros ângulos de câmera questionáveis",
-					"argument-6": "<b>Ela é praticamente a Umaru</b>"
+					"argument-6": "<b>Ela é basicamente a Umaru</b>"
 				}
 			},
 			"raphiel": {
@@ -142,7 +142,7 @@
 	"fanarts": {
 		"source": "Fonte",
 		"large-text": "Fanarts que são impossivelmente kawaii!",
-		"sub-text": "Só olhe isso, isso é adorável.<noscript>Slideshow precisa de JavaScript.</noscript>"
+		"sub-text": "Olha só isso, adorável.<noscript>Slideshow precisa de JavaScript.</noscript>"
 	},
 	"autism": {
 		"large-text": "Além disso, ela não é autista, parem de falar isso",
