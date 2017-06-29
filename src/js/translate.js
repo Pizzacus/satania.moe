@@ -80,6 +80,21 @@ function changeLocale(localeName, skipDefaultLocale) {
 		for(let value in locale) {
 			if(typeof locale[value] === "string") {
 				if (element.querySelector("[i18n=" + value + "]")) {
+					if (localeName === "dra") {
+						locale[value] = locale[value].toLowerCase();
+
+						locale[value] = locale[value].replace("aa","A");
+						locale[value] = locale[value].replace("ah","H");
+						locale[value] = locale[value].replace("ei","W");
+						locale[value] = locale[value].replace("ey","E");
+						locale[value] = locale[value].replace("ii","I");
+						locale[value] = locale[value].replace("ir","J");
+						locale[value] = locale[value].replace("oo","O");
+						locale[value] = locale[value].replace("uu","U");
+						locale[value] = locale[value].replace("ur","R");
+
+						locale[value] = locale[value].replace(",","");
+					}
 					element.querySelector("[i18n=" + value + "]").innerHTML = locale[value];
 				}
 			} else {
