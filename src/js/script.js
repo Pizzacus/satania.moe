@@ -176,9 +176,9 @@ document.body.onkeyup = function(e) {
             if (laughPos == 10) {
                 laughPos = 0;
                 laughing = true;
-                
+
                 var audio = new Audio();
-                audio.src = "Gabriel Dropout - Satania's evil laugh.mp3";
+                audio.src = "laugh.mp3";
                 audio.play();
 
                 audio.addEventListener("ended", function() {
