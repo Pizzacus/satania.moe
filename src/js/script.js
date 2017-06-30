@@ -162,3 +162,31 @@ document.getElementById("card-container").onclick = function(e) {
 
 	card.classList.toggle("flipped");
 }
+
+var laughKeys = [38,38,40,40,37,39,37,39,66,65],
+    laughPos = 0,
+    laughing = false;
+
+document.body.onkeyup = function(e) {
+    "use strict";
+    if (!laughing) {
+        var key = e.keyCode;
+        if (key == laughKeys[laughPos]) {
+            laughPos++;
+            if (laughPos == 10) {
+                laughPos = 0;
+                laughing = true;
+                
+                var audio = new Audio();
+                audio.src = "Gabriel Dropout - Satania's evil laugh.mp3";
+                audio.play();
+
+                audio.addEventListener("ended", function() {
+                    laughing = false;
+                });
+            }
+        } else {
+            laughPos = 0;
+        }
+    }
+}
