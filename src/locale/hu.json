@@ -22,7 +22,7 @@
 	},
 	"end-the-waifu-war": {
 		"large-text": "A legjobb démon Waifu, csak neked.",
-		"sub-text": "Vessünk véget a waifu harcnak, <b>a világ leg kawaii-bb démonjával!</b>!"
+		"sub-text": "Vessünk véget a waifu harcnak, <b>a világ legkawaiibb démonjával!</b>!"
 	},
 	"she-is-perfect": {
 		"large-text": "Röviden, ő egyszerűen tökéletes.",
@@ -46,7 +46,7 @@
 			"definition-3": {
 				"definition": "egy cselekvés vagy folyamat mely során valamit addig finomítunk míg hibátlan nem lesz",
 				"example": "\"Egész nap dolgoztam, hogy tökélyre fejlesszem a <b>satania</b> rajzomat\"",
-				"synonyms": "synonyms:",
+				"synonyms": "szinonímák:",
 				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=javítás+jelentése&amp;forcedict=improvement\" title=\"Link megnyitása új lapon.\">javítás</a>, <a href=\"https://www.google.com/search?q=finomítás+jelentése&amp;forcedict=betterment\" title=\"Link megnyitása új lapon.\">finomítás</a>, tökéletesítés, <a href=\"https://www.google.com/search?q=fejlesztés+jelentése&amp;forcedict=amelioration\" title=\"Link megnyitása új lapon.\">fejlesztés</a>; <i>ritkán</i> megjavítás<br>\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
 			}
 		}
@@ -101,6 +101,7 @@
 	"the-others-are-trash": {
 		"large-text": "A többi karakter mind szar. Nincs kivétel.",
 		"sub-text": "They may be cute, but when you know the facts, they really aren't.",
+		"sub-text": "Lehet, hogy cukinak tűnnek, de ha tudsz olvasni a sorok között, rájössz, hogy annyira talán mégsem.",
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
@@ -109,7 +110,7 @@
 					"argument-1": "<b>Lusta NEET aki szerethetetlen.</b>",
 					"argument-2": "Komolyan, nincsen jó adottsága,",
 					"argument-3": "Az emberek csak azért szeretik őt, mert hasonlít rájuk.",
-					"argument-4": "<b>És ha hasonlítasz Gab-hoz az egy nagyon rossz dolog.</b>",
+					"argument-4": "<b>És ha hasonlítasz Gab-ra az egy nagyon rossz dolog.</b>",
 					"argument-5": "<b>Felhasználják őt egy csomó értelmetlen fanservicehez</b>, például bugyivillantás és megkérdőjelezhető kameraállás",
 					"argument-6": "<b>Gyakorlatilag ő Umaru</b>"
 				}
@@ -147,6 +148,7 @@
 		"sub-text": "Csak nézz rá! Ugye milyen aranyos?.<noscript>Mi a szart jelent az, hogy atlaszfényű?</noscript>"
 	},
 	"autism": {
+		"large-text": "Amúgymeg, ő nem egy autista. Ne mondjatok ilyeneket!",
 		"sub-text": "Az autistáknak általában problémái vannak a kommunikációval, inkább csak ott ülnek, csendben, a saját kis sarkukban. Satania&nbsp;egyáltalán nem ilyen.<br><b>Lehet, hogy igazából nálad is kevésbé autista!</b>",
 		"small-text": "Annak ellenére, hogy abban az egy részben azt mondja, hogy \"Már három éves vagyok!\" <br>Az csak azért volt, mert Raphiel rávette!"
 	},
@@ -163,12 +165,12 @@
 				"answer": "Akkor neked egy olyan démon kell, akit <b>nem érdekelnek az emberek és az angyalok, csak az, hogy folyamatosan gonoszkodjon</b>, ahelyett hogy tanulna, vagy valami ilyesmi....<br>Ja, és <b>a házi feladatát se csinálja meg, DIREKT!</b>"
 			},
 			"vigne": {
-				"question": "Akarsz egy <b>cuki moe démont</b> aki <b>gonosz akar lenni, de nem nagyon sikerül neki,</b> ezért a végén csak jó goldokat tanít Gabrielnek?",
+				"question": "Akarsz egy <b>cuki moe démont</b> aki <b>gonosz akar lenni, de nem nagyon sikerül neki,</b> ezért a végén csak jó dolgokat tanít Gabrielnek?",
 				"answer": "Akkor tuti szeretni fogod a <b>démont, aki el akarja érni, hogy ő legyen a legnagyobb</b>, de általában ráveszik arra, hogy <b>jó dolgokat csináljon</b>, pedig igazából csak jól megakarja leckéztetni Gabrielt."
 			},
 			"raphiel": {
 				"question": "Akarsz egy lányt, aki <b>cukin néz ki</b>, de igazából <b>rosszindulatú</b> és csak azt akarja, hogy mások szenvedjenek?",
-				"answer": "Ez pont úgy hangzik, mintha hiányozna Satania az életedből! A fő-démonná válás sok dologgal jár, például azzal, <b>hogy sok embert kell megölnöd vagy megsértened</b>..."
+				"answer": "Ez pont úgy hangzik, mintha neked is kéne Satania az életedbe! A fő-démonná válás sok dologgal jár, például azzal, <b>hogy sok embert kell megölnöd vagy megsértened</b>..."
 			},
 			"satania": {
 				"question": "Na és mondjuk... <b>A legnagyobb démon az egész univerzumban?</b>"
@@ -188,9 +190,8 @@
 		"sub-text": "Pont. Mondtat vége."
 	},
 	"_javascriptLocales": {
-		"copyMessage": "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\nAlso yes, any website can access your clipboard however they want, isn't that creepy?\nRegardless, Satania is the BEST WAIFU, and you should agree! http://satania.moe/",
 		"copyMessage": "Csak szólni szerettem volna, hogy Satania mindig veled van, még a vágólapodon is. Mindenhol ott vagyunk, és tényleg, igazán csatlakozhatnál már hozzánk.\nAmúgymeg igen, a weboldalak probléma nélkül elérhetik a vágólapodat. Nem bajjós ez egy kicsit?\nSatania a LEGBJOBB WAIFU, és neked is így kéne gondolnod! http://satania.moe/",
-		"searchByVoice": "lmao, senki nem használja ezt a gombot",
+		"searchByVoice": "lmao, senki sem használja ezt a gombot",
 		"searchButton": "dehát a találatok már itt vannak előtted =]",
 		"searchBar": "Ez nem is egy igazi kereső sor",
 		"snedHelp": "kérlek segíííííts!!!!",
