@@ -27,6 +27,7 @@
 	"she-is-perfect": {
 		"large-text": "In short, she's just perfect.",
 		"sub-text": "Even Google knows.",
+		"searchbar-name": "satania",
 		"google-definition": {
 			"name": "perfection",
 			"prononciation": "/pəˈfɛkʃ(ə)n/",
@@ -193,6 +194,7 @@
 		"searchButton": "but the results are already there =]",
 		"searchBar": "this isn't a real search bar",
 		"snedHelp": "pls send helppp",
-		"perfection": "perfection"
+		"perfection": "perfection",
+		"searchBarName": "satania"
 	}
 }

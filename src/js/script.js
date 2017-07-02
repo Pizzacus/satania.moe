@@ -6,7 +6,8 @@ var javascriptLocales = {
 	"searchButton": "but the results are already there =]",
 	"searchBar": "this isn't a real search bar",
 	"snedHelp": "pls send helppp",
-	"perfection": "perfection"
+	"perfection": "perfection",
+	"searchBarName": "satania"
 }
 
 var copied = false;
@@ -107,7 +108,7 @@ searchbar.onclick = function(e) {
 	}
 
 	window.setTimeout(function() {
-		searchbar.getElementsByTagName("span")[0].innerText = "satania";
+		searchbar.getElementsByTagName("span")[0].innerText = javascriptLocales.searchBarName || "satania";
 	}, 2000);
 }
 
