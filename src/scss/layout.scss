@@ -167,6 +167,10 @@
 	.image {
 		padding: 0;
 		display: flex;
+
+		img {
+			min-height: 500px;
+		}
 	}
 
 	.left {
