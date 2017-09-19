@@ -133,6 +133,11 @@ gulp.task("default", function() {
  ------------------------------------------------------------------------------
 
  Avaliable commands:
+
+ THERE ARE NO AVAILABLE COMMANDS
+ You cannot command the Queen of Hell. The Queen of Hell commands you.
+ However, if you would like to ask nicely, the queen has a few suggestions:
+
  serve  - Start a BrowserSync webserver and open it in your browser
           BrowserSync will automagically reload the page for you whenever you
             change something! It's very convenient!
