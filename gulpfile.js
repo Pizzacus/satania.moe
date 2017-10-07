@@ -1,21 +1,24 @@
-var gulp = require('gulp'),
-	plumber = require('gulp-plumber'),
-	rename = require('gulp-rename'),
-	autoprefixer = require('gulp-autoprefixer'),
-	concat = require('gulp-concat'),
-	babili = require("gulp-babili"),
-	cleanCSS = require('gulp-clean-css'),
-	concatCSS = require('gulp-concat-css'),
-	sass = require('gulp-sass'),
-	htmlmin = require('gulp-htmlmin'),
-	del = require('del'),
-	runSequence = require('run-sequence'),
-	prompt = require("gulp-prompt"),
-	ISO6391 = require('iso-639-1'),
-	insertLines = require('gulp-insert-lines'),
-	browserSync = require('browser-sync');
+// Yea I do feel bad about all those dependencies
 
-gulp.task('browser-sync', function() {
+const gulp = require('gulp'),
+	plumber = require('gulp-plumber'), // Prevent pipe breaking caused by errors from gulp plugins
+	rename = require('gulp-rename'), // Rename files
+	autoprefixer = require('gulp-autoprefixer'), // Prefix CSS
+	concat = require('gulp-concat'), // Concatenates files
+	babel = require('gulp-babel'), // Make ES6 JS compatible with old browsers
+	babili = require("gulp-babili"), // Minify JS
+	cleanCSS = require('gulp-clean-css'), // Minify CSS
+	concatCSS = require('gulp-concat-css'), // Concatenate all the CSS
+	sass = require('gulp-sass'), // Compile SASS to CSS
+	htmlmin = require('gulp-htmlmin'), // Minify HTML
+	del = require('del'), // Delete some files
+	runSequence = require('run-sequence'), // Run a series of dependant gulp tasks in order
+	prompt = require("gulp-prompt"), // Make interactive prompts
+	ISO6391 = require('iso-639-1'), // List of all the ISO 639-1 codes
+	insertLines = require('gulp-insert-lines'), // Insert lines based on regex
+	browserSync = require('browser-sync'); // Make a live http server that reloads when you change something, live!
+
+gulp.task('browser-sync', () => {
 	browserSync({
 		server: {
 			baseDir: "dist"
@@ -23,11 +26,11 @@ gulp.task('browser-sync', function() {
 	});
 });
 
-gulp.task('bs-reload', function() {
+gulp.task('bs-reload', () => {
 	browserSync.reload();
 });
 
-gulp.task('styles', function() {
+gulp.task('styles', () => {
 	gulp.src(['src/scss/**/*.scss'])
 		.pipe(plumber())
 		.pipe(sass())
@@ -40,10 +43,13 @@ gulp.task('styles', function() {
 		}));
 });
 
-gulp.task('scripts', function() {
+gulp.task('scripts', () => {
 	return gulp.src('src/js/**/*.js')
 		.pipe(plumber())
 		.pipe(concat('script.js'))
+		.pipe(babel({
+            presets: ['env']
+        }))
 		.pipe(babili())
 		.pipe(gulp.dest('dist'))
 		.pipe(browserSync.reload({
@@ -51,7 +57,7 @@ gulp.task('scripts', function() {
 		}))
 });
 
-gulp.task("html", function() {
+gulp.task("html", () => {
 	return gulp.src("src/*.html")
 		.pipe(plumber())
 		.pipe(htmlmin({
@@ -63,11 +69,11 @@ gulp.task("html", function() {
 		}));
 });
 
-gulp.task("clean", function() {
+gulp.task("clean", () => {
 	return del('dist/**/*');
 });
 
-gulp.task("other-files", function() {
+gulp.task("other-files", () => {
 	return gulp.src(["src/**/*", "!src/scss/**/*.scss", "!src/js/**/*.js", "!src/*.html", "!**/Thumbs.db", "!src/img/High Resolution and PSDs/**/*"], {
 			nodir: true
 		})
@@ -77,11 +83,11 @@ gulp.task("other-files", function() {
 		}));
 })
 
-gulp.task("build", function() {
+gulp.task("build", () => {
 	runSequence("clean", ["styles", "scripts", "html", "other-files"]);
 });
 
-gulp.task('serve', function() {
+gulp.task('serve', () => {
 	runSequence("build", "browser-sync");
 
 	gulp.watch("src/scss/**/*.scss", ['styles']);
@@ -90,15 +96,15 @@ gulp.task('serve', function() {
 	gulp.watch(["src/**/*", "!src/scss/**/*.scss", "!src/js/**/*.js", "!src/*.html"], ["other-files"])
 });
 
-gulp.task("add-language", function() {
+gulp.task("add-language", () => {
 
 	gulp.src('src/index.html')
 		.pipe(prompt.prompt({
 			type: "input",
 			name: "language",
 			message: "\n\nPlease enter the name of the language\n(In English or in the language itself)\n\n>"
-		}, function(res) {
-			var languageCode = ISO6391.getCode(res.language);
+		}, res => {
+			const languageCode = ISO6391.getCode(res.language);
 
 			if (languageCode) {
 				console.log("\nLanguage name seems valid!\n\n" + languageCode + ": " + ISO6391.getName(languageCode) + " // " + ISO6391.getNativeName(languageCode));
@@ -121,7 +127,7 @@ gulp.task("add-language", function() {
 		}));
 });
 
-gulp.task("default", function() {
+gulp.task("default", () => {
 	console.log(`
             _____       _              _
            / ____|     | |            (_)
@@ -138,12 +144,16 @@ gulp.task("default", function() {
  You cannot command the Queen of Hell. The Queen of Hell commands you.
  However, if you would like to ask nicely, the queen has a few suggestions:
 
- serve  - Start a BrowserSync webserver and open it in your browser
-          BrowserSync will automagically reload the page for you whenever you
-            change something! It's very convenient!
+ serve        - Start a BrowserSync webserver and open it in your browser
+                BrowserSync will automagically reload the page for you whenever you
+                  change something! It's very convenient!
 
- build  - Builds the website and puts the output in the dist folder
-          This command is ran automatically when you run "serve"
-          It compresses HTML, CSS and JS and build SASS files
+ build        - Builds the website and puts the output in the dist folder
+                This command is ran automatically when you run "serve"
+                It compresses HTML, CSS and JS and build SASS files
+
+ clean        - Deletes the dist folder (it is safe to do that)
+
+ add-language - Prepare the files for a new language automatically!
 `)
 });
