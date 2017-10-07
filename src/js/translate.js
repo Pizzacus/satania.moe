@@ -69,7 +69,6 @@ function generateTranslationTable() {
 locales.default = generateTranslationTable()
 
 function changeLocale(localeName, skipDefaultLocale) {
-	"use strict";
 	// Changes the locale, but reset it first, in case some text in a locale aren't translated in another one
 	// Example: changeLocale("fr")
 	if(!skipDefaultLocale) {
@@ -118,18 +117,19 @@ function changeLocale(localeName, skipDefaultLocale) {
 	}
 }
 
-for (let i = 0; i < options.length; i++) {
-	if (options[i].value !== "default") {
+for (let option of options) {
+	if (option.value !== "default") {
 		let xhr = new XMLHttpRequest();
-		xhr.open("GET", "locale/" + options[i].value + ".json", true);
+		xhr.open("GET", "locale/" + option.value + ".json", true);
 		xhr.onreadystatechange = function() {
 			if (xhr.readyState === 4 && xhr.status === 200) {
 				var translation = JSON.parse(xhr.responseText);
-				locales[options[i].value] = translation;
-				options[i].disabled = false;
+				locales[option.value] = translation;
+				option.disabled = false;
 
-				if (window.location.hash.replace(/^\#/g, "") === options[i].value) {
-					changeLocale(options[i].value);
+				if (window.location.hash.replace(/^\#/g, "") === option.value) {
+					changeLocale(option.value);
+					localeSelect.value = option.value
 				}
 			}
 		};

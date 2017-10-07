@@ -36,7 +36,7 @@
 				"definition": "the state or quality of being perfect.",
 				"example": "\"the satiny perfection of <b>satania</b>'s skin\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "satania, flawlessness, <a href=\"https://www.google.com/search?q=define+excellence&amp;forcedict=excellence\" title=\"Link opens in a new tab.\">excellence</a>, superbness, sublimity, exquisiteness, <a href=\"https://www.google.com/search?q=define+magnificence&amp;forcedict=magnificence\" title=\"Link opens in a new tab.\">magnificence</a>, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
+				"synonyms-list": "satania, flawlessness, <a href=\"https://www.google.com/search?q=define+excellence&amp;forcedict=excellence\">excellence</a>, superbness, sublimity, exquisiteness, <a href=\"https://www.google.com/search?q=define+magnificence&amp;forcedict=magnificence\">magnificence</a>, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
 			},
 			"definition-2": {
 				"definition": "a person or thing considered to be perfect.",
@@ -48,7 +48,7 @@
 				"definition": "the action or process of improving something until it is faultless.",
 				"example": "\"I worked all day on the perfection of my <b>satania</b> drawing\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=define+improvement&amp;forcedict=improvement\" title=\"Link opens in a new tab.\">improvement</a>, <a href=\"https://www.google.com/search?q=define+betterment&amp;forcedict=betterment\" title=\"Link opens in a new tab.\">betterment</a>, refinement, refining, perfecting, polishing, <a href=\"https://www.google.com/search?q=define+amelioration&amp;forcedict=amelioration\" title=\"Link opens in a new tab.\">amelioration</a>; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
+				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=define+improvement&amp;forcedict=improvement\">improvement</a>, <a href=\"https://www.google.com/search?q=define+betterment&amp;forcedict=betterment\">betterment</a>, refinement, refining, perfecting, polishing, <a href=\"https://www.google.com/search?q=define+amelioration&amp;forcedict=amelioration\">amelioration</a>; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
 			}
 		}
 	},
@@ -195,6 +195,7 @@
 		"searchBar": "this isn't a real search bar",
 		"snedHelp": "pls send helppp",
 		"perfection": "perfection",
-		"searchBarName": "satania"
+		"searchBarName": "satania",
+		"newTab": "Link opens in a new tab."
 	}
 }
