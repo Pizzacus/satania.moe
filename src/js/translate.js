@@ -140,3 +140,69 @@ for (let option of options) {
 localeSelect.onchange = function(e) {
 	changeLocale(e.target.value);
 }
+
+document.getElementById("download").onclick = () => {
+	let download = document.createElement("A");
+	download.href = URL.createObjectURL(new Blob([JSON.stringify(locales.default, null, "\t")], {type : 'application/json'}));
+	download.download = "locale.json";
+	//download.setAttribute("style", "position:absolute !important;top:-9999vh !important;opacity:0 !important;height:0 !important;width:0 !important;z-index:-9999 !important;");
+
+	document.body.appendChild(download);
+	download.click();
+	document.body.removeChild(download);
+}
+
+function selectFile(options = {}) {
+	return new Promise((resolve, reject) => {
+		const upload = document.createElement("input");
+		upload.type = "file";
+		upload.accept = options.accept || "";
+		upload.multiple = options.multiple || false;
+		upload.webkitdirectory = options.directory || false;
+		upload.setAttribute("style", 
+			"position:absolute !important;" +
+			"top:-9999vh !important;" + 
+			"opacity:0 !important;" + 
+			"height:0 !important;" + 
+			"width:0 !important; " + 
+			"z-index:-9999 !important;");
+
+		document.body.appendChild(upload);
+
+		upload.click();
+
+		upload.onchange = () => {
+			let files = upload.files;
+			document.body.removeChild(upload);
+
+			if (typeof options.array === "undefined" || options.array) {
+				files = Array(...files);
+			}
+
+			resolve(files);
+		}
+	});
+}
+
+function blobToString(blob) {
+	return new Promise((resolve, reject) => {
+		const reader = new FileReader();
+
+		reader.addEventListener('loadend', event => {
+			console.log(event);
+			const text = event.target.result;
+			resolve(text);
+		});
+
+		reader.readAsText(blob);
+	});
+}
+
+document.getElementById("upload").onclick = () => {
+	selectFile().then(files => {
+		blobToString(files[0]).then(content => {
+			locales["translator-mode"] = JSON.parse(content);
+			changeLocale("translator-mode");
+		})
+	})
+}

@@ -28,6 +28,18 @@
 		display: flex;
 	}
 
+	#translator-mode {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		z-index: 1000;
+		display: none;
+	}
+
+	#translator-mode:target {
+		display: block;
+	}
+
 	&.intro {
 		background-image: url("./img/back.jpg");
 	}
