@@ -141,10 +141,22 @@ localeSelect.onchange = function(e) {
 	changeLocale(e.target.value);
 }
 
+function prettyYAML(yaml) {
+	return yaml
+		.replace(/^(\S.*)$/gm, "\n$1")
+		.replace(/\r\n|\r|\n/g, "\r\n");
+}
+
 document.getElementById("download").onclick = () => {
-	let download = document.createElement("A");
-	download.href = URL.createObjectURL(new Blob([JSON.stringify(locales.default, null, "\t")], {type : 'application/json'}));
-	download.download = "locale.json";
+	let download = document.createElement("A"),
+		isYAML = formatSelect.value === "yaml";
+	download.href = URL.createObjectURL(new Blob(
+		[isYAML ? prettyYAML(jsyaml.safeDump(locales.default)) : JSON.stringify(locales.default, null, "\t")], 
+		{
+			type : isYAML ? " application/x-yaml" : "application/json"
+		}
+	));
+	download.download = isYAML ? "locale.yaml" : "locale.json";
 	//download.setAttribute("style", "position:absolute !important;top:-9999vh !important;opacity:0 !important;height:0 !important;width:0 !important;z-index:-9999 !important;");
 
 	document.body.appendChild(download);
@@ -193,11 +205,41 @@ function blobToString(blob) {
 	});
 }
 
+function loadScript(url) {
+	return new Promise((resolve, reject) => {
+		const script = document.createElement("script");
+		script.src = url;
+		script.onload = resolve;
+		script.onerror = reject;
+
+		document.head.appendChild(script);
+	})
+}
+
+const formatSelect = document.getElementById("format");
+
 document.getElementById("upload").onclick = () => {
-	selectFile().then(files => {
+	if (formatSelect.disabled) return;
+
+	selectFile({
+		accept: ".json, .yaml"
+	}).then(files => {
 		blobToString(files[0]).then(content => {
-			locales["translator-mode"] = JSON.parse(content);
+			console.log(files[0].type);
+			locales["translator-mode"] = (files[0].type === "application/json") ? JSON.parse(content): jsyaml.safeLoad(content);
 			changeLocale("translator-mode");
 		})
 	})
+}
+
+if (window.location.hash === "#translator-mode") {
+	loadScript("https://cdn.rawgit.com/nodeca/js-yaml/bee7e998/dist/js-yaml.min.js")
+		.then(() => {
+			formatSelect.disabled = false;
+		})
+		.catch(() => {
+			formatSelect.disabled = false;
+			formatSelect.value = "json";
+			document.getElementById("yaml").disabled = true;
+		});
 }

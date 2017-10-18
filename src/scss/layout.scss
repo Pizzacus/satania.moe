@@ -37,7 +37,11 @@
 	}
 
 	#translator-mode:target {
-		display: block;
+		display: flex;
+	}
+
+	#translator-mode > * {
+		margin: 2px;
 	}
 
 	&.intro {
