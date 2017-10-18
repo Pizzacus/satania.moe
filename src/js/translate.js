@@ -187,13 +187,8 @@ function selectFile(options = {}) {
 function blobToString(blob) {
 	return new Promise((resolve, reject) => {
 		const reader = new FileReader();
-
-		reader.addEventListener('loadend', event => {
-			console.log(event);
-			const text = event.target.result;
-			resolve(text);
-		});
-
+		reader.addEventListener("loadend", event => resolve(event.target.result));
+		reader.addEventListener("error", reject);
 		reader.readAsText(blob);
 	});
 }
