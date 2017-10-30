@@ -3,7 +3,9 @@
 		"name": "Satania",
 		"best-waifu-ever": "A legjobb waifu. <b>Aki valaha élt.</b>",
 		"join-discord": "<i class=\"mdi mdi-discord\"></i>Csatlakozz Discord közösségünkhöz!",
+		"discord-count": "<span id=\"discord-number\"></span> tag ",
 		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Csatlakozz a Subredditünkhöz!",
+		"reddit-count": "<span id=\"reddit-number\"></span> feliratkozó",
 		"language-warning": "(Ezeknek a közösségeknek a fő nyelve az angol)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Görgess lejjebb!",
 		"mobile-disclaimer": "Bocs, de az oldal mobil verziója eléggé el lett sietve,  <b>úgyhogy eléggé szar lett</b>. Őszintén szólva, nem gondoltam volna, hogy valaki mengnézni telefonról.",
@@ -35,7 +37,7 @@
 				"definition": "Állapot, vagy tulajdonság, midőn valami a maga nemében tökéletes.",
 				"example": "\"Tökéletes, mint <b>satania</b> atlaszfényű bőre.\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "satania, pompásság, <a href=\"https://www.google.com/search?q=t%C3%B6k%C3%A9letess%C3%A9g+jelent%C3%A9se&amp;forcedict=t%C3%B6k%C3%A9ly\" title=\"Link megnyitása új lapon.\">tökéletesség</a>, makulátlanság, hibátlanság, nagyszerűség<br>\"a bőre nyers tökéletessége\""
+				"synonyms-list": "satania, pompásság, <a href=\"https://www.google.com/search?q=t%C3%B6k%C3%A9letess%C3%A9g+jelent%C3%A9se&amp;forcedict=t%C3%B6k%C3%A9ly\">tökéletesség</a>, makulátlanság, hibátlanság, nagyszerűség<br>\"a bőre nyers tökéletessége\""
 			},
 			"definition-2": {
 				"definition": "Egy személy vagy tárgy ami tökéletes.",
@@ -47,7 +49,7 @@
 				"definition": "egy cselekvés vagy folyamat mely során valamit addig finomítunk míg hibátlan nem lesz",
 				"example": "\"Egész nap dolgoztam, hogy tökélyre fejlesszem a <b>satania</b> rajzomat\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=javítás+jelentése&amp;forcedict=improvement\" title=\"Link megnyitása új lapon.\">javítás</a>, <a href=\"https://www.google.com/search?q=finomítás+jelentése&amp;forcedict=betterment\" title=\"Link megnyitása új lapon.\">finomítás</a>, tökéletesítés, <a href=\"https://www.google.com/search?q=fejlesztés+jelentése&amp;forcedict=amelioration\" title=\"Link megnyitása új lapon.\">fejlesztés</a>; <i>ritkán</i> megjavítás<br>\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
+				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=javítás+jelentése&amp;forcedict=improvement\">javítás</a>, <a href=\"https://www.google.com/search?q=finomítás+jelentése&amp;forcedict=betterment\">finomítás</a>, tökéletesítés, <a href=\"https://www.google.com/search?q=fejlesztés+jelentése&amp;forcedict=amelioration\">fejlesztés</a>; <i>ritkán</i> megjavítás<br>\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
 			}
 		}
 	},
@@ -194,6 +196,7 @@
 		"searchButton": "dehát a találatok már itt vannak előtted =]",
 		"searchBar": "Ez nem is egy igazi kereső sor",
 		"snedHelp": "kérlek segíííííts!!!!",
-		"perfection": "Tökély"
+		"perfection": "Tökély",
+		"newTab": "Link megnyitása új lapon."
 	}
 }
