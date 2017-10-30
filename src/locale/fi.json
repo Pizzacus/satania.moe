@@ -1,11 +1,14 @@
 {
 	"main-intro": {
+		"name": "Satania",
 		"best-waifu-ever": "Paras waifu. <b>Ikinä.</b>",
 		"join-discord": "<i class=\"mdi mdi-discord\"></i>Liity Discordiin",
+		"discord-count": "<span id=\"discord-number\"></span> jäsentä",
 		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Liity subreddittiin",
+		"reddit-count": "<span id=\"reddit-number\"></span> tilaajaa",
 		"language-warning": "(Nämä yhteisöt käyttävät englantia pääkielenään)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Vieritä sivua saadaksesi lisätietoa!",
-		"mobile-disclaimer": "Olen todella pahoillani, mutta tämän sivun mobiiliversio on vähän kiirehditty ja <b>se on tosi paska</b>, en oikeastaan ajatellut kenenkään käyvän täällä puhelimella.",
+		"mobile-disclaimer": "Olen todella pahoillani, mutta tämän sivun mobiiliversio on vähän kiirehditty ja <b>se on tosi paska</b>, en oikeastaan ajatellut kenenkään käyvän täällä kännykällä.",
 		"language-select": "Kieli <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Henkilön nimeltä <b title=\"Kenyérlángos\">lewski</b> suomentama mahtava paskapostaus"
 	},
@@ -26,6 +29,7 @@
 	"she-is-perfect": {
 		"large-text": "Lyhyesti, hän on täydellinen.",
 		"sub-text": "Jopa Google tietää.",
+		"searchbar-name": "satania",
 		"google-definition": {
 			"name": "täydellisyys",
 			"prononciation": "/tæydellisyys/",
@@ -86,14 +90,14 @@
 			"member-favorites": "Lisäyksiä suosikkihahmoksi MAL:ssä*",
 			"subreddit-subs": "Subredditin tilaajia*",
 			"e-hentai": {
-				"cathegory": "Doujineja e-hentaissa* <span class=\"small\">()</span>",
+				"cathegory": "Doujineja e-hentaissa* <span class=\"small\">(lähde näkyy leijumalla kuvausten yllä)</span>",
 				"satania": "(Joista yksi on hauska)",
 				"gabriel": "(Tässä hän raiskaa Raphielin lmao)",
 				"vignette": "(Tosin hän esiintyy vain kolmessa paneelissa)",
 				"raphiel": "(Hän muuttuu koiraksi ja tottelee Sataniaa)"
 			},
 			"rule34": "Kuvia rule34.xxx:ssä*",
-			"gelbooru": "Kuvi gelboorussa*"
+			"gelbooru": "Kuvia gelboorussa*"
 		},
 		"as-of": "*6.6.2017"
 	},
