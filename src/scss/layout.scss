@@ -14,7 +14,7 @@
 
 	.small {
 		opacity: 1;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	.language-select {
@@ -141,7 +141,17 @@
 	}
 
 	.button-container {
-		margin-top: 30px;
+		margin: 30px 0;
+
+		& > span {
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+
+	#discord-count,
+	#reddit-count {
+		display: none;
 	}
 }
 

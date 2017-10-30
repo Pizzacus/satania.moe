@@ -9,6 +9,18 @@
 	src: url('fonts/daedra.otf');
 }
 
+html[lang=en] .translate-only {
+	display: none;
+}
+
+.english-only {
+	display: none !important;
+}
+
+html[lang=en] .english-only {
+	display: block !important;
+}
+
 html[lang=fi] .google-definition .definition:last-child {
 	display:none;
 }

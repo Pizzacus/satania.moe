@@ -249,3 +249,43 @@ document.body.onkeyup = event => {
 		}
 	}
 }
+
+function getContent(url) {
+	return new Promise((resolve, reject) => {
+		let req = new XMLHttpRequest();
+		req.open("GET", url, true);
+		req.onreadystatechange = function () {
+			if (req.readyState !== 4) return;
+
+			console.log(req.getResponseHeader("content-type"));
+
+			let res = req.getResponseHeader("content-type").startsWith("application/json") ? JSON.parse(req.responseText) : req.responseText;
+
+			if (req.status.toString().startsWith(2)) {
+				resolve(res);
+			} else {
+				reject(res);
+			}
+		};
+		req.onerror = reject;
+		req.send();
+	});
+}
+
+function discordInfo(invite) {
+	return getContent(`https://discordapp.com/api/v6/invite/${invite}?with_counts=true`);
+}
+
+function subredditInfo(subreddit) {
+	return getContent(`https://www.reddit.com/r/${subreddit}/about.json`)
+}
+
+discordInfo("rC9ebp7").then(guild => {
+	document.getElementById("discord-number").innerText = guild.approximate_member_count;
+	document.getElementById("discord-count").style.display = "inline-block";
+})
+
+subredditInfo("satania").then(subreddit => {
+	document.getElementById("reddit-number").innerText = subreddit.data.subscribers;
+	document.getElementById("reddit-count").style.display = "inline-block";
+})
