@@ -280,12 +280,28 @@ function subredditInfo(subreddit) {
 	return getContent(`https://www.reddit.com/r/${subreddit}/about.json`)
 }
 
-discordInfo("rC9ebp7").then(guild => {
-	document.getElementById("discord-number").innerText = guild.approximate_member_count;
-	document.getElementById("discord-count").style.display = "inline-block";
+let guild, subreddit;
+
+discordInfo("rC9ebp7").then(fetchedGuild => {
+	guild = fetchedGuild;
+	updateCounts();
 })
 
-subredditInfo("satania").then(subreddit => {
-	document.getElementById("reddit-number").innerText = subreddit.data.subscribers;
-	document.getElementById("reddit-count").style.display = "inline-block";
+subredditInfo("satania").then(fetchedSubreddit => {
+	subreddit = fetchedSubreddit;
+	updateCounts();
 })
+
+function updateCounts() {
+	if (guild) {
+		document.getElementById("discord-number").innerText = guild.approximate_member_count;
+		document.getElementById("discord-count").style.display = "inline-block";
+	}
+
+	if (subreddit) {
+		document.getElementById("reddit-number").innerText = subreddit.data.subscribers;
+		document.getElementById("reddit-count").style.display = "inline-block";
+	}
+}
+
+document.addEventListener("locale-change", updateCounts);

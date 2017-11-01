@@ -4,6 +4,11 @@ var localeSelect = document.getElementById("locale-select"),
 	options = localeSelect.getElementsByTagName("option"),
 	locales = {};
 
+function dispatchEvent() {
+	const event = new Event("locale-change");
+	document.dispatchEvent(event);
+}
+
 if (window.Element && !Element.prototype.closest) {
 	// Thanks Mozilla <3 https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
 	// Polyfill for the closest function, since a lot of browsers don't support it
@@ -115,6 +120,8 @@ function changeLocale(localeName, skipDefaultLocale) {
 		document.documentElement.lang = localeName;
 		window.location.hash = localeName;
 	}
+
+	dispatchEvent();
 }
 
 for (let option of options) {
