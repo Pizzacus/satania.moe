@@ -88,11 +88,8 @@
 			"member-favorites": "MyAnimeListでの支援者数*",
 			"subreddit-subs": "subredditでの支援者数*",
 			"e-hentai": {
-				"cathegory": "e-hentaiにある同人誌の数* <span class=\"small\">(説明にカーソルを充てて詳細を表示)</span>",
-				"satania": "（内一つはヤバイ）",
-				"gabriel": "（ラフィエル犯しちゃったよ）",
-				"vignette": "（3コマしか出てないけど）",
-				"raphiel": "（犬に変身してサターニャに従事する）"
+				"cathegory": "e-hentaiにある同人誌の数*",
+				"satania": "（内一つはヤバイ）"
 			},
 			"rule34": "rule34.xxx上での画像数*",
 			"gelbooru": "gelbooru上での画像数*"

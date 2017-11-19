@@ -86,11 +86,8 @@
 			"member-favorites": "Número de favoritos en MAL*",
 			"subreddit-subs": "Número de subscritores en sus subreddit*",
 			"e-hentai": {
-				"cathegory": "Número de  Doujinshi en e-hentai* <span class=\"small\">(Pase el ratón encima de las descripciones para ver la fuente)</span>",
-				"satania": "(Uno de ellos es hilarante)",
-				"gabriel": "(En este ella viola a Raphiel, haha lmao)",
-				"vignette": "(Aunque solo aparece en 3 paneles)",
-				"raphiel": "(Se convierte en un perro y obedece a Satania)"
+				"cathegory": "Número de  Doujinshi en e-hentai*",
+				"satania": "(Uno de ellos es hilarante)"
 			},
 			"rule34": "Número de imágenes en rule34.xxx*",
 			"gelbooru": "Número de imágenes en gelbooru*"

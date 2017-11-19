@@ -88,11 +88,8 @@
 			"member-favorites": "Antal medlemmar som favoritmarkerat på MAL*",
 			"subreddit-subs": "Antal prenumeranter på subredditen*",
 			"e-hentai": {
-				"cathegory": "Antal doujinshi på e-hentai* <span class=\"small\">(Peka på beskrivningarna för källa)</span>",
-				"satania": "(Varav en är jätterolig)",
-				"gabriel": "(I vilken hon våldtar Raphiel lmao)",
-				"vignette": "(Men hon syns bara till i 3 paneler)",
-				"raphiel": "(Hon förvandlas till en hund och lyder Satania)"
+				"cathegory": "Antal doujinshi på e-hentai*",
+				"satania": "(Varav en är jätterolig)"
 			},
 			"rule34": "Antal bilder på rule34.xxx*",
 			"gelbooru": "Antal bilder på gelbooru*"

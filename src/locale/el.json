@@ -90,11 +90,8 @@
 			"member-favorites": "Αριθμός αγαπημένων απο μέλη MAL*",
 			"subreddit-subs": "Αριθμός συνδρομητών στο subreddit τους*",
 			"e-hentai": {
-				"cathegory": "Αριθμός Doujinshi στο e-hentai* <span class=\"small\">(Μετακινήστε το ποντίκι πάνω απ'την περίληψη για την πηγή)</span>",
-				"satania": "(Ένα απο αυτά είναι ξεκαρδιστικό)",
-				"gabriel": "(Και σε αυτό, βιάζει την Raphiel lmao)",
-				"vignette": "(Παρόλλο που εμφανίζεται μόνο σε 3 panels)",
-				"raphiel": "(Γίνεται σκύλος και υπακούει την Satania)"
+				"cathegory": "Αριθμός Doujinshi στο e-hentai*",
+				"satania": "(Ένα απο αυτά είναι ξεκαρδιστικό)"
 			},
 			"rule34": "Αριθμός εικόνων στο rule34.xxx*",
 			"gelbooru": "Αριθμός εικόνων στο gelbooru*"

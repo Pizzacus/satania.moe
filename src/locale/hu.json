@@ -89,11 +89,8 @@
 			"member-favorites": "\"Kedvencek\" száma a MyAnimeList oldalon*",
 			"subreddit-subs": "Feliratkozások a subredditjén*",
 			"e-hentai": {
-				"cathegory": "Dódzsinsik száma az e-hentai oldalon* <span class=\"small\">(Vidd a kurzort a leírásokra, ha akarod tudni, hogy honnan vannak)</span>",
-				"satania": "(Ebből az egyik fergeteges)",
-				"gabriel": "(Ebben megerőszakolja Raphielt lmao)",
-				"vignette": "(Viszont, csak három panelben van benne)",
-				"raphiel": "(Átváltozik egy kutyává, és elkezd engedelmeskedni Sataniának)"
+				"cathegory": "Dódzsinsik száma az e-hentai oldalon*",
+				"satania": "(Ebből az egyik fergeteges)"
 			},
 			"rule34": "Képek a rule34.xxx oldalon*",
 			"gelbooru": "Képek gelbooru-n*"

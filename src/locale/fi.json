@@ -90,11 +90,8 @@
 			"member-favorites": "Lisäyksiä suosikkihahmoksi MAL:ssä*",
 			"subreddit-subs": "Subredditin tilaajia*",
 			"e-hentai": {
-				"cathegory": "Doujineja e-hentaissa* <span class=\"small\">(lähde näkyy leijumalla kuvausten yllä)</span>",
-				"satania": "(Joista yksi on hauska)",
-				"gabriel": "(Tässä hän raiskaa Raphielin lmao)",
-				"vignette": "(Tosin hän esiintyy vain kolmessa paneelissa)",
-				"raphiel": "(Hän muuttuu koiraksi ja tottelee Sataniaa)"
+				"cathegory": "Doujineja e-hentaissa*",
+				"satania": "(Joista yksi on hauska)"
 			},
 			"rule34": "Kuvia rule34.xxx:ssä*",
 			"gelbooru": "Kuvia gelboorussa*"

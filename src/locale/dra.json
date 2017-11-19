@@ -87,11 +87,8 @@
 			"member-favorites": "Number of member favorites on MAL*",
 			"subreddit-subs": "Number of subs on their subreddit*",
 			"e-hentai": {
-				"cathegory": "Number of Doujinshi on e-hentai* <span class=\"small\">(Hover the descriptions for source)</span>",
-				"satania": "(One of which is hilarious)",
-				"gabriel": "(And in this one, she rapes Raphiel lmao)",
-				"vignette": "(Altough, she only appears in 3 panels)",
-				"raphiel": "(She turns into a dog and obeys to Satania)"
+				"cathegory": "Number of Doujinshi on e-hentai*",
+				"satania": "(One of which is hilarious)"
 			},
 			"rule34": "Number of pics on rule34.xxx*",
 			"gelbooru": "Number of pics on gelbooru*"
