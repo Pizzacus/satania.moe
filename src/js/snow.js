@@ -20,6 +20,8 @@ function minmax(value, {min, max}) {
 function bindSnow(canvas) {
 	if (!canvas instanceof HTMLCanvasElement) return;
 
+	if (canvas.closest('.section')) canvas.style.backgroundColor = 'rgba(0,0,0,0.1)';
+
 	const ctx = canvas.getContext("2d");
 	let snowflakes = [];
 
@@ -60,9 +62,21 @@ function bindSnow(canvas) {
 	window.requestAnimationFrame(tick);
 }
 
-const snowCanvas = [...document.querySelectorAll("canvas.snow")];
+let snowStarted = false;
 
-snowCanvas.map(bindSnow);
+function startSnow() {
+	if (snowStarted) return;
+	snowStarted = true;
+
+	const snowCanvas = [...document.querySelectorAll("canvas.snow")];
+	snowCanvas.map(bindSnow);
+}
+
+const now = new Date();
+
+if (now.getMonth() === 11 && now.getDate() > 15) {
+	startSnow();
+}
 
 function bindFull(canvas) {
 	if (!canvas instanceof HTMLCanvasElement) return;
@@ -77,5 +91,4 @@ function bindFull(canvas) {
 }
 
 const fullCanvas = [...document.querySelectorAll("canvas.full")];
-
 fullCanvas.map(bindFull);

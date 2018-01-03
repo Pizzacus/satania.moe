@@ -107,4 +107,14 @@ img {
 	left: 0;
 	z-index: 9;
 	filter: blur(1.5px);
+	transition: background-color 0.5s ease-out;
+}
+
+.nose-button {
+	cursor: pointer;
+	position: absolute;
+	top: calc(50% + 10px);
+	left: calc(50% + 235px);
+	height: 40px;
+	width: 55px;
 }
