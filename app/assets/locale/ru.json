@@ -94,7 +94,7 @@
 			"rule34": "Изображений на rule34.xxx*",
 			"gelbooru": "Изображений на gelbooru*"
 		},
-		"as-of": "*По состоянию на 6 июня 2017 года"
+		"as-of": "*По состоянию на <span id=\"last-updated\"></span>"
 	},
 	"the-others-are-trash": {
 		"large-text": "Остальные персонажи мусор, без исключений.",

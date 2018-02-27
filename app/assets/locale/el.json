@@ -96,7 +96,7 @@
 			"rule34": "Αριθμός εικόνων στο rule34.xxx*",
 			"gelbooru": "Αριθμός εικόνων στο gelbooru*"
 		},
-		"as-of": "*Απο την 6η Ιουνίου 2017"
+		"as-of": "*Απο τις <span id=\"last-updated\"></span>"
 	},
 	"the-others-are-trash": {
 		"large-text": "Οι άλλες κοπέλες είναι χάλια, χωρίς εξαιρέσεις.",

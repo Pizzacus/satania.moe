@@ -94,7 +94,7 @@
 			"rule34": "Antal bilder på rule34.xxx*",
 			"gelbooru": "Antal bilder på gelbooru*"
 		},
-		"as-of": "*Aktuellt den 6:e juni 2017"
+		"as-of": "*Aktuellt den <span id=\"last-updated\"></span>"
 	},
 	"the-others-are-trash": {
 		"large-text": "De andra karaktärena är sopor, inga undantag.",

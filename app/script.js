@@ -1,4 +1,4 @@
-let javascriptLocales = {
+window.javascriptLocales = {
 	copyMessage: "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\n" +
 		"Also yes, any website can access your clipboard however they want, isn't that creepy?\n" +
 		"Regardless, Satania is the BEST WAIFU, and you should agree! http://satania.moe/",
@@ -34,7 +34,15 @@ function copy(text = "") {
 	selectionElement.innerText = text;
 
 	// Add CSS rules that should theorically prevent the hidden element from impacting the page layout in any way
-	selectionElement.setAttribute("style", "position:absolute !important;top:-9999vh !important;opacity:0 !important;height:0 !important;width:0 !important;pointer-events:none !important;z-index:-9999 !important;");
+	selectionElement.setAttribute("style", `
+		position:absolute !important;
+		top:-9999vh !important;
+		opacity:0 !important;
+		height:0 !important;
+		width:0 !important;
+		pointer-events:none !important;
+		z-index:-9999 !important;
+	`);
 
 	// Add the element to the document (We hade to, in order to select it)
 	document.body.appendChild(selectionElement);
@@ -302,6 +310,14 @@ function updateCounts() {
 		document.getElementById("reddit-number").innerText = subreddit.data.subscribers;
 		document.getElementById("reddit-count").style.display = "inline-block";
 	}
+
+	document.getElementById('last-updated').innerText = 
+		(new Date(1519743162656))
+			.toLocaleDateString(document.body.parentElement.lang, {
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric'
+			});
 }
 
 document.addEventListener("locale-change", updateCounts);

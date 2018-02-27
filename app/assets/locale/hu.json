@@ -95,7 +95,7 @@
 			"rule34": "Képek a rule34.xxx oldalon*",
 			"gelbooru": "Képek gelbooru-n*"
 		},
-		"as-of": "*2017. június 6."
+		"as-of": "*<span id=\"last-updated\"></span>"
 	},
 	"the-others-are-trash": {
 		"large-text": "A többi karakter mind szar. Nincs kivétel.",
@@ -130,7 +130,6 @@
 				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>UNALMAAAAS</b>",
-					"argument-2": "No really, she never does anything interesting",
 					"argument-2": "De most tényleg, soha nem csinál semmi érdekeset",
 					"argument-3": "Teljesen normális, meg ilyenek.",
 					"argument-4": "<b>Az emberek csak azért szeretik, mert cuki</b>",

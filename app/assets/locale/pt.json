@@ -92,7 +92,7 @@
 			"rule34": "Número de imagens no rule34.xxx*",
 			"gelbooru": "Número de imagens no gelbooru*"
 		},
-		"as-of": "*Em 6 de Junho de 2017"
+		"as-of": "*No dia <span id=\"last-updated\"></span>"
 	},
 	"the-others-are-trash": {
 		"large-text": "Os outros personagens são um lixo, sem exceções.",

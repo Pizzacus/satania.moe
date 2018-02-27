@@ -96,7 +96,7 @@
 			"rule34": "Kuvia rule34.xxx:ssä*",
 			"gelbooru": "Kuvia gelboorussa*"
 		},
-		"as-of": "*6.6.2017"
+		"as-of": "*<span id=\"last-updated\"></span>"
 	},
 	"the-others-are-trash": {
 		"large-text": "Muut hahmot ovat roskaa, poikkeuksetta.",

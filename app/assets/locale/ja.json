@@ -94,7 +94,7 @@
 			"rule34": "rule34.xxx上での画像数*",
 			"gelbooru": "gelbooru上での画像数*"
 		},
-		"as-of": "*2017年6月6日現在"
+		"as-of": "*<span id=\"last-updated\"></span>現在"
 	},
 	"the-others-are-trash": {
 		"large-text": "他のキャラはゴミです、<br>例外はありません。",

@@ -96,7 +96,7 @@
 			"rule34": "rule34.xxx에서의 포스팅 수*",
 			"gelbooru": "gelbooru에서의 포스팅 수*"
 		},
-		"as-of": "*2017년 6월 6일 기준"
+		"as-of": "*<span id=\"last-updated\"></span> 기준"
 	},
 	"the-others-are-trash": {
 		"large-text": "딴 애들은 그냥 쓰레기, 개뚜레기",

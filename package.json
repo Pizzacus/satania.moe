@@ -1,47 +1,22 @@
 {
-  "name": "satania-moe",
-  "version": "1.0.0",
-  "description": "A website to show everyone why Satania is the best waifu!",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "waifu",
-    "satania",
-    "demon",
-    "daiakuma",
-    "moe",
-    "cute",
-    "gabriel",
-    "raphiel",
-    "vignette",
-    "gabriel",
-    "dropout",
-    "anime",
-    "manga"
-  ],
+  "name": "satania.moe",
+  "description": ">:3",
+  "private": true,
   "author": "Pizzacus",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "devDependencies": {
-    "babel-preset-env": "^1.6.0",
-    "browser-sync": "^2.18.11",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-babel": "^7.0.0",
-    "gulp-babili": "^0.1.2",
-    "gulp-cache": "^0.4.6",
-    "gulp-clean-css": "^3.3.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-concat-css": "^2.3.0",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-insert-lines": "0.0.4",
-    "gulp-plumber": "^1.1.0",
-    "gulp-prompt": "^0.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "iso-639-1": "^1.3.0",
-    "run-sequence": "^1.2.2"
+  "version": "6.6.6",
+  "repository": "https://github.com/Pizzacus/satania.moe",
+  "homepage": "https://satania.moe",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2"
   }
 }

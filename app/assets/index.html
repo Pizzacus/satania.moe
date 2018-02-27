@@ -79,7 +79,7 @@
 	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css">
 
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
-	<link href="style.css" rel="stylesheet" />
+	<link href="app.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -127,10 +127,10 @@
 				</div>
 				<select id="locale-select">
 					<option disabled value="de">Deutsch</option>
-					<!--<option disabled value="dra">Dovahzul (WIP)</option>-->
 					<option value="default">English</option>
 					<option disabled value="es">Español</option>
 					<option disabled value="fr">Français</option>
+					<option disabled value="it">Italiano</option>
 					<option disabled value="hu">magyar</option>
 					<option disabled value="pt">Português</option>
 					<option disabled value="fi">suomi</option>
@@ -335,47 +335,47 @@
 
 						<tr>
 							<td i18n="member-favorites" class="cathegory">Number of member favorites on MAL*</td>
-							<td class="highlight">1,110</td>
-							<td>486</td>
-							<td>445</td>
-							<td>334</td>
+							<td class="highlight">1,974</td>
+							<td>765</td>
+							<td>610</td>
+							<td>536</td>
 						</tr>
 
 						<tr>
 							<td i18n="subreddit-subs" class="cathegory">Number of subs on their subreddit*</td>
-							<td class="highlight">771 <a href="https://www.reddit.com/r/Satania/" class="small">/r/satania</a></td>
-							<td>153 <a href="https://www.reddit.com/r/Tenma/" class="small">/r/tenma</a></td>
-							<td>233 <a href="https://www.reddit.com/r/Vigne/" class="small">/r/vigne</a></td>
-							<td>94 <a href="https://www.reddit.com/r/Raphiel/" class="small">/r/watchpeopledie</a></td>
+							<td class="highlight">3106 <a href="https://www.reddit.com/r/Satania/" class="small">/r/satania</a></td>
+							<td>324 <a href="https://www.reddit.com/r/Tenma/" class="small">/r/tenma</a></td>
+							<td>554 <a href="https://www.reddit.com/r/Vigne/" class="small">/r/vigne</a></td>
+							<td>273 <a href="https://www.reddit.com/r/Raphiel/" class="small">/r/watchpeopledie</a></td>
 						</tr>
 
 						<tr i18n-group="e-hentai">
 							<td i18n="cathegory" class="cathegory">Number of Doujinshi on e-hentai*</td>
 							<td class="highlight">3<span i18n="satania" title="Bakakuma Satania’s Human Domination Plan" class="small">(One of which is hilarious)</span></td>
-							<td>1</td>
+							<td>2</td>
 							<td>1</td>
 							<td>2</td>
 						</tr>
 
 						<tr>
 							<td i18n="rule34" class="cathegory">Number of pics on rule34.xxx*</td>
-							<td class="highlight">67</td>
-							<td>31</td>
-							<td>27</td>
-							<td>24</td>
+							<td class="highlight">112</td>
+							<td>53</td>
+							<td>49</td>
+							<td>41</td>
 						</tr>
 
 						<tr>
 							<td i18n="gelbooru" class="cathegory">Number of pics on gelbooru*</td>
-							<td class="highlight">341</td>
-							<td>269</td>
-							<td>209</td>
-							<td>135</td>
+							<td class="highlight">512</td>
+							<td>368</td>
+							<td>289</td>
+							<td>195</td>
 						</tr>
 					</tbody>
 				</table>
 
-				<span i18n="as-of">*As of the 6th of June 2017</span>
+				<span i18n="as-of">*As of <span id="last-updated"></span></span>
 			</div>
 		</div>
 
@@ -571,7 +571,14 @@
 		</div>
 	</div>
 
-	<script src="script.js"></script>
+	<script src="app.js"></script>
+
+	<script>
+		const startSnow = require('snow');
+
+		require('script');
+		require('translate');
+	</script>
 
 	<script>
 		(function(i, s, o, g, r, a, m) {
