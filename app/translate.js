@@ -53,7 +53,7 @@ function generateTranslationTable() {
 	for (let i = 0; i < translatedElements.length; i++) {
 		var element = translatedElements[i],
 			path = [element.getAttribute("i18n")],
-			text = element.innerHTML;
+			text = element.innerHTML.replace(/[\n\r\t]/g, '');
 
 		while (element.closest("[i18n-group]")) {
 			let groupElement = element.closest("[i18n-group]");
