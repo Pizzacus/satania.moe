@@ -152,7 +152,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "Sie ersetzt alle andere Waifus in der Serie",
-		"sub-text": "Wenn man mal darüber nachdenkt ist Satania die perfekte Alternative für alle anderen Charaktere in Gabriel Dropout... <span class=\"small\">Klicke auf irgendeine dieser Karten um die Antworten zu sehen<noscript>Naja, man braucht dazu Javascript, weshalb du das nicht machen kannst...</noscript></span>",
+		"sub-text": "Wenn man mal darüber nachdenkt ist Satania die perfekte Alternative für alle anderen Charaktere in Gabriel Dropout... <span class=\"small\">Klicke auf irgendeine dieser Karten um die Antworten zu sehen</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Brauchst du ein Mädchen, das<b> nicht sehr nett ist, sich nicht für irgendwen interessiert</b> und denkt, dass ihre Hobbys wichtiger sind als alles andere?",

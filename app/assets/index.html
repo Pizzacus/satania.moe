@@ -490,45 +490,57 @@
 			<div class="center">
 				<h2 i18n="large-text">She replaces all the other waifus in the show</h2>
 				<p i18n="sub-text">When you think about it, Satania is a perfect alternative to every character in Gabriel Dropout...
-					<span class="small">Click on any of these cards to see the answers<noscript> except that requires javascript, so you can't actually do that...</noscript></span>
+					<span class="small">Click on any of these cards to see the answers</span>
 				</p>
 
 				<div i18n-group="cards" id="card-container">
-					<div i18n-group="gabriel" class="card gabriel">
-						<div i18n="question" class="question">
-							Do you need a girl who <b>isn't very nice, doesn't care about anyone</b> and thinks her hobbies are more important than anything?
-						</div>
-						<div i18n="answer" class="answer">
-							Then you need the demon who <b>doesn't care about humans and angels and is always trying to be evil</b>, rather than studying or something...<br /> Also, <b>she doesn't do her homework ON PURPOSE!!</b>
-						</div>
-					</div>
-
-					<div i18n-group="vigne" class="card vigne">
-						<div i18n="question" class="question">
-							Would you like a <b>cute moe demon</b> that <b>wanna be evil, but is very bad at it</b>, ending up doing nice things like teaching stuff to Gabriel?
-						</div>
-						<div i18n="answer" class="answer">
-							Then you'll probably like the <b>demon who is trying her best to become the greatest one</b>, but is frequently manipulated into <b>doing nice things</b>, even tho she is trying her best to teach Gabriel a good lesson...
-						</div>
-					</div>
-
-					<div i18n-group="raphiel" class="card raphiel">
-						<div i18n="question" class="question">
-							Do you want a girl that <b>looks cute</b>, but is actually <b>really mean</b> and only wants to see everyone suffer?
-						</div>
-						<div i18n="answer" class="answer">
-							That sounds exactly like Satania! Because becoming the greatest Arch Demon the world has ever known, <b>probably implies hurting or killing a lot of people</b>...
-						</div>
-					</div>
-
-					<div i18n-group="satania" class="card satania">
-						<div i18n="question" class="question">
-							How about the <b>greatest demon in the entire universe?</b>
-						</div>
-						<div class="answer">
-							<img width="100%" src="img/debiru.png" alt="" />
-						</div>
-					</div>
+					<span>
+						<input type="checkbox" id="gabriel-toogle" class="card-toogle">
+						<label for="gabriel-toogle" i18n-group="gabriel" class="card gabriel">
+							<div i18n="question" class="question">
+								Do you need a girl who <b>isn't very nice, doesn't care about anyone</b> and thinks her hobbies are more important than anything?
+							</div>
+							<div i18n="answer" class="answer">
+								Then you need the demon who <b>doesn't care about humans and angels and is always trying to be evil</b>, rather than studying or something...<br /> Also, <b>she doesn't do her homework ON PURPOSE!!</b>
+							</div>
+						</label>
+					</span>
+					
+					<span>
+						<input type="checkbox" id="vigne-toogle" class="card-toogle">
+						<label for="vigne-toogle" i18n-group="vigne" class="card vigne">
+							<div i18n="question" class="question">
+								Would you like a <b>cute moe demon</b> that <b>wanna be evil, but is very bad at it</b>, ending up doing nice things like teaching stuff to Gabriel?
+							</div>
+							<div i18n="answer" class="answer">
+								Then you'll probably like the <b>demon who is trying her best to become the greatest one</b>, but is frequently manipulated into <b>doing nice things</b>, even tho she is trying her best to teach Gabriel a good lesson...
+							</div>
+						</label>
+					</span>
+					
+					<span>
+						<input type="checkbox" id="raphiel-toogle" class="card-toogle">
+						<label for="raphiel-toogle" i18n-group="raphiel" class="card raphiel">
+							<div i18n="question" class="question">
+								Do you want a girl that <b>looks cute</b>, but is actually <b>really mean</b> and only wants to see everyone suffer?
+							</div>
+							<div i18n="answer" class="answer">
+								That sounds exactly like Satania! Because becoming the greatest Arch Demon the world has ever known, <b>probably implies hurting or killing a lot of people</b>...
+							</div>
+						</label>
+					</span>
+					
+					<span>
+						<input type="checkbox" id="satania-toogle" class="card-toogle">
+						<label for="satania-toogle" i18n-group="satania" class="card satania">
+							<div i18n="question" class="question">
+								How about the <b>greatest demon in the entire universe?</b>
+							</div>
+							<div class="answer">
+								<img width="100%" src="img/debiru.png" alt="" />
+							</div>
+						</label>
+					</span>
 				</div>
 			</div>
 		</div>

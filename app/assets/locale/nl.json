@@ -156,7 +156,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "Ze vervangt alle andere waifus in de serie",
-		"sub-text": "Als je er even over nadenkt, dan is Satania een perfect alternatief voor elk ander karakter in Gabriel&nbsp;Dropout...<span class=\"small\">Klik op een van deze kaarten om de antwoorden te zien<noscript> maar daarvoor heb je javascript nodig, dus kun je dat niet doen...</noscript></span>",
+		"sub-text": "Als je er even over nadenkt, dan is Satania een perfect alternatief voor elk ander karakter in Gabriel&nbsp;Dropout...<span class=\"small\">Klik op een van deze kaarten om de antwoorden te zien</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Heb jij een meisje nodig die <b>niet erg aardig is, om niemand geeft</b>en denkt dat haar hobbies belangrijker zijn dan alle andere dingen?",

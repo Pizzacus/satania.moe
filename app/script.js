@@ -227,10 +227,6 @@ if (window.Element && !Element.prototype.closest) {
 		};
 }
 
-document.getElementById("card-container").onclick = event => {
-	event.target.closest(".card").classList.toggle("flipped");
-}
-
 var laughKeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
 	laughPos = 0,
 	laughing = false;
@@ -264,8 +260,6 @@ function getContent(url) {
 		req.open("GET", url, true);
 		req.onreadystatechange = function () {
 			if (req.readyState !== 4) return;
-
-			console.log(req.getResponseHeader("content-type"));
 
 			let res = req.getResponseHeader("content-type").startsWith("application/json") ? JSON.parse(req.responseText) : req.responseText;
 
