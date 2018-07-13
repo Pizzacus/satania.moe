@@ -8,6 +8,7 @@
 		"language-warning": "(Ces communautés utilisent l'anglais comme langue principale)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Faites défiler pour en apprendre plus !",
 		"mobile-disclaimer": "Je suis désolé, mais la version mobile de ce site a été assez baclée et <b>c'est vraiment de la merde</b>, je ne pensais pas que quelqu'un le visiterais sur un téléphone pour être honnête.",
+		"language-protip": "Voudriez-vous voir ce site en <b>Français</b> ?<br>Utilisez ce menu déroulant pour choisir une langue !",
 		"language-select": "Language <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Un glorieux shitpost par une pizza nommée <b title=\"Kenyérlángos\">Pizzacus</b> (Correction : Mots Doux)"
 	},
@@ -154,7 +155,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "Elle remplace toute les waifus de la série",
-		"sub-text": "Quand on y réfléchit, Satania est une parfaite alternative pour tous les personnages de Gabriel DropOut... <span class=\"small\">Cliquez sur n'importe laquelles de ces cartes pour voir les réponses<noscript> sauf que vous avez besoin de JavaScript pour faire ça, donc vous pouvez pas vraiment le faire...</noscript></span>",
+		"sub-text": "Quand on y réfléchit, Satania est une parfaite alternative pour tous les personnages de Gabriel DropOut... <span class=\"small\">Cliquez sur n'importe laquelles de ces cartes pour voir les réponses</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Besoin d'une fille qui <b>n'est pas très sympa et se fout de tout le monde</b> et qui pense que ses hobbies passent avant tout ?",

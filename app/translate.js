@@ -71,7 +71,8 @@ function generateTranslationTable() {
 	return translationTable;
 }
 
-locales.default = generateTranslationTable()
+locales.default = generateTranslationTable();
+window.generateTranslationTable = generateTranslationTable;
 
 function changeLocale(localeName, skipDefaultLocale) {
 	// Changes the locale, but reset it first, in case some text in a locale aren't translated in another one
@@ -83,8 +84,9 @@ function changeLocale(localeName, skipDefaultLocale) {
 	function handleObject(locale, element) {
 		for(let value in locale) {
 			if(typeof locale[value] === "string") {
-				if (element.querySelector("[i18n=" + value + "]")) {
-					element.querySelector("[i18n=" + value + "]").innerHTML = locale[value];
+				const match = element.querySelector("[i18n=" + value + "]");
+				if (match && !match.closest("[i18n-skip]")) {
+					match.innerHTML = locale[value];
 				}
 			} else {
 				if (element.querySelector("[i18n-group=" + value + "]")) {
@@ -109,9 +111,30 @@ function changeLocale(localeName, skipDefaultLocale) {
 	dispatchEvent();
 }
 
-for (let option of options) {
+const bestLocale = navigator.languages
+	.map(lang => 
+		[...options].find(option => 
+			lang.startsWith(option.lang) ||
+			(option.lang === 'zh-Hans' && (
+				lang === 'zh-CN' || (
+					lang === 'zh' &&
+					!navigator.languages.some(lang => lang.startsWith('zh-'))
+				)
+			))
+		).value
+	)
+	.filter(lang => lang != null)[0];
+
+for (const option of options) {
+	let shouldSwitch = false;
+
+	if (window.location.hash.replace(/^\#/g, "") === option.value) {
+		localeSelect.value = option.value;
+		shouldSwitch = true;
+	}
+
 	if (option.value !== "default") {
-		let xhr = new XMLHttpRequest();
+		const xhr = new XMLHttpRequest();
 		xhr.open("GET", "locale/" + option.value + ".json", true);
 		xhr.onreadystatechange = function() {
 			if (xhr.readyState === 4 && xhr.status === 200) {
@@ -119,19 +142,39 @@ for (let option of options) {
 				locales[option.value] = translation;
 				option.disabled = false;
 
-				if (window.location.hash.replace(/^\#/g, "") === option.value) {
-					changeLocale(option.value);
-					localeSelect.value = option.value
-				}
+				postDownload();
 			}
 		};
+
 		xhr.send();
+
+	} else {
+		setTimeout(postDownload);
+	}
+
+	function postDownload() {
+		if (shouldSwitch) {
+			changeLocale(option.value);
+		}
+
+		console.log(option.value, bestLocale, localeSelect.value);
+
+		if (option.value === bestLocale && localeSelect.value !== option.value) {
+			const translation = locales[bestLocale]['main-intro']['language-protip'];
+
+			if (translation) {
+				document.getElementById('language-protip-text').innerHTML = locales[bestLocale]['main-intro']['language-protip'];
+				document.getElementById('language-protip').style.display = "block";
+			}
+		}
 	}
 }
 
 localeSelect.onchange = function(e) {
 	changeLocale(e.target.value);
 }
+
+localeSelect.onclick = () => document.getElementById('language-protip').style.display = "none";
 
 function prettyYAML(yaml) {
 	return yaml

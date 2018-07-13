@@ -227,10 +227,6 @@ if (window.Element && !Element.prototype.closest) {
 		};
 }
 
-document.getElementById("card-container").onclick = event => {
-	event.target.closest(".card").classList.toggle("flipped");
-}
-
 var laughKeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
 	laughPos = 0,
 	laughing = false;
@@ -265,9 +261,9 @@ function getContent(url) {
 		req.onreadystatechange = function () {
 			if (req.readyState !== 4) return;
 
-			console.log(req.getResponseHeader("content-type"));
+			const contentType = req.getResponseHeader("content-type") || '';
 
-			let res = req.getResponseHeader("content-type").startsWith("application/json") ? JSON.parse(req.responseText) : req.responseText;
+			let res = contentType.startsWith("application/json") ? JSON.parse(req.responseText) : req.responseText;
 
 			if (req.status.toString().startsWith(2)) {
 				resolve(res);
@@ -321,3 +317,6 @@ function updateCounts() {
 }
 
 document.addEventListener("locale-change", updateCounts);
+
+document.getElementById('close-language-protip').onclick =
+	() => document.getElementById('language-protip').style.display = 'none';

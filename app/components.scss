@@ -318,6 +318,10 @@ table {
 	}
 }
 // FLIPPING CARDS -- You click, they flip, simple enough
+.card-toogle {
+	display: none;
+}
+
 .card {
 	text-align: left;
 	padding: 10px;
@@ -352,7 +356,7 @@ table {
 		box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 	}
 
-	&.flipped {
+	input.card-toogle:checked ~ & {
 		background: #EEE;
 		width: 240px;
 		height: 360px;
@@ -368,7 +372,9 @@ table {
 		}
 	}
 
-	&:active {
+	// because of CSS selector prioritization, this repettion is needed
+	&:active,
+	input.card-toogle:checked ~ &:active {
 		background: #E5E5E5;
 		width: 220px;
 		height: 340px;

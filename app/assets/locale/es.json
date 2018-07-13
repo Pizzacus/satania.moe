@@ -2,10 +2,13 @@
 	"main-intro": {
 		"best-waifu-ever": "La mejor waifu. <b>De todas.</b>",
 		"join-discord": "<i class=\"mdi mdi-discord\"></i>Únete al Discord",
+		"discord-count": "<span id=\"discord-number\"></span> miembros",
 		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Únete al Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> suscriptores",
 		"language-warning": "(Estas comunidades usan el inglés como su lenguaje primario)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>¡Desplácese para obtener más información!",
 		"mobile-disclaimer": "Realmente lo siento, pero la versión móvil del sitio fue algo apresurada y <b>es una mierda realmente,</b> no pensé que nadie la visitaría en teléfono tbh.",
+		"language-protip": "¿Te gustaría ver esta página en <b>Español</b>?<br>Despliega este menú para seleccionar un lenguaje.",
 		"language-select": "Lenguaje <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Un Shitpost hecho por cierta pizza llamada <b title=\"Kenyérlángos\">Pizzacus,</b> traducido por <b>Baiken</b>"
 	},
@@ -152,7 +155,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "Ella reemplaza a todas las otras waifus del show",
-		"sub-text": "Cuando lo piensas, Satania es una alternativa perfecta a cada personaje de Gabriel Dropout... <span class=\"small\">Haga click en cualquiera de las tarjetas para ver las respuestas<noscript>except that requires javascript, so you can't actually do that...</noscript></span>",
+		"sub-text": "Cuando lo piensas, Satania es una alternativa perfecta a cada personaje de Gabriel Dropout... <span class=\"small\">Haga click en cualquiera de las tarjetas para ver las respuestas</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Necesitas una chica <b>poco amable, que no le importa nadie más</b> y piensa que sus pasatiempos son más importantes que todo?",
@@ -189,6 +192,7 @@
 		"searchButton": "pero los resultados ya estan aqui =]",
 		"searchBar": "esto no es una barra de busqueda real",
 		"snedHelp": "envíen ayuda porfavooor!",
-		"perfection": "perfección"
+		"perfection": "perfección",
+		"newTab": "Enlaces se abren en una nueva pestaña"
 	}
 }

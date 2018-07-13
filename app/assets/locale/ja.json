@@ -3,7 +3,9 @@
 		"name": "サターニャ",
 		"best-waifu-ever": "史上最高の嫁。<b>マジで。</b>",
 		"join-discord": "<i class=\"mdi mdi-discord\"></i>Discordに参加",
+		"discord-count": "参加者<span id=\"discord-number\"></span>人",
 		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Subredditに参加",
+		"reddit-count": "購読者<span id=\"reddit-number\"></span>人",
 		"language-warning": "（注意：議論・会話には基本的に英語を使用します。）",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>詳細を見る",
 		"mobile-disclaimer": "本当に申し訳ありませんが、<br>このサイトのモバイル版は精錬されていなく、<b>醜いです。</b><br>正直、携帯電話・スマホで<br>このサイトを見ようとする人はいないと思いますが。",
@@ -16,8 +18,8 @@
 		"small-text": "サターニャに関する投稿をしてくれれば、<br>さらなる支援にはなります。"
 	},
 	"she-is-beautiful": {
-		"large-text": "引き込まれる笑顔。<br>魅惑的な眼光。<br>目を見張る外見。",
-		"sub-text": "まさに<b>美の極致</b>の体現者",
+		"large-text": "悩殺的な破顔。<br>魅する様な瞳孔。<br>瞠目すべき形貌。",
+		"sub-text": "婀娜たる<b>顔佳人</b>の如し",
 		"small-text": "私たち支援者は高度に鍛えられた文化人であるため、<br>語り口も高度に文化的である事に注意"
 	},
 	"end-the-waifu-war": {
@@ -154,7 +156,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "サターニャは他の嫁キャラに取って代わる存在です",
-		"sub-text": "考えてみて下さい。<br>サターニャは『ガヴリールドロップアウト』の<br>全てのキャラのおいて完璧な代替案です。<span class=\"small\">カードをクリックして審理を悟りましょう<noscript>と言いたいところですがそれにはJavaScriptが必要です。</noscript></span>",
+		"sub-text": "考えてみて下さい。<br>サターニャは『ガヴリールドロップアウト』の<br>全てのキャラのおいて完璧な代替案です。<span class=\"small\">カードをクリックして審理を悟りましょう</span>",
 		"cards": {
 			"gabriel": {
 				"question": "<b>優れているわけではなく、周りの人を全く気に掛けない、</b>ただ自分の行動が最優先の女の子がお好みですか？",
@@ -192,6 +194,7 @@
 		"searchBar": "本当のグーグル検索欄ではないんで",
 		"snedHelp": "もうやめてー",
 		"perfection": "完璧",
-		"searchBarName": "サターニャ"
+		"searchBarName": "サターニャ",
+		"newTab": "別タブで開きます。"
 	}
 }

@@ -9,6 +9,7 @@
 		"language-warning": "(Deze groepen gebruiken Engels als de voertaal)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Scroll naar beneden om meer te leren!",
 		"mobile-disclaimer": "Het spijt me echt, maar de mobiele versie van deze website is snel in elkaar gezet en <b>hij is echt slecht</b>, I dacht niet dat iemand de website op een smartphone zou bekijken tbh.",
+		"language-protip": "Zou je deze website graag in het <b>Nederlands</b> willen zien?<br>Gebruik dit drop-down menu om een taal te selecteren!",
 		"language-select": "Taal<i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "A geweldige shitpost door een of andere pizza genaamd <b title=\"Kenyérlángos\">Pizzacus</b><br>en vertaald door puur weeaboo trash <b>Kbloowit</b>"
 	},
@@ -156,7 +157,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "Ze vervangt alle andere waifus in de serie",
-		"sub-text": "Als je er even over nadenkt, dan is Satania een perfect alternatief voor elk ander karakter in Gabriel&nbsp;Dropout...<span class=\"small\">Klik op een van deze kaarten om de antwoorden te zien<noscript> maar daarvoor heb je javascript nodig, dus kun je dat niet doen...</noscript></span>",
+		"sub-text": "Als je er even over nadenkt, dan is Satania een perfect alternatief voor elk ander karakter in Gabriel&nbsp;Dropout...<span class=\"small\">Klik op een van deze kaarten om de antwoorden te zien</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Heb jij een meisje nodig die <b>niet erg aardig is, om niemand geeft</b>en denkt dat haar hobbies belangrijker zijn dan alle andere dingen?",

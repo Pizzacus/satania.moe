@@ -55,6 +55,36 @@ img {
 	}
 }
 
+.language-select #language-protip {
+	position: absolute;
+	bottom: 100%;
+	display: none;
+	margin-bottom: 10px;
+	padding: 20px 35px 20px 25px;
+	background: #E66; 
+	border-radius: 5px;
+	color: #fff;
+	line-height: 1.25;
+	font-size: 16px;
+
+	#close-language-protip {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+
+	&::after {
+		content: "";
+		border: 10px transparent solid;
+		border-top: 10px #E66 solid;
+		position: absolute;
+		top: 100%;
+		left: 55px;
+	}
+}
+
 .select-wrapper {
 	.select-button {
 		background: #eee;

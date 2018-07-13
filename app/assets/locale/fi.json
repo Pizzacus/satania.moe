@@ -9,6 +9,7 @@
 		"language-warning": "(Nämä yhteisöt käyttävät englantia pääkielenään)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Vieritä sivua saadaksesi lisätietoa!",
 		"mobile-disclaimer": "Olen todella pahoillani, mutta tämän sivun mobiiliversio on vähän kiirehditty ja <b>se on tosi paska</b>, en oikeastaan ajatellut kenenkään käyvän täällä kännykällä.",
+		"language-protip": "Haluatko nähdä tämän sivun <b>suomeksi</b>?<br>Valitse kieli tästä valikosta!",
 		"language-select": "Kieli <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Henkilön nimeltä <b title=\"Kenyérlángos\">lewski</b> suomentama mahtava paskapostaus"
 	},
@@ -156,7 +157,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "Hän syrjäyttää ohjelman kaikki muut waifut",
-		"sub-text": "Kun ajattelee sitä vähän, Satania on täydellinen vaihtoehto kaikille Gabriel DropOutin hahmoille... <span class=\"small\">Klikkaa mitä tahansa näistä korteista nähdäksesi vastauksen<noscript>paitsi että siihen tarvitaan JavaScript, joten et voi oikeasti tehdä niin...</noscript></span>",
+		"sub-text": "Kun ajattelee sitä vähän, Satania on täydellinen vaihtoehto kaikille Gabriel DropOutin hahmoille... <span class=\"small\">Klikkaa mitä tahansa näistä korteista nähdäksesi vastauksen</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Tarvitsetko tytön joka <b>ei ole kovin mukava, ei välitä kenestäkään</b> ja ajattelee harrastustensa olevan tärkeämpiä kuin mikään muu?",

@@ -9,6 +9,7 @@
 		"language-warning": "(Ezeknek a közösségeknek a fő nyelve az angol)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Görgess lejjebb!",
 		"mobile-disclaimer": "Bocs, de az oldal mobil verziója eléggé el lett sietve,  <b>úgyhogy eléggé szar lett</b>. Őszintén szólva, nem gondoltam volna, hogy valaki mengnézni telefonról.",
+		"language-protip": "Inkább <b>magyarul</b> szeretnéd nézni az oldalt?<br>Ezzel a menüvel kiválaszthatod a nyelvet.",
 		"language-select": "Nyelv <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Csodálatos shitpost egy <b title=\"Kenyérlángos\">Pizzacus</b> nevű pizzától."
 	},
@@ -155,7 +156,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "A show minden más waifuját helyettesíti",
-		"sub-text": "Ha belegondolsz, Satania egy tökéletes alternatíva akármelyik Gabriel Dropout karakterre <span class=\"small\">Kattints a kártyákra, hogy meglásd a válaszokat<noscript>csakhogy nincs Javascirpted úgyhogy... Ezt miért is fordítom le? Na mindegy. Na akkor, most megmondod, hogy mi az az atlaszfényű, vagy nem?</noscript></span>",
+		"sub-text": "Ha belegondolsz, Satania egy tökéletes alternatíva akármelyik Gabriel Dropout karakterre <span class=\"small\">Kattints a kártyákra, hogy meglásd a válaszokat</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Akarsz egy lányt, aki <b>nem éppen kedves, senki más nem érdekli őt</b> és azt gondolja, hogy a hobbija fontosabb, mint minden más??",

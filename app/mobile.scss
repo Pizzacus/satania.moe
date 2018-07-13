@@ -54,6 +54,9 @@
 		.image {
 			position: absolute;
 			top: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
 			display: flex;
 			justify-content: center !important;
 			padding: 0;
@@ -61,7 +64,7 @@
 			background: none;
 
 			img {
-				opacity: 0.5;
+				opacity: 0.35;
 			}
 		}
 
