@@ -1,3 +1,5 @@
+require('babel-polyfill');
+
 window.javascriptLocales = {
 	copyMessage: "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\n" +
 		"Also yes, any website can access your clipboard however they want, isn't that creepy?\n" +

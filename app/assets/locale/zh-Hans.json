@@ -9,6 +9,7 @@
 		"language-warning": "(注意：这些论坛都使用英语作为主要语言。)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i> 更多",
 		"mobile-disclaimer": "很抱歉！手机页面是赶工做出来的，排版很糟糕，反正我猜也没人用手机来访问这个页面 (￣▽￣) ",
+		"language-protip": " 你想以 <b>简体中文</b> 来查看这个页面吗？<br>用这个下拉菜单来选择语言！",
 		"language-select": "切换语言<i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "自称是<b title=\"Kenyérlángos\">Pizzacus</b>的人（翻译者：落叶君）"
 	},

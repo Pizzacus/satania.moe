@@ -13,6 +13,7 @@
   "dependencies": {
     "auto-reload-brunch": "^2",
     "babel-brunch": "~6.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-latest": "^6",
     "brunch": "^2",
     "clean-css-brunch": "^2",
