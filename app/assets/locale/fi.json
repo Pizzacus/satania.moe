@@ -9,6 +9,7 @@
 		"language-warning": "(Nämä yhteisöt käyttävät englantia pääkielenään)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Vieritä sivua saadaksesi lisätietoa!",
 		"mobile-disclaimer": "Olen todella pahoillani, mutta tämän sivun mobiiliversio on vähän kiirehditty ja <b>se on tosi paska</b>, en oikeastaan ajatellut kenenkään käyvän täällä kännykällä.",
+		"language-protip": "Haluatko nähdä tämän sivun <b>suomeksi</b>?<br>Valitse kieli tästä valikosta!",
 		"language-select": "Kieli <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Henkilön nimeltä <b title=\"Kenyérlángos\">lewski</b> suomentama mahtava paskapostaus"
 	},

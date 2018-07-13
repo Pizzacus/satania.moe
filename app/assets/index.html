@@ -143,28 +143,37 @@
 		</div>
 
 		<div class="language-select">
+			<div id="language-protip" i18n-skip>
+				<span id="language-protip-text" i18n="language-protip">
+					<!-- Note for translators, change "English" to the name of your language of course -->
+					Would you like to view this website in <b>English</b>?<br>
+					Use this drop-down to select a language!
+				</span>
+				
+				<i id="close-language-protip" class="mdi mdi-close"></i>
+			</div>
 			<div class="select-wrapper">
 				<div i18n="language-select" class="select-button">
 					Language
 					<i class="mdi mdi-chevron-down"></i>
 				</div>
-				<select id="locale-select">
-					<option disabled value="de">Deutsch</option>
-					<option value="default">English</option>
-					<option disabled value="es">Español</option>
-					<option disabled value="fr">Français</option>
-					<option disabled value="it">Italiano</option>
-					<option disabled value="hu">magyar</option>
-					<option disabled value="nl">Nederlands</option>
-					<option disabled value="pt">Português</option>
-					<option disabled value="pl">Polski</option>
-					<option disabled value="fi">suomi</option>
-					<option disabled value="sv">svenska</option>
-					<option disabled value="ru">Русский</option>
-					<option disabled value="el">Ελληνικά</option>
-					<option disabled value="ja">日本語</option>
-					<option disabled value="ko">한국어</option>
-					<option disabled value="zh-Hans">简体中文</option>
+				<select id="locale-select" lang="mul">
+					<option disabled title="German" value="de" lang="de">Deutsch</option>
+					<option title="English" value="default" lang="en">English</option>
+					<option disabled title="Spanish" value="es" lang="es">Español</option>
+					<option disabled title="French" value="fr" lang="fr">Français</option>
+					<option disabled title="Italian" value="it" lang="it">Italiano</option>
+					<option disabled title="Hungarian" value="hu" lang="hu">magyar</option>
+					<option disabled title="Dutch" value="nl" lang="nl">Nederlands</option>
+					<option disabled title="Portuguese" value="pt" lang="pt">Português</option>
+					<option disabled title="Polish" value="pl" lang="pl">Polski</option>
+					<option disabled title="Finnish" value="fi" lang="fi">suomi</option>
+					<option disabled title="Swedish" value="sv" lang="sv">svenska</option>
+					<option disabled title="Russian" value="ru" lang="ru">Русский</option>
+					<option disabled title="Greek" value="el" lang="el">Ελληνικά</option>
+					<option disabled title="Japanese" value="ja" lang="ja">日本語</option>
+					<option disabled title="Korean" value="ko" lang="ko">한국어</option>
+					<option disabled title="Chinese (Simplified)" value="zh-Hans" lang="zh-Hans">简体中文</option>
 				</select>
 			</div>
 		</div>

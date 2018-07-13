@@ -9,6 +9,7 @@
 		"language-warning": "(Ezeknek a közösségeknek a fő nyelve az angol)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Görgess lejjebb!",
 		"mobile-disclaimer": "Bocs, de az oldal mobil verziója eléggé el lett sietve,  <b>úgyhogy eléggé szar lett</b>. Őszintén szólva, nem gondoltam volna, hogy valaki mengnézni telefonról.",
+		"language-protip": "Inkább <b>magyarul</b> szeretnéd nézni az oldalt?<br>Ezzel a menüvel kiválaszthatod a nyelvet.",
 		"language-select": "Nyelv <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Csodálatos shitpost egy <b title=\"Kenyérlángos\">Pizzacus</b> nevű pizzától."
 	},

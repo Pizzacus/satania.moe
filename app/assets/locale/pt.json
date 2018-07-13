@@ -2,10 +2,13 @@
 	"main-intro": {
 		"best-waifu-ever": "A melhor Waifu <b>de todas</b>",
 		"join-discord": "<i class=\"mdi mdi-discord\"></i>Participe do Discord",
+		"discord-count": "<span id=\"discord-number\"></span> membros",
 		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Participe do Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> subscritos",
 		"language-warning": "(Essas comunidades tem o Inglês como língua principal)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Desça para saber mais!",
 		"mobile-disclaimer": "Minhas sinceras desculpas, mas a versão mobile desse website foi feita as pressas e é <b>bem horrível</b>, mas, sendo franco, não achei que alguém iria visitá-lo em dessa forma.",
+		"language-protip": "Gostarias de ver esta página em <b>Português</b>?<br>Seleciona este menu para escolheres a língua!",
 		"language-select": "Língua <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Um shitpost glorioso por uma pizza chamada <b title=\"Kenyérlángos\">Pizzacus</b>, traduzido por <b>qgustavor</b>"
 	},
@@ -189,6 +192,7 @@
 		"searchButton": "mas os resultados já estão aqui =]",
 		"searchBar": "essa não é uma pesquisa de verdade",
 		"snedHelp": "socorrrooooo",
-		"perfection": "perfeição"
+		"perfection": "perfeição",
+		"newTab": "Endereço abre um novo separador."
 	}
 }

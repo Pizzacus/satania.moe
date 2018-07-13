@@ -9,6 +9,7 @@
 		"language-warning": "(Dessa gemenskaper kommunicerar huvudsakligen på engelska.)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Skrolla för att lära dig mer!",
 		"mobile-disclaimer": "Jag är verkligen ledsen, men den mobila versionen av den här sidan var ganska snabbt gjord och <b>är skitdålig</b>. Ärligt talat trodde jag inte att någon skulle besöka den på en mobil.",
+		"language-protip": "Skulle du vilja se den här hemsidan på <b>svenska</b>?<br>Klicka på den här drop-down menyn för att välja ett språk!",
 		"language-select": "Språk <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "En strålande shitpost av nån pizza vid namn <b title=\"Kenyérlángos\">Pizzacus</b>"
 	},
