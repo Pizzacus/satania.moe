@@ -3,10 +3,13 @@
 		"name": "Сатания",
 		"best-waifu-ever": "Лучшая Вайфу. <b>Из всех.</b>",
 		"join-discord": "<i class=\"mdi mdi-discord\"></i>Discord",
+		"discord-count": "<span id=\"discord-number\"></span> участников",
 		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> подписчиков",
 		"language-warning": "(Для общения на этих ресурсах нужно знать инглиш ленгуадже)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Прокрутите, чтобы узнать больше!",
 		"mobile-disclaimer": "Мне очень жаль, но мобильная версия сайта была сделана поспешно и <b>это хреново</b>. Я не думал, что кто-нибудь посетит его с телефона.",
+		"language-protip": "Хотите посмотреть сайт на <b>русском</b>?<br>Вы можете выбрать язык в этом окне!",
 		"language-select": "Язык <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "Этот странный сайт создан пиццей под ником <b title=\"Kenyérlángos\">Pizzacus</b>"
 	},
