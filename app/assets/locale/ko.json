@@ -9,6 +9,7 @@
 		"language-warning": "(저 두 곳은 영어가 메인이므로 들어 가실 때 긴장 하시길...)",
 		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>내려서 사타냐를 더 알아보자!",
 		"mobile-disclaimer": "죄송합니다만 모바일 버전은 좀 막 만들었거든요... 진짜로 <b>좀 많이 그지 같을 거에요...</b>, 뭐... 모바일로 오는 사람도 별로 없겠지만...",
+		"language-protip": "이 웹사이트를 <b>한국어</b>로 보고 싶으세요?<br>리스트에서 언어를 선택하세요!",
 		"language-select": "언어선택 <i class=\"mdi mdi-chevron-down\"></i>",
 		"credits": "제작자 = 등신 같지만 멋진 \"피자\" <b title=\"Kenyérlángos\">피자커스</b><br>우리말(?) 제작 = <b>스팀팩_마린스</b>"
 	},
