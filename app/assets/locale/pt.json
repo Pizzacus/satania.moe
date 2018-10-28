@@ -1,15 +1,15 @@
 {
 	"main-intro": {
 		"best-waifu-ever": "A melhor Waifu <b>de todas</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Participe do Discord",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Participe do Discord",
 		"discord-count": "<span id=\"discord-number\"></span> membros",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Participe do Subreddit",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Participe do Subreddit",
 		"reddit-count": "<span id=\"reddit-number\"></span> subscritos",
 		"language-warning": "(Essas comunidades tem o Inglês como língua principal)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Desça para saber mais!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Desça para saber mais!",
 		"mobile-disclaimer": "Minhas sinceras desculpas, mas a versão mobile desse website foi feita as pressas e é <b>bem horrível</b>, mas, sendo franco, não achei que alguém iria visitá-lo em dessa forma.",
 		"language-protip": "Gostarias de ver esta página em <b>Português</b>?<br>Seleciona este menu para escolheres a língua!",
-		"language-select": "Língua <i class=\"mdi mdi-chevron-down\"></i>",
+		"language-select": "Língua <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Um shitpost glorioso por uma pizza chamada <b title=\"Kenyérlángos\">Pizzacus</b>, traduzido por <b>qgustavor</b>"
 	},
 	"become-a-satania-follower": {

@@ -2,15 +2,15 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "De beste Waifu. <b>Van altijd.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Sluit je aan bij de Discord server",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Sluit je aan bij de Discord server",
 		"discord-count": "<span id=\"discord-number\"></span> leden",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Sluit je aan bij de Subreddit",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Sluit je aan bij de Subreddit",
 		"reddit-count": "<span id=\"reddit-number\"></span> abonnees",
 		"language-warning": "(Deze groepen gebruiken Engels als de voertaal)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Scroll naar beneden om meer te leren!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scroll naar beneden om meer te leren!",
 		"mobile-disclaimer": "Het spijt me echt, maar de mobiele versie van deze website is snel in elkaar gezet en <b>hij is echt slecht</b>, I dacht niet dat iemand de website op een smartphone zou bekijken tbh.",
 		"language-protip": "Zou je deze website graag in het <b>Nederlands</b> willen zien?<br>Gebruik dit drop-down menu om een taal te selecteren!",
-		"language-select": "Taal<i class=\"mdi mdi-chevron-down\"></i>",
+		"language-select": "Taal<i class=\"fas fa-angle-down\"></i>",
 		"credits": "A geweldige shitpost door een of andere pizza genaamd <b title=\"Kenyérlángos\">Pizzacus</b><br>en vertaald door puur weeaboo trash <b>Kbloowit</b>"
 	},
 	"become-a-satania-follower": {

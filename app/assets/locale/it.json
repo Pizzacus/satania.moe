@@ -2,15 +2,15 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "La miglior waifu <b>di sempre</b>.",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Unisciti a Discord",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Unisciti a Discord",
 		"discord-count": "<span id=\"discord-number\"></span> membri ",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Unisciti al Subreddit",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Unisciti al Subreddit",
 		"reddit-count": "<span id=\"reddit-number\"></span> iscritti",
 		"language-warning": "(Queste community usano l'inglese come lingua principale)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Scorri per saperne di più!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scorri per saperne di più!",
 		"mobile-disclaimer": "Sono davvero dispiaciuto, ma la versione mobile di questo sito  é stata fatta in fretta ed é <b> una vera merda </b>, comunque   non credo che nessuno lo visiti da mobile.",
 		"language-protip": "Ti piacerebbe vedere questo sito in <b>italiano</b>?<br>Usare questo drop-down per selezionare una lingua!",
-		"language-select": "Lingua <i class=\"mdi mdi-chevron-down\"></i>",
+		"language-select": "Lingua <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Un glorioso shitpost di una pizza nota come <b title=\"Kenyérlángos\">Pizzacus</b> <br> Traduzione di <b title=\"Kenyérlángos\">SHellRoCK20</b>"
 	},
 	"become-a-satania-follower": {

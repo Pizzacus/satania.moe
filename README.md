@@ -15,6 +15,7 @@ This repo is for the people interested in the code
     * `npm run build` — builds minified project for production
 * About our building system:
     * We use [Brunch](http://brunch.io) to build satania.moe, brunch performs many tasks such as minifying data, compacting the files, ect...
+    * Honestly now I would like to have used something else but it's too late \>\_\>
     * `public/` dir is fully auto-generated and served by HTTP server. The code is in the `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * To learn more about Brunch: [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)

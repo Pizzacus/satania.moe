@@ -2,15 +2,15 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "Η καλύτερη Waifu. <b>Στον πλανήτη.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Εγγραφείτε στο Discord μας",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Εγγραφείτε στο Discord μας",
 		"discord-count": "<span id=\"discord-number\"></span> μέλη ",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Εγγραφείτε στο Subreddit μας",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Εγγραφείτε στο Subreddit μας",
 		"reddit-count": "<span id=\"reddit-number\"></span> συνδρομητές",
 		"language-warning": "(Αυτές οι ομάδες χρησιμοποιούν ως κύρια γλώσσα τα Αγγλικά.)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Μάθετε περισσότερα απο κάτω!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Μάθετε περισσότερα απο κάτω!",
 		"mobile-disclaimer": "Με συγχωρείτε, αλλά η κινητή έκδοση της σελίδας έγινε λίγο βιαστικά και <b>είναι αρκετά χάλια</b>, δεν πίστευα οτι θα έμπαινε κόσμος απο το κινητό να σας πώ.",
 		"language-protip": "Μήπως θα ήθελες να δεις αυτήν την ιστοσελίδα στα <b>Ελληνικά</b>?<br>Χρησιμοποιήσε την λίστα για να επιλέξεις μια γλώσσα!",
-		"language-select": "Γλώσσα <i class=\"mdi mdi-chevron-down\"></i>",
+		"language-select": "Γλώσσα <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Ένα καταπληκτικό shitpost απο μία πίτσα ονόματι <b title=\"Kenyérlángos\">Pizzacus</b>"
 	},
 	"become-a-satania-follower": {

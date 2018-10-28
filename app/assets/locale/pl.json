@@ -2,17 +2,17 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "Najlepsza Waifu. <b>Wszechczasów.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Dołącz na Discordzie",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Dołącz na Discordzie",
 		"discord-count": "<span id=\"discord-number\"></span> członkowie",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Dołącz na Subreddit",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Dołącz na Subreddit",
 		"reddit-count": "<span id=\"reddit-number\"></span> subkrybenci",
 		"language-warning": "(Te strony używają języka angielskiego.)",
 		"scroll-notice":
-			"<i class=\"mdi mdi-arrow-down\"></i>Scrolluj by dowiedzić się więcej.",
+			"<i class=\"fas fa-arrow-down\"></i>Scrolluj by dowiedzić się więcej.",
 		"mobile-disclaimer":
 			"Bardzo mi przykro, ale ta strona mobilna nie jest dopracowana. i <b>szczerze mówiąc ssie</b>, wątpię by ktokolwiek by ją odwiedził na telefonie.",
 		"language-protip": "Czy chciał(a)byś wyświetlić tę stronę w języku <b>polskim</b>?<br>Użyj listy poniżej aby wybrać język!",
-		"language-select": "Język<i class=\"mdi mdi-chevron-down\"></i>",
+		"language-select": "Język<i class=\"fas fa-angle-down\"></i>",
 		"credits":
 			"Wspaniały shitpost pizzy o imieniu <b title=\"Kenyérlángos\">Pizzacus</b><br>Przetłumaczone przez <b>/u/desuneee</b>"
 	},

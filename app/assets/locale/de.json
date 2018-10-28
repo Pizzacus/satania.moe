@@ -1,15 +1,15 @@
 {
 	"main-intro": {
 		"best-waifu-ever": "Die beste Waifu. <b>Auf der Welt.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Discord beitreten",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Discord beitreten",
 		"discord-count": "<span id=\"discord-number\"></span> mitglieder",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Subreddit beitreten",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Subreddit beitreten",
 		"reddit-count": "<span id=\"reddit-number\"></span> abonnenten",
 		"language-warning": "(Diese Communities sind englischsprachig)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Nach unten scrollen um mehr zu erfahren!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Nach unten scrollen um mehr zu erfahren!",
 		"mobile-disclaimer": "Tut mir leid, die mobile Version dieser Webseite wurde schnell zusammengeschustert <b>und ist richtig beschissen</b>, ich hätte nicht damit gerechnet, dass sie jemand auf einem Handy besuchen würde um ehrlich zu sein.",
 		"language-protip": "Würdest du diese Webseite gerne in <b>Deutsch</b> sehen?<br>Benutze dieses Menü, um eine Sprache auszuwählen!",
-		"language-select": "Sprache <i class=\"mdi mdi-chevron-down\"></i>",
+		"language-select": "Sprache <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Ein gloriöser Shitpost von einer Pizza namens <b title=\"Kenyérlángos\">Pizzacus</b><br>(Schlecht) Übersetzt von moëns ☆"
 	},
 	"become-a-satania-follower": {

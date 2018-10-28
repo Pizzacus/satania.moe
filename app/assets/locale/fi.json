@@ -2,15 +2,15 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "Paras waifu. <b>Ikinä.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Liity Discordiin",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Liity Discordiin",
 		"discord-count": "<span id=\"discord-number\"></span> jäsentä",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Liity subreddittiin",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Liity subreddittiin",
 		"reddit-count": "<span id=\"reddit-number\"></span> tilaajaa",
 		"language-warning": "(Nämä yhteisöt käyttävät englantia pääkielenään)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Vieritä sivua saadaksesi lisätietoa!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Vieritä sivua saadaksesi lisätietoa!",
 		"mobile-disclaimer": "Olen todella pahoillani, mutta tämän sivun mobiiliversio on vähän kiirehditty ja <b>se on tosi paska</b>, en oikeastaan ajatellut kenenkään käyvän täällä kännykällä.",
 		"language-protip": "Haluatko nähdä tämän sivun <b>suomeksi</b>?<br>Valitse kieli tästä valikosta!",
-		"language-select": "Kieli <i class=\"mdi mdi-chevron-down\"></i>",
+		"language-select": "Kieli <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Henkilön nimeltä <b title=\"Kenyérlángos\">lewski</b> suomentama mahtava paskapostaus"
 	},
 	"become-a-satania-follower": {
