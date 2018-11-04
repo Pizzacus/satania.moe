@@ -9,11 +9,16 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {presets: ['latest']}
+  babel: {presets: ['@babel/env']}
 };
 
 exports.modules = {
   autoRequire: {
     'app.js': ['babel-polyfill']
   }
+}
+
+exports.watcher = {
+  usePolling: true,
+  awaitWriteFinish: true
 }
