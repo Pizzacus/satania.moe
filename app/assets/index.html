@@ -98,101 +98,160 @@
 
 	<title>Satania: The best Waifu. Ever.</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" rel="stylesheet" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet" crossorigin="anonymous" />
+	<link href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" rel="stylesheet" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
 
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" crossorigin="anonymous" />
 	<link href="app.css" rel="stylesheet" />
 </head>
 
 <body>
-	<div i18n-group="main-intro" class="main intro">
-		<div class="back-overlay"></div>
+	<div i18n-group="main-intro" class="intro">
+		<div class="main">
+			<div class="back-overlay"></div>
 
-		<div class="title">
-			<h1 i18n="name" id="logo">Satania</h1>
-			<p>胡桃沢=サタニキア=マクドウェル</p>
-			<h2 i18n="best-waifu-ever">The best Waifu. <b>Ever.</b></h2>
-
-			<div class="button-container">
-				<span>
-					<a i18n="join-discord" class="button discord" href="https://discord.gg/rC9ebp7"><i class="fab fa-discord"></i>Join the Discord</a><br>
-					<span id="discord-count" i18n="discord-count">
-						<span id="discord-number"></span> members
+			<div class="title">
+				<h1 i18n="name" id="logo">Satania</h1>
+				<p>胡桃沢=サタニキア=マクドウェル</p>
+				<h2 i18n="best-waifu-ever">The best Waifu. <b>Ever.</b></h2>
+	
+				<div class="button-container">
+					<span>
+						<a i18n="join-discord" class="button discord" href="https://discord.gg/rC9ebp7"><i class="fab fa-discord"></i>Join the Discord</a><br>
+						<span id="discord-count" i18n="discord-count">
+							<span id="discord-number"></span> members
+						</span>
 					</span>
-				</span>
-				
-				<span>
-					<a i18n="join-reddit" class="button reddit" href="https://reddit.com/r/satania"><i class="fab fa-reddit-alien"></i>Join the Subreddit</a><br>
-					<span id="reddit-count" i18n="reddit-count">
-						<span id="reddit-number"></span> subscribers
+					
+					<span>
+						<a i18n="join-reddit" class="button reddit" href="https://reddit.com/r/satania"><i class="fab fa-reddit-alien"></i>Join the Subreddit</a><br>
+						<span id="reddit-count" i18n="reddit-count">
+							<span id="reddit-number"></span> subscribers
+						</span>
 					</span>
-				</span>
-
-				<br>
-				
-				<span i18n="language-warning" class="small translate-only">(These communities use English as their primary language)</span>
-			</div>
-
-			<span i18n="scroll-notice" class="scroll-notice"><i class="fas fa-arrow-down"></i>Scroll to learn more!</span>
-
-			<p i18n="mobile-disclaimer" class="mobile disclaimer">
-				I am really sorry, but the mobile version of this website was kinda rushed and <b>it's really shit</b>, I didn't think anyone would visit it on a phone tbh.
-			</p>
-		</div>
-
-		<div class="language-select">
-			<div id="language-protip" i18n-skip>
-				<span id="language-protip-text" i18n="language-protip">
-					<!-- Note for translators, change "English" to the name of your language of course -->
-					Would you like to view this website in <b>English</b>?<br>
-					Use this drop-down to select a language!
-				</span>
-				
-				<i id="close-language-protip" class="fas fa-times"></i>
-			</div>
-			<div class="select-wrapper">
-				<div i18n="language-select" class="select-button">
-					Language
-					<i class="fas fa-angle-down"></i>
+	
+					<br>
+					
+					<span i18n="language-warning" class="small translate-only">(These communities use English as their primary language)</span>
 				</div>
-				<select id="locale-select" lang="mul">
-					<option disabled title="German" value="de" lang="de">Deutsch</option>
-					<option title="English" value="default" lang="en">English</option>
-					<option disabled title="Spanish" value="es" lang="es">Español</option>
-					<option disabled title="French" value="fr" lang="fr">Français</option>
-					<option disabled title="Italian" value="it" lang="it">Italiano</option>
-					<option disabled title="Hungarian" value="hu" lang="hu">magyar</option>
-					<option disabled title="Dutch" value="nl" lang="nl">Nederlands</option>
-					<option disabled title="Portuguese" value="pt" lang="pt">Português</option>
-					<option disabled title="Polish" value="pl" lang="pl">Polski</option>
-					<option disabled title="Finnish" value="fi" lang="fi">suomi</option>
-					<option disabled title="Swedish" value="sv" lang="sv">svenska</option>
-					<option disabled title="Russian" value="ru" lang="ru">Русский</option>
-					<option disabled title="Greek" value="el" lang="el">Ελληνικά</option>
-					<option disabled title="Japanese" value="ja" lang="ja">日本語</option>
-					<option disabled title="Korean" value="ko" lang="ko">한국어</option>
-					<option disabled title="Chinese (Simplified)" value="zh-Hans" lang="zh-Hans">简体中文</option>
+	
+				<span i18n="scroll-notice" class="scroll-notice"><i class="fas fa-arrow-down"></i>Scroll to learn more!</span>
+	
+				<p i18n="mobile-disclaimer" class="mobile disclaimer">
+					I am really sorry, but the mobile version of this website was kinda rushed and <b>it's really shit</b>, I didn't think anyone would visit it on a phone tbh.
+				</p>
+			</div>
+	
+			<div class="language-select">
+				<div id="language-protip" i18n-skip>
+					<span id="language-protip-text" i18n="language-protip">
+						<!-- Note for translators, change "English" to the name of your language of course -->
+						Would you like to view this website in <b>English</b>?<br>
+						Use this drop-down to select a language!
+					</span>
+					
+					<i id="close-language-protip" class="fas fa-times"></i>
+				</div>
+				<div class="select-wrapper">
+					<div i18n="language-select" class="select-button">
+						Language
+						<i class="fas fa-angle-down"></i>
+					</div>
+					<select id="locale-select" lang="mul">
+						<option disabled title="German" value="de" lang="de">Deutsch</option>
+						<option title="English" value="default" lang="en">English</option>
+						<option disabled title="Spanish" value="es" lang="es">Español</option>
+						<option disabled title="French" value="fr" lang="fr">Français</option>
+						<option disabled title="Italian" value="it" lang="it">Italiano</option>
+						<option disabled title="Hungarian" value="hu" lang="hu">magyar</option>
+						<option disabled title="Dutch" value="nl" lang="nl">Nederlands</option>
+						<option disabled title="Portuguese" value="pt" lang="pt">Português</option>
+						<option disabled title="Polish" value="pl" lang="pl">Polski</option>
+						<option disabled title="Finnish" value="fi" lang="fi">suomi</option>
+						<option disabled title="Swedish" value="sv" lang="sv">svenska</option>
+						<option disabled title="Russian" value="ru" lang="ru">Русский</option>
+						<option disabled title="Greek" value="el" lang="el">Ελληνικά</option>
+						<option disabled title="Japanese" value="ja" lang="ja">日本語</option>
+						<option disabled title="Korean" value="ko" lang="ko">한국어</option>
+						<option disabled title="Chinese (Simplified)" value="zh-Hans" lang="zh-Hans">简体中文</option>
+					</select>
+				</div>
+			</div>
+	
+			<div id="translator-mode">
+				<button id="download">Download</button>
+				<button id="upload">Browse...</button>
+				<select disabled id="format">
+					<option id="yaml" value="yaml">YAML</option>
+					<option value="json">JSON</option>
 				</select>
 			</div>
+	
+			<div i18n="credits" class="footer">
+				A glorious shitpost by some pizza named <b title="Kenyérlángos">Pizzacus</b>
+			</div>
+	
+			<canvas class="snow full canvas-background"></canvas>
 		</div>
+		
+		<div class="music-player-container" id="music-player-container" i18n-group="music-player">
+			<div class="music-player display-intro" id="music-player">
+				<div class="play-controller">
+					<i class="fas fa-play"></i>
+				</div>
+				<div class="intro-text" i18n-group="intro">
+					<b i18n="bold-text">Wanna listen to a devilish song while browsing this page?</b>
+					<span class="small" i18n="small-text">Press the play button on the left!</span>
+				</div>
 
-		<div id="translator-mode">
-			<button id="download">Download</button>
-			<button id="upload">Browse...</button>
-			<select disabled id="format">
-				<option id="yaml" value="yaml">YAML</option>
-				<option value="json">JSON</option>
-			</select>
+				<div class="loading">
+					<i class="fas fa-spinner fa-pulse"></i>
+				</div>
+
+				<div class="music-details">
+					<div class="name" i18n-group="metadata">
+						<span class="title" i18n="title">Satania Drop</span>
+						<span class="author" i18n="author">[LIMITED DAYS]</span>
+					</div>
+
+					<div class="countdown small hidden" i18n="countdown">Satania sings in <span id="time-until-satania"></span> seconds.</div>
+					
+					<div class="time-controller">
+						<div class="time-bar">
+							<div class="elapsed">
+								<div class="slider-tip"></div>
+							</div>
+						</div>
+
+						<div class="volume">
+							<i class="fas fa-volume-down"></i>
+
+							<div class="volume-box">
+								<div class="volume-bar">
+									<div class="volume-fill">
+										<div class="volume-tip"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="time-progression"></div>
+					</div>
+
+				</div>
+
+			</div>
+	
+			<p i18n="footer">
+				You can also listen on <a href="https://www.youtube.com/watch?v=4NDCOxnHb8o">YouTube</a> and <a href="https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube">SoundCloud</a>.
+			</p>
+
+			<div id="satania-dance"></div>
+
+			<canvas id="sound-visualizer"></canvas>
 		</div>
-
-		<div i18n="credits" class="footer">
-			A glorious shitpost by some pizza named <b title="Kenyérlángos">Pizzacus</b>
-		</div>
-
-		<canvas class="snow full canvas-background"></canvas>
 	</div>
-
+	
 	<div class="scroll">
 		<div i18n-group="become-a-satania-follower" class="section">
 			<div class="left image">
@@ -625,6 +684,7 @@
 
 		require('script');
 		require('translate');
+		require('music-player');
 	</script>
 
 	<script>

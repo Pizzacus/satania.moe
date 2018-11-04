@@ -1,5 +1,6 @@
 {
 	"main-intro": {
+		"name": "Satania",
 		"best-waifu-ever": "Die beste Waifu. <b>Auf der Welt.</b>",
 		"join-discord": "<i class=\"fab fa-discord\"></i>Discord beitreten",
 		"discord-count": "<span id=\"discord-number\"></span> mitglieder",
@@ -10,7 +11,19 @@
 		"mobile-disclaimer": "Tut mir leid, die mobile Version dieser Webseite wurde schnell zusammengeschustert <b>und ist richtig beschissen</b>, ich hätte nicht damit gerechnet, dass sie jemand auf einem Handy besuchen würde um ehrlich zu sein.",
 		"language-protip": "Würdest du diese Webseite gerne in <b>Deutsch</b> sehen?<br>Benutze dieses Menü, um eine Sprache auszuwählen!",
 		"language-select": "Sprache <i class=\"fas fa-angle-down\"></i>",
-		"credits": "Ein gloriöser Shitpost von einer Pizza namens <b title=\"Kenyérlángos\">Pizzacus</b><br>(Schlecht) Übersetzt von moëns ☆"
+		"credits": "Ein gloriöser Shitpost von einer Pizza namens <b title=\"Kenyérlángos\">Pizzacus</b><br>(Schlecht) Übersetzt von moëns ☆",
+		"music-player": {
+			"intro": {
+				"bold-text": "Möchtest du einen teuflisch guten Song hören, während du hier bist?", 
+				"small-text": "Drücke den Play-Button auf der linken Seite!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania singt in <span id=\"time-until-satania\"></span> Sekunden.",
+			"footer": "Du kannst auch auf <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> und <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a> zuhören."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Werde heute ein Anhänger Satanias!",

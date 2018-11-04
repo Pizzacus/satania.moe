@@ -11,7 +11,19 @@
 		"mobile-disclaimer": "本当に申し訳ありませんが、<br>このサイトのモバイル版は精錬されていなく、<b>醜いです。</b><br>正直、携帯電話・スマホで<br>このサイトを見ようとする人はいないと思いますが。",
 		"language-protip": "サイトを<b>日本語</b>で閲覧したいですか？<br>このメニューを使って言語を選択できます！",
 		"language-select": "言語選択<i class=\"fas fa-angle-down\"></i>",
-		"credits": "<b title=\"Kenyérlángos\">Pizzacus</b>と名乗るピザの持論（翻訳者：Tomohiro Furusawa）"
+		"credits": "<b title=\"Kenyérlángos\">Pizzacus</b>と名乗るピザの持論（翻訳者：Tomohiro Furusawa）",
+		"music-player": {
+			"intro": {
+				"bold-text": "大悪魔的ソングを聴いてみたいですか？",
+				"small-text": "左側にある再生ボタンを押してみてください！"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "サターニャの歌声まで<span id=\"time-until-satania\"></span>秒前。",
+			"footer": "<a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a>又は<a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>でも聴くことが出来ます。"
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "サターニャの支援者に<br>なろう！",

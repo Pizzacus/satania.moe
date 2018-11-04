@@ -10,7 +10,19 @@
 		"mobile-disclaimer": "Realmente lo siento, pero la versión móvil del sitio fue algo apresurada y <b>es una mierda realmente,</b> no pensé que nadie la visitaría en teléfono tbh.",
 		"language-protip": "¿Te gustaría ver esta página en <b>Español</b>?<br>Despliega este menú para seleccionar un lenguaje.",
 		"language-select": "Lenguaje <i class=\"fas fa-angle-down\"></i>",
-		"credits": "Un Shitpost hecho por cierta pizza llamada <b title=\"Kenyérlángos\">Pizzacus,</b> traducido por <b>Baiken</b>"
+		"credits": "Un Shitpost hecho por cierta pizza llamada <b title=\"Kenyérlángos\">Pizzacus,</b> traducido por <b>Baiken</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "¿Quieres escuchar una canción diabólica mientras navegas por esta página?",
+				"small-text": "¡Presiona el botón de reproducción a la izquierda!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania cantara en <span id=\"time-until-satania\"></span> segundos.",
+			"footer": "También puedes escucharla en <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> y <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "¡Vuélvete en un seguidor de Satania hoy!",

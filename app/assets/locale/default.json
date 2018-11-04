@@ -6,12 +6,24 @@
 		"discord-count": "<span id=\"discord-number\"></span> members",
 		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Join the Subreddit",
 		"reddit-count": "<span id=\"reddit-number\"></span> subscribers",
-		"language-warning": "(These community use English as their primary language)",
+		"language-warning": "(These communities use English as their primary language)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scroll to learn more!",
 		"mobile-disclaimer": "I am really sorry, but the mobile version of this website was kinda rushed and <b>it's really shit</b>, I didn't think anyone would visit it on a phone tbh.",
 		"language-protip": "<!-- Note for translators, change \"English\" to the name of your language of course -->Would you like to view this website in <b>English</b>?<br>Use this drop-down to select a language!",
 		"language-select": "Language<i class=\"fas fa-angle-down\"></i>",
-		"credits": "A glorious shitpost by some pizza named <b title=\"Kenyérlángos\">Pizzacus</b>"
+		"credits": "A glorious shitpost by some pizza named <b title=\"Kenyérlángos\">Pizzacus</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Wanna listen to a devilish song while browsing this page?",
+				"small-text": "Press the play button on the left!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania sings in <span id=\"time-until-satania\"></span> seconds.",
+			"footer": "You can also listen on <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> and <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Become a Satania follower today!",

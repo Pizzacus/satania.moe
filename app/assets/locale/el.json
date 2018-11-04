@@ -11,7 +11,19 @@
 		"mobile-disclaimer": "Με συγχωρείτε, αλλά η κινητή έκδοση της σελίδας έγινε λίγο βιαστικά και <b>είναι αρκετά χάλια</b>, δεν πίστευα οτι θα έμπαινε κόσμος απο το κινητό να σας πώ.",
 		"language-protip": "Μήπως θα ήθελες να δεις αυτήν την ιστοσελίδα στα <b>Ελληνικά</b>?<br>Χρησιμοποιήσε την λίστα για να επιλέξεις μια γλώσσα!",
 		"language-select": "Γλώσσα <i class=\"fas fa-angle-down\"></i>",
-		"credits": "Ένα καταπληκτικό shitpost απο μία πίτσα ονόματι <b title=\"Kenyérlángos\">Pizzacus</b>"
+		"credits": "Ένα καταπληκτικό shitpost απο μία πίτσα ονόματι <b title=\"Kenyérlángos\">Pizzacus</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Θες να ακούσεις ενα διαβολικό τραγούδι ενώ σερφάρεις αυτή την σελίδα?",
+				"small-text": "Πάτα το κουμπί στα αριστερά!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Η Satania θα τραγουδήσει σε <span id=\"time-until-satania\"></span> δευτερόλεπτα.",
+			"footer": "Μπορείς επίσης να το ακούσεις εδώ <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> και εδώ <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Γίνετε ακόλουθος της Satania σήμερα!",

@@ -1,4 +1,4 @@
-// GENERAL -- Every boring rules that applies to the whole page or small elements used repeatly goes here
+// GENERAL -- Every boring rules that applies to the whole page or small elements used repeatedly goes here
 
 * {
 	box-sizing: border-box;
@@ -14,6 +14,10 @@ body {
 
 img {
 	vertical-align: middle; // Fixes a slight 3px margin bug with img
+}
+
+a {
+	color: #e66;
 }
 
 .mobile {

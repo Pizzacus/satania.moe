@@ -11,7 +11,19 @@
 		"mobile-disclaimer": "Мне очень жаль, но мобильная версия сайта была сделана поспешно и <b>это хреново</b>. Я не думал, что кто-нибудь посетит его с телефона.",
 		"language-protip": "Хотите посмотреть сайт на <b>русском</b>?<br>Вы можете выбрать язык в этом окне!",
 		"language-select": "Язык <i class=\"fas fa-angle-down\"></i>",
-		"credits": "Этот странный сайт создан пиццей под ником <b title=\"Kenyérlángos\">Pizzacus</b>"
+		"credits": "Этот странный сайт создан пиццей под ником <b title=\"Kenyérlángos\">Pizzacus</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Хотите послушать дьявольски хорошую&nbsp;музыку? ",
+				"small-text": "Нажмите на кнопку слева!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Секунд до Сатании: <span id=\"time-until-satania\"></span>.",
+			"footer": "Песню можно послушать также на <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o/\">YouTube</a> и <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube/\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Выберите Сатанию уже сегодня!",

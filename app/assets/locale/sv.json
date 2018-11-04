@@ -11,7 +11,19 @@
 		"mobile-disclaimer": "Jag är verkligen ledsen, men den mobila versionen av den här sidan var ganska snabbt gjord och <b>är skitdålig</b>. Ärligt talat trodde jag inte att någon skulle besöka den på en mobil.",
 		"language-protip": "Skulle du vilja se den här hemsidan på <b>svenska</b>?<br>Klicka på den här drop-down menyn för att välja ett språk!",
 		"language-select": "Språk <i class=\"fas fa-angle-down\"></i>",
-		"credits": "En strålande shitpost av nån pizza vid namn <b title=\"Kenyérlángos\">Pizzacus</b>"
+		"credits": "En strålande shitpost av nån pizza vid namn <b title=\"Kenyérlángos\">Pizzacus</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Skulle du vilja lyssna på en ondskefull sång medans du är här?",
+				"small-text": "Klicka på knappen \"play\" till vänster!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania sjunger om <span id=\"time-until-satania\"></span> sekunder.",
+			"footer": "Du kan även lyssna på <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> och <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Bli en Satania-anhängare idag!",
