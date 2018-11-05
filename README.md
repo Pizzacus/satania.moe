@@ -4,6 +4,11 @@ This is a website for those who wanna praise Satania, you can actually browse it
 
 This repo is for the people interested in the code
 
+## Special Thanks to
+  * All the translators which are normally credited in their respective translations (unless they didn't want to)
+  * [LIMITED DAYS] for letting me use his song
+  * /u/iRed_Panda for making the GIF of Satania dancing
+
 ## Getting started
 
 * Install (if you don't have them):
