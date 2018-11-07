@@ -6,12 +6,24 @@
 		"discord-count": "<span id=\"discord-number\"></span> 名成员",
 		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>加入 Subreddit",
 		"reddit-count": "<span id=\"reddit-number\"></span> 订阅者",
-		"language-warning": "(注意：这些论坛都使用英语作为主要语言。)",
+		"language-warning": "(注意：这些论坛都使用英语作为主要语言)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i> 更多",
 		"mobile-disclaimer": "很抱歉！手机页面是赶工做出来的，排版很糟糕，反正我猜也没人用手机来访问这个页面 (￣▽￣) ",
 		"language-protip": " 你想以 <b>简体中文</b> 来查看这个页面吗？<br>用这个下拉菜单来选择语言！",
 		"language-select": "切换语言<i class=\"fas fa-angle-down\"></i>",
-		"credits": "自称是<b title=\"Kenyérlángos\">Pizzacus</b>的人（翻译者：落叶君）"
+		"credits": "由自称是<b title=\"Kenyérlángos\">Pizzacus</b>的人制作（翻译者：落叶君）",
+		"music-player": {
+			"intro": {
+				"bold-text": "想一边听天籁之音一边浏览这个页面嘛?",
+				"small-text": "点击左侧的播放按钮吧！"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "离萨塔妮娅的歌声还有<span id=\"time-until-satania\"></span>秒",
+			"footer": "你也可以在这些 404 网站听这首歌： <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> 或者 <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>"
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "现在就成为<br>萨塔妮娅的追随者！",
