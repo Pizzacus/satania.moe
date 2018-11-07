@@ -5,7 +5,8 @@ var localeSelect = document.getElementById("locale-select"),
 	locales = {};
 
 function dispatchEvent() {
-	const event = new Event("locale-change");
+	const event = document.createEvent('Event');
+	event.initEvent('locale-change', true, true);
 	document.dispatchEvent(event);
 }
 
@@ -111,9 +112,9 @@ function changeLocale(localeName, skipDefaultLocale) {
 	dispatchEvent();
 }
 
-const bestLocale = navigator.languages
+const bestLocale = (navigator.languages || [window.navigator.userLanguage || window.navigator.language])
 	.map(lang => 
-		[...options].find(option => 
+		([...options].find(option => 
 			lang.startsWith(option.lang) ||
 			(option.lang === 'zh-Hans' && (
 				lang === 'zh-CN' || (
@@ -121,7 +122,7 @@ const bestLocale = navigator.languages
 					!navigator.languages.some(lang => lang.startsWith('zh-'))
 				)
 			))
-		).value
+		) || {}).value
 	)
 	.filter(lang => lang != null)[0];
 

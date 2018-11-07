@@ -2,16 +2,28 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "Η καλύτερη Waifu. <b>Στον πλανήτη.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Εγγραφείτε στο Discord μας",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Εγγραφείτε στο Discord μας",
 		"discord-count": "<span id=\"discord-number\"></span> μέλη ",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Εγγραφείτε στο Subreddit μας",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Εγγραφείτε στο Subreddit μας",
 		"reddit-count": "<span id=\"reddit-number\"></span> συνδρομητές",
 		"language-warning": "(Αυτές οι ομάδες χρησιμοποιούν ως κύρια γλώσσα τα Αγγλικά.)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Μάθετε περισσότερα απο κάτω!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Μάθετε περισσότερα απο κάτω!",
 		"mobile-disclaimer": "Με συγχωρείτε, αλλά η κινητή έκδοση της σελίδας έγινε λίγο βιαστικά και <b>είναι αρκετά χάλια</b>, δεν πίστευα οτι θα έμπαινε κόσμος απο το κινητό να σας πώ.",
 		"language-protip": "Μήπως θα ήθελες να δεις αυτήν την ιστοσελίδα στα <b>Ελληνικά</b>?<br>Χρησιμοποιήσε την λίστα για να επιλέξεις μια γλώσσα!",
-		"language-select": "Γλώσσα <i class=\"mdi mdi-chevron-down\"></i>",
-		"credits": "Ένα καταπληκτικό shitpost απο μία πίτσα ονόματι <b title=\"Kenyérlángos\">Pizzacus</b>"
+		"language-select": "Γλώσσα <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Ένα καταπληκτικό shitpost απο μία πίτσα ονόματι <b title=\"Kenyérlángos\">Pizzacus</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Θες να ακούσεις ενα διαβολικό τραγούδι ενώ σερφάρεις αυτή την σελίδα?",
+				"small-text": "Πάτα το κουμπί στα αριστερά!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Η Satania θα τραγουδήσει σε <span id=\"time-until-satania\"></span> δευτερόλεπτα.",
+			"footer": "Μπορείς επίσης να το ακούσεις εδώ <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> και εδώ <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Γίνετε ακόλουθος της Satania σήμερα!",
@@ -37,21 +49,21 @@
 			"noun": "noun",
 			"definition-1": {
 				"definition": "η κατάσταση ή η ποιότητα που κάνει κάποιον τέλειο.",
-				"example": "\"η σατανική τελειότητα του δέρματος της <b>satania</b>\"",
+				"example": "\"η σατανική τελειότητα του δέρματος της <b>Satania</b>\"",
 				"synonyms": "συνώνημα:",
-				"synonyms-list": "satania, flawlessness, <a href=\"https://www.google.com/search?q=define+excellence&amp;forcedict=excellence\">excellence</a>, superbness, sublimity, exquisiteness, <a href=\"https://www.google.com/search?q=define+magnificence&amp;forcedict=magnificence\">magnificence</a>, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
+				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
 			},
 			"definition-2": {
 				"definition": "ένα άτομα που θεωρείται τέλειο.",
-				"example": "\"Μου έχουν πεί πως η <b>satania</b> είναι η τελειότητα προσωποποιημένη\"",
+				"example": "\"Μου έχουν πεί πως η <b>Satania</b> είναι η τελειότητα προσωποποιημένη\"",
 				"synonyms": "συνώνημα:",
-				"synonyms-list": "satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br>\"for her, he was still perfection\""
+				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br>\"for her, he was still perfection\""
 			},
 			"definition-3": {
 				"definition": "η δράση ή η διαδικασία του να καλυτερεύεις κάτι μέχρι να είναι τέλειο.",
-				"example": "\"Δούλεψα όλη μέρα στην τελειοποίηση της <b>satania</b> ζωγραφιάς μου.\"",
+				"example": "\"Δούλεψα όλη μέρα στην τελειοποίηση της <b>Satania</b> ζωγραφιάς μου.\"",
 				"synonyms": "συνώνημα:",
-				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=define+improvement&amp;forcedict=improvement\">improvement</a>, <a href=\"https://www.google.com/search?q=define+betterment&amp;forcedict=betterment\">betterment</a>, refinement, refining, perfecting, polishing, <a href=\"https://www.google.com/search?q=define+amelioration&amp;forcedict=amelioration\">amelioration</a>; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
+				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
 			}
 		}
 	},
@@ -122,7 +134,7 @@
 					"argument-1": "<b>Είναι μια σαδίστρια που θέλει μόνο να υποφέρουν άλλοι</b>",
 					"argument-2": "Δεν αρέσει σε κανέναν γενικά",
 					"argument-3": "Εκτός και άν είσαι μαζοχιστής, που τότε είσαι κακός άνθρωπος",
-					"argument-4": "<b>Πιθανών να έχει φετίχ με τα πόδια</b> (ζήτησε απο την satania να της γλύψει τα πόδια για λίγο πεπονόψωμο)",
+					"argument-4": "<b>Πιθανών να έχει φετίχ με τα πόδια</b> (ζήτησε απο την Satania να της γλύψει τα πόδια για λίγο πεπονόψωμο)",
 					"argument-5": "Οι fans της είναι άσχημοι ΚΑΙ απαίσιοι άνθρωποι",
 					"argument-6": "Φοβάται τους βάτραχους lmao"
 				}

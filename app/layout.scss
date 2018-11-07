@@ -44,14 +44,6 @@
 		margin: 2px;
 	}
 
-	&.intro {
-		background-image: url("./img/back.jpg");
-	}
-
-	&.end {
-		background-image: url("./img/back_end.jpg");
-	}
-
 	.disclaimer {
 		margin: 10px;
 		font-size: 18px;
@@ -67,10 +59,10 @@
 		top: 80%;
 		font-size: 18pt;
 
-		.mdi {
-			font-size: 32pt;
+		.fas {
+			font-size: 28pt;
 			vertical-align: middle;
-			margin-right: 5px;
+			margin-right: 10px;
 		}
 	}
 
@@ -105,6 +97,17 @@
 	}
 }
 
+.intro {
+	background-image: url("./img/back.jpg");
+	background-size: cover;
+	background-position: top right;
+	background-attachment: fixed;
+}
+
+.end {
+	background-image: url("./img/back_end.jpg");
+}
+
 .back-overlay {
 	position: absolute;
 	bottom: 0;
@@ -115,7 +118,7 @@
 	z-index: 5;
 }
 
-.title {
+.main .title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -155,6 +158,10 @@
 	#reddit-count {
 		display: none;
 	}
+}
+
+.scroll {
+	box-shadow: 0 -12.5px 25px rgba(0,0,0,0.25);
 }
 
 .section {

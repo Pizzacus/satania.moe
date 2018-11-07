@@ -1,16 +1,28 @@
 {
 	"main-intro": {
 		"best-waifu-ever": "La mejor waifu. <b>De todas.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Únete al Discord",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Únete al Discord",
 		"discord-count": "<span id=\"discord-number\"></span> miembros",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Únete al Subreddit",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Únete al Subreddit",
 		"reddit-count": "<span id=\"reddit-number\"></span> suscriptores",
 		"language-warning": "(Estas comunidades usan el inglés como su lenguaje primario)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>¡Desplácese para obtener más información!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>¡Desplácese para obtener más información!",
 		"mobile-disclaimer": "Realmente lo siento, pero la versión móvil del sitio fue algo apresurada y <b>es una mierda realmente,</b> no pensé que nadie la visitaría en teléfono tbh.",
 		"language-protip": "¿Te gustaría ver esta página en <b>Español</b>?<br>Despliega este menú para seleccionar un lenguaje.",
-		"language-select": "Lenguaje <i class=\"mdi mdi-chevron-down\"></i>",
-		"credits": "Un Shitpost hecho por cierta pizza llamada <b title=\"Kenyérlángos\">Pizzacus,</b> traducido por <b>Baiken</b>"
+		"language-select": "Lenguaje <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Un Shitpost hecho por cierta pizza llamada <b title=\"Kenyérlángos\">Pizzacus,</b> traducido por <b>Baiken</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "¿Quieres escuchar una canción diabólica mientras navegas por esta página?",
+				"small-text": "¡Presiona el botón de reproducción a la izquierda!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania cantara en <span id=\"time-until-satania\"></span> segundos.",
+			"footer": "También puedes escucharla en <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> y <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "¡Vuélvete en un seguidor de Satania hoy!",
@@ -35,21 +47,21 @@
 			"noun": "nombre femenino",
 			"definition-1": {
 				"definition": "Cualidad de lo que es perfecto.",
-				"example": "\"La perfeccion satinada de la piel de <b>satania</b>\"",
+				"example": "\"La perfeccion satinada de la piel de <b>Satania</b>\"",
 				"synonyms": "sinonimos:",
-				"synonyms-list": "satania, impecable, excelencia, soberbia, sublime, exquisitez, magnificencia, impeccability, inmaculabilidad, ejemplaridad<br>\"la perfeccion satinada de su piel\""
+				"synonyms-list": "Satania, impecable, excelencia, soberbia, sublime, exquisitez, magnificencia, impeccability, inmaculabilidad, ejemplaridad<br>\"la perfeccion satinada de su piel\""
 			},
 			"definition-2": {
 				"definition": "Persona o cosa considerada perfecta",
-				"example": "\"Me han dicho que <b>satania</b> es la perfeccion misma\"",
+				"example": "\"Me han dicho que <b>Satania</b> es la perfeccion misma\"",
 				"synonyms": "sinonimos:",
-				"synonyms-list": "satania, la ideal, dechado, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, la ultima palabra, la ultima, un sueño; <i>informal</i> una en un millon, el pinaculo, la mejor/mayor cosa desde la rebana de Pan de melon, the bee's knees; <i>archaic</i> a nonesuch<br>\"para ella, el seguia siendo perfección\""
+				"synonyms-list": "Satania, la ideal, dechado, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, la ultima palabra, la ultima, un sueño; <i>informal</i> una en un millon, el pinaculo, la mejor/mayor cosa desde la rebana de Pan de melon, the bee's knees; <i>archaic</i> a nonesuch<br>\"para ella, el seguia siendo perfección\""
 			},
 			"definition-3": {
 				"definition": "Acción o proceso de mejorar algo hasta que sea impecable.",
-				"example": "\"Trabaje todo el dia en la perfeccion de mi <b>dibujo de satania</b>\"",
+				"example": "\"Trabaje todo el dia en la perfeccion de mi <b>dibujo de Satania</b>\"",
 				"synonyms": "sinonimos:",
-				"synonyms-list": "satania, <a href=\"https://www.google.com.mx/search?q=definicion+mejora\" title=\"Link opens in a new tab.\">mejora</a>, <a href=\"https://www.google.com/search?q=definicion+mejoramiento\" title=\"Link opens in a new tab.\">mejoramiento</a>, refinamiento, refinación, perfeccionamiento, pulido, <a href=\"https://www.google.com/search?q=definicion+progreso\" title=\"Link opens in a new tab.\">progreso</a>; <i>rara</i> mejora<br>\"la perfección de nuevos mecanismos de gestión económica\""
+				"synonyms-list": "Satania, mejora, mejoramiento, refinamiento, refinación, perfeccionamiento, pulido, progreso; <i>rara</i> mejora<br>\"la perfección de nuevos mecanismos de gestión económica\""
 			}
 		}
 	},
@@ -120,7 +132,7 @@
 					"argument-1": "<b>Es una sádica que solo quiere que los demás sufran</b>",
 					"argument-2": "No es agradable en ningún sentido tampoco",
 					"argument-3": "A menos que seas un sádico también, pero eso te hace una mala persona",
-					"argument-4": "<b>Tal vez tenga un fetiche de pies </b>(le pidió a satania que lamiera su pie a cambio de pan de melón)",
+					"argument-4": "<b>Tal vez tenga un fetiche de pies </b>(le pidió a Satania que lamiera su pie a cambio de pan de melón)",
 					"argument-5": "Sus fans son pervertidos y personas horribles",
 					"argument-6": "Les teme a las ranas lmao"
 				}

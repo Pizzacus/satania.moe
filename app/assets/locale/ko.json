@@ -2,15 +2,28 @@
 	"main-intro": {
 		"name": "사타냐",
 		"best-waifu-ever": "사타냐는 최고의 신부라능. <b>레알이다.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>디스코드로 가기",
+		"join-discord": "<i class=\"fab fa-discord\"></i>디스코드로 가기",
 		"discord-count": "<span id=\"discord-number\"></span> 명 참여 중 ",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>서브레딧으로 가기",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>서브레딧으로 가기",
 		"reddit-count": "<span id=\"reddit-number\"></span> 명 구독 중",
 		"language-warning": "(저 두 곳은 영어가 메인이므로 들어 가실 때 긴장 하시길...)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>내려서 사타냐를 더 알아보자!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>내려서 사타냐를 더 알아보자!",
 		"mobile-disclaimer": "죄송합니다만 모바일 버전은 좀 막 만들었거든요... 진짜로 <b>좀 많이 그지 같을 거에요...</b>, 뭐... 모바일로 오는 사람도 별로 없겠지만...",
-		"language-select": "언어선택 <i class=\"mdi mdi-chevron-down\"></i>",
-		"credits": "제작자 = 등신 같지만 멋진 \"피자\" <b title=\"Kenyérlángos\">피자커스</b><br>우리말(?) 제작 = <b>스팀팩_마린스</b>"
+		"language-protip": "이 웹사이트를 <b>한국어</b>로 보고 싶으세요?<br>리스트에서 언어를 선택하세요!",
+		"language-select": "언어선택 <i class=\"fas fa-angle-down\"></i>",
+		"credits": "제작자 = 등신 같지만 멋진 \"피자\" <b title=\"Kenyérlángos\">피자커스</b><br>우리말(?) 제작 = <b>스팀팩_마린스</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "이 웹사이트에서 사타냐의<br>악마적인 음악을 듣고 싶다면?",
+				"small-text": "왼쪽 버튼을 클릭해봐!"
+			},
+			"metadata": {
+				"title": "사타냐 드롭",
+				"author": "[리미티드 데이즈]"
+			},
+			"countdown": "<span id=\"time-until-satania\"></span>초 안에 사타냐의 목소리가 나옵니다.",
+			"footer": "<a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">유튜브</a> 와 <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">사운드 클라우드</a> 에서도 들을 수 있습니다!"
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "오늘부터 우린 사타냐에 <br>입덕하는 부분?!",
@@ -36,21 +49,21 @@
 			"noun": "noun",
 			"definition-1": {
 				"definition": "the state or quality of being perfect.",
-				"example": "\"the satiny perfection of <b>satania</b>'s skin\"",
+				"example": "\"the satiny perfection of <b>Satania</b>'s skin\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "satania, flawlessness, <a href=\"https://www.google.com/search?q=define+excellence&amp;forcedict=excellence\">excellence</a>, superbness, sublimity, exquisiteness, <a href=\"https://www.google.com/search?q=define+magnificence&amp;forcedict=magnificence\">magnificence</a>, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
+				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
 			},
 			"definition-2": {
 				"definition": "a person or thing considered to be perfect.",
-				"example": "\"I am told that <b>satania</b> is perfection itself\"",
+				"example": "\"I am told that <b>Satania</b> is perfection itself\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br>\"for her, he was still perfection\""
+				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br>\"for her, he was still perfection\""
 			},
 			"definition-3": {
 				"definition": "the action or process of improving something until it is faultless.",
-				"example": "\"I worked all day on the perfection of my <b>satania</b> drawing\"",
+				"example": "\"I worked all day on the perfection of my <b>Satania</b> drawing\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=define+improvement&amp;forcedict=improvement\">improvement</a>, <a href=\"https://www.google.com/search?q=define+betterment&amp;forcedict=betterment\">betterment</a>, refinement, refining, perfecting, polishing, <a href=\"https://www.google.com/search?q=define+amelioration&amp;forcedict=amelioration\">amelioration</a>; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
+				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
 			}
 		}
 	},

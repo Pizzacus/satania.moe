@@ -2,16 +2,28 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "A legjobb waifu. <b>Aki valaha élt.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Csatlakozz Discord közösségünkhöz!",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Csatlakozz Discord közösségünkhöz!",
 		"discord-count": "<span id=\"discord-number\"></span> tag ",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Csatlakozz a Subredditünkhöz!",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Csatlakozz a Subredditünkhöz!",
 		"reddit-count": "<span id=\"reddit-number\"></span> feliratkozó",
 		"language-warning": "(Ezeknek a közösségeknek a fő nyelve az angol)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Görgess lejjebb!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Görgess lejjebb!",
 		"mobile-disclaimer": "Bocs, de az oldal mobil verziója eléggé el lett sietve,  <b>úgyhogy eléggé szar lett</b>. Őszintén szólva, nem gondoltam volna, hogy valaki mengnézni telefonról.",
 		"language-protip": "Inkább <b>magyarul</b> szeretnéd nézni az oldalt?<br>Ezzel a menüvel kiválaszthatod a nyelvet.",
-		"language-select": "Nyelv <i class=\"mdi mdi-chevron-down\"></i>",
-		"credits": "Csodálatos shitpost egy <b title=\"Kenyérlángos\">Pizzacus</b> nevű pizzától."
+		"language-select": "Nyelv <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Csodálatos shitpost egy <b title=\"Kenyérlángos\">Pizzacus</b> nevű pizzától.",
+		"music-player": {
+			"intro": {
+				"bold-text": "Akarsz hallgatni egy igazi ördögi&nbsp;mesterművet?",
+				"small-text": "Kattints a bal oldalon lévő lejátszás gombra."
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania <span id=\"time-until-satania\"></span> másodperc múlva fog énekelni.",
+			"footer": "Meghallgathatod <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTubeon</a> és <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloudon</a> is."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Legyél te is egy Satania követő!",
@@ -36,21 +48,21 @@
 			"noun": "melléknév",
 			"definition-1": {
 				"definition": "Állapot, vagy tulajdonság, midőn valami a maga nemében tökéletes.",
-				"example": "\"Tökéletes, mint <b>satania</b> atlaszfényű bőre.\"",
+				"example": "\"Tökéletes, mint <b>Satania</b> atlaszfényű bőre.\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "satania, pompásság, <a href=\"https://www.google.com/search?q=t%C3%B6k%C3%A9letess%C3%A9g+jelent%C3%A9se&amp;forcedict=t%C3%B6k%C3%A9ly\">tökéletesség</a>, makulátlanság, hibátlanság, nagyszerűség<br>\"a bőre nyers tökéletessége\""
+				"synonyms-list": "Satania, pompásság, tökéletesség, makulátlanság, hibátlanság, nagyszerűség<br>\"a bőre nyers tökéletessége\""
 			},
 			"definition-2": {
 				"definition": "Egy személy vagy tárgy ami tökéletes.",
-				"example": "\"Úgy hallottam, hogy <b>satania</b> maga a tökély\"",
+				"example": "\"Úgy hallottam, hogy <b>Satania</b> maga a tökély\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "satania, az ideál, a példakép, egy álom; <i>baráti</i> egy a millióból, a top, a legjobb dolog a dinnyekenyér feltalálása óta; <i>régies</i> páratlan<br>\"számára ő volt maga a tökély\""
+				"synonyms-list": "Satania, az ideál, a példakép, egy álom; <i>baráti</i> egy a millióból, a top, a legjobb dolog a dinnyekenyér feltalálása óta; <i>régies</i> páratlan<br>\"számára ő volt maga a tökély\""
 			},
 			"definition-3": {
 				"definition": "egy cselekvés vagy folyamat mely során valamit addig finomítunk míg hibátlan nem lesz",
-				"example": "\"Egész nap dolgoztam, hogy tökélyre fejlesszem a <b>satania</b> rajzomat\"",
+				"example": "\"Egész nap dolgoztam, hogy tökélyre fejlesszem a <b>Satania</b> rajzomat\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=javítás+jelentése&amp;forcedict=improvement\">javítás</a>, <a href=\"https://www.google.com/search?q=finomítás+jelentése&amp;forcedict=betterment\">finomítás</a>, tökéletesítés, <a href=\"https://www.google.com/search?q=fejlesztés+jelentése&amp;forcedict=amelioration\">fejlesztés</a>; <i>ritkán</i> megjavítás<br>\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
+				"synonyms-list": "Satania, javítás, finomítás, tökéletesítés, fejlesztés; <i>ritkán</i> megjavítás<br>\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
 			}
 		}
 	},

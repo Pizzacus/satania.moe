@@ -1,4 +1,4 @@
-// GENERAL -- Every boring rules that applies to the whole page or small elements used repeatly goes here
+// GENERAL -- Every boring rules that applies to the whole page or small elements used repeatedly goes here
 
 * {
 	box-sizing: border-box;
@@ -14,6 +14,10 @@ body {
 
 img {
 	vertical-align: middle; // Fixes a slight 3px margin bug with img
+}
+
+a {
+	color: #e66;
 }
 
 .mobile {
@@ -34,10 +38,9 @@ img {
 	margin: 5px;
 	transition: all linear 0.1s;
 
-	.mdi {
-		font-size: 36px;
-		vertical-align: middle;
-		margin-right: 5px;
+	.fas, .fab {
+		font-size: 32px;
+		margin-right: 10px;
 		vertical-align: sub;
 	}
 
@@ -69,8 +72,8 @@ img {
 
 	#close-language-protip {
 		position: absolute;
-		top: 5px;
-		right: 5px;
+		top: 7.5px;
+		right: 7.5px;
 		font-size: 25px;
 		cursor: pointer;
 	}
@@ -97,7 +100,7 @@ img {
 		align-items: center;
 
 
-		.mdi {
+		.fas {
 			position:absolute;
 			top:0;
 			right:0;

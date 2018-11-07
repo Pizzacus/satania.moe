@@ -1,16 +1,29 @@
 {
 	"main-intro": {
+		"name": "Satania",
 		"best-waifu-ever": "Die beste Waifu. <b>Auf der Welt.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Discord beitreten",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Discord beitreten",
 		"discord-count": "<span id=\"discord-number\"></span> mitglieder",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Subreddit beitreten",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Subreddit beitreten",
 		"reddit-count": "<span id=\"reddit-number\"></span> abonnenten",
 		"language-warning": "(Diese Communities sind englischsprachig)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Nach unten scrollen um mehr zu erfahren!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Nach unten scrollen um mehr zu erfahren!",
 		"mobile-disclaimer": "Tut mir leid, die mobile Version dieser Webseite wurde schnell zusammengeschustert <b>und ist richtig beschissen</b>, ich hätte nicht damit gerechnet, dass sie jemand auf einem Handy besuchen würde um ehrlich zu sein.",
 		"language-protip": "Würdest du diese Webseite gerne in <b>Deutsch</b> sehen?<br>Benutze dieses Menü, um eine Sprache auszuwählen!",
-		"language-select": "Sprache <i class=\"mdi mdi-chevron-down\"></i>",
-		"credits": "Ein gloriöser Shitpost von einer Pizza namens <b title=\"Kenyérlángos\">Pizzacus</b><br>(Schlecht) Übersetzt von moëns ☆"
+		"language-select": "Sprache <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Ein gloriöser Shitpost von einer Pizza namens <b title=\"Kenyérlángos\">Pizzacus</b><br>(Schlecht) Übersetzt von moëns ☆",
+		"music-player": {
+			"intro": {
+				"bold-text": "Möchtest du einen teuflisch guten Song hören, während du hier bist?", 
+				"small-text": "Drücke den Play-Button auf der linken Seite!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania singt in <span id=\"time-until-satania\"></span> Sekunden.",
+			"footer": "Du kannst auch auf <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> und <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a> zuhören."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Werde heute ein Anhänger Satanias!",
@@ -37,7 +50,7 @@
 				"definition": "Der Zustand oder die Eigenschaft perfekt zu sein.",
 				"example": "\"Die seidige Perfektion <b>Satanias</b> Haut\"",
 				"synonyms": "Synonyme:",
-				"synonyms-list": "Satania, die Fehlerlosigkeit, <a href=\"https://www.google.de/search?q=definition+vortrefflichkeit&amp;forcedict=vortrefflichkeit/\" title=\"Link opens in a new tab.\">die Vortrefflichkeit</a>, die Herrlichkeit, die Erhabenheit, die Vorzüglichkeit, <a href=\"https://www.google.de/search?q=definition+Großartigkeit&amp;forcedict=Großartigkeit/\" title=\"Link opens in a new tab.\">die Großartigkeit</a>, die Perfektion, die Fehlerlosigkeit, die Unfehlbarkeit, die Reinheit, die Mustergültigkeit<br>\"Die seidige Perfektion ihrer Haut\""
+				"synonyms-list": "Satania, die Fehlerlosigkeit, die Vortrefflichkeit, die Herrlichkeit, die Erhabenheit, die Vorzüglichkeit, die Großartigkeit, die Perfektion, die Fehlerlosigkeit, die Unfehlbarkeit, die Reinheit, die Mustergültigkeit<br>\"Die seidige Perfektion ihrer Haut\""
 			},
 			"definition-2": {
 				"definition": "Eine Person, oder eine Sache, die als perfekt angesehen wird.",
@@ -49,7 +62,7 @@
 				"definition": "Die Tätigkeit oder der Prozess etwas zu verbessern, bis es makellos ist.",
 				"example": "\"Ich habe den ganzen Tag daran gearbeitet mein Bild von <b>Satania</b> zu perfektionieren\"",
 				"synonyms": "Synonyme:",
-				"synonyms-list": "Satania, <a href=\"https://www.google.de/search?q=definiere+verbesserung&amp;forcedict=verbesserung\" title=\"Link opens in a new tab.\">die Verbesserung</a>, <a href=\"https://www.google.de/search?q=definiere+besserung&amp;forcedict=besserung\" title=\"Link opens in a new tab.\">die Besserung</a>, die Verfeinerung, die Veredelung, die Vervollkommnung, das Polieren, <a href=\"www.google.de/search?q=definiere+melioration&amp;forcedict=melioration\" title=\"Link opens in a new tab.\">die Melioration</a>; <i>selten</i> die Melioration<br>\"Die Perfektionierung neuer Mechanismen in der Landschaftspflege\""
+				"synonyms-list": "Satania, die Verbesserung, die Besserung, die Verfeinerung, die Veredelung, die Vervollkommnung, das Polieren, die Melioration; <i>selten</i> die Melioration<br>\"Die Perfektionierung neuer Mechanismen in der Landschaftspflege\""
 			}
 		}
 	},

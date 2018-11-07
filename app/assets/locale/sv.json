@@ -2,16 +2,28 @@
 	"main-intro": {
 		"name": "Satania",
 		"best-waifu-ever": "Bästa waifun. <b>Någonsin.</b>",
-		"join-discord": "<i class=\"mdi mdi-discord\"></i>Besök Discorden",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Besök Discorden",
 		"discord-count": "<span id=\"discord-number\"></span> medlemmar ",
-		"join-reddit": "<i class=\"mdi mdi-reddit\"></i>Besök subredditen",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Besök subredditen",
 		"reddit-count": "<span id=\"reddit-number\"></span> prenumeranter",
 		"language-warning": "(Dessa gemenskaper kommunicerar huvudsakligen på engelska.)",
-		"scroll-notice": "<i class=\"mdi mdi-arrow-down\"></i>Skrolla för att lära dig mer!",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Skrolla för att lära dig mer!",
 		"mobile-disclaimer": "Jag är verkligen ledsen, men den mobila versionen av den här sidan var ganska snabbt gjord och <b>är skitdålig</b>. Ärligt talat trodde jag inte att någon skulle besöka den på en mobil.",
 		"language-protip": "Skulle du vilja se den här hemsidan på <b>svenska</b>?<br>Klicka på den här drop-down menyn för att välja ett språk!",
-		"language-select": "Språk <i class=\"mdi mdi-chevron-down\"></i>",
-		"credits": "En strålande shitpost av nån pizza vid namn <b title=\"Kenyérlángos\">Pizzacus</b>"
+		"language-select": "Språk <i class=\"fas fa-angle-down\"></i>",
+		"credits": "En strålande shitpost av nån pizza vid namn <b title=\"Kenyérlángos\">Pizzacus</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Skulle du vilja lyssna på en ondskefull sång medans du är här?",
+				"small-text": "Klicka på knappen \"play\" till vänster!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania sjunger om <span id=\"time-until-satania\"></span> sekunder.",
+			"footer": "Du kan även lyssna på <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> och <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
 	},
 	"become-a-satania-follower": {
 		"large-text": "Bli en Satania-anhängare idag!",
@@ -39,19 +51,19 @@
 				"definition": "tillståndet eller egenskapen av att vara perfekt.",
 				"example": "\"den sideslena perfektionen av <b>Satania</b>'s hud\"",
 				"synonyms": "synonymer:",
-				"synonyms-list": "satania, felfrihet, <a href=\"https://www.google.com/search?q=define+excellence&amp;forcedict=excellence\">exellens</a>, superbhet, utomordentlighet, enaståendehet, <a href=\"https://www.google.com/search?q=define+magnificence&amp;forcedict=magnificence\">storslaglighet</a>, perfekthet, utan brist, oklanderlighet, fläckfrihet, föredömlighet<br>\"den sideslena perfektionen av hennes hud\""
+				"synonyms-list": "Satania, felfrihet, exellens, superbhet, utomordentlighet, enaståendehet, storslaglighet, perfekthet, utan brist, oklanderlighet, fläckfrihet, föredömlighet<br>\"den sideslena perfektionen av hennes hud\""
 			},
 			"definition-2": {
 				"definition": "en person eller sak som anses vara perfekt.",
 				"example": "\"Jag har hört att <b>Satania</b> är ren perfektion\"",
 				"synonyms": "synonymer:",
-				"synonyms-list": "satania, det ideella, ett föredömme, ne plus ultra, beau idéal, en nonpareil, crème de la crème, det sista ordet, den ultimata, en dröm; <i>informellt</i> en på miljonen, toppen, det bästa sen skivat melonbröd, the bee's knees; utan like<br>\"för henne var han fortfarande perfektion\""
+				"synonyms-list": "Satania, det ideella, ett föredömme, ne plus ultra, beau idéal, en nonpareil, crème de la crème, det sista ordet, den ultimata, en dröm; <i>informellt</i> en på miljonen, toppen, det bästa sen skivat melonbröd, the bee's knees; utan like<br>\"för henne var han fortfarande perfektion\""
 			},
 			"definition-3": {
 				"definition": "processen av förbättra något tills dess att det är perfekt",
 				"example": "\"Jag har arbetat hela dagen på perfektionen av min <b>Satania</b>-målning\"",
 				"synonyms": "synonymer:",
-				"synonyms-list": "satania, <a href=\"https://www.google.com/search?q=define+improvement&amp;forcedict=improvement\">förbättring</a>, <a href=\"https://www.google.com/search?q=define+betterment&amp;forcedict=betterment\">bättring</a>, förfinande, förfina, perfektionering, polering, <a href=\"https://www.google.com/search?q=define+amelioration&amp;forcedict=amelioration\">amélioration</a>; <i>ovanligt</i> melioration<br>\"perfektionen av nya mekanismer för ekonomihantering\""
+				"synonyms-list": "Satania, förbättring, bättring, förfinande, förfina, perfektionering, polering, amélioration; <i>ovanligt</i> melioration<br>\"perfektionen av nya mekanismer för ekonomihantering\""
 			}
 		}
 	},

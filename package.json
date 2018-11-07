@@ -11,12 +11,17 @@
     "build": "brunch build --production"
   },
   "dependencies": {
-    "auto-reload-brunch": "^2",
-    "babel-brunch": "~6.0",
-    "babel-preset-latest": "^6",
-    "brunch": "^2",
-    "clean-css-brunch": "^2",
-    "sass-brunch": "^2.10.4",
-    "uglify-js-brunch": "^2"
+    "howler": "^2.0.15",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^7.0.0",
+    "brunch": "^2.10.17",
+    "clean-css-brunch": "^2.10.0",
+    "sass-brunch": "^2.10.7",
+    "uglify-js-brunch": "^2.10.0"
   }
 }

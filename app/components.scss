@@ -1,3 +1,240 @@
+// MUSIC PLAYER -- People mo demons mo angels mo hikkurumete hai! (Happy!) Nandemo iinjanai? (Woohoo!)
+.music-player-container {
+	display: none; // JS will override this
+	justify-content: center;
+	text-align: center;
+	padding: 25px;
+	padding: 30px;
+	background: #100A;
+	color: #fff;
+	position: relative;
+	z-index: 999;
+
+	.music-player {
+		color: #404040;
+		height: 80px;
+		max-width: 100%;
+		text-align: left;
+		border: #ccc 1px solid;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+		border-radius: 5px;
+		display: inline-flex;
+		flex-direction: row;
+		background: #EEE;
+
+		&.display-intro .music-details,
+		&.display-loading .music-details {
+			display: none;
+		}
+
+		&:not(.display-intro) .intro-text {
+			display: none;
+		}
+
+		&:not(.display-loading) .loading {
+			display: none;
+		}
+
+		.play-controller {
+			display:inline-flex;
+			float: left;
+			justify-content: center;
+			align-items: center;
+			width: 75px;
+			font-size: 37.5px;
+			color: #444;
+			border-right: #ccc 1px solid;
+			flex: none;
+			cursor: pointer;
+		}
+
+		.intro-text, .loading {
+			width: 450px;
+			height: 100%;
+			padding: 10px 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			font-size: 14pt;
+			line-height: 14pt;
+			flex-direction: column;
+
+			b {
+				margin-bottom: 5px;
+			}
+		}
+
+		.loading {
+			background: rgba(0, 0, 0, 0.1);
+			color: #888;
+			font-size: 48px;
+		}
+
+		.music-details {
+			width: 450px;
+			height: 100%;
+			padding: 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: end;
+
+			.name {
+				margin-bottom: 15px;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+
+				.title {
+					font-weight: 500;
+					font-size: 18pt;
+				}
+
+				.author {
+					color: rgba(0,0,0,0.6);
+
+					&::before {
+						content: ' - ';
+					}
+				}
+			}
+
+			.time-controller {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				
+				.time-bar {
+					height: 10px;
+					background: rgba(0,0,0,0.2);
+					border-radius: 10px;
+					width: 100%;
+					cursor: pointer;
+					
+					.elapsed {
+						height: 100%;
+						background: #e66;
+						border-radius: 10px 0 0 10px;
+						
+						.slider-tip {
+							float: right;
+							width: 10px;
+							height: 20px;
+							border-radius: 10px;
+							background: #ffff;
+							margin-right: -5px;
+							margin-top: -5px;
+							border: 1px solid #ccc;
+							box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+						}
+					}
+				}
+
+				.volume {
+					display: flex;
+					font-size: 16pt;
+					margin-left: 5px;
+					margin-right: -5px;
+					margin-bottom: -6.5px;
+					margin-top: -6.5px;
+					padding: 5px;
+					cursor: pointer;
+					z-index: 10;
+
+					&:hover {
+						transition: 0.25s ease-out background;
+						background: rgba(0, 0, 0, 0.75);
+						color: #fff;
+						margin-right: -85px;
+
+						.volume-box {
+							display: block;
+						}
+					}
+
+					.volume-box {
+						width: 80px;
+						display: none;
+						padding: 8px;
+
+						.volume-bar {
+							height: 100%;
+							width: 100%;
+							background: rgba(255, 255, 255, 0.5);
+							position: relative;
+
+							.volume-fill {
+								background: #fff;
+								height: 100%;
+								position: relative;
+							}
+
+							.volume-tip {
+								position: absolute;
+								right: 0;
+								top: 50%;
+								height: 15px;
+								margin: -7.5px -2px;
+								width: 4px;
+								background: #fff;
+							}
+						}
+					}
+				}
+
+				.time-progression {
+					margin-left: 10px;
+					white-space: nowrap;
+				}
+			}
+
+			.countdown {
+				height: 0;
+				text-align: right;
+				transform: translateY(-16px);
+
+				&.hidden {
+					visibility: hidden;
+				}
+			}
+		}
+	}
+
+	p {
+		margin: 0;
+		margin-top: 5px;
+	}
+
+	a {
+		color: inherit;
+	}
+
+	#satania-dance {
+		position: absolute;
+		left: calc(50% + 175px);
+		bottom: 0;
+		opacity: 0;
+		transition: 0.5s ease-out opacity;
+		width: 290px;
+		height: 362px;
+		background: url('img/satania_dance_spritesheet.png');
+		background-size: cover;
+		z-index: -1;
+		pointer-events: none;
+
+		@media (max-width: 1024px) {
+			display: none;
+		}
+	}
+
+	#sound-visualizer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -2;
+	}
+}
+
 // TABLE -- Tables are better than chairs lmao
 
 table {
@@ -91,8 +328,9 @@ table {
 			background: #eaecee;
 		}
 
-		.mdi {
+		.fas {
 			//color: #e66;
+			line-height: 32px;
 			font-size: 24px;
 		}
 	}
@@ -229,12 +467,13 @@ table {
 		float: right;
 		font-size: 24px;
 		color: #4285f4;
+		height: 100%;
 
 		* {
 			cursor: pointer;
 		}
 
-		img {
+		img:first-child {
 			margin: 0 16px;
 		}
 	}
@@ -255,7 +494,7 @@ table {
 
 	h1 {
 		font-size: 32px;
-		font-weight: lighter;
+		font-weight: 400;
 		margin: 0;
 	}
 
@@ -283,7 +522,7 @@ table {
 		padding-left: 0;
 		padding-top: 10px;
 		font-size: 13px;
-		font-weight: lighter;
+		font-weight: 400;
 
 		b {
 			font-weight: bold;
