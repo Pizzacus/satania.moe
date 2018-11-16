@@ -14,7 +14,7 @@ body {
 	max-width: 100%;
 }
 
-[lang|="el"] {
+html[lang|="el"] body {
 	// Set 3 must be disabled in Greek as it affects the lowercase θ letter in a bad way
 	font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1, "ss03" 0 !important;
 }
