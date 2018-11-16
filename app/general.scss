@@ -6,10 +6,17 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	// Set 3 of Source Sans Pro makes the g letter looks nicer
+	font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1, "ss03" 1;
 	color: rgba(0, 0, 0, 0.87);
 	margin: 0;
 	overflow-x: hidden;
 	max-width: 100%;
+}
+
+[lang|="el"] {
+	// Set 3 must be disabled in Greek as it affects the lowercase θ letter in a bad way
+	font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1, "ss03" 0 !important;
 }
 
 img {
