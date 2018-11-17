@@ -72,7 +72,8 @@ function copy(text = "") {
 
 let copied = false;
 document.body.onclick = () => {
-	if (!copied) {
+	// IE shows a confirmation box when trying to copy, so we must disable the easter egg on this browser
+	if (!copied && !/\b(Trident|MSIE)\b/.test(navigator.userAgent)) {
 		copy(javascriptLocales.copyMessage);
 		copied = true;
 	}
