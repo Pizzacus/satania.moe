@@ -1,4 +1,4 @@
-// GENERAL -- Every boring rules that applies to the whole page or small elements used repeatedly goes here
+// GENERAL -- Every boring rule that applies to the whole page or small elements used repeatedly goes here
 
 * {
 	box-sizing: border-box;
@@ -157,4 +157,9 @@ a {
 	left: calc(50% + 235px);
 	height: 40px;
 	width: 55px;
+}
+
+::selection {
+	background: #e66;
+	color: #fff;
 }
