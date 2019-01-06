@@ -143,7 +143,7 @@
 				"description": {
 					"argument-1": "<b>ABUUUUUURIIIIDA</b>",
 					"argument-2": "En serio, jamás  hace algo interesante",
-					"argument-3": "Igual, ella es completamente normal y esas cosas",
+					"argument-3": "Tambien, ella es completamente normal y otras cosas mas",
 					"argument-4": "<b>A la gente solo le gusta porque es linda</b>",
 					"argument-5": "<b>Probablemente solo fue hecha para agregar más material moe</b>",
 					"argument-6": "Ni siquiera INTENTA ser malvada, aun siendo un DEMONIO "
@@ -157,8 +157,8 @@
 		"sub-text": "Solo mira esto, es adorable.<noscript>Slideshow requiere JavaScript.</noscript>"
 	},
 	"autism": {
-		"large-text": "Por cierto, ella no es autista, deja de&nbsp;decir&nbsp;eso",
-		"sub-text": "Las personas autistas a menudo tienen problemas para comunicarse, manteniendose callado en su propio rincón todo el tiempo, Satania&nbsp;no es así del todo.<br><b>¡Probablemente ella es menos autista que tu!</b>",
+		"large-text": "¡Y ella no es autista! ¡Deja de&nbsp;decir&nbsp;eso!",
+		"sub-text": "Las personas autistas a menudo tienen problemas para comunicarse, manteniendose callados en su propio rincón todo el tiempo, Satania&nbsp;no es así en absoluto.<br><b>¡Probablemente ella es menos autista que tu!</b>",
 		"small-text": "Y aunque ella actuó como un niño pequeño en ese episodio de navidad, <br>¡Fue por que Raphiel le hizo hacerlo!"
 	},
 	"pope-francis": {
@@ -174,8 +174,8 @@
 				"answer": "Entonces tu necesitas al demonio que <b>no le importan los humanos ni los angeles y siempre esta tratando de ser malvada</b>, en vez de estudiar o otra cosa... <br> Ademas, <b>ella no hace su tarea ¡¡¡A PROPOSITO!!!</b>"
 			},
 			"vigne": {
-				"question": "¿Te gustaria una <b>linda demonio moe</b> que <b>quiere ser malvada, pero es mala en ello</b>, terminando haciendo haciendo cosas buenas como enseñarle a Gabriel? ",
-				"answer": "Entonces probablemente te gustara <b>esta demonio que hace su mayor esfuerzo para ser la mas grande</b>, pero es frecuentemente manipulada a <b>hacer cosas buenas</b>, incluso aunque ella hace lo mejor para enseñar a Gabriel buenas lecciones..."
+				"question": "¿Te gustaria una <b>linda demonio moe</b> que <b>quiere ser malvada, pero es mala en ello</b>, terminando haciendo cosas buenas como enseñarle a Gabriel? ",
+				"answer": "Entonces probablemente te gustara <b>esta demonio que hace su mayor esfuerzo para convertirse en la más grande</b>, pero es frecuentemente manipulada a <b>hacer cosas buenas</b>, incluso aunque ella hace lo mejor para enseñar a Gabriel buenas lecciones..."
 			},
 			"raphiel": {
 				"question": "¿Quieres una chica que <b>se vea linda</b>, pero es  <b>realmente mezquina</b> y solo quiere ver a los todos sufrir?",
@@ -192,14 +192,14 @@
 	},
 	"large-text": {
 		"large-text": "Ella gobernara sobre la humanidad de todas formas...",
-		"sub-text": "Entonces, te guste o no,<br>tendras que adorarla eventualmente..."
+		"sub-text": "Por lo que, te guste o no,<br>tendras que adorarla eventualmente..."
 	},
 	"end": {
 		"large-text": "Ella es la mejor.",
 		"sub-text": "Punto. Fin."
 	},
 	"_javascriptLocales": {
-		"copyMessage": "¡Solo queria hacerte saber que Satania esta siempre contigo! ¡Incluso dentro de tu portapapeles! ¡Estamos en por todas partes y deberias realemte unirte a nosotros!\nY si, cualquier sitio web puede acceder a tu portapapeles como les de su gana, ¿No es eso aterrador?\nIndependientemente, Satania es la MEJOR WAIFU, ¡Y deberias estas de acuerdo! http://satania.moe/",
+		"copyMessage": "¡Solo queria hacerte saber que Satania esta siempre contigo! ¡Incluso dentro de tu portapapeles! ¡Estamos en por todas partes y deberias realemte unirte a nosotros!\nY si, cualquier sitio web puede acceder a tu portapapeles como les de su gana, ¿No es eso aterrador?\nIndependientemente, Satania es la MEJOR WAIFU ¡Y deberias estas de acuerdo! http://satania.moe/",
 		"searchByVoice": "lmao, nadie usa este boton",
 		"searchButton": "pero los resultados ya estan aqui =]",
 		"searchBar": "esto no es una barra de busqueda real",
