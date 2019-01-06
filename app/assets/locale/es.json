@@ -158,7 +158,7 @@
 	},
 	"autism": {
 		"large-text": "¡Y ella no es autista! ¡Deja de&nbsp;decir&nbsp;eso!",
-		"sub-text": "Las personas autistas a menudo tienen problemas para comunicarse, manteniendose callados en su propio rincón todo el tiempo, Satania&nbsp;no es así en absoluto.<br><b>¡Probablemente ella es menos autista que tu!</b>",
+		"sub-text": "Las personas autistas a menudo tienen problemas para comunicarse, manteniendose callados en su propio rincón todo el tiempo, <br>Satania no es así en absoluto.<br><b>¡Probablemente ella es menos autista que tu!</b>",
 		"small-text": "Y aunque ella actuó como un niño pequeño en ese episodio de navidad, <br>¡Fue por que Raphiel le hizo hacerlo!"
 	},
 	"pope-francis": {
@@ -171,7 +171,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "¿Necesitas una chica <b>poco amable, que no le importa nadie más</b> y piensa que sus pasatiempos son más importantes que todo?",
-				"answer": "Entonces tu necesitas al demonio que <b>no le importan los humanos ni los angeles y siempre esta tratando de ser malvada</b>, en vez de estudiar o otra cosa... <br> Ademas, <b>ella no hace su tarea ¡¡¡A PROPOSITO!!!</b>"
+				"answer": "Entonces tu necesitas al demonio que <b>no le importan los humanos ni los angeles y siempre esta tratando de ser malvada</b>, en vez de estudiar o otra cosa... <br> Ademas, <b>ella no hace su tarea <br>¡¡¡A PROPOSITO!!!</b>"
 			},
 			"vigne": {
 				"question": "¿Te gustaria una <b>linda demonio moe</b> que <b>quiere ser malvada, pero es mala en ello</b>, terminando haciendo cosas buenas como enseñarle a Gabriel? ",
