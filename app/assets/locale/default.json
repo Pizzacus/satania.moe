@@ -28,7 +28,7 @@
 	"become-a-satania-follower": {
 		"large-text": "Become a Satania follower today!",
 		"sub-text": "<b>There are no steps to becoming a Satania follower</b>, all&nbsp;you have to do is to accept that Satania is the&nbsp;best&nbsp;character",
-		"small-text": "Well If you could make Satania memes and shitposts, that would help us a lot..."
+		"small-text": "Well, If you could make Satania memes and shitposts, that would help us a lot..."
 	},
 	"she-is-beautiful": {
 		"large-text": "A lovely smile.<br> Two magnificent eyes.<br> A stunning appearance.",
@@ -72,7 +72,6 @@
 		"sub-text": "Just think about it, why would Gabriel, Raphi or Vignette be the best?",
 		"table": {
 			"names": {
-				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
@@ -100,7 +99,7 @@
 				"category": "Has a deep, tragic backstory",
 				"satania": "(Bullied at school)"
 			},
-			"member-favorites": "Number of member favorites on MAL*",
+			"member-favorites": "Number of member favourites on MAL*",
 			"subreddit-subs": "Number of subs on their subreddit*",
 			"e-hentai": {
 				"category": "Number of Doujinshi on e-hentai*",
@@ -119,7 +118,7 @@
 				"name": "Gabriel",
 				"name-detail": "Tenma White<br> 天真=ガヴリール=ホワイト",
 				"description": {
-					"argument-1": "<b>Lazy NEET who is 100% unlikable</b>",
+					"argument-1": "<b>Lazy NEET who is 100% unlikeable</b>",
 					"argument-2": "No seriously, she has no redeeming qualities",
 					"argument-3": "People only like her because she may be relatable for them",
 					"argument-4": "<b>And being able to relate to Gab is a horrible thing</b>",
