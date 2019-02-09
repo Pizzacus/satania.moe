@@ -6,6 +6,8 @@ var localeSelect = document.getElementById("locale-select"),
 	options = localeSelect.getElementsByTagName("option"),
 	locales = {};
 
+window.locales = locales;
+
 function dispatchEvent() {
 	const event = document.createEvent('Event');
 	event.initEvent('locale-change', true, true);
@@ -56,7 +58,9 @@ function generateTranslationTable() {
 	for (let i = 0; i < translatedElements.length; i++) {
 		var element = translatedElements[i],
 			path = [element.getAttribute("i18n")],
-			text = element.innerHTML.replace(/[\n\r\t]/g, '');
+			text = element.innerHTML
+				.replace(/[\n\r\t]/g, '')
+				.replace(/<br\/?>/g, "<br />");
 
 		while (element.closest("[i18n-group]")) {
 			let groupElement = element.closest("[i18n-group]");
