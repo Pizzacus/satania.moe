@@ -1,15 +1,4 @@
-@font-face{
-	font-family: 'dragonscript';
-	src: url('fonts/dragon_alphabet.ttf');
-}
-
-@font-face{
-	font-family: 'daedra';
-	unicode-range: U+0030-0039;
-	src: url('fonts/daedra.otf');
-}
-
-html[lang=en] .translate-only {
+[lang|=en] .translate-only {
 	display: none;
 }
 
@@ -17,26 +6,14 @@ html[lang=en] .translate-only {
 	display: none !important;
 }
 
-html[lang=en] .english-only {
+[lang|=en] .english-only {
 	display: block !important;
 }
 
-html[lang=fi] .google-definition .definition:last-child {
+[lang|=fi] .google-definition .definition:last-child {
 	display:none;
 }
 
-html[lang=dra] body {
-	font-family: daedra, dragonscript, serif;
-
-	.google-searchbar, .google-definition {
-		font-family: inherit;
-
-		h3 {
-			font-family: serif;
-		}
-	}
-}
-
-html[lang=el] .section p {
-	font-weight: 400;
+[lang|=zh], [lang|=ja], [lang|=ko] {
+	font-family: sans-serif;
 }
