@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br /> 天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
 				"description": {
 					"argument-1": "<b>Lat NAUT som er 100% ubrukelig</b>",
 					"argument-2": "Seriøst, hun har ingen gode trekk ved seg",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br /> 白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
 				"description": {
 					"argument-1": "<b>En sadist som bare vil at andre skal lide</b>",
 					"argument-2": "Har heller ikke noen likbare trekk ved seg",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br /> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
 				"description": {
 					"argument-1": "<b>KJEEEEDELIIIIIIG</b>",
 					"argument-2": "Seriøst, hun driver aldri med noe interessant",

@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "가브리엘",
-				"name-detail": "텐마 화이트<br />天真=ガヴリール=ホワイト",
+				"name-detail": "텐마 화이트<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
 				"description": {
 					"argument-1": "<b>있던 호감도 날라갈 암덩어리 니트</b>",
 					"argument-2": "레알 혼모노 암걸린다, 항암제 준비해라",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "라피엘",
-				"name-detail": "시하라 아인스워드<br />白羽=ラフィエル=エインズワース",
+				"name-detail": "시하라 아인스워드<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
 				"description": {
 					"argument-1": "<b>남에게 고통 주기 좋아 하는 사디스트</b>",
 					"argument-2": "얘도 좀 이상한 애야…",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "비네트",
-				"name-detail": "츠키노세 에이플<br />月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "츠키노세 에이플<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
 				"description": {
 					"argument-1": "<b>평범해에에에!!!</b>",
 					"argument-2": "ㄹㅇ 얜 뭐 아무것도 안해",

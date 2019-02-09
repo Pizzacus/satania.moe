@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "珈百璃",
-				"name-detail": "天真 · 怀特<br /> 天真=ガヴリール=ホワイト",
+				"name-detail": "天真 · 怀特<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
 				"description": {
 					"argument-1": "<b>完全没救了的宅 没有魅力</b>",
 					"argument-2": "很怀疑是否有存在的价值",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "拉菲尔",
-				"name-detail": "白羽 · 恩兹沃斯<br /> 白羽=ラフィエル=エインズワース",
+				"name-detail": "白羽 · 恩兹沃斯<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
 				"description": {
 					"argument-1": "<b>抖S，以他人的不幸为乐</b>",
 					"argument-2": "无论从哪个方面说都没有令人满意的点",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "薇奈特",
-				"name-detail": "月乃濑 · 艾普利尔<br /> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "月乃濑 · 艾普利尔<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
 				"description": {
 					"argument-1": "<b>太无聊啦</b>",
 					"argument-2": "讲真，她从来不做任何有趣的事",

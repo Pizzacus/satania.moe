@@ -114,7 +114,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
 				"description": {
 					"argument-1": "<b>No-Life fainéante qui est 100&#8239;% antipathique</b>",
 					"argument-2": "Nan sérieux, elle n&rsquo;a aucune qualité rédemptrice",
@@ -126,7 +126,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
 				"description": {
 					"argument-1": "<b>Est une sadique qui ne veut que voir les autres souffrir</b>",
 					"argument-2": "Est aussi complètement antipathique",
@@ -138,7 +138,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
 				"description": {
 					"argument-1": "<b>ENNUYEEEEUUUUSE</b>",
 					"argument-2": "Nan vraiment, elle fait jamais rien d&rsquo;intéressant",

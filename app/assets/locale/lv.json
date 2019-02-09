@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriēla",
-				"name-detail": "Tenma White<br /> 天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
 				"description": {
 					"argument-1": "<b>Slinka un 100% nepatīkama</b>",
 					"argument-2": "Neko nedara",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Rafiēla",
-				"name-detail": "Shiraha Ainsworth<br /> 白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
 				"description": {
 					"argument-1": "<b>Viņai patīk kad citi tiek kaitināti</b>",
 					"argument-2": "Nepatīkama",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vigente",
-				"name-detail": "Tsukinose April<br /> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
 				"description": {
 					"argument-1": "<b>GARLAICIIIIIIIIIIIIGA</b>",
 					"argument-2": "Neko interesantu nedara",

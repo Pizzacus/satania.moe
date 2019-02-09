@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "ガヴリール",
-				"name-detail": "天真ホワイト<br />天真=ガヴリール=ホワイト",
+				"name-detail": "天真ホワイト<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
 				"description": {
 					"argument-1": "<b>救いのないニートで魅力なし</b>",
 					"argument-2": "存在価値があるかどうかの疑いあり",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "ラフィエル",
-				"name-detail": "白羽エインズワース<br />白羽=ラフィエル=エインズワース",
+				"name-detail": "白羽エインズワース<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
 				"description": {
 					"argument-1": "<b>ドＳで他人の不幸を楽しむ</b>",
 					"argument-2": "どの面から言っても好ましいポイントなし",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "ヴィーネ",
-				"name-detail": "月乃瀬エイプリル<br />月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "月乃瀬エイプリル<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
 				"description": {
 					"argument-1": "<b>すげぇ退屈</b>",
 					"argument-2": "本当に面白いこと何一つしない",

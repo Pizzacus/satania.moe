@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
 				"description": {
 					"argument-1": "<b>Τεμπέλα NEET που είναι 100% μη αγαπητή</b>",
 					"argument-2": "Όχι πραγματικά, δεν έχει καμία εξιλαστήρια ποιότητα",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
 				"description": {
 					"argument-1": "<b>Είναι μια σαδίστρια που θέλει μόνο να υποφέρουν άλλοι</b>",
 					"argument-2": "Δεν αρέσει σε κανέναν γενικά",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
 				"description": {
 					"argument-1": "<b>ΒΑΡΕΤΗΗΗΗΗΗΗΗΗΗΗ</b>",
 					"argument-2": "Πράγματι, ποτέ δεν κάνει κάτι ενδιαφέρον",
