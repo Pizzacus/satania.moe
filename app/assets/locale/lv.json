@@ -9,9 +9,9 @@
 		"language-warning": "(Šīs kopienas izmanto Angļu valodu!)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Ritini uz leju lai uzzinātu vairāk!",
 		"mobile-disclaimer": "Es ļoti atvainojos ka mobīlā versija ir tik slikta un <b>ka tas ir mēsls</b>, es nedomāju ka kāds šo apmeklēs.",
-		"language-protip": "Vai vēlaties apmeklēt šo lapu <b>Latviski</b>?<br>Izmantojiet nolaižamo izvēlni lai izvēlētos valodu!",
+		"language-protip": "Vai vēlaties apmeklēt šo lapu <b>Latviski</b>?<br />Izmantojiet nolaižamo izvēlni lai izvēlētos valodu!",
 		"language-select": "Valodas<i class=\"fas fa-angle-down\"></i>",
-		"credits": "Izveidoja <b title=\"Kenyérlángos\">Pizzacus</b><br>Slikti tulkoja <b>TonTon#0808</b>",
+		"credits": "Izveidoja <b title=\"Kenyérlángos\">Pizzacus</b><br />Slikti tulkoja <b>TonTon#0808</b>",
 		"music-player": {
 			"intro": {
 				"bold-text": "Gribi klausīties velnišķīgu dziesmu?",
@@ -31,7 +31,7 @@
 		"small-text": "Arī taisot Satania mēmes palīdzētu..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Mīļš smaids.<br> Divas īpašas acis.<br> Apdullinošs izskats.",
+		"large-text": "Mīļš smaids.<br /> Divas īpašas acis.<br /> Apdullinošs izskats.",
 		"sub-text": "Viņa ir <b>daiļa</b> persona!",
 		"small-text": "Mēs Satania mīļotāji esam ļoti kulturēti cilvēki un izmantojam tikai kulturētu valodu!"
 	},
@@ -51,19 +51,19 @@
 				"definition": "Kad kaut kas ir perfekts.",
 				"example": "\"Perfekcija <b>Satanias</b> ādā\"",
 				"synonyms": "sinonīmi:",
-				"synonyms-list": "Satania, Nepārspējamība, ekselence<br>\"Viņas perfektā āda.\""
+				"synonyms-list": "Satania, Nepārspējamība, ekselence<br />\"Viņas perfektā āda.\""
 			},
 			"definition-2": {
 				"definition": "kad persona ir perfekta.",
 				"example": "\"Man stāstija ka <b>Satania</b> ir perfekta.\"",
 				"synonyms": "sinonīmi:",
-				"synonyms-list": "Satania, ideāls, sapnis; <i>neformāls</i> viens no tūkstoša, tops, vislabākais meloņu maizes gabals, <i>arhaisks</i> kā nekā<br>\"kā viņs, vēl bija perfekcija.\""
+				"synonyms-list": "Satania, ideāls, sapnis; <i>neformāls</i> viens no tūkstoša, tops, vislabākais meloņu maizes gabals, <i>arhaisks</i> kā nekā<br />\"kā viņs, vēl bija perfekcija.\""
 			},
 			"definition-3": {
 				"definition": "Pataisīt kaut ko labāku.",
 				"example": "\"Es visu laiku mēģinu perfektēt <b>Satanias</b> zīmējumu\"",
 				"synonyms": "sinonīmi:",
-				"synonyms-list": "Satania, uzlabošana, pulēšana <i>īpaši</i> meliorācija<br>\"perfektēšana jaunajā ekonomikas sistēmā.\""
+				"synonyms-list": "Satania, uzlabošana, pulēšana <i>īpaši</i> meliorācija<br />\"perfektēšana jaunajā ekonomikas sistēmā.\""
 			}
 		}
 	},
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriēla",
-				"name-detail": "Tenma White<br> 天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /> 天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Slinka un 100% nepatīkama</b>",
 					"argument-2": "Neko nedara",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Rafiēla",
-				"name-detail": "Shiraha Ainsworth<br> 白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /> 白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Viņai patīk kad citi tiek kaitināti</b>",
 					"argument-2": "Nepatīkama",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vigente",
-				"name-detail": "Tsukinose April<br> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /> 月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>GARLAICIIIIIIIIIIIIGA</b>",
 					"argument-2": "Neko interesantu nedara",
@@ -159,12 +159,12 @@
 	},
 	"autism": {
 		"large-text": "Viņa nav autiste, beidziet&nbsp;teikt&nbsp;to!",
-		"sub-text": "Autistiem ir problēmas komunicēties, bet&nbsp;Satania&nbsp;tā&nbsp;nav.<br><b>Viņa ir vēl mazāka autiste nekā tu!</b>",
-		"small-text": "Un viņa pateica \"I'm thwee\" vienā episodē,<br> tikai tapēc ka Rafiēla viņai lika!"
+		"sub-text": "Autistiem ir problēmas komunicēties, bet&nbsp;Satania&nbsp;tā&nbsp;nav.<br /><b>Viņa ir vēl mazāka autiste nekā tu!</b>",
+		"small-text": "Un viņa pateica \"I'm thwee\" vienā episodē,<br /> tikai tapēc ka Rafiēla viņai lika!"
 	},
 	"pope-francis": {
 		"large-text": "Pat Pāvestam patīk Satania.",
-		"sub-text": "\"Satania ir mana otrā waifu, pirmais ir Jēzus!<br> Lai svētīti viņas mīļotāji!\""
+		"sub-text": "\"Satania ir mana otrā waifu, pirmais ir Jēzus!<br /> Lai svētīti viņas mīļotāji!\""
 	},
 	"flipping-cards": {
 		"large-text": "Viņa var aizstāt visus",
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Vai tev vajag kādu kas <b>nav jauks, nedomā par nevienu</b> un domā ka viņa hobiji ir svarīgāki par visu citu?",
-				"answer": "Tad tev vajag dēmonu kas <b>nedomā par cilvēkiem un enģeliem, bet mēgina kļūt vēl ļaunāka</b>, vai mācieties vai kaut kas tamlīdzīgs...<br> Arī, <b>Viņa NEDARA savus mājasdarbus</b>"
+				"answer": "Tad tev vajag dēmonu kas <b>nedomā par cilvēkiem un enģeliem, bet mēgina kļūt vēl ļaunāka</b>, vai mācieties vai kaut kas tamlīdzīgs...<br /> Arī, <b>Viņa NEDARA savus mājasdarbus</b>"
 			},
 			"vigne": {
 				"question": "Vai tu gribi <b>mīlīgu demonu kas grib būt nejauka, bet nemāk</b>, kas beigās palīdzēs Gabriēlai?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ritēšana, ritēšana,<br>vairs nekādu iebiedēšanu",
+		"large-text": "Ritēšana, ritēšana,<br />vairs nekādu iebiedēšanu",
 		"sub-text": "Kapēc tu to darītu??? Cik nejaukam tev jābūt lai to darītu???"
 	},
 	"large-text": {
 		"large-text": "Viņa vēlāk valdīs par visu...",
-		"sub-text": "Tev būs japatīk viņai,<br>pat ja tev tas nepatīk..."
+		"sub-text": "Tev būs japatīk viņai,<br />pat ja tev tas nepatīk..."
 	},
 	"end": {
 		"large-text": "Viņa ir vislabākā.",

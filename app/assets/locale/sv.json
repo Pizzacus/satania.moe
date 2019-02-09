@@ -9,7 +9,7 @@
 		"language-warning": "(Dessa gemenskaper kommunicerar huvudsakligen på engelska.)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Skrolla för att lära dig mer!",
 		"mobile-disclaimer": "Jag är verkligen ledsen, men den mobila versionen av den här sidan var ganska snabbt gjord och <b>är skitdålig</b>. Ärligt talat trodde jag inte att någon skulle besöka den på en mobil.",
-		"language-protip": "Skulle du vilja se den här hemsidan på <b>svenska</b>?<br>Klicka på den här drop-down menyn för att välja ett språk!",
+		"language-protip": "Skulle du vilja se den här hemsidan på <b>svenska</b>?<br />Klicka på den här drop-down menyn för att välja ett språk!",
 		"language-select": "Språk <i class=\"fas fa-angle-down\"></i>",
 		"credits": "En strålande shitpost av nån pizza vid namn <b title=\"Kenyérlángos\">Pizzacus</b>",
 		"music-player": {
@@ -27,13 +27,13 @@
 	},
 	"become-a-satania-follower": {
 		"large-text": "Bli en Satania-anhängare idag!",
-		"sub-text": "<b>Det är enkelt att bli en Satania-anhängare</b>, <br>allt&nbsp;du behöver göra är att acceptera Satania som den&nbsp;bästa&nbsp;karaktären.",
+		"sub-text": "<b>Det är enkelt att bli en Satania-anhängare</b>, <br />allt&nbsp;du behöver göra är att acceptera Satania som den&nbsp;bästa&nbsp;karaktären.",
 		"small-text": "Det skulle dock vara mycket till hjälp om du kunde göra Satania-memes och shitposts..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Ett älskvärt leende.<br>Två magnifika ögon.<br>Ett fantastiskt utseende.",
+		"large-text": "Ett älskvärt leende.<br />Två magnifika ögon.<br />Ett fantastiskt utseende.",
 		"sub-text": "Hon är en oerhört <b>dejlig</b> person",
-		"small-text": "Vi Satania-anhängare är mycket kulturella personer,<br>så vi använder bara ett mycket kulturellt språk."
+		"small-text": "Vi Satania-anhängare är mycket kulturella personer,<br />så vi använder bara ett mycket kulturellt språk."
 	},
 	"end-the-waifu-war": {
 		"large-text": "Den bästa demon-waifun för&nbsp;dig.",
@@ -51,19 +51,19 @@
 				"definition": "tillståndet eller egenskapen av att vara perfekt.",
 				"example": "\"den sideslena perfektionen av <b>Satania</b>'s hud\"",
 				"synonyms": "synonymer:",
-				"synonyms-list": "Satania, felfrihet, exellens, superbhet, utomordentlighet, enaståendehet, storslaglighet, perfekthet, utan brist, oklanderlighet, fläckfrihet, föredömlighet<br>\"den sideslena perfektionen av hennes hud\""
+				"synonyms-list": "Satania, felfrihet, exellens, superbhet, utomordentlighet, enaståendehet, storslaglighet, perfekthet, utan brist, oklanderlighet, fläckfrihet, föredömlighet<br />\"den sideslena perfektionen av hennes hud\""
 			},
 			"definition-2": {
 				"definition": "en person eller sak som anses vara perfekt.",
 				"example": "\"Jag har hört att <b>Satania</b> är ren perfektion\"",
 				"synonyms": "synonymer:",
-				"synonyms-list": "Satania, det ideella, ett föredömme, ne plus ultra, beau idéal, en nonpareil, crème de la crème, det sista ordet, den ultimata, en dröm; <i>informellt</i> en på miljonen, toppen, det bästa sen skivat melonbröd, the bee's knees; utan like<br>\"för henne var han fortfarande perfektion\""
+				"synonyms-list": "Satania, det ideella, ett föredömme, ne plus ultra, beau idéal, en nonpareil, crème de la crème, det sista ordet, den ultimata, en dröm; <i>informellt</i> en på miljonen, toppen, det bästa sen skivat melonbröd, the bee's knees; utan like<br />\"för henne var han fortfarande perfektion\""
 			},
 			"definition-3": {
 				"definition": "processen av förbättra något tills dess att det är perfekt",
 				"example": "\"Jag har arbetat hela dagen på perfektionen av min <b>Satania</b>-målning\"",
 				"synonyms": "synonymer:",
-				"synonyms-list": "Satania, förbättring, bättring, förfinande, förfina, perfektionering, polering, amélioration; <i>ovanligt</i> melioration<br>\"perfektionen av nya mekanismer för ekonomihantering\""
+				"synonyms-list": "Satania, förbättring, bättring, förfinande, förfina, perfektionering, polering, amélioration; <i>ovanligt</i> melioration<br />\"perfektionen av nya mekanismer för ekonomihantering\""
 			}
 		}
 	},
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Lat hemmasittare som är 100&nbsp;% oomtyckbar</b>",
 					"argument-2": "Seriöst, hon har inga meningsfulla karaktärsdrag",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Är en sadist som bara vill att andra lider</b>",
 					"argument-2": "Är inte heller omtyckbar på något sätt",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>TRÅKMÅNS</b>",
 					"argument-2": "Seriöst, hon gör aldrig något intressant",
@@ -159,12 +159,12 @@
 	},
 	"autism": {
 		"large-text": "För övrigt är hon är inte autistisk, sluta&nbsp;kalla henne&nbsp;det",
-		"sub-text": "Folk med autism har ofta problem med att kommunicera och är därför tystlåtna och för sig&nbsp;själva. Det är inte alls så Satania är.<br><b>Hon är antagligen mindre autistisk än dig!</b>",
-		"small-text": "Och även om hon säger \"Ja ä tjee\" i det där avsnittet,<br>så är det bara för att Raphiel fick henne att säga det!"
+		"sub-text": "Folk med autism har ofta problem med att kommunicera och är därför tystlåtna och för sig&nbsp;själva. Det är inte alls så Satania är.<br /><b>Hon är antagligen mindre autistisk än dig!</b>",
+		"small-text": "Och även om hon säger \"Ja ä tjee\" i det där avsnittet,<br />så är det bara för att Raphiel fick henne att säga det!"
 	},
 	"pope-francis": {
 		"large-text": "Även Påve Franciskus älskar Satania.",
-		"sub-text": "\"Satania är min waifu nummer 2, Jesus är nummer 1 så klart!<br>Jag välsignar henne och alla hennes anhängare!\""
+		"sub-text": "\"Satania är min waifu nummer 2, Jesus är nummer 1 så klart!<br />Jag välsignar henne och alla hennes anhängare!\""
 	},
 	"flipping-cards": {
 		"large-text": "Hon ersätter alla andra waifus i serien",
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Behöver du en tjej som <b>inte är särkilt trevlig, inte bryr sig om andra</b> och tycker sina hobbies är viktigare än någonting annat?",
-				"answer": "Då behöver du demonen som <b>inte bryr sig om människor och änglar, och alltid försöker vara ond</b>, istället för att studera eller nått sånt...<br>Desutom <b>struntar hon i sina läxor, AVSIKTLIGEN!!</b>"
+				"answer": "Då behöver du demonen som <b>inte bryr sig om människor och änglar, och alltid försöker vara ond</b>, istället för att studera eller nått sånt...<br />Desutom <b>struntar hon i sina läxor, AVSIKTLIGEN!!</b>"
 			},
 			"vigne": {
 				"question": "Skulle du vilja ha en <b>söt moe-demon</b> som <b>vill vara ond, men är riktigt dålig på det</b> och istället råkar göra snälla handlingar som att lära Gabriel saker?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>snälla sluta mobbas",
+		"large-text": "Ravioli, ravioli,<br />snälla sluta mobbas",
 		"sub-text": "Hur kan du göra något sånt??? Hur sadistisk måste du vara för att vilja mobba henne???"
 	},
 	"large-text": {
 		"large-text": "Hon kommer så småningom härska över mänskligheten...",
-		"sub-text": "Så vare sig du gillar henne eller inte,<br>så kommer du att behöva hylla henne i&nbsp;slutändan..."
+		"sub-text": "Så vare sig du gillar henne eller inte,<br />så kommer du att behöva hylla henne i&nbsp;slutändan..."
 	},
 	"end": {
 		"large-text": "Hon är bäst.",

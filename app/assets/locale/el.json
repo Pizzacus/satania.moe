@@ -9,7 +9,7 @@
 		"language-warning": "(Αυτές οι ομάδες χρησιμοποιούν ως κύρια γλώσσα τα Αγγλικά.)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Μάθετε περισσότερα απο κάτω!",
 		"mobile-disclaimer": "Με συγχωρείτε, αλλά η κινητή έκδοση της σελίδας έγινε λίγο βιαστικά και <b>είναι αρκετά χάλια</b>, δεν πίστευα οτι θα έμπαινε κόσμος απο το κινητό να σας πώ.",
-		"language-protip": "Μήπως θα ήθελες να δεις αυτήν την ιστοσελίδα στα <b>Ελληνικά</b>?<br>Χρησιμοποιήσε την λίστα για να επιλέξεις μια γλώσσα!",
+		"language-protip": "Μήπως θα ήθελες να δεις αυτήν την ιστοσελίδα στα <b>Ελληνικά</b>?<br />Χρησιμοποιήσε την λίστα για να επιλέξεις μια γλώσσα!",
 		"language-select": "Γλώσσα <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Ένα καταπληκτικό shitpost απο μία πίτσα ονόματι <b title=\"Kenyérlángos\">Pizzacus</b>",
 		"music-player": {
@@ -31,7 +31,7 @@
 		"small-text": "Ε, αν μπορούσες να φτιάξεις memes κλπ με την Satania, αυτο θα&nbsp;μας&nbsp;βοηθούσε&nbsp;αρκετά..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Ένα αξιαγάπητο χαμόγελο.<br>Δυο υπέροχα μάτια.<br>Απίθανη εμφάνιση.",
+		"large-text": "Ένα αξιαγάπητο χαμόγελο.<br />Δυο υπέροχα μάτια.<br />Απίθανη εμφάνιση.",
 		"sub-text": "Είναι ενα αρκετά <b>εύμορφο</b> πρόσωπο.",
 		"small-text": "Εμείς οι ακόλουθοι της Satania είμαστε πολύ κουλτουριάρηδες, άρα χρησιμοποιούμε&nbsp;μόνο εκλεπτυσμένη γλώσσα"
 	},
@@ -51,19 +51,19 @@
 				"definition": "η κατάσταση ή η ποιότητα που κάνει κάποιον τέλειο.",
 				"example": "\"η σατανική τελειότητα του δέρματος της <b>Satania</b>\"",
 				"synonyms": "συνώνημα:",
-				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
+				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br />\"the satiny perfection of her skin\""
 			},
 			"definition-2": {
 				"definition": "ένα άτομα που θεωρείται τέλειο.",
 				"example": "\"Μου έχουν πεί πως η <b>Satania</b> είναι η τελειότητα προσωποποιημένη\"",
 				"synonyms": "συνώνημα:",
-				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br>\"for her, he was still perfection\""
+				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br />\"for her, he was still perfection\""
 			},
 			"definition-3": {
 				"definition": "η δράση ή η διαδικασία του να καλυτερεύεις κάτι μέχρι να είναι τέλειο.",
 				"example": "\"Δούλεψα όλη μέρα στην τελειοποίηση της <b>Satania</b> ζωγραφιάς μου.\"",
 				"synonyms": "συνώνημα:",
-				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
+				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br />\"the perfection of new mechanisms of economic management\""
 			}
 		}
 	},
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Τεμπέλα NEET που είναι 100% μη αγαπητή</b>",
 					"argument-2": "Όχι πραγματικά, δεν έχει καμία εξιλαστήρια ποιότητα",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Είναι μια σαδίστρια που θέλει μόνο να υποφέρουν άλλοι</b>",
 					"argument-2": "Δεν αρέσει σε κανέναν γενικά",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>ΒΑΡΕΤΗΗΗΗΗΗΗΗΗΗΗ</b>",
 					"argument-2": "Πράγματι, ποτέ δεν κάνει κάτι ενδιαφέρον",
@@ -159,12 +159,12 @@
 	},
 	"autism": {
 		"large-text": "Επίσης, δεν έχει αυτισμό, σταματήστε&nbsp;να το λέτε&nbsp;αυτό",
-		"sub-text": "Οι αυτιστικοί άνθρωποι έχουν δυσκολια στην επικοινωνία, παραμένοντας ήσυχα μόνοι τους\n στην γωνιά τους, ενώ η Satania&nbsp;δεν είναι έτσι καθόλου.<br><b>Πιθανόν\n να είναι λιγότερο αυτιστική απο εσάς!</b>",
-		"small-text": "Και ενώ όντως λέει \"I'm thwee\" σε εκείνο το επεισόδιο,<br>είναι επειδή η Raphiel την ανάγκασε να το κάνει!"
+		"sub-text": "Οι αυτιστικοί άνθρωποι έχουν δυσκολια στην επικοινωνία, παραμένοντας ήσυχα μόνοι τους\n στην γωνιά τους, ενώ η Satania&nbsp;δεν είναι έτσι καθόλου.<br /><b>Πιθανόν\n να είναι λιγότερο αυτιστική απο εσάς!</b>",
+		"small-text": "Και ενώ όντως λέει \"I'm thwee\" σε εκείνο το επεισόδιο,<br />είναι επειδή η Raphiel την ανάγκασε να το κάνει!"
 	},
 	"pope-francis": {
 		"large-text": "Ακόμα και ο Πάπας Φρανσις αγαπάει την Satania.",
-		"sub-text": "\"Η Satania είναι η 2η waifu μου, νούμερο 1 είναι ο Χριστός φυσικά!<br>Οι ευχές μου είναι μαζί της και με τους fans της!\""
+		"sub-text": "\"Η Satania είναι η 2η waifu μου, νούμερο 1 είναι ο Χριστός φυσικά!<br />Οι ευχές μου είναι μαζί της και με τους fans της!\""
 	},
 	"flipping-cards": {
 		"large-text": "Αντικαθιστά όλες τις άλλες waifu στο show.",
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Χρειάζεστε ένα κορίτσι που <b>δεν είναι ευγενικό, δεν ενδιαφέρεται για κανέναν</b> και νομίζει πως τα δικά της hobby είναι σημαντικότερα απο τα πάντα?",
-				"answer": "Τότε χρειάζεστε μια δάιμονα που <b>δεν την ενδιαφέρουν οι άνθρωποι και οι άγγελοι και πάντα προσπαθεί να είναι κακιά</b>, αντί να διαβάζει  ή κάτι τέτοιο...<br>Επίσης, <b>δεν κάνει τα μαθήματά της ΕΠΙΤΗΔΕΣ!!</b>"
+				"answer": "Τότε χρειάζεστε μια δάιμονα που <b>δεν την ενδιαφέρουν οι άνθρωποι και οι άγγελοι και πάντα προσπαθεί να είναι κακιά</b>, αντί να διαβάζει  ή κάτι τέτοιο...<br />Επίσης, <b>δεν κάνει τα μαθήματά της ΕΠΙΤΗΔΕΣ!!</b>"
 			},
 			"vigne": {
 				"question": "Θα θέλατε μια πιο <b>γλυκιά moe δαίμονα</b> που <b>θέλει να είναι κακιά, αλλά δεν είναι καλή σε αυτό</b>, κάνοντας πάντα καλά πράγματα όπως το να διδάσκει την Gabriel?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ραβιόλι, ραβιόλι<br>παρακαλώ, όχι άλλο bulli",
+		"large-text": "Ραβιόλι, ραβιόλι<br />παρακαλώ, όχι άλλο bulli",
 		"sub-text": "Γιατί να το κάνεις αυτό??? Πόσο σαδιστής πρέπει να είσαι για να θες να την κάνεις bulli???"
 	},
 	"large-text": {
 		"large-text": "Θα ελέγχει όλη την ανθρωπότητα στην τελική...",
-		"sub-text": "Άρα είτε σου αρέσει είτε όχι<br>θα πρέπει να την υπηρετήσεις τελικά..."
+		"sub-text": "Άρα είτε σου αρέσει είτε όχι<br />θα πρέπει να την υπηρετήσεις τελικά..."
 	},
 	"end": {
 		"large-text": "Είναι Η Καλύτερη.",

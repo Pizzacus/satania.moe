@@ -9,7 +9,7 @@
 		"language-warning": "(These communities use English as their primary language)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scroll to learn more!",
 		"mobile-disclaimer": "I am really sorry, but the mobile version of this website was kinda rushed and <b>it's really shit</b>, I didn't think anyone would visit it on a phone tbh.",
-		"language-protip": "<!-- Note for translators, change \"English\" to the name of your language of course -->Would you like to view this website in <b>English</b>?<br>Use this drop-down to select a language!",
+		"language-protip": "<!-- Note for translators, change \"English\" to the name of your language of course -->Would you like to view this website in <b>English</b>?<br />Use this drop-down to select a language!",
 		"language-select": "Language<i class=\"fas fa-angle-down\"></i>",
 		"credits": "A glorious shitpost by some pizza named <b title=\"Kenyérlángos\">Pizzacus</b>",
 		"music-player": {
@@ -31,7 +31,7 @@
 		"small-text": "Well, If you could make Satania memes and shitposts, that would help us a lot..."
 	},
 	"she-is-beautiful": {
-		"large-text": "A lovely smile.<br> Two magnificent eyes.<br> A stunning appearance.",
+		"large-text": "A lovely smile.<br /> Two magnificent eyes.<br /> A stunning appearance.",
 		"sub-text": "She's a really <b>pulchritudinous</b> person",
 		"small-text": "We Satania followers are very cultured people, so we only use a very cultured language"
 	},
@@ -51,19 +51,19 @@
 				"definition": "the state or quality of being perfect.",
 				"example": "\"the satiny perfection of <b>Satania</b>'s skin\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br>\"the satiny perfection of her skin\""
+				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br />\"the satiny perfection of her skin\""
 			},
 			"definition-2": {
 				"definition": "a person or thing considered to be perfect.",
 				"example": "\"I am told that <b>Satania</b> is perfection itself\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br>\"for her, he was still perfection\""
+				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br />\"for her, he was still perfection\""
 			},
 			"definition-3": {
 				"definition": "the action or process of improving something until it is faultless.",
 				"example": "\"I worked all day on the perfection of my <b>Satania</b> drawing\"",
 				"synonyms": "synonyms:",
-				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br>\"the perfection of new mechanisms of economic management\""
+				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br />\"the perfection of new mechanisms of economic management\""
 			}
 		}
 	},
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br> 天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /> 天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Lazy NEET who is 100% unlikeable</b>",
 					"argument-2": "No seriously, she has no redeeming qualities",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br> 白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /> 白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Is a sadist that only wants others to suffer</b>",
 					"argument-2": "Isn't likable in any way either",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /> 月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>BOOOOOOORING</b>",
 					"argument-2": "No really, she never does anything interesting",
@@ -159,12 +159,12 @@
 	},
 	"autism": {
 		"large-text": "Also, she's not an autist, stop&nbsp;saying&nbsp;that",
-		"sub-text": "Autistic people often have trouble communicating, staying quiet in their own corner all the time, Satania&nbsp;isn't like that at all.<br><b>She's probably less autistic than you are!</b>",
-		"small-text": "And while she does say \"I'm thwee\" in that episode,<br> it's because Raphiel made her say it!"
+		"sub-text": "Autistic people often have trouble communicating, staying quiet in their own corner all the time, Satania&nbsp;isn't like that at all.<br /><b>She's probably less autistic than you are!</b>",
+		"small-text": "And while she does say \"I'm thwee\" in that episode,<br /> it's because Raphiel made her say it!"
 	},
 	"pope-francis": {
 		"large-text": "Even Pope Francis loves Satania.",
-		"sub-text": "\"Satania is my number two waifu, the number one being Jesus of&nbsp;course!<br> I bless her and all her followers!\""
+		"sub-text": "\"Satania is my number two waifu, the number one being Jesus of&nbsp;course!<br /> I bless her and all her followers!\""
 	},
 	"flipping-cards": {
 		"large-text": "She replaces all the other waifus in the show",
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Do you need a girl who <b>isn't very nice, doesn't care about anyone</b> and thinks her hobbies are more important than anything?",
-				"answer": "Then you need the demon who <b>doesn't care about humans and angels and is always trying to be evil</b>, rather than studying or something...<br> Also, <b>she doesn't do her homework ON PURPOSE!!</b>"
+				"answer": "Then you need the demon who <b>doesn't care about humans and angels and is always trying to be evil</b>, rather than studying or something...<br /> Also, <b>she doesn't do her homework ON PURPOSE!!</b>"
 			},
 			"vigne": {
 				"question": "Would you like a <b>cute moe demon</b> that <b>wanna be evil, but is very bad at it</b>, ending up doing nice things like teaching stuff to Gabriel?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>pls, no more bulli",
+		"large-text": "Ravioli, ravioli,<br />pls, no more bulli",
 		"sub-text": "Why would you do that??? How much of a sadist do you have to be to want to bulli her???"
 	},
 	"large-text": {
 		"large-text": "She's gonna rule over humanity anyway...",
-		"sub-text": "So, may you like her or not,<br> you'll have to praise her eventually..."
+		"sub-text": "So, may you like her or not,<br /> you'll have to praise her eventually..."
 	},
 	"end": {
 		"large-text": "She's the Best.",

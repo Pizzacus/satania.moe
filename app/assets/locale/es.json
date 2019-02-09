@@ -8,9 +8,9 @@
 		"language-warning": "(Ambas comunidades usan el inglés como su lenguaje principal)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>¡Desplázate para aprender más!",
 		"mobile-disclaimer": "Mi más sinceras disculpas, pero la versión móvil del sitio se hizo algo apresurada y <b>es una verdadera mierda</b>, no pensé que nadie la visitaría en teléfono.",
-		"language-protip": "¿Te gustaría ver esta página en <b>español</b>?<br>Despliega este menú para seleccionar un lenguaje.",
+		"language-protip": "¿Te gustaría ver esta página en <b>español</b>?<br />Despliega este menú para seleccionar un lenguaje.",
 		"language-select": "Lenguaje <i class=\"fas fa-angle-down\"></i>",
-		"credits": "Un glorioso shitpost hecho por una pizza llamada <b title=\"Kenyérlángos\">Pizzacus,</b><br>traducido por <b>Baiken</b>, correciones por <b>AloXado</b> y <b>scese250</b>",
+		"credits": "Un glorioso shitpost hecho por una pizza llamada <b title=\"Kenyérlángos\">Pizzacus,</b><br />traducido por <b>Baiken</b>, correciones por <b>AloXado</b> y <b>scese250</b>",
 		"music-player": {
 			"intro": {
 				"bold-text": "¿Quieres escuchar una canción diabólica mientras navegas por esta página?",
@@ -30,7 +30,7 @@
 		"small-text": "Bueno, si puedes hacer memes y shitposts de Satania, eso nos ayudaría muchísimo..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Sonrisa encantadora.<br>Ojos magníficos.<br>Apariencia impactante.",
+		"large-text": "Sonrisa encantadora.<br />Ojos magníficos.<br />Apariencia impactante.",
 		"sub-text": "Ella es de verdad una persona <b>pulcra</b>",
 		"small-text": "Los seguidores de Satania somos gente muy culta, así que solo usamos lenguaje culto."
 	},
@@ -49,19 +49,19 @@
 				"definition": "Cualidad de lo que es perfecto.",
 				"example": "\"La perfección satinada de la piel de <b>Satania</b>\"",
 				"synonyms": "sinónimos:",
-				"synonyms-list": "Satania, excelencia, soberbia, sublime, exquisitez, magnificencia, impecabilidad, inmaculabilidad, ejemplaridad<br>\"la perfección satinada de su piel\""
+				"synonyms-list": "Satania, excelencia, soberbia, sublime, exquisitez, magnificencia, impecabilidad, inmaculabilidad, ejemplaridad<br />\"la perfección satinada de su piel\""
 			},
 			"definition-2": {
 				"definition": "Persona o cosa considerada perfecta",
 				"example": "\"Me han dicho que <b>Satania</b> es la perfección misma\"",
 				"synonyms": "sinónimos:",
-				"synonyms-list": "Satania, la ideal, dechado, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, la ultima palabra, la ultima, un sueño; <i>informal</i> una en un millon, el pinaculo, la mejor/mayor cosa desde la rebana de Pan de melon, the bee's knees; <i>archaic</i> a nonesuch<br>\"para ella, el seguia siendo perfección\""
+				"synonyms-list": "Satania, la ideal, dechado, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, la ultima palabra, la ultima, un sueño; <i>informal</i> una en un millon, el pinaculo, la mejor/mayor cosa desde la rebana de Pan de melon, the bee's knees; <i>archaic</i> a nonesuch<br />\"para ella, el seguia siendo perfección\""
 			},
 			"definition-3": {
 				"definition": "Acción o proceso de mejorar algo hasta que sea impecable.",
 				"example": "\"Trabajé todo el dia en la perfección de mi <b>dibujo de Satania</b>\"",
 				"synonyms": "sinonimos:",
-				"synonyms-list": "Satania, mejora, mejoramiento, refinamiento, refinación, perfeccionamiento, pulido, progreso; <i>rara</i> mejora<br>\"la perfección de nuevos mecanismos de gestión económica\""
+				"synonyms-list": "Satania, mejora, mejoramiento, refinamiento, refinación, perfeccionamiento, pulido, progreso; <i>rara</i> mejora<br />\"la perfección de nuevos mecanismos de gestión económica\""
 			}
 		}
 	},
@@ -114,7 +114,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Floja NEET que es 100 % desagradable</b>",
 					"argument-2": "En serio, no tiene ninguna cualidad que la salve",
@@ -126,7 +126,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Es una sádica que solo quiere que los demás sufran</b>",
 					"argument-2": "No es agradable en ningún sentido tampoco",
@@ -138,7 +138,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>ABUUUUUURIIIIDA</b>",
 					"argument-2": "En serio, jamás hace algo interesante",
@@ -157,12 +157,12 @@
 	},
 	"autism": {
 		"large-text": "¡Y ella no es autista! ¡Deja de&nbsp;decir&nbsp;eso!",
-		"sub-text": "Las personas autistas a menudo tienen problemas para comunicarse, manteniéndose callados en su propio rincón todo el tiempo, <br>Satania no es así en absoluto.<br><b>¡Probablemente ella es menos autista que tú!</b>",
-		"small-text": "Y aunque ella actuó como un niño pequeño en ese episodio de navidad, <br>¡fue porque Raphiel la obligó!"
+		"sub-text": "Las personas autistas a menudo tienen problemas para comunicarse, manteniéndose callados en su propio rincón todo el tiempo, <br />Satania no es así en absoluto.<br /><b>¡Probablemente ella es menos autista que tú!</b>",
+		"small-text": "Y aunque ella actuó como un niño pequeño en ese episodio de navidad, <br />¡fue porque Raphiel la obligó!"
 	},
 	"pope-francis": {
 		"large-text": "Incluso el Papa Francisco ama a Satania",
-		"sub-text": "\"Satania es mi waifu número dos, ¡el número uno es Jesús por&nbsp;supuesto!<br>¡La bendigo a ella y a todos sus seguidores!\""
+		"sub-text": "\"Satania es mi waifu número dos, ¡el número uno es Jesús por&nbsp;supuesto!<br />¡La bendigo a ella y a todos sus seguidores!\""
 	},
 	"flipping-cards": {
 		"large-text": "Ella reemplaza a todas las otras waifus del show",
@@ -170,7 +170,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "¿Necesitas una chica <b>poco amable, que no le importa nadie más</b> y piensa que sus pasatiempos son más importantes que todo?",
-				"answer": "Entonces necesitas al demonio que <b>no le importan los humanos ni los angeles y siempre está tratando de ser malvada</b>, en vez de estudiar u otra cosa... <br> Además, <b>ella no hace su tarea <br>¡¡¡A PROPÓSITO!!!</b>"
+				"answer": "Entonces necesitas al demonio que <b>no le importan los humanos ni los angeles y siempre está tratando de ser malvada</b>, en vez de estudiar u otra cosa... <br /> Además, <b>ella no hace su tarea <br />¡¡¡A PROPÓSITO!!!</b>"
 			},
 			"vigne": {
 				"question": "¿Te gustaria una <b>linda demonio moe</b> que <b>quiere ser malvada, pero es mala en ello</b>, y termina haciendo cosas buenas como enseñarle cosas a Gabriel? ",
@@ -186,12 +186,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>porfa, no más bulli",
+		"large-text": "Ravioli, ravioli,<br />porfa, no más bulli",
 		"sub-text": "¿¿¿Por qué harías eso??? ¿¿¿Qué tan sádico tienes que ser para querer hacerle bulli???"
 	},
 	"large-text": {
 		"large-text": "Ella gobernará sobre la humanidad de todas modos...",
-		"sub-text": "Así que, te guste o no,<br>la vas a adorar eventualmente..."
+		"sub-text": "Así que, te guste o no,<br />la vas a adorar eventualmente..."
 	},
 	"end": {
 		"large-text": "Ella es la mejor.",

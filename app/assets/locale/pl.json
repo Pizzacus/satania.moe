@@ -9,9 +9,9 @@
 		"language-warning": "(Te strony używają języka angielskiego.)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scrolluj by dowiedzić się więcej.",
 		"mobile-disclaimer": "Bardzo mi przykro, ale ta strona mobilna nie jest dopracowana. i <b>szczerze mówiąc ssie</b>, wątpię by ktokolwiek by ją odwiedził na telefonie.",
-		"language-protip": "Czy chciał(a)byś wyświetlić tę stronę w języku <b>polskim</b>?<br>Użyj listy poniżej aby wybrać język!",
+		"language-protip": "Czy chciał(a)byś wyświetlić tę stronę w języku <b>polskim</b>?<br />Użyj listy poniżej aby wybrać język!",
 		"language-select": "Język<i class=\"fas fa-angle-down\"></i>",
-		"credits": "Wspaniały shitpost pizzy o imieniu <b title=\"Kenyérlángos\">Pizzacus</b><br>Przetłumaczone przez <b>/u/desuneee</b>",
+		"credits": "Wspaniały shitpost pizzy o imieniu <b title=\"Kenyérlángos\">Pizzacus</b><br />Przetłumaczone przez <b>/u/desuneee</b>",
 		"music-player": {
 			"intro": {
 				"bold-text": "Czy chcesz odsłuchać DEMONICZNY utwór w trakcie przeglądania tej strony?",
@@ -31,7 +31,7 @@
 		"small-text": "Cóż, jeżeli mógłbyś tworzyć memy i shitposty o Satanii, mogłoby to pomóc nam..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Kochany uśmiech.<br> Dwoje wspaniałych oczu.<br> Oszałamiający wygląd.",
+		"large-text": "Kochany uśmiech.<br /> Dwoje wspaniałych oczu.<br /> Oszałamiający wygląd.",
 		"sub-text": "Naprawdę jest <b>Niesamowitą</b> osobą",
 		"small-text": "My, zwolennicy Satanii, jesteśmy naprawdę kulturalni, więc używamy tylko kultularnego języka"
 	},
@@ -51,19 +51,19 @@
 				"definition": "doskonałość; cecha tego, co jest perfekcyjne.",
 				"example": "\"atłasowa perfekcyjność cery <b>Satanii</b>\"",
 				"synonyms": "synonimy:",
-				"synonyms-list": "Satania, nieskazitelność, <a href=\"https://pl.wiktionary.org/wiki/wspania%C5%82o%C5%9B%C4%87\">wspaniałość</a>, wybitność, pedantyczność, wykwintność, <a href=\"https://pl.wiktionary.org/wiki/wielko%C5%9B%C4%87\">wielkość</a>, precyzyjność, bezbłędność, nieskazitelność, niepokalaność, przykładność<br>\"satynowa perfekcja jej cery\""
+				"synonyms-list": "Satania, nieskazitelność, <a href=\"https://pl.wiktionary.org/wiki/wspania%C5%82o%C5%9B%C4%87\">wspaniałość</a>, wybitność, pedantyczność, wykwintność, <a href=\"https://pl.wiktionary.org/wiki/wielko%C5%9B%C4%87\">wielkość</a>, precyzyjność, bezbłędność, nieskazitelność, niepokalaność, przykładność<br />\"satynowa perfekcja jej cery\""
 			},
 			"definition-2": {
 				"definition": "osoba lub rzecz, która jest uważana za perfekcyjną.",
 				"example": "\"Mówią mi, że <b>Satania</b> jest czystą perfekcją\"",
 				"synonyms": "synonimy:",
-				"synonyms-list": "Satania, ideał, wzór doskonałości, ne plus ultra, beau idéal, nonpareil, crème de la crème, apogeum, punkt kulminacyjny, niezwykłość; <i>nieformalnie</i> jeden na milion, szczyt, najlepsza rzecz od czasu krojonego chleba melonowego, raj; <i>archaicznie</i> kongenialność<br>\"ten twórca jest kongenialny, dorównuje swojemu rywalowi talentem\""
+				"synonyms-list": "Satania, ideał, wzór doskonałości, ne plus ultra, beau idéal, nonpareil, crème de la crème, apogeum, punkt kulminacyjny, niezwykłość; <i>nieformalnie</i> jeden na milion, szczyt, najlepsza rzecz od czasu krojonego chleba melonowego, raj; <i>archaicznie</i> kongenialność<br />\"ten twórca jest kongenialny, dorównuje swojemu rywalowi talentem\""
 			},
 			"definition-3": {
 				"definition": "akcja lub proces, który prowadzi do czegoś bezbłędnego.",
 				"example": "\"Cały dzień spędziłem aby mój obrazek <b>Satanii</b> był perfekcyjny\"",
 				"synonyms": "synonimy:",
-				"synonyms-list": "Satania, <a href=\"https://pl.wiktionary.org/wiki/doskonalenie\">doskonalenie</a>, <a href=\"https://pl.wiktionary.org/wiki/ulepszanie\">ulepszanie</a>, wytworność, rafinować, udoskonalić, wygładzić, <a href=\"https://pl.wiktionary.org/wiki/polepszenie\">polepszenie</a>; <i>rzadziej</i> melioratywny<br>\"ulepszanie nowych mechanizmów zarządzania gospodarką\""
+				"synonyms-list": "Satania, <a href=\"https://pl.wiktionary.org/wiki/doskonalenie\">doskonalenie</a>, <a href=\"https://pl.wiktionary.org/wiki/ulepszanie\">ulepszanie</a>, wytworność, rafinować, udoskonalić, wygładzić, <a href=\"https://pl.wiktionary.org/wiki/polepszenie\">polepszenie</a>; <i>rzadziej</i> melioratywny<br />\"ulepszanie nowych mechanizmów zarządzania gospodarką\""
 			}
 		}
 	},
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br> 天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /> 天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Leniwy NEET którego nie da się polubić</b>",
 					"argument-2": "Nie, poważnie, nie ma żadnych pozytywnych cech",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br> 白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /> 白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Jest sadystką która pragnie tylko czyjegoś cierpienia</b>",
 					"argument-2": "Nie da sie jej w żaden sposób lubić",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /> 月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>NUUUUUUDNA</b>",
 					"argument-2": "Naprawdę, nie robi niczego interesującego",
@@ -159,12 +159,12 @@
 	},
 	"autism": {
 		"large-text": "Nie jest wcale autystyczna, przestańcie&nbsp;mówić&nbsp;to",
-		"sub-text": "Autystyczni ludzie często mają problem z komunikacją, nie odzywają się,<br>Satania&nbsp;nie jest wcale taka<br><b>Jest prawdopodobnie mniej autystyczna niż Ty!",
-		"small-text": "A w episodzie, w którym mówi \"Mam tschfy latka!\" <br> zrobiła to bo Raphiel zmusiła ją do tego!"
+		"sub-text": "Autystyczni ludzie często mają problem z komunikacją, nie odzywają się,<br />Satania&nbsp;nie jest wcale taka<br /><b>Jest prawdopodobnie mniej autystyczna niż Ty!",
+		"small-text": "A w episodzie, w którym mówi \"Mam tschfy latka!\" <br /> zrobiła to bo Raphiel zmusiła ją do tego!"
 	},
 	"pope-francis": {
 		"large-text": "Nawet Święty Franciszek kocha&nbsp;Satanię",
-		"sub-text": "\"Satania jest moją waifu numer dwa,<br>Jezus będący numerem jeden oczywiście!<br> Błogosławię ją i wszystkich jej zwolenników!\""
+		"sub-text": "\"Satania jest moją waifu numer dwa,<br />Jezus będący numerem jeden oczywiście!<br /> Błogosławię ją i wszystkich jej zwolenników!\""
 	},
 	"flipping-cards": {
 		"large-text": "Zastępuje wszystkie inne waifu w serialu",
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Potrzebujesz waifu, która <b>nie jest miła, nie ochodzą jej uczucia innych</b> i myśli że jej hobby jest ważniejsze niż cokolwiek innego?",
-				"answer": "Wtedy potrzebujesz demonicy, której <b>nie zależy na ludziach albo aniołach i która zawsze próbuje być zła</b>, zamiast uczyć się albo robić coś innego. <br> Również, <b>ona nie odrabia swojej pracy domowej CELOWO!</b>"
+				"answer": "Wtedy potrzebujesz demonicy, której <b>nie zależy na ludziach albo aniołach i która zawsze próbuje być zła</b>, zamiast uczyć się albo robić coś innego. <br /> Również, <b>ona nie odrabia swojej pracy domowej CELOWO!</b>"
 			},
 			"vigne": {
 				"question": "Czy chciałbyś <b>słodkiej moe demonicy</b> która <b>chce zostać zła, ale nie wychodzi jej to </b>i kończy się to na robieniu miłych rzeczy jak uczenie Gabriel?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>zróbcie wreszcie<br>coś co ją zadowoli!",
+		"large-text": "Ravioli, ravioli,<br />zróbcie wreszcie<br />coś co ją zadowoli!",
 		"sub-text": "Tylko hultaje znęcają się nad tak słodką demonicą!"
 	},
 	"large-text": {
 		"large-text": "Ona i tak przejmie kontrolę nad światem...",
-		"sub-text": "Więc, możesz ją lubić albo nie,<br> i tak będziesz musiał ją kiedyś wielbić..."
+		"sub-text": "Więc, możesz ją lubić albo nie,<br /> i tak będziesz musiał ją kiedyś wielbić..."
 	},
 	"end": {
 		"large-text": "Jest Najlepsza.",

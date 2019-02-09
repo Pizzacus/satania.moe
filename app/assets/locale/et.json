@@ -9,9 +9,9 @@
 		"language-warning": "(Need kogukonnad kasutavad inglise keelt peamisena)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Kerige alla et saada teada rohkem!",
 		"mobile-disclaimer": "Palun vabandage, aga mobiilne versioon sellest leheküljest oli rutustatud ja see on <b>täiesti pask</b>, ma ei arvanud et keegi külastaks seda lehekülge telefonil.",
-		"language-protip": "Kas te tahate vaadata seda lehekülge <b>eesti keeles</b>?<br>Kasutage seda rippmenüü et vahetada keelt!",
+		"language-protip": "Kas te tahate vaadata seda lehekülge <b>eesti keeles</b>?<br />Kasutage seda rippmenüü et vahetada keelt!",
 		"language-select": "Keel<i class=\"fas fa-angle-down\"></i>",
-		"credits": "Erandlik shitpost tehtud mingi pitsa poolt kelle nimi on <b title=\"Kenyérlángos\">Pizzacus</b><br>Tõlkis <b>Virus#6216</b>",
+		"credits": "Erandlik shitpost tehtud mingi pitsa poolt kelle nimi on <b title=\"Kenyérlángos\">Pizzacus</b><br />Tõlkis <b>Virus#6216</b>",
 		"music-player": {
 			"intro": {
 				"bold-text": "Tahad kuulata saatanlikut laulu sirvimise ajal?",
@@ -31,7 +31,7 @@
 		"small-text": "Noh kui sa saaksid teha Satania meeme ja shitposte, see aitaks meid väga..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Armas naeratus.<br> Kaks suurepärast silma.<br> Silmatorkav välimus.",
+		"large-text": "Armas naeratus.<br /> Kaks suurepärast silma.<br /> Silmatorkav välimus.",
 		"sub-text": "Ta on <b>eriliselt ilus</b> isik",
 		"small-text": "Meie Satania austajad oleme väga kultuursed inimesed, nii et me kasutama väga kultuurset keelt"
 	},
@@ -51,19 +51,19 @@
 				"definition": "perfektne olek või kvaliteet.",
 				"example": "\"Satiinne perfektsus <b>Satania</b> nahal\"",
 				"synonyms": "sünonüümid:",
-				"synonyms-list": "Satania, veatu, suurepärasus, ülev, imeline, luksuslikkus, laitmatus <br>\"satiinne perfektsus tema nahal\""
+				"synonyms-list": "Satania, veatu, suurepärasus, ülev, imeline, luksuslikkus, laitmatus <br />\"satiinne perfektsus tema nahal\""
 			},
 			"definition-2": {
 				"definition": "inimene või asi pidatud parimana.",
 				"example": "\"Mulle on üteldud et <b>Satania</b> on perfektsus parimas vormis\"",
 				"synonyms": "sünonüümid:",
-				"synonyms-list": "Satania, ideaal, paragon, unistus; <i>mitteametlik</i> üks miljonitest, parim asi pärast viilutatud melon leiba <br>\"tema jaoks ta oli perfektne\""
+				"synonyms-list": "Satania, ideaal, paragon, unistus; <i>mitteametlik</i> üks miljonitest, parim asi pärast viilutatud melon leiba <br />\"tema jaoks ta oli perfektne\""
 			},
 			"definition-3": {
 				"definition": "töötlemise protsess nii kaua et see oleks veatu.",
 				"example": "\"Ma terve päev töötasin <b>Satania</b> pildil et teha seda perfekteks\"",
 				"synonyms": "sünonüümid:",
-				"synonyms-list": "Satania, paranemine, täiustamine, rafineerimine, tegema perfektseks, poleerimine <br>\"uute mehanismide perfektsus\""
+				"synonyms-list": "Satania, paranemine, täiustamine, rafineerimine, tegema perfektseks, poleerimine <br />\"uute mehanismide perfektsus\""
 			}
 		}
 	},
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br> 天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /> 天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Laisk NEET kes on 100% ebameeldiv</b>",
 					"argument-2": "Ei päriselt, tal pole mingeid häid omadusi",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br> 白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /> 白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Sadist kes ainult tahab näha teisi kannatuses</b>",
 					"argument-2": "Ei ole meeldiv mitte mingis mõttes",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /> 月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>IGAAAAAAAAAAAAAAAAAAAAV</b>",
 					"argument-2": "Ei päriselt, ta mitte kunagi tee midagi huvitavat",
@@ -159,7 +159,7 @@
 	},
 	"autism": {
 		"large-text": "Ja veel, ta pole autist, ärge&nbsp;ütelge seda",
-		"sub-text": "Autistidel on probleemid kommunikatsiooniga, alati&nbsp;vaiksed oma nurgas, Satania pole selline.<br><b> Võib arvata et ta on väiksem autist kui sina!</b>",
+		"sub-text": "Autistidel on probleemid kommunikatsiooniga, alati&nbsp;vaiksed oma nurgas, Satania pole selline.<br /><b> Võib arvata et ta on väiksem autist kui sina!</b>",
 		"small-text": "Jah, ta ütles \"ma olen kvolm\" tolles episoodis, aga ta ütles seda sellepärast et Raphiel käskis!"
 	},
 	"pope-francis": {
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Kas sa tahad tüdruku <b>keda ei huvita kellegi heaolu </b> ja arvab et ta hobbid on vajalikumad kui kõik?",
-				"answer": "Siis sul on vaja deemonit kes <b>ei hooli inimestest ja ingelitest ja kogu aeg proovib olla kuritegija</b>  ja ei õppi või tee midagi teist...<br> ja veel, <b>ta ei tee oma kodutöö MEELEGA!!</b>"
+				"answer": "Siis sul on vaja deemonit kes <b>ei hooli inimestest ja ingelitest ja kogu aeg proovib olla kuritegija</b>  ja ei õppi või tee midagi teist...<br /> ja veel, <b>ta ei tee oma kodutöö MEELEGA!!</b>"
 			},
 			"vigne": {
 				"question": "Kas sa tahaksid <b>armsat moe deemonit</b> kes <b>tahab olla kuritegija, aga on väga halb selles</b>, lõpetades teeb häid asju nagu Gabrieli õppetamine?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>pls, ära kiusa",
+		"large-text": "Ravioli, ravioli,<br />pls, ära kiusa",
 		"sub-text": "Miks sa teeksid seda??? Kui suur sadist sa pead olema et sa tahaksid teda kiusata???"
 	},
 	"large-text": {
 		"large-text": "Ta nagunii vallutab terve inimkonna...",
-		"sub-text": "Vahet pole kas ta meeldib sulle või mitte,<br> mingi päev sa ikka pead teda austama"
+		"sub-text": "Vahet pole kas ta meeldib sulle või mitte,<br /> mingi päev sa ikka pead teda austama"
 	},
 	"end": {
 		"large-text": "Ta on Parim.",

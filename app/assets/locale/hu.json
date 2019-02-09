@@ -9,7 +9,7 @@
 		"language-warning": "(Ezeknek a közösségeknek a fő nyelve az angol)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Görgess lejjebb!",
 		"mobile-disclaimer": "Bocs, de az oldal mobil verziója eléggé el lett sietve,  <b>úgyhogy eléggé szar lett</b>. Őszintén szólva, nem gondoltam volna, hogy valaki mengnézni telefonról.",
-		"language-protip": "Inkább <b>magyarul</b> szeretnéd nézni az oldalt?<br>Ezzel a menüvel kiválaszthatod a nyelvet.",
+		"language-protip": "Inkább <b>magyarul</b> szeretnéd nézni az oldalt?<br />Ezzel a menüvel kiválaszthatod a nyelvet.",
 		"language-select": "Nyelv <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Csodálatos shitpost egy <b title=\"Kenyérlángos\">Pizzacus</b> nevű pizzától.",
 		"music-player": {
@@ -31,7 +31,7 @@
 		"small-text": "Igazából, az is sokat segítene ha csinálnál Satania mémeket és shitpostokat"
 	},
 	"she-is-beautiful": {
-		"large-text": "Egy szerethető mosoly.<br>Két káprázatos szem.<br>Lenyűgöző megjelenés.",
+		"large-text": "Egy szerethető mosoly.<br />Két káprázatos szem.<br />Lenyűgöző megjelenés.",
 		"sub-text": "Olyan szép, hogy nem lehet <b>megszentségteleníteni</b>.",
 		"small-text": "Mi, Satania követők nagyon kultúrált emberek vagyunk, ez a szókincsünkből is látszik."
 	},
@@ -50,19 +50,19 @@
 				"definition": "Állapot, vagy tulajdonság, midőn valami a maga nemében tökéletes.",
 				"example": "\"Tökéletes, mint <b>Satania</b> atlaszfényű bőre.\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "Satania, pompásság, tökéletesség, makulátlanság, hibátlanság, nagyszerűség<br>\"a bőre nyers tökéletessége\""
+				"synonyms-list": "Satania, pompásság, tökéletesség, makulátlanság, hibátlanság, nagyszerűség<br />\"a bőre nyers tökéletessége\""
 			},
 			"definition-2": {
 				"definition": "Egy személy vagy tárgy ami tökéletes.",
 				"example": "\"Úgy hallottam, hogy <b>Satania</b> maga a tökély\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "Satania, az ideál, a példakép, egy álom; <i>baráti</i> egy a millióból, a top, a legjobb dolog a dinnyekenyér feltalálása óta; <i>régies</i> páratlan<br>\"számára ő volt maga a tökély\""
+				"synonyms-list": "Satania, az ideál, a példakép, egy álom; <i>baráti</i> egy a millióból, a top, a legjobb dolog a dinnyekenyér feltalálása óta; <i>régies</i> páratlan<br />\"számára ő volt maga a tökély\""
 			},
 			"definition-3": {
 				"definition": "egy cselekvés vagy folyamat mely során valamit addig finomítunk míg hibátlan nem lesz",
 				"example": "\"Egész nap dolgoztam, hogy tökélyre fejlesszem a <b>Satania</b> rajzomat\"",
 				"synonyms": "szinonímák:",
-				"synonyms-list": "Satania, javítás, finomítás, tökéletesítés, fejlesztés; <i>ritkán</i> megjavítás<br>\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
+				"synonyms-list": "Satania, javítás, finomítás, tökéletesítés, fejlesztés; <i>ritkán</i> megjavítás<br />\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
 			}
 		}
 	},
@@ -115,7 +115,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Lusta NEET aki szerethetetlen.</b>",
 					"argument-2": "Komolyan, nincsen jó adottsága,",
@@ -127,7 +127,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Egy szadista, aki csak azt akarja, hogy mások szenvedjenek.</b>",
 					"argument-2": "Akárhogy nézzük, szerethetetlen.",
@@ -139,7 +139,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>UNALMAAAAS</b>",
 					"argument-2": "De most tényleg, soha nem csinál semmi érdekeset",
@@ -158,12 +158,12 @@
 	},
 	"autism": {
 		"large-text": "Amúgymeg, ő nem egy autista. Ne mondjatok ilyeneket!",
-		"sub-text": "Az autistáknak általában problémái vannak a kommunikációval, inkább csak ott ülnek, csendben, a saját kis sarkukban. Satania&nbsp;egyáltalán nem ilyen.<br><b>Lehet, hogy igazából nálad is kevésbé autista!</b>",
-		"small-text": "Annak ellenére, hogy abban az egy részben azt mondja, hogy \"Már három éves vagyok!\" <br>Az csak azért volt, mert Raphiel rávette!"
+		"sub-text": "Az autistáknak általában problémái vannak a kommunikációval, inkább csak ott ülnek, csendben, a saját kis sarkukban. Satania&nbsp;egyáltalán nem ilyen.<br /><b>Lehet, hogy igazából nálad is kevésbé autista!</b>",
+		"small-text": "Annak ellenére, hogy abban az egy részben azt mondja, hogy \"Már három éves vagyok!\" <br />Az csak azért volt, mert Raphiel rávette!"
 	},
 	"pope-francis": {
 		"large-text": "Még Ferenc pápa is szereti Sataniát.",
-		"sub-text": "\"Satania a másodszámú waifum, míg az első természetesen maga Jézus.<br>Isten áldja őt és a követőit!\""
+		"sub-text": "\"Satania a másodszámú waifum, míg az első természetesen maga Jézus.<br />Isten áldja őt és a követőit!\""
 	},
 	"flipping-cards": {
 		"large-text": "A show minden más waifuját helyettesíti",
@@ -171,7 +171,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Akarsz egy lányt, aki <b>nem éppen kedves, senki más nem érdekli őt</b> és azt gondolja, hogy a hobbija fontosabb, mint minden más??",
-				"answer": "Akkor neked egy olyan démon kell, akit <b>nem érdekelnek az emberek és az angyalok, csak az, hogy folyamatosan gonoszkodjon</b>, ahelyett hogy tanulna, vagy valami ilyesmi....<br>Ja, és <b>a házi feladatát se csinálja meg, DIREKT!</b>"
+				"answer": "Akkor neked egy olyan démon kell, akit <b>nem érdekelnek az emberek és az angyalok, csak az, hogy folyamatosan gonoszkodjon</b>, ahelyett hogy tanulna, vagy valami ilyesmi....<br />Ja, és <b>a házi feladatát se csinálja meg, DIREKT!</b>"
 			},
 			"vigne": {
 				"question": "Akarsz egy <b>cuki moe démont</b> aki <b>gonosz akar lenni, de nem nagyon sikerül neki,</b> ezért a végén csak jó dolgokat tanít Gabrielnek?",
@@ -187,12 +187,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Paprika, Paprika,<br>Ne bántsd többet, te szadista!",
+		"large-text": "Paprika, Paprika,<br />Ne bántsd többet, te szadista!",
 		"sub-text": "Most ezt miért csináltad??? Mennyire kell elvetemültnek lenned ahhoz, hogy terrorizáld ezt a jámbor lelket???"
 	},
 	"large-text": {
 		"large-text": "Igazából mindegy is... Egy nap úgyis uralkodni fog az emberek fölött",
-		"sub-text": "Tehát ha akarod, ha nem,<br>akkor is isteníteni fogod előbb vagy utóbb"
+		"sub-text": "Tehát ha akarod, ha nem,<br />akkor is isteníteni fogod előbb vagy utóbb"
 	},
 	"end": {
 		"large-text": "Ő a legjobb",

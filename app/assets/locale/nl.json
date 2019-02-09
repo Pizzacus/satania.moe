@@ -9,9 +9,9 @@
 		"language-warning": "(Deze groepen gebruiken Engels als de voertaal)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scroll naar beneden om meer te leren!",
 		"mobile-disclaimer": "Het spijt me echt, maar de mobiele versie van deze website is snel in elkaar gezet en <b>hij is echt slecht</b>, I dacht niet dat iemand de website op een smartphone zou bekijken tbh.",
-		"language-protip": "Zou je deze website graag in het <b>Nederlands</b> willen zien?<br>Gebruik dit drop-down menu om een taal te selecteren!",
+		"language-protip": "Zou je deze website graag in het <b>Nederlands</b> willen zien?<br />Gebruik dit drop-down menu om een taal te selecteren!",
 		"language-select": "Taal<i class=\"fas fa-angle-down\"></i>",
-		"credits": "A geweldige shitpost door een of andere pizza genaamd <b title=\"Kenyérlángos\">Pizzacus</b><br>en vertaald door puur weeaboo trash <b>Kbloowit</b>",
+		"credits": "A geweldige shitpost door een of andere pizza genaamd <b title=\"Kenyérlángos\">Pizzacus</b><br />en vertaald door puur weeaboo trash <b>Kbloowit</b>",
 		"music-player": {
 			"intro": {
 				"bold-text": "Zin om te luisteren naar een duivels nummer terwijl je deze pagina leest?",
@@ -31,9 +31,9 @@
 		"small-text": "Nou ja, als je Satania memes en shitposts kan maken, zou dat ons veel helpen..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Een heerlijke glimlach.<br> Twee prachtige ogen.<br> Een ongekend uiterlijk.",
+		"large-text": "Een heerlijke glimlach.<br /> Twee prachtige ogen.<br /> Een ongekend uiterlijk.",
 		"sub-text": "Ze is een echt <b>wonderschoon</b> persoon",
-		"small-text": "Wij Satania volgers zijn een cultuurrijke groep mensen,<br>dus gebruiken we alleen cultuurrijke taal."
+		"small-text": "Wij Satania volgers zijn een cultuurrijke groep mensen,<br />dus gebruiken we alleen cultuurrijke taal."
 	},
 	"end-the-waifu-war": {
 		"large-text": "De beste demonische Waifu alleen voor jou.",
@@ -51,19 +51,19 @@
 				"definition": "perfect zijn of de kwaliteit van perfectie hebben.",
 				"example": "\"de satijnachtige perfectie van <b>Satania</b> haar huid\"",
 				"synonyms": "synoniemen:",
-				"synonyms-list": "Satania, foutloosheid, excellentie, geweldigheid, verhevenheid, fijnheid, magnificence, perfectheid, foutloosheid, onfeilbaarheid, vuilloosheid, ongekendheid<br>\"de satijnachtige perfectie van haar huid\""
+				"synonyms-list": "Satania, foutloosheid, excellentie, geweldigheid, verhevenheid, fijnheid, magnificence, perfectheid, foutloosheid, onfeilbaarheid, vuilloosheid, ongekendheid<br />\"de satijnachtige perfectie van haar huid\""
 			},
 			"definition-2": {
 				"definition": "een persoon of ding dat als perfect wordt ervaren.",
 				"example": "\"Er is mij verteld dat <b>Satania</b> perfectie is\"",
 				"synonyms": "synoniemen:",
-				"synonyms-list": "Satania, het idool, toobeeld, het ne plus ultra, het beau idéal, een nonpareil, de crème de la crème, het laatste woord, the ultime, een droom; <i>informal</i> één in een milioen, de top, het beste/geweldigste ding sinds gesneden citroen brood, het neusje van de zalm; <i>archaic</i> een hopklaver<br>\"Hij was nog steeds perfectie voor haar\""
+				"synonyms-list": "Satania, het idool, toobeeld, het ne plus ultra, het beau idéal, een nonpareil, de crème de la crème, het laatste woord, the ultime, een droom; <i>informal</i> één in een milioen, de top, het beste/geweldigste ding sinds gesneden citroen brood, het neusje van de zalm; <i>archaic</i> een hopklaver<br />\"Hij was nog steeds perfectie voor haar\""
 			},
 			"definition-3": {
 				"definition": "de actie of het proces waarin iets beter wordt gemaakt tot dat het foutloos is.",
 				"example": "\" Ik heb de hele dag gewerkt aan de perfectheid van mijn <b>Satania</b> tekening\"",
 				"synonyms": "synoniemen:",
-				"synonyms-list": "Satania, verbetering, waardevermeerdering, raffinage, perfectioneren, polijsten, veredeling; <i>rare</i> melioratie<br>\"de perfectie van nieuwe mechanismen van economisch management\""
+				"synonyms-list": "Satania, verbetering, waardevermeerdering, raffinage, perfectioneren, polijsten, veredeling; <i>rare</i> melioratie<br />\"de perfectie van nieuwe mechanismen van economisch management\""
 			}
 		}
 	},
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br> 天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br /> 天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Luie NEET die 100% haatbaar is</b>",
 					"argument-2": "Nee serieus, er is niks goeds aan haar",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br> 白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br /> 白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Is een sadist die alleen anderen wil laten lijden</b>",
 					"argument-2": " Is ook compleet haatbaar",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br> 月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br /> 月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>SAAAAAAAAAAAAAAAAAI</b>",
 					"argument-2": "Nee echt, ze doet nooit iets interessants",
@@ -158,13 +158,13 @@
 		"sub-text": "Kijk hier eens naar, dit is ongelovelijk schattig. <noscript>Voor deze slideshow heb je Javascript nodig.</noscript>"
 	},
 	"autism": {
-		"large-text": "Trouwens,<br>ze is niet autistisch,<br>stop dat te zeggen",
-		"sub-text": "Autistiche mensen hebben vaak problemen met communiceren, ze blijven liever stil in hun eigen hoekje, Satania is helemaal niet zo.<br><b>Ze is waarschijnlijk minder autistisch dan jij bent!</b>",
-		"small-text": "En ookal zegt ze \"Ik ben dwie\" in die aflevering,<br> maar dat is omdat ze dat van Raphiel moest zeggen!"
+		"large-text": "Trouwens,<br />ze is niet autistisch,<br />stop dat te zeggen",
+		"sub-text": "Autistiche mensen hebben vaak problemen met communiceren, ze blijven liever stil in hun eigen hoekje, Satania is helemaal niet zo.<br /><b>Ze is waarschijnlijk minder autistisch dan jij bent!</b>",
+		"small-text": "En ookal zegt ze \"Ik ben dwie\" in die aflevering,<br /> maar dat is omdat ze dat van Raphiel moest zeggen!"
 	},
 	"pope-francis": {
 		"large-text": "Zelfs Paus Francis houdt van Satania.",
-		"sub-text": "\"Satania is mijn waifu nummer twee,<br>met als nummer een Jesus  natuurlijk!<br> Ik zegen haar en al haar volgers!\""
+		"sub-text": "\"Satania is mijn waifu nummer twee,<br />met als nummer een Jesus  natuurlijk!<br /> Ik zegen haar en al haar volgers!\""
 	},
 	"flipping-cards": {
 		"large-text": "Ze vervangt alle andere waifus in de serie",
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Heb jij een meisje nodig die <b>niet erg aardig is, om niemand geeft</b>en denkt dat haar hobbies belangrijker zijn dan alle andere dingen?",
-				"answer": "Dan heb jij de demoon nodig die <b>niks geeft om mensen en engelen en die altijd probeert om kwaadaardig te zijn</b>, in plaats van studeren of iets dergelijks...<br> Trouwens, <b>ze maakt haar huiswerk MET OPZET niet!!!</b>"
+				"answer": "Dan heb jij de demoon nodig die <b>niks geeft om mensen en engelen en die altijd probeert om kwaadaardig te zijn</b>, in plaats van studeren of iets dergelijks...<br /> Trouwens, <b>ze maakt haar huiswerk MET OPZET niet!!!</b>"
 			},
 			"vigne": {
 				"question": "Zou jij graag een <b>schattige moe demoon</b> die <b>kwaadaardig wil zijn, maar er erg slecht in is</b>, waardoor ze per ongeluk goede dingen doet zoals dingen leren aan Gabriel?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Tagliatelle, Tagliatelle,<br>Houd op met dat gekwel",
+		"large-text": "Tagliatelle, Tagliatelle,<br />Houd op met dat gekwel",
 		"sub-text": "Waarom zou je haar pesten??? Wat voor een sadist moet je zijn om haar te willen pesten???"
 	},
 	"large-text": {
 		"large-text": "Ze wordt toch de koningin van de mensheid...",
-		"sub-text": "Dus, je mag haar leuk vinden of niet,<br> maar je zal haar uiteindelijk toch te moeten prijzen..."
+		"sub-text": "Dus, je mag haar leuk vinden of niet,<br /> maar je zal haar uiteindelijk toch te moeten prijzen..."
 	},
 	"end": {
 		"large-text": "Ze is de Beste.",

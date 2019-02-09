@@ -8,7 +8,7 @@
 		"language-warning": "(Essas comunidades tem o Inglês como língua principal)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Desça para saber mais!",
 		"mobile-disclaimer": "Minhas sinceras desculpas, mas a versão mobile desse website foi feita as pressas e é <b>bem horrível</b>, mas, sendo franco, não achei que alguém iria visitá-lo em dessa forma.",
-		"language-protip": "Gostarias de ver esta página em <b>Português</b>?<br>Seleciona este menu para escolheres a língua!",
+		"language-protip": "Gostarias de ver esta página em <b>Português</b>?<br />Seleciona este menu para escolheres a língua!",
 		"language-select": "Língua <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Um shitpost glorioso por uma pizza chamada <b title=\"Kenyérlángos\">Pizzacus</b>, traduzido por <b>qgustavor</b>",
 		"music-player": {
@@ -30,9 +30,9 @@
 		"small-text": "Bem, se você puder fazer memes e shitposts da Satania, isso nos ajudaria muito..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Um sorriso amável.<br>Dois olhos magnificentes.<br>Uma aparência explêndida.",
+		"large-text": "Um sorriso amável.<br />Dois olhos magnificentes.<br />Uma aparência explêndida.",
 		"sub-text": "Ela é realmente uma pessoa <b>donairosa</b>",
-		"small-text": "Nós, seguidores da Satania, somos pessoas extremamente cultas,<br>então só usamos uma linguagem bem culta"
+		"small-text": "Nós, seguidores da Satania, somos pessoas extremamente cultas,<br />então só usamos uma linguagem bem culta"
 	},
 	"end-the-waifu-war": {
 		"large-text": "A melhor Waifu demônio só para você.",
@@ -49,19 +49,19 @@
 				"definition": "o estado ou qualidade de ser perfeito.",
 				"example": "\"a suave perfeição da pele da <b>Satania</b>\"",
 				"synonyms": "sinônimos:",
-				"synonyms-list": "Satania, pureza, excelência, soberania, sublimidade, requitne, magnificência, perfeição, impecabilidade, imaculada, exemplaridade<br>\"a suave perfeição da pele dela\""
+				"synonyms-list": "Satania, pureza, excelência, soberania, sublimidade, requitne, magnificência, perfeição, impecabilidade, imaculada, exemplaridade<br />\"a suave perfeição da pele dela\""
 			},
 			"definition-2": {
 				"definition": "uma pessoa ou coisa considerada perfeita.",
 				"example": "\"Foi-me dito que a <b>Satania</b> é a perfeição em pessoa\"",
 				"synonyms": "sinônimos:",
-				"synonyms-list": "Satania, o ideal, o modelo, o ne plus ultra, o beau idéal, uma inigualável, o crème de la crème, a última palavra, o ultimato, o sonho; o <i>incomum</i> um em um milhão, o topo, a melhor/maior coisa desde pão de melão em fatias, o <i>negócio</i> da China<br>\"para ela, era sempre a perfeição\""
+				"synonyms-list": "Satania, o ideal, o modelo, o ne plus ultra, o beau idéal, uma inigualável, o crème de la crème, a última palavra, o ultimato, o sonho; o <i>incomum</i> um em um milhão, o topo, a melhor/maior coisa desde pão de melão em fatias, o <i>negócio</i> da China<br />\"para ela, era sempre a perfeição\""
 			},
 			"definition-3": {
 				"definition": "a ação ou processo de melhorar alguma coisa até que se torne impecável.",
 				"example": "\"Trabalhei o dia todo na perfeição do meu desenho da <b>Satania</b>\"",
 				"synonyms": "sinônimos:",
-				"synonyms-list": "Satania, melhoria, aperfeiçoamento, refinamento, refinação, aprimorar, polimento, requintar; <i>rara</i> melhora<br>\"a perfeição de novos mecanismos de gestão econômica\""
+				"synonyms-list": "Satania, melhoria, aperfeiçoamento, refinamento, refinação, aprimorar, polimento, requintar; <i>rara</i> melhora<br />\"a perfeição de novos mecanismos de gestão econômica\""
 			}
 		}
 	},
@@ -114,7 +114,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Uma preguiçosa sem vida que é 100% antipática</b>",
 					"argument-2": "Sério, ela não tem nenhuma qualidade boa",
@@ -126,7 +126,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>É uma sádica que só quer que os outros sofram</b>",
 					"argument-2": "Também não é simpática de qualquer maneira",
@@ -138,7 +138,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>CHAAATTTAAA</b>",
 					"argument-2": "Sério, ela nunca faz nada interessante",
@@ -157,12 +157,12 @@
 	},
 	"autism": {
 		"large-text": "Além disso, ela não é autista, parem de falar isso",
-		"sub-text": "Pessoas autistas muitas vezes têm problemas para se comunicar, ficando silenciosas em seu próprio canto o tempo todo, a Satania não é nada assim.<br><b>Ela provavelmente é menos autista do que você!</b>",
-		"small-text": "E embora ela disse \"Tenho tlês anos\" em um episódio,<br>foi porque a Raphiel que fez ela dizer isso!"
+		"sub-text": "Pessoas autistas muitas vezes têm problemas para se comunicar, ficando silenciosas em seu próprio canto o tempo todo, a Satania não é nada assim.<br /><b>Ela provavelmente é menos autista do que você!</b>",
+		"small-text": "E embora ela disse \"Tenho tlês anos\" em um episódio,<br />foi porque a Raphiel que fez ela dizer isso!"
 	},
 	"pope-francis": {
 		"large-text": "Até o Papa Francisco ama a Satania.",
-		"sub-text": "\"A Satania é minha waifu número dois, o primeiro lugar é de Jesus, claro!<br>Eu abençoo ela e todos os seguidores dela!\""
+		"sub-text": "\"A Satania é minha waifu número dois, o primeiro lugar é de Jesus, claro!<br />Eu abençoo ela e todos os seguidores dela!\""
 	},
 	"flipping-cards": {
 		"large-text": "Ela substitui todas as outras waifus do anime",
@@ -170,7 +170,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Você precisa de uma menina que <b>não é muito legal, não se preocupa com ninguém</b> e acha que seus hobbies são mais importantes do que qualquer coisa?",
-				"answer": "Então você precisa da demônio que <b>não se preocupa com humanos e anjos e está sempre tentando ser malvada</b>, ao invés de estudar ou algo assim...<br>Além disso, <b>ela não faz sua tarefa de casa DE PROPÓSITO!!</b>"
+				"answer": "Então você precisa da demônio que <b>não se preocupa com humanos e anjos e está sempre tentando ser malvada</b>, ao invés de estudar ou algo assim...<br />Além disso, <b>ela não faz sua tarefa de casa DE PROPÓSITO!!</b>"
 			},
 			"vigne": {
 				"question": "Você gostaria de uma <b>demonio bonita e moe</b>, que <b>quer ser má mas é muito ruim nisso</b>, e acaba fazendo coisas legais como ensinar coisas a Gabriel?",
@@ -181,17 +181,17 @@
 				"answer": "Isso soa exatamente como a Satania! Porque se tornar o maior arquidemônio que o mundo já conheceu, <b>provavelmente implica ferir ou matar muitas pessoas</b>..."
 			},
 			"satania": {
-				"question": "Que tal a<br><b>maior demônio de todo o universo?</b>"
+				"question": "Que tal a<br /><b>maior demônio de todo o universo?</b>"
 			}
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>não a amole",
-		"sub-text": "Por que você faria isso??? O quão sadista você é<br>para querer maltratar ela???"
+		"large-text": "Ravioli, ravioli,<br />não a amole",
+		"sub-text": "Por que você faria isso??? O quão sadista você é<br />para querer maltratar ela???"
 	},
 	"large-text": {
 		"large-text": "No fim das contas ela vai dominar a humanidade...",
-		"sub-text": "Então, goste ou não dela,<br>você vai ter que louvá-la um dia..."
+		"sub-text": "Então, goste ou não dela,<br />você vai ter que louvá-la um dia..."
 	},
 	"end": {
 		"large-text": "Ela é a melhor.",

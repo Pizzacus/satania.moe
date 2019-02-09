@@ -9,9 +9,9 @@
 		"language-warning": "(Diese Communities sind englischsprachig)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Nach unten scrollen um mehr zu erfahren!",
 		"mobile-disclaimer": "Tut mir leid, die mobile Version dieser Webseite wurde schnell zusammengeschustert <b>und ist richtig beschissen</b>, ich hätte nicht damit gerechnet, dass sie jemand auf einem Handy besuchen würde um ehrlich zu sein.",
-		"language-protip": "Würdest du diese Webseite gerne in <b>Deutsch</b> sehen?<br>Benutze dieses Menü, um eine Sprache auszuwählen!",
+		"language-protip": "Würdest du diese Webseite gerne in <b>Deutsch</b> sehen?<br />Benutze dieses Menü, um eine Sprache auszuwählen!",
 		"language-select": "Sprache <i class=\"fas fa-angle-down\"></i>",
-		"credits": "Ein gloriöser Shitpost von einer Pizza namens <b title=\"Kenyérlángos\">Pizzacus</b><br>(Schlecht) Übersetzt von moëns ☆",
+		"credits": "Ein gloriöser Shitpost von einer Pizza namens <b title=\"Kenyérlángos\">Pizzacus</b><br />(Schlecht) Übersetzt von moëns ☆",
 		"music-player": {
 			"intro": {
 				"bold-text": "Möchtest du einen teuflisch guten Song hören, während du hier bist?", 
@@ -31,7 +31,7 @@
 		"small-text": "Naja, wenn du Satania Memes und Shitposts machen könntest, würde uns das sehr helfen..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Ein entzückendes Lächeln.<br>Zwei großartige Augen.<br>Ein überwältigendes Äußeres.",
+		"large-text": "Ein entzückendes Lächeln.<br />Zwei großartige Augen.<br />Ein überwältigendes Äußeres.",
 		"sub-text": "Sie ist eine wirklich <b>pittoreske</b> Person",
 		"small-text": "Wir Anhänger Satanias sind sehr kultivierte Leute, weshalb wir auch nur eine äußerst kultivierte Sprache sprechen"
 	},
@@ -50,7 +50,7 @@
 				"definition": "Der Zustand oder die Eigenschaft perfekt zu sein.",
 				"example": "\"Die seidige Perfektion <b>Satanias</b> Haut\"",
 				"synonyms": "Synonyme:",
-				"synonyms-list": "Satania, die Fehlerlosigkeit, die Vortrefflichkeit, die Herrlichkeit, die Erhabenheit, die Vorzüglichkeit, die Großartigkeit, die Perfektion, die Fehlerlosigkeit, die Unfehlbarkeit, die Reinheit, die Mustergültigkeit<br>\"Die seidige Perfektion ihrer Haut\""
+				"synonyms-list": "Satania, die Fehlerlosigkeit, die Vortrefflichkeit, die Herrlichkeit, die Erhabenheit, die Vorzüglichkeit, die Großartigkeit, die Perfektion, die Fehlerlosigkeit, die Unfehlbarkeit, die Reinheit, die Mustergültigkeit<br />\"Die seidige Perfektion ihrer Haut\""
 			},
 			"definition-2": {
 				"definition": "Eine Person, oder eine Sache, die als perfekt angesehen wird.",
@@ -62,7 +62,7 @@
 				"definition": "Die Tätigkeit oder der Prozess etwas zu verbessern, bis es makellos ist.",
 				"example": "\"Ich habe den ganzen Tag daran gearbeitet mein Bild von <b>Satania</b> zu perfektionieren\"",
 				"synonyms": "Synonyme:",
-				"synonyms-list": "Satania, die Verbesserung, die Besserung, die Verfeinerung, die Veredelung, die Vervollkommnung, das Polieren, die Melioration; <i>selten</i> die Melioration<br>\"Die Perfektionierung neuer Mechanismen in der Landschaftspflege\""
+				"synonyms-list": "Satania, die Verbesserung, die Besserung, die Verfeinerung, die Veredelung, die Vervollkommnung, das Polieren, die Melioration; <i>selten</i> die Melioration<br />\"Die Perfektionierung neuer Mechanismen in der Landschaftspflege\""
 			}
 		}
 	},
@@ -115,7 +115,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>Fauler NEET, der 100% unsympathisch ist</b>",
 					"argument-2": "Nein, ernsthaft, sie hat keine guten Eigenschaften",
@@ -127,7 +127,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Ist eine Sadistin, die andere leiden sehen will</b>",
 					"argument-2": "Ist auch nicht in irgendeiner Weise sympathisch",
@@ -139,7 +139,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>LAAAAAAAAANGWEILIG</b>",
 					"argument-2": "Nein, ernsthaft, sie macht nie etwas interessantes",
@@ -158,12 +158,12 @@
 	},
 	"autism": {
 		"large-text": "Außerdem: Sie ist kein Autist, hört auf das&nbsp;zu sagen&nbsp;",
-		"sub-text": "Autisten haben oft Probleme damit zu kommunizieren und bleiben die ganze Zeit still in ihrer Ecke, Satania&nbsp;ist überhaupt nicht so.<br><b>Sie ist vermutlich nicht so autistisch wie du!</b>",
-		"small-text": "Und das obwohl sie \"Ich bim dreeh\" in der einen Folge sagt.<br>Das hat sie nur gesagt, weil Raphiel sie dazu gezwungen hat!"
+		"sub-text": "Autisten haben oft Probleme damit zu kommunizieren und bleiben die ganze Zeit still in ihrer Ecke, Satania&nbsp;ist überhaupt nicht so.<br /><b>Sie ist vermutlich nicht so autistisch wie du!</b>",
+		"small-text": "Und das obwohl sie \"Ich bim dreeh\" in der einen Folge sagt.<br />Das hat sie nur gesagt, weil Raphiel sie dazu gezwungen hat!"
 	},
 	"pope-francis": {
 		"large-text": "Sogar Papst Franziskus liebt Satania.",
-		"sub-text": "\"Satania ist meine Waifu Nummer zwei, Nummer eins ist&nbsp;natürlich Jesus!<br>Ich segne sie und alle ihre Anhänger!\""
+		"sub-text": "\"Satania ist meine Waifu Nummer zwei, Nummer eins ist&nbsp;natürlich Jesus!<br />Ich segne sie und alle ihre Anhänger!\""
 	},
 	"flipping-cards": {
 		"large-text": "Sie ersetzt alle andere Waifus in der Serie",
@@ -171,7 +171,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Brauchst du ein Mädchen, das<b> nicht sehr nett ist, sich nicht für irgendwen interessiert</b> und denkt, dass ihre Hobbys wichtiger sind als alles andere?",
-				"answer": "Dann brauchst du die Dämonin, die <b>keinen Fick auf Menschen und Engel gibt und immer versucht böse zu sein</b>, anstatt zu lernen oder so...<br>Außerdem <b>macht sie ihre Hausaufgaben MIT ABSICHT nicht!!</b>"
+				"answer": "Dann brauchst du die Dämonin, die <b>keinen Fick auf Menschen und Engel gibt und immer versucht böse zu sein</b>, anstatt zu lernen oder so...<br />Außerdem <b>macht sie ihre Hausaufgaben MIT ABSICHT nicht!!</b>"
 			},
 			"vigne": {
 				"question": "Hättest du gerne eine <b>süße moe Dämonin</b>, die <b>böse sein will, aber sehr schlecht darin ist</b> und letztlich nette Sachen gemacht hat wie zum Beispiel Gabriel Dinge beizubringen?",
@@ -187,12 +187,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, Ravioli,<br>bitte nicht mehr mobben",
+		"large-text": "Ravioli, Ravioli,<br />bitte nicht mehr mobben",
 		"sub-text": "Warum würde man sowas machen??? Was für ein krasser Sadist muss man sein, dass man sie mobben wollen würde???"
 	},
 	"large-text": {
 		"large-text": "Sie wird sowieso irgendwann über die Menschheit regieren...",
-		"sub-text": "Also wirst du, ob du es magst oder nicht,<br> sie letztlich anbeten müssen..."
+		"sub-text": "Also wirst du, ob du es magst oder nicht,<br /> sie letztlich anbeten müssen..."
 	},
 	"end": {
 		"large-text": "Sie ist die Beste.",

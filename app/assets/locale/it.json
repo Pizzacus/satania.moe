@@ -9,9 +9,9 @@
 		"language-warning": "(Queste community usano l'inglese come lingua principale)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scorri per saperne di più!",
 		"mobile-disclaimer": "Sono davvero dispiaciuto, ma la versione mobile di questo sito  é stata fatta in fretta ed é <b> una vera merda </b>, comunque   non credo che nessuno lo visiti da mobile.",
-		"language-protip": "Ti piacerebbe vedere questo sito in <b>italiano</b>?<br>Usare questo drop-down per selezionare una lingua!",
+		"language-protip": "Ti piacerebbe vedere questo sito in <b>italiano</b>?<br />Usare questo drop-down per selezionare una lingua!",
 		"language-select": "Lingua <i class=\"fas fa-angle-down\"></i>",
-		"credits": "Un glorioso shitpost di una pizza nota come <b title=\"Kenyérlángos\">Pizzacus</b> <br> Traduzione di <b title=\"Kenyérlángos\">SHellRoCK20</b>",
+		"credits": "Un glorioso shitpost di una pizza nota come <b title=\"Kenyérlángos\">Pizzacus</b> <br /> Traduzione di <b title=\"Kenyérlángos\">SHellRoCK20</b>",
 		"music-player": {
 			"intro": {
 				"bold-text": "Vuoi ascoltare una canzone diabolica mentre scorri questa pagina?",
@@ -27,13 +27,13 @@
 	},
 	"become-a-satania-follower": {
 		"large-text": "Diventa un seguace di Satania oggi stesso!",
-		"sub-text": "<b>Non ci sono passaggi per diventare un seguace di Satania</b>,<br> tutto quello che devi fare é accettare che Satania é il personaggio migliore",
+		"sub-text": "<b>Non ci sono passaggi per diventare un seguace di Satania</b>,<br /> tutto quello che devi fare é accettare che Satania é il personaggio migliore",
 		"small-text": "Beh se potessi fare meme su Satania e shitpost, ci aiuterebbe parecchio..."
 	},
 	"she-is-beautiful": {
-		"large-text": "Un sorriso adorabile.<br>Due occhi magnifici.<br>Un aspetto sbalorditivo.",
+		"large-text": "Un sorriso adorabile.<br />Due occhi magnifici.<br />Un aspetto sbalorditivo.",
 		"sub-text": "Lei é davvero una persona <b>avvenente</b>",
-		"small-text": "Noi seguaci di Satania siamo persone molto acculturate,<br> perció usiamo solo un linguaggio colto"
+		"small-text": "Noi seguaci di Satania siamo persone molto acculturate,<br /> perció usiamo solo un linguaggio colto"
 	},
 	"end-the-waifu-war": {
 		"large-text": "La miglior Waifu demone solo per te.",
@@ -51,13 +51,13 @@
 				"definition": "lo stato o la qualità dell'essere perfetti.",
 				"example": "\"la perfezione satinata della pelle di <b>Satania</b>\"",
 				"synonyms": "sinonimi:",
-				"synonyms-list": "Satania, impeccabilitá, eccellenza, superbia, sublimitá, squisitezza, magnificenza, perfezione, impeccabilitá, immacolatezza, esemplaritá<br>\"la perfezione satinata della sua pelle\""
+				"synonyms-list": "Satania, impeccabilitá, eccellenza, superbia, sublimitá, squisitezza, magnificenza, perfezione, impeccabilitá, immacolatezza, esemplaritá<br />\"la perfezione satinata della sua pelle\""
 			},
 			"definition-2": {
 				"definition": "una persona o una cosa considerata perfetta.",
 				"example": "\"Sto dicendo che <b>Satania</b> é la perfezione stessa\"",
 				"synonyms": "sinonimi:",
-				"synonyms-list": "Satania, l'ideale, un paragone, il non plus ultra, il beau idéal,\n l'impareggiabile, la crème de la crème, l'ultima parola, un sogno;\n<i> informale </ i> uno su un milione, i migliori, la migliore / la più grande; <i> arcaico </ i> senza pari <br> \"per lei, lui era ancora perfetto\""
+				"synonyms-list": "Satania, l'ideale, un paragone, il non plus ultra, il beau idéal,\n l'impareggiabile, la crème de la crème, l'ultima parola, un sogno;\n<i> informale </ i> uno su un milione, i migliori, la migliore / la più grande; <i> arcaico </ i> senza pari <br /> \"per lei, lui era ancora perfetto\""
 			},
 			"definition-3": {
 				"definition": "l'azione o il processo di migliorare qualcosa finché non è irreprensibile.",
@@ -116,7 +116,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b> NEET pigro e antipatico al 100%</b>",
 					"argument-2": "No sul serio, non ha qualità salvifiche",
@@ -128,7 +128,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>È una sadica che vuole solo la sofferenza altrui</b>",
 					"argument-2": "Non è neanche simpatica",
@@ -140,7 +140,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>NOOOOOOIOSA</b>",
 					"argument-2": "No davvero, non fa mai niente di interessante",
@@ -159,12 +159,12 @@
 	},
 	"autism": {
 		"large-text": "Inoltre, non è autistica, smettila di dirlo",
-		"sub-text": "Le persone autistiche hanno spesso difficoltà a comunicare, se ne stanno tranquilli nel proprio angolo tutto il tempo, Satania, non è affatto così.<br><b>Probabilmente é meno autistica di quanto non lo sia tu!</b>",
+		"sub-text": "Le persone autistiche hanno spesso difficoltà a comunicare, se ne stanno tranquilli nel proprio angolo tutto il tempo, Satania, non è affatto così.<br /><b>Probabilmente é meno autistica di quanto non lo sia tu!</b>",
 		"small-text": "E quando lei dice \"I'm thwee\" in quell'episodio, è perché Raphiel gliel'ha fatto dire!"
 	},
 	"pope-francis": {
 		"large-text": "Anche Papa Francesco ama Satania.",
-		"sub-text": "\"Satania è la mia waifu numero due, il numero uno è Gesù, ovviamente!<br>Benedico lei e tutti i suoi seguaci!\""
+		"sub-text": "\"Satania è la mia waifu numero due, il numero uno è Gesù, ovviamente!<br />Benedico lei e tutti i suoi seguaci!\""
 	},
 	"flipping-cards": {
 		"large-text": "Puó sostituire tutte le altre waifu della serie",
@@ -172,7 +172,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Hai bisogno di una ragazza che <b>non è molto carina, non si preoccupa di nessuno</b> e pensa che i suoi hobby siano più importanti di qualsiasi altra cosa?",
-				"answer": "Allora hai bisogno del demone che <b> non si cura degli umani e degli angeli e cerca sempre di essere cattivo </b>, piuttosto che studiare o cose del genere...<br>Anzi, <b>lei non fa i suoi compiti DI PROPOSITO!!</b>"
+				"answer": "Allora hai bisogno del demone che <b> non si cura degli umani e degli angeli e cerca sempre di essere cattivo </b>, piuttosto che studiare o cose del genere...<br />Anzi, <b>lei non fa i suoi compiti DI PROPOSITO!!</b>"
 			},
 			"vigne": {
 				"question": "Vorresti un <b> demone moe carino </b> che <b> desideri essere malvagio, ma che non é affatto bravo nel farlo </b>, finendo per fare cose carine come insegnare roba a Gabriel?",
@@ -188,12 +188,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>per favore, niente più bulli",
+		"large-text": "Ravioli, ravioli,<br />per favore, niente più bulli",
 		"sub-text": "Perché dovresti farlo??? Quanto devi essere sadico per voler fare il prepotente con lei???"
 	},
 	"large-text": {
 		"large-text": "Comunque governerà sull'umanità...",
-		"sub-text": "Quindi, che ti piaccia o no, <br>dovrai lodarla alla fine..."
+		"sub-text": "Quindi, che ti piaccia o no, <br />dovrai lodarla alla fine..."
 	},
 	"end": {
 		"large-text": "Lei è la migliore.",

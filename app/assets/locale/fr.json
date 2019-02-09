@@ -8,7 +8,7 @@
 		"language-warning": "(Ces communautés utilisent l&rsquo;anglais comme langue principale)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Faites défiler pour en apprendre plus&#8239;!",
 		"mobile-disclaimer": "Je suis désolé, mais la version mobile de ce site a été assez baclée et <b>c&rsquo;est vraiment de la merde</b>, je ne pensais pas que quelqu&rsquo;un le visiterait sur un téléphone pour être honnête.",
-		"language-protip": "Voudriez-vous voir ce site en <b>français</b> ?<br>Utilisez ce menu déroulant pour choisir une langue&#8239;!",
+		"language-protip": "Voudriez-vous voir ce site en <b>français</b> ?<br />Utilisez ce menu déroulant pour choisir une langue&#8239;!",
 		"language-select": "Langage <i class=\"fas fa-angle-down\"></i>",
 		"credits": "Un glorieux shitpost par une pizza nommée <b title=\"Kenyérlángos\">Pizzacus</b> (Correction&#8239;: Mots Doux)",
 		"music-player": {
@@ -30,9 +30,9 @@
 		"small-text": "Enfin, si vous pouviez faire des memes et des shitposts à propos de Satania, ça&nbsp;nous&nbsp;aiderait beaucoup"
 	},
 	"she-is-beautiful": {
-		"large-text": "Un sourire charmant.<br>Deux yeux magnifiques.<br>Une apparence stupéfiante.",
+		"large-text": "Un sourire charmant.<br />Deux yeux magnifiques.<br />Une apparence stupéfiante.",
 		"sub-text": "Elle a un éclat <b>adamantin</b>.",
-		"small-text": "Nous les disciples de Satania sommes des gens très cultivés,<br>donc nous n&rsquo;utilisons qu&rsquo;un language très cultivé"
+		"small-text": "Nous les disciples de Satania sommes des gens très cultivés,<br />donc nous n&rsquo;utilisons qu&rsquo;un language très cultivé"
 	},
 	"end-the-waifu-war": {
 		"large-text": "La meilleure waifu démoniaque juste pour vous&#8239;!",
@@ -49,19 +49,19 @@
 				"definition": "L&rsquo;état ou la qualité d&rsquo;être parfait",
 				"example": "«&#8239;La perfection satinée de la peau de <b>Satania</b>.&#8239;»",
 				"synonyms": "Synonymes:",
-				"synonyms-list": "Satania, irréprochabilité, excellence, superbe, sublime, exquisité, magnificence, impeccabilité, exemplarité<br>«&#8239;La perfection satinée de sa peau.&#8239;»"
+				"synonyms-list": "Satania, irréprochabilité, excellence, superbe, sublime, exquisité, magnificence, impeccabilité, exemplarité<br />«&#8239;La perfection satinée de sa peau.&#8239;»"
 			},
 			"definition-2": {
 				"definition": "Chose ou personne considérée comme étant parfaite.",
 				"example": "«&#8239;On m&rsquo;a fait part que <b>Satania</b> est la perfection elle-même&#8239;».",
 				"synonyms": "Synonymes:",
-				"synonyms-list": "Satania, un parangon, le nec plus ultra, idéal, sans-pareil, la crème de la crème, le dernier mot, l&rsquo;ultime, un rêve&#8239;; <i>informel</i>&#8239;: un sur un million, le top, la meilleur chose depuis l&rsquo;invention du pain au melon en tranches, les genoux de l&rsquo;abeille&#8239;; <i>archaïque</i>&#8239;: un sans pareil<br>«&#8239;Pour elle, il était toujours perfection&#8239;»."
+				"synonyms-list": "Satania, un parangon, le nec plus ultra, idéal, sans-pareil, la crème de la crème, le dernier mot, l&rsquo;ultime, un rêve&#8239;; <i>informel</i>&#8239;: un sur un million, le top, la meilleur chose depuis l&rsquo;invention du pain au melon en tranches, les genoux de l&rsquo;abeille&#8239;; <i>archaïque</i>&#8239;: un sans pareil<br />«&#8239;Pour elle, il était toujours perfection&#8239;»."
 			},
 			"definition-3": {
 				"definition": "L&rsquo;action ou le processus d&rsquo;améliorer quelque chose jusqu&rsquo;à ce qu&rsquo;il soit irréprochable.",
 				"example": "«&#8239;J&rsquo;ai travaillé toute la journée pour perfectionner mon dessin de<b>Satania</b>&#8239;».",
 				"synonyms": "Synonymes:",
-				"synonyms-list": "Satania, améliorer, raffiner, perfectionner, polir&#8239;; <i>rare</i>&#8239;: mélioration<br>«&#8239;La perfection des nouveaux mécanismes de gestion ergonomique&#8239;»."
+				"synonyms-list": "Satania, améliorer, raffiner, perfectionner, polir&#8239;; <i>rare</i>&#8239;: mélioration<br />«&#8239;La perfection des nouveaux mécanismes de gestion ergonomique&#8239;»."
 			}
 		}
 	},
@@ -114,7 +114,7 @@
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
-				"name-detail": "Tenma White<br>天真=ガヴリール=ホワイト",
+				"name-detail": "Tenma White<br />天真=ガヴリール=ホワイト",
 				"description": {
 					"argument-1": "<b>No-Life fainéante qui est 100&#8239;% antipathique</b>",
 					"argument-2": "Nan sérieux, elle n&rsquo;a aucune qualité rédemptrice",
@@ -126,7 +126,7 @@
 			},
 			"raphiel": {
 				"name": "Raphiel",
-				"name-detail": "Shiraha Ainsworth<br>白羽=ラフィエル=エインズワース",
+				"name-detail": "Shiraha Ainsworth<br />白羽=ラフィエル=エインズワース",
 				"description": {
 					"argument-1": "<b>Est une sadique qui ne veut que voir les autres souffrir</b>",
 					"argument-2": "Est aussi complètement antipathique",
@@ -138,7 +138,7 @@
 			},
 			"vignette": {
 				"name": "Vignette",
-				"name-detail": "Tsukinose April<br>月乃瀬=ヴィネット=エイプリル",
+				"name-detail": "Tsukinose April<br />月乃瀬=ヴィネット=エイプリル",
 				"description": {
 					"argument-1": "<b>ENNUYEEEEUUUUSE</b>",
 					"argument-2": "Nan vraiment, elle fait jamais rien d&rsquo;intéressant",
@@ -157,12 +157,12 @@
 	},
 	"autism": {
 		"large-text": "Aussi, elle n&rsquo;est pas une autiste, arrêtez de dire ça",
-		"sub-text": "Les autistes ont du mal à communiquer, ils restent silencieux dans leur coin tout le temps, Satania&nbsp;n&rsquo;est&nbsp;pas comme ça du tout.<br><b>Elle est probablement moins autiste que vous&#8239;!</b>",
-		"small-text": "Et même si elle dit «&#8239;J&rsquo;ai trois zans&#8239;» dans cet épisode,<br>c&rsquo;est parce que Raphiel lui a fait dire&#8239;!"
+		"sub-text": "Les autistes ont du mal à communiquer, ils restent silencieux dans leur coin tout le temps, Satania&nbsp;n&rsquo;est&nbsp;pas comme ça du tout.<br /><b>Elle est probablement moins autiste que vous&#8239;!</b>",
+		"small-text": "Et même si elle dit «&#8239;J&rsquo;ai trois zans&#8239;» dans cet épisode,<br />c&rsquo;est parce que Raphiel lui a fait dire&#8239;!"
 	},
 	"pope-francis": {
 		"large-text": "Même le Pape François aime Satania.",
-		"sub-text": "«&#8239;Satania est ma waifu numéro deux, la numéro un étant Jésus bien sûr !<br>Je la bénis elle ainsi que tous ses disciples&#8239;!&#8239;»"
+		"sub-text": "«&#8239;Satania est ma waifu numéro deux, la numéro un étant Jésus bien sûr !<br />Je la bénis elle ainsi que tous ses disciples&#8239;!&#8239;»"
 	},
 	"flipping-cards": {
 		"large-text": "Elle remplace toutes les waifus de la série",
@@ -170,7 +170,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Besoin d&rsquo;une fille qui <b>n&rsquo;est pas très sympa et se fout de tout le monde</b> et qui pense que ses hobbies passent avant tout&#8239;?",
-				"answer": "Alors vous avez besoin du démon qui <b>se fout des humains et des gens et qui essaie toujours d&rsquo;être méchante</b>, plutôt que d&rsquo;étudier ou un truc du genre…<br>Aussi, <b>elle ne fait pas ses devoirs VOLONTAIREMENT&#8239;!!</b>"
+				"answer": "Alors vous avez besoin du démon qui <b>se fout des humains et des gens et qui essaie toujours d&rsquo;être méchante</b>, plutôt que d&rsquo;étudier ou un truc du genre…<br />Aussi, <b>elle ne fait pas ses devoirs VOLONTAIREMENT&#8239;!!</b>"
 			},
 			"vigne": {
 				"question": "Aimeriez-vous un <b>démon mignonne et moe</b> qui <b>veut être méchante mais est assez nulle pour ça</b>, et finit par faire des trucs gentils comme apprendre des choses à Gabriel&#8239;?",
@@ -186,12 +186,12 @@
 		}
 	},
 	"raviolli-raviolli": {
-		"large-text": "Ravioli, ravioli,<br>s&rsquo;il vous plaît, soyez gentils",
+		"large-text": "Ravioli, ravioli,<br />s&rsquo;il vous plaît, soyez gentils",
 		"sub-text": "Pourquoi l&rsquo;harceleriez-vous&#8239;??? À quel point faut-il être un sadique pour vouloir le faire&#8239;???"
 	},
 	"large-text": {
 		"large-text": "Elle gouvernera l&rsquo;humanité de toute manière…",
-		"sub-text": "Donc, que vous l&rsquo;aimiez ou non, <br>vous devrez vous prosterner devant elle tôt ou tard…"
+		"sub-text": "Donc, que vous l&rsquo;aimiez ou non, <br />vous devrez vous prosterner devant elle tôt ou tard…"
 	},
 	"end": {
 		"large-text": "Elle est la meilleure.",
