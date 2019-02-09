@@ -171,7 +171,7 @@
 		"cards": {
 			"gabriel": {
 				"question": "Akarsz egy lányt, aki <b>nem éppen kedves, senki más nem érdekli őt</b> és azt gondolja, hogy a hobbija fontosabb, mint minden más??",
-				"answer": "Akkor neked egy olyan démon kell, akit <b>nem érdekelnek az emberek és az angyalok, csak az, hogy folyamatosan gonoszkodjon</b>, ahelyett hogy tanulna, vagy valami ilyesmi....<br />Ja, és <b>a házi feladatát se csinálja meg, DIREKT!</b>"
+				"answer": "Akkor neked egy olyan démon kell, akit <b>nem érdekelnek az emberek és az angyalok, csak az, hogy folyamatosan gonoszkodjon</b>, ahelyett hogy tanulna, vagy valami ilyesmi….<br />Ja, és <b>a házi feladatát se csinálja meg, DIREKT!</b>"
 			},
 			"vigne": {
 				"question": "Akarsz egy <b>cuki moe démont</b> aki <b>gonosz akar lenni, de nem nagyon sikerül neki,</b> ezért a végén csak jó dolgokat tanít Gabrielnek?",
@@ -179,10 +179,10 @@
 			},
 			"raphiel": {
 				"question": "Akarsz egy lányt, aki <b>cukin néz ki</b>, de igazából <b>rosszindulatú</b> és csak azt akarja, hogy mások szenvedjenek?",
-				"answer": "Ez pont úgy hangzik, mintha neked is kéne Satania az életedbe! A fő-démonná válás sok dologgal jár, például azzal, <b>hogy sok embert kell megölnöd vagy megsértened</b>..."
+				"answer": "Ez pont úgy hangzik, mintha neked is kéne Satania az életedbe! A fő-démonná válás sok dologgal jár, például azzal, <b>hogy sok embert kell megölnöd vagy megsértened</b>…"
 			},
 			"satania": {
-				"question": "Na és mondjuk... <b>A legnagyobb démon az egész univerzumban?</b>"
+				"question": "Na és mondjuk… <b>A legnagyobb démon az egész univerzumban?</b>"
 			}
 		}
 	},
@@ -191,7 +191,7 @@
 		"sub-text": "Most ezt miért csináltad??? Mennyire kell elvetemültnek lenned ahhoz, hogy terrorizáld ezt a jámbor lelket???"
 	},
 	"large-text": {
-		"large-text": "Igazából mindegy is... Egy nap úgyis uralkodni fog az emberek fölött",
+		"large-text": "Igazából mindegy is… Egy nap úgyis uralkodni fog az emberek fölött",
 		"sub-text": "Tehát ha akarod, ha nem,<br />akkor is isteníteni fogod előbb vagy utóbb"
 	},
 	"end": {

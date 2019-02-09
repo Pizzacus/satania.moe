@@ -28,7 +28,7 @@
 	"become-a-satania-follower": {
 		"large-text": "Bli en Satania-anhängare idag!",
 		"sub-text": "<b>Det är enkelt att bli en Satania-anhängare</b>, <br />allt&nbsp;du behöver göra är att acceptera Satania som den&nbsp;bästa&nbsp;karaktären.",
-		"small-text": "Det skulle dock vara mycket till hjälp om du kunde göra Satania-memes och shitposts..."
+		"small-text": "Det skulle dock vara mycket till hjälp om du kunde göra Satania-memes och shitposts…"
 	},
 	"she-is-beautiful": {
 		"large-text": "Ett älskvärt leende.<br />Två magnifika ögon.<br />Ett fantastiskt utseende.",
@@ -168,19 +168,19 @@
 	},
 	"flipping-cards": {
 		"large-text": "Hon ersätter alla andra waifus i serien",
-		"sub-text": "När du tänker efter är Satania det perfekta alternativet till alla karaktärer i Gabriel Dropout... <span class=\"small\">Klicka på korten för att se svaren</span>",
+		"sub-text": "När du tänker efter är Satania det perfekta alternativet till alla karaktärer i Gabriel Dropout… <span class=\"small\">Klicka på korten för att se svaren</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Behöver du en tjej som <b>inte är särkilt trevlig, inte bryr sig om andra</b> och tycker sina hobbies är viktigare än någonting annat?",
-				"answer": "Då behöver du demonen som <b>inte bryr sig om människor och änglar, och alltid försöker vara ond</b>, istället för att studera eller nått sånt...<br />Desutom <b>struntar hon i sina läxor, AVSIKTLIGEN!!</b>"
+				"answer": "Då behöver du demonen som <b>inte bryr sig om människor och änglar, och alltid försöker vara ond</b>, istället för att studera eller nått sånt…<br />Desutom <b>struntar hon i sina läxor, AVSIKTLIGEN!!</b>"
 			},
 			"vigne": {
 				"question": "Skulle du vilja ha en <b>söt moe-demon</b> som <b>vill vara ond, men är riktigt dålig på det</b> och istället råkar göra snälla handlingar som att lära Gabriel saker?",
-				"answer": "Då gillar du antagligen <b>demonen som försöker vara bäst</b>, men i stället manipuleras till att <b>göra snälla handlingar</b>, trots att hon gör sitt bästa att lära Gabriel en läxa..."
+				"answer": "Då gillar du antagligen <b>demonen som försöker vara bäst</b>, men i stället manipuleras till att <b>göra snälla handlingar</b>, trots att hon gör sitt bästa att lära Gabriel en läxa…"
 			},
 			"raphiel": {
 				"question": "Vill du ha en tjej som <b>är söt</b>, men faktiskt är <b>riktigt elak</b> och bara vill se andra lida?",
-				"answer": "Det låter precis som Satania! Eftersom att bli den störste ärkedemonen världen någonsin skådat <b>antagligen innebär att skada eller döda många personer</b>..."
+				"answer": "Det låter precis som Satania! Eftersom att bli den störste ärkedemonen världen någonsin skådat <b>antagligen innebär att skada eller döda många personer</b>…"
 			},
 			"satania": {
 				"question": "Vad sägs om den <b>mest framstående demonen i hela universum?</b>"
@@ -192,8 +192,8 @@
 		"sub-text": "Hur kan du göra något sånt??? Hur sadistisk måste du vara för att vilja mobba henne???"
 	},
 	"large-text": {
-		"large-text": "Hon kommer så småningom härska över mänskligheten...",
-		"sub-text": "Så vare sig du gillar henne eller inte,<br />så kommer du att behöva hylla henne i&nbsp;slutändan..."
+		"large-text": "Hon kommer så småningom härska över mänskligheten…",
+		"sub-text": "Så vare sig du gillar henne eller inte,<br />så kommer du att behöva hylla henne i&nbsp;slutändan…"
 	},
 	"end": {
 		"large-text": "Hon är bäst.",

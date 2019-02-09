@@ -27,7 +27,7 @@
 	"become-a-satania-follower": {
 		"large-text": "Torne-se um seguidor da Satania hoje!",
 		"sub-text": "<b>Não há nenhum passo necessário para se tornar um seguidor da Satania</b>, tudo o que você precisa fazer é aceitá-la como a melhor personagem",
-		"small-text": "Bem, se você puder fazer memes e shitposts da Satania, isso nos ajudaria muito..."
+		"small-text": "Bem, se você puder fazer memes e shitposts da Satania, isso nos ajudaria muito…"
 	},
 	"she-is-beautiful": {
 		"large-text": "Um sorriso amável.<br />Dois olhos magnificentes.<br />Uma aparência explêndida.",
@@ -166,19 +166,19 @@
 	},
 	"flipping-cards": {
 		"large-text": "Ela substitui todas as outras waifus do anime",
-		"sub-text": "Pense sobre isso, a Satania é a alternativa perfeita para qualquer personagem em Gabriel Dropout... <span class=\"small\">Clique em qualquer dessas cartas para ver as respostas</span>",
+		"sub-text": "Pense sobre isso, a Satania é a alternativa perfeita para qualquer personagem em Gabriel Dropout… <span class=\"small\">Clique em qualquer dessas cartas para ver as respostas</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Você precisa de uma menina que <b>não é muito legal, não se preocupa com ninguém</b> e acha que seus hobbies são mais importantes do que qualquer coisa?",
-				"answer": "Então você precisa da demônio que <b>não se preocupa com humanos e anjos e está sempre tentando ser malvada</b>, ao invés de estudar ou algo assim...<br />Além disso, <b>ela não faz sua tarefa de casa DE PROPÓSITO!!</b>"
+				"answer": "Então você precisa da demônio que <b>não se preocupa com humanos e anjos e está sempre tentando ser malvada</b>, ao invés de estudar ou algo assim…<br />Além disso, <b>ela não faz sua tarefa de casa DE PROPÓSITO!!</b>"
 			},
 			"vigne": {
 				"question": "Você gostaria de uma <b>demonio bonita e moe</b>, que <b>quer ser má mas é muito ruim nisso</b>, e acaba fazendo coisas legais como ensinar coisas a Gabriel?",
-				"answer": "Então você provavelmente vai gostar da <b>demônio que está tentando o melhor para se tornar a maior de todos</b>, mas é frequentemente manipulada em <b>fazer coisas agradáveis</b>, mesmo que ela esteja tentando ensinar a ensinar a Gabriel uma boa lição..."
+				"answer": "Então você provavelmente vai gostar da <b>demônio que está tentando o melhor para se tornar a maior de todos</b>, mas é frequentemente manipulada em <b>fazer coisas agradáveis</b>, mesmo que ela esteja tentando ensinar a ensinar a Gabriel uma boa lição…"
 			},
 			"raphiel": {
 				"question": "Você quer uma garota que <b>parece fofa</b>, mas na verdade é <b>bem mesquinha</b> e só quer ver todos sofrerem?",
-				"answer": "Isso soa exatamente como a Satania! Porque se tornar o maior arquidemônio que o mundo já conheceu, <b>provavelmente implica ferir ou matar muitas pessoas</b>..."
+				"answer": "Isso soa exatamente como a Satania! Porque se tornar o maior arquidemônio que o mundo já conheceu, <b>provavelmente implica ferir ou matar muitas pessoas</b>…"
 			},
 			"satania": {
 				"question": "Que tal a<br /><b>maior demônio de todo o universo?</b>"
@@ -190,8 +190,8 @@
 		"sub-text": "Por que você faria isso??? O quão sadista você é<br />para querer maltratar ela???"
 	},
 	"large-text": {
-		"large-text": "No fim das contas ela vai dominar a humanidade...",
-		"sub-text": "Então, goste ou não dela,<br />você vai ter que louvá-la um dia..."
+		"large-text": "No fim das contas ela vai dominar a humanidade…",
+		"sub-text": "Então, goste ou não dela,<br />você vai ter que louvá-la um dia…"
 	},
 	"end": {
 		"large-text": "Ela é a melhor.",

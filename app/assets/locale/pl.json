@@ -28,7 +28,7 @@
 	"become-a-satania-follower": {
 		"large-text": "Zostań już dziś zwolennikiem Satanii!",
 		"sub-text": "<b>Nie musisz nic robić by nim zostać</b>, wystarczy&nbsp;że zaakceptujesz fakt, że Satania jest&nbsp;najlepszą&nbsp;postacią.",
-		"small-text": "Cóż, jeżeli mógłbyś tworzyć memy i shitposty o Satanii, mogłoby to pomóc nam..."
+		"small-text": "Cóż, jeżeli mógłbyś tworzyć memy i shitposty o Satanii, mogłoby to pomóc nam…"
 	},
 	"she-is-beautiful": {
 		"large-text": "Kochany uśmiech.<br /> Dwoje wspaniałych oczu.<br /> Oszałamiający wygląd.",
@@ -168,7 +168,7 @@
 	},
 	"flipping-cards": {
 		"large-text": "Zastępuje wszystkie inne waifu w serialu",
-		"sub-text": "Kiedy o tym pomyślisz, Satania jest perfekcyjną alternatywą dla każdej postaci w Gabriel Dropout...<span class=\"small\">Kliknij na wybraną kartę w celu uzyskania odpowiedzi</span>",
+		"sub-text": "Kiedy o tym pomyślisz, Satania jest perfekcyjną alternatywą dla każdej postaci w Gabriel Dropout…<span class=\"small\">Kliknij na wybraną kartę w celu uzyskania odpowiedzi</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Potrzebujesz waifu, która <b>nie jest miła, nie ochodzą jej uczucia innych</b> i myśli że jej hobby jest ważniejsze niż cokolwiek innego?",
@@ -176,11 +176,11 @@
 			},
 			"vigne": {
 				"question": "Czy chciałbyś <b>słodkiej moe demonicy</b> która <b>chce zostać zła, ale nie wychodzi jej to </b>i kończy się to na robieniu miłych rzeczy jak uczenie Gabriel?",
-				"answer": "Wtedy prawdopodobnie polubisz <b>demonicę, która stara się by zostać najlepszą demonicą</b>, ale często jest manipulowana w <b>robienie miłych rzeczy</b>, mimo to wciąż próbuje dać Gabriel nauczkę..."
+				"answer": "Wtedy prawdopodobnie polubisz <b>demonicę, która stara się by zostać najlepszą demonicą</b>, ale często jest manipulowana w <b>robienie miłych rzeczy</b>, mimo to wciąż próbuje dać Gabriel nauczkę…"
 			},
 			"raphiel": {
 				"question": "Chcesz waifu która <b>wygląda słodko</b>, ale naprawdę jest <b>niesamowicie niegrzeczna</b> i tylko pragnie patrzyć na cierpienie innych?",
-				"answer": "To brzmi dokładnie jak Satania! Ponieważ pozostanie najwspanialszą Arch Demonicą której świat mógł znać, <b>prawdopodobnie oznacza zabijanie lub skrzywdzenie wielu ludzi</b>..."
+				"answer": "To brzmi dokładnie jak Satania! Ponieważ pozostanie najwspanialszą Arch Demonicą której świat mógł znać, <b>prawdopodobnie oznacza zabijanie lub skrzywdzenie wielu ludzi</b>…"
 			},
 			"satania": {
 				"question": "Co z <b>najwspanialszym demonem w całym uniwersum?</b>"
@@ -192,8 +192,8 @@
 		"sub-text": "Tylko hultaje znęcają się nad tak słodką demonicą!"
 	},
 	"large-text": {
-		"large-text": "Ona i tak przejmie kontrolę nad światem...",
-		"sub-text": "Więc, możesz ją lubić albo nie,<br /> i tak będziesz musiał ją kiedyś wielbić..."
+		"large-text": "Ona i tak przejmie kontrolę nad światem…",
+		"sub-text": "Więc, możesz ją lubić albo nie,<br /> i tak będziesz musiał ją kiedyś wielbić…"
 	},
 	"end": {
 		"large-text": "Jest Najlepsza.",

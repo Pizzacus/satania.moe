@@ -28,7 +28,7 @@
 	"become-a-satania-follower": {
 		"large-text": "Kļūsti par Satania sekotāju tagad!",
 		"sub-text": "<b>Tur nav nekas jādara!</b> Tev tikai vajag akceptēt viņu kā vislabāko varoni!",
-		"small-text": "Arī taisot Satania mēmes palīdzētu..."
+		"small-text": "Arī taisot Satania mēmes palīdzētu…"
 	},
 	"she-is-beautiful": {
 		"large-text": "Mīļš smaids.<br /> Divas īpašas acis.<br /> Apdullinošs izskats.",
@@ -168,19 +168,19 @@
 	},
 	"flipping-cards": {
 		"large-text": "Viņa var aizstāt visus",
-		"sub-text": "Satania ir perfekta alternatīva visiem \"Gabriel Dropout\"...<span class=\"small\">Uzspied uz kartītēm lai uzinātu vairāk</span>",
+		"sub-text": "Satania ir perfekta alternatīva visiem \"Gabriel Dropout\"…<span class=\"small\">Uzspied uz kartītēm lai uzinātu vairāk</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Vai tev vajag kādu kas <b>nav jauks, nedomā par nevienu</b> un domā ka viņa hobiji ir svarīgāki par visu citu?",
-				"answer": "Tad tev vajag dēmonu kas <b>nedomā par cilvēkiem un enģeliem, bet mēgina kļūt vēl ļaunāka</b>, vai mācieties vai kaut kas tamlīdzīgs...<br /> Arī, <b>Viņa NEDARA savus mājasdarbus</b>"
+				"answer": "Tad tev vajag dēmonu kas <b>nedomā par cilvēkiem un enģeliem, bet mēgina kļūt vēl ļaunāka</b>, vai mācieties vai kaut kas tamlīdzīgs…<br /> Arī, <b>Viņa NEDARA savus mājasdarbus</b>"
 			},
 			"vigne": {
 				"question": "Vai tu gribi <b>mīlīgu demonu kas grib būt nejauka, bet nemāk</b>, kas beigās palīdzēs Gabriēlai?",
-				"answer": "Tad tev patiks <b>dēmone kas mēģina kļūt par vislabāko</b>, bet tiek manipulēta lai <b>darītu labas lietas</b>, kaut viņa mēģina savu labāko lai mācītu Gabriēlu...."
+				"answer": "Tad tev patiks <b>dēmone kas mēģina kļūt par vislabāko</b>, bet tiek manipulēta lai <b>darītu labas lietas</b>, kaut viņa mēģina savu labāko lai mācītu Gabriēlu…."
 			},
 			"raphiel": {
 				"question": "Vai tev vajag meiteni kas <b>izskatās skaista</b>, bet ir <b>ļoti nejauka</b> un grib lai visi cieš?",
-				"answer": "Tas izklausās kā Satania! Jo kļūt par ark dēmonu, <b>tas varbūt nozīmē ka visiem būs jāmirst</b>..."
+				"answer": "Tas izklausās kā Satania! Jo kļūt par ark dēmonu, <b>tas varbūt nozīmē ka visiem būs jāmirst</b>…"
 			},
 			"satania": {
 				"question": "Kā būtu ar <b>Viss-viss Labāko dēmonu pasaulē?</b>"
@@ -192,8 +192,8 @@
 		"sub-text": "Kapēc tu to darītu??? Cik nejaukam tev jābūt lai to darītu???"
 	},
 	"large-text": {
-		"large-text": "Viņa vēlāk valdīs par visu...",
-		"sub-text": "Tev būs japatīk viņai,<br />pat ja tev tas nepatīk..."
+		"large-text": "Viņa vēlāk valdīs par visu…",
+		"sub-text": "Tev būs japatīk viņai,<br />pat ja tev tas nepatīk…"
 	},
 	"end": {
 		"large-text": "Viņa ir vislabākā.",

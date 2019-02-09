@@ -28,7 +28,7 @@
 	"become-a-satania-follower": {
 		"large-text": "Diventa un seguace di Satania oggi stesso!",
 		"sub-text": "<b>Non ci sono passaggi per diventare un seguace di Satania</b>,<br /> tutto quello che devi fare é accettare che Satania é il personaggio migliore",
-		"small-text": "Beh se potessi fare meme su Satania e shitpost, ci aiuterebbe parecchio..."
+		"small-text": "Beh se potessi fare meme su Satania e shitpost, ci aiuterebbe parecchio…"
 	},
 	"she-is-beautiful": {
 		"large-text": "Un sorriso adorabile.<br />Due occhi magnifici.<br />Un aspetto sbalorditivo.",
@@ -168,19 +168,19 @@
 	},
 	"flipping-cards": {
 		"large-text": "Puó sostituire tutte le altre waifu della serie",
-		"sub-text": "Quando ci pensi, Satania è una perfetta alternativa ad ogni personaggio di Gabriel Dropout... <span class=\"small\">Clicca su una di queste carte per vedere le risposte</span>",
+		"sub-text": "Quando ci pensi, Satania è una perfetta alternativa ad ogni personaggio di Gabriel Dropout… <span class=\"small\">Clicca su una di queste carte per vedere le risposte</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Hai bisogno di una ragazza che <b>non è molto carina, non si preoccupa di nessuno</b> e pensa che i suoi hobby siano più importanti di qualsiasi altra cosa?",
-				"answer": "Allora hai bisogno del demone che <b> non si cura degli umani e degli angeli e cerca sempre di essere cattivo </b>, piuttosto che studiare o cose del genere...<br />Anzi, <b>lei non fa i suoi compiti DI PROPOSITO!!</b>"
+				"answer": "Allora hai bisogno del demone che <b> non si cura degli umani e degli angeli e cerca sempre di essere cattivo </b>, piuttosto che studiare o cose del genere…<br />Anzi, <b>lei non fa i suoi compiti DI PROPOSITO!!</b>"
 			},
 			"vigne": {
 				"question": "Vorresti un <b> demone moe carino </b> che <b> desideri essere malvagio, ma che non é affatto bravo nel farlo </b>, finendo per fare cose carine come insegnare roba a Gabriel?",
-				"answer": "Allora probabilmente ti piacerà il <b> demone che sta facendo del suo meglio per diventare il più grande </b>, ma viene spesso manipolato <b> per fare cose carine </b>, anche se sta facendo del suo meglio per dare a Gabriel una bella lezione..."
+				"answer": "Allora probabilmente ti piacerà il <b> demone che sta facendo del suo meglio per diventare il più grande </b>, ma viene spesso manipolato <b> per fare cose carine </b>, anche se sta facendo del suo meglio per dare a Gabriel una bella lezione…"
 			},
 			"raphiel": {
 				"question": "Vuoi una ragazza che <b> appaia carina </b>, ma in realtà <b> é davvero cattiva </b> e vuole solo vedere tutti soffrire?",
-				"answer": "Sembra esattamente come Satania! Perché diventare il più grande Arci Demone che il mondo abbia mai conosciuto, <b>probabilmente implica ferire o uccidere un sacco di persone</b>..."
+				"answer": "Sembra esattamente come Satania! Perché diventare il più grande Arci Demone che il mondo abbia mai conosciuto, <b>probabilmente implica ferire o uccidere un sacco di persone</b>…"
 			},
 			"satania": {
 				"question": "Che ne dici del <b> più grande demone dell'intero universo?</b>"
@@ -192,8 +192,8 @@
 		"sub-text": "Perché dovresti farlo??? Quanto devi essere sadico per voler fare il prepotente con lei???"
 	},
 	"large-text": {
-		"large-text": "Comunque governerà sull'umanità...",
-		"sub-text": "Quindi, che ti piaccia o no, <br />dovrai lodarla alla fine..."
+		"large-text": "Comunque governerà sull'umanità…",
+		"sub-text": "Quindi, che ti piaccia o no, <br />dovrai lodarla alla fine…"
 	},
 	"end": {
 		"large-text": "Lei è la migliore.",

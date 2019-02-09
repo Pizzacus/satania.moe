@@ -28,7 +28,7 @@
 	"become-a-satania-follower": {
 		"large-text": "Saa Satania austajaks täna!",
 		"sub-text": "<b>Satania austajaks pole vaja mingeid keerulisi samme</b>, kõik mida sa pead tegema on aktsepteerima et Satania on parim tegelane",
-		"small-text": "Noh kui sa saaksid teha Satania meeme ja shitposte, see aitaks meid väga..."
+		"small-text": "Noh kui sa saaksid teha Satania meeme ja shitposte, see aitaks meid väga…"
 	},
 	"she-is-beautiful": {
 		"large-text": "Armas naeratus.<br /> Kaks suurepärast silma.<br /> Silmatorkav välimus.",
@@ -168,19 +168,19 @@
 	},
 	"flipping-cards": {
 		"large-text": "Ta asendab kõike waifusi šous",
-		"sub-text": "Kui sa mõtled selle peale, Satania on perfektne asendus kõikitele tegelastele Gabriel Dropoutis...<span class=\"small\">Klikki kaardile et näha vastust</span>",
+		"sub-text": "Kui sa mõtled selle peale, Satania on perfektne asendus kõikitele tegelastele Gabriel Dropoutis…<span class=\"small\">Klikki kaardile et näha vastust</span>",
 		"cards": {
 			"gabriel": {
 				"question": "Kas sa tahad tüdruku <b>keda ei huvita kellegi heaolu </b> ja arvab et ta hobbid on vajalikumad kui kõik?",
-				"answer": "Siis sul on vaja deemonit kes <b>ei hooli inimestest ja ingelitest ja kogu aeg proovib olla kuritegija</b>  ja ei õppi või tee midagi teist...<br /> ja veel, <b>ta ei tee oma kodutöö MEELEGA!!</b>"
+				"answer": "Siis sul on vaja deemonit kes <b>ei hooli inimestest ja ingelitest ja kogu aeg proovib olla kuritegija</b>  ja ei õppi või tee midagi teist…<br /> ja veel, <b>ta ei tee oma kodutöö MEELEGA!!</b>"
 			},
 			"vigne": {
 				"question": "Kas sa tahaksid <b>armsat moe deemonit</b> kes <b>tahab olla kuritegija, aga on väga halb selles</b>, lõpetades teeb häid asju nagu Gabrieli õppetamine?",
-				"answer": "Siis sulle võib olla meeldiks <b>deemon kes proovib tema parimat saada parimaks</b>, aga on kogu aeg manipuleeritud <b>teha heatahtlikuid asju</b>, isegi kui ta proovib tema parimat õppetada Gabrieli..."
+				"answer": "Siis sulle võib olla meeldiks <b>deemon kes proovib tema parimat saada parimaks</b>, aga on kogu aeg manipuleeritud <b>teha heatahtlikuid asju</b>, isegi kui ta proovib tema parimat õppetada Gabrieli…"
 			},
 			"raphiel": {
 				"question": "Kas sa tahad tüdruku kes <b>näeb armas välja</b>, aga tegelikult <b>on väga pahatahtlik</b> ja ainult tahab näha teisi kannatamas?",
-				"answer": "See kõlab nagu Satania! Sest selleks et saada parimaks Arkdeemoniks mida maailm on teadnud, <b>ilmselt eeldab vigastamist või paljude inimeste tapmist</b>..."
+				"answer": "See kõlab nagu Satania! Sest selleks et saada parimaks Arkdeemoniks mida maailm on teadnud, <b>ilmselt eeldab vigastamist või paljude inimeste tapmist</b>…"
 			},
 			"satania": {
 				"question": "Kuidas oleks sulle <b>parim deemon terves universumis?</b>"
@@ -192,7 +192,7 @@
 		"sub-text": "Miks sa teeksid seda??? Kui suur sadist sa pead olema et sa tahaksid teda kiusata???"
 	},
 	"large-text": {
-		"large-text": "Ta nagunii vallutab terve inimkonna...",
+		"large-text": "Ta nagunii vallutab terve inimkonna…",
 		"sub-text": "Vahet pole kas ta meeldib sulle või mitte,<br /> mingi päev sa ikka pead teda austama"
 	},
 	"end": {
