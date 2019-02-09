@@ -2027,6 +2027,11 @@ findup-sync@^0.4.2:
     micromatch "^2.3.7"
     resolve-dir "^0.1.0"
 
+fluent-langneg@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/fluent-langneg/-/fluent-langneg-0.1.1.tgz#8a6a95e0c57a1c339aa598cb1ee7e3df0c976adb"
+  integrity sha512-7lCFviLfesnxV4SnwAJh1epnKw97doF1Fmrjx3rAjq1/bbgrmuC43rpL7Qx81keB4Eu+YsjFZ7hCMg2mM25SyA==
+
 fn-args@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fn-args/-/fn-args-1.0.0.tgz#974dafa1aeac4ac7c21fa09cc3b80f650106ed32"

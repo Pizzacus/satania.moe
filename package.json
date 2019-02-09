@@ -11,8 +11,9 @@
     "build": "brunch build --production"
   },
   "dependencies": {
-    "howler": "^2.0.15",
-    "babel-polyfill": "^6.26.0"
+    "babel-polyfill": "^6.26.0",
+    "fluent-langneg": "^0.1.1",
+    "howler": "^2.0.15"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

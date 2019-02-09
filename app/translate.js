@@ -1,5 +1,7 @@
 // I could add more useful comments to my code, but I'm too lazy ¯\_(ツ)_/¯
 
+const {negotiateLanguages} = require('fluent-langneg');
+
 const defaultLocale = document.documentElement.lang;
 
 var localeSelect = document.getElementById("locale-select"),
@@ -118,19 +120,12 @@ function changeLocale(localeName, skipReset) {
 	dispatchEvent();
 }
 
-const bestLocale = (navigator.languages || [window.navigator.userLanguage || window.navigator.language])
-	.map(lang => 
-		([...options].find(option => 
-			lang.startsWith(option.lang) ||
-			(option.lang === 'zh-Hans' && (
-				lang === 'zh-CN' || (
-					lang === 'zh' &&
-					!navigator.languages.some(lang => lang.startsWith('zh-'))
-				)
-			))
-		) || {}).value
-	)
-	.filter(lang => lang != null)[0];
+const bestLocale = negotiateLanguages(
+	navigator.languages || [window.navigator.userLanguage || window.navigator.language],
+	[...options].map(option => option.lang)
+)[0];
+
+const languageProtip = document.getElementById('language-protip');
 
 for (const option of options) {
 	let shouldSwitch = false;
@@ -168,8 +163,9 @@ for (const option of options) {
 			const translation = locales[bestLocale]['main-intro']['language-protip'];
 
 			if (translation) {
-				document.getElementById('language-protip-text').innerHTML = locales[bestLocale]['main-intro']['language-protip'];
-				document.getElementById('language-protip').style.display = "block";
+				languageProtip.querySelector('#language-protip-text').innerHTML = translation;
+				languageProtip.lang = option.value;
+				languageProtip.style.display = "block";
 			}
 		}
 	}
@@ -179,7 +175,7 @@ localeSelect.onchange = function(e) {
 	changeLocale(e.target.value);
 }
 
-localeSelect.onclick = () => document.getElementById('language-protip').style.display = "none";
+localeSelect.onclick = () => languageProtip.style.display = "none";
 
 function prettyYAML(yaml) {
 	return yaml
