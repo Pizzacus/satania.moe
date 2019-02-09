@@ -70,38 +70,38 @@
 		"sub-text": "Refléchissez-y, pourquoi Raphiel, Gabriel ou Vignette seraient-elles les meilleures&#8239;?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "But dans la vie",
+				"category": "But dans la vie",
 				"satania": "(Devenir la reine de l&rsquo;Enfer)",
 				"gabriel": "(Amener l&rsquo;Armageddon)"
 			},
 			"hard-challenges": {
-				"cathegory": "A surmonté des épreuves difficiles",
+				"category": "A surmonté des épreuves difficiles",
 				"satania": "(Apprivoiser le chien)"
 			},
 			"tries-her-best": {
-				"cathegory": "Fait de son mieux pour ne pas rater l&rsquo;école du Paradis/de l&rsquo;Enfer",
+				"category": "Fait de son mieux pour ne pas rater l&rsquo;école du Paradis/de l&rsquo;Enfer",
 				"vignette": "En quelque sorte&#8239;?"
 			},
 			"powerfull-allies": {
-				"cathegory": "A des alliés puissants",
+				"category": "A des alliés puissants",
 				"satania": "(Le chien et son familier)",
 				"vignette": "(Son familier)"
 			},
 			"tragic-backstory": {
-				"cathegory": "A une histoire tragique et profonde",
+				"category": "A une histoire tragique et profonde",
 				"satania": "(Harcelée à l&rsquo;école)"
 			},
 			"member-favorites": "Nombre de favoris sur MAL*",
 			"subreddit-subs": "Nombre d&rsquo;abonnés à son Subreddit*",
 			"e-hentai": {
-				"cathegory": "Nombre de doujinshi sur e-hentai*",
+				"category": "Nombre de doujinshi sur e-hentai*",
 				"satania": "(L&rsquo;un d&rsquo;entre eux est hilarant)"
 			},
 			"rule34": "Nombre d&rsquo;images sur rule34.xxx*",

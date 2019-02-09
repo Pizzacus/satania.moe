@@ -72,38 +72,38 @@
 		"sub-text": "考えてみましょう。なぜガヴリール、ヴィーネ、ラフィエルが<br>史上最高の嫁とはならないのでしょうか。",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "サターニャ",
 				"gabriel": "ガヴリール",
 				"vignette": "ヴィーネ",
 				"raphiel": "ラフィエル"
 			},
 			"goals-in-life": {
-				"cathegory": "人生の目的の有無",
+				"category": "人生の目的の有無",
 				"satania": "（地獄の女王になる）",
 				"gabriel": "（ハルマゲドンを起こす）"
 			},
 			"hard-challenges": {
-				"cathegory": "困難な挑戦の達成経験",
+				"category": "困難な挑戦の達成経験",
 				"satania": "（犬を飼いならす）"
 			},
 			"tries-her-best": {
-				"cathegory": "天使学校・悪魔学校で失敗しないための努力",
+				"category": "天使学校・悪魔学校で失敗しないための努力",
 				"vignette": "少しは？"
 			},
 			"powerfull-allies": {
-				"cathegory": "力強い仲間の存在",
+				"category": "力強い仲間の存在",
 				"satania": "（犬と家族）",
 				"vignette": "（家族）"
 			},
 			"tragic-backstory": {
-				"cathegory": "悲しい過去・背景",
+				"category": "悲しい過去・背景",
 				"satania": "（学校でのいじめ）"
 			},
 			"member-favorites": "MyAnimeListでの支援者数*",
 			"subreddit-subs": "subredditでの支援者数*",
 			"e-hentai": {
-				"cathegory": "e-hentaiにある同人誌の数*",
+				"category": "e-hentaiにある同人誌の数*",
 				"satania": "（内一つはヤバイ）"
 			},
 			"rule34": "rule34.xxx上での画像数*",

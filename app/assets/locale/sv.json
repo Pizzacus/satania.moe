@@ -72,38 +72,38 @@
 		"sub-text": "Tänk efter lite, varför skulle Gabriel, Raphi eller Vignette vara bäst?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Har mål i livet",
+				"category": "Har mål i livet",
 				"satania": "(Bli drottning av helvetet)",
 				"gabriel": "(Starta apokalypsen)"
 			},
 			"hard-challenges": {
-				"cathegory": "Har överkommit svåra utmaningar",
+				"category": "Har överkommit svåra utmaningar",
 				"satania": "(Tämja hunden)"
 			},
 			"tries-her-best": {
-				"cathegory": "Gör sitt bästa för att klara himmels-/helvetesskolan",
+				"category": "Gör sitt bästa för att klara himmels-/helvetesskolan",
 				"vignette": "Typ?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Har starka allierade",
+				"category": "Har starka allierade",
 				"satania": "(Hunden &amp; hennes&nbsp;familjär)",
 				"vignette": "(Hennes familjär)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Har en djup, tragisk historia",
+				"category": "Har en djup, tragisk historia",
 				"satania": "(Mobbad i skolan)"
 			},
 			"member-favorites": "Antal medlemmar som favoritmarkerat på MAL*",
 			"subreddit-subs": "Antal prenumeranter på subredditen*",
 			"e-hentai": {
-				"cathegory": "Antal doujinshi på e-hentai*",
+				"category": "Antal doujinshi på e-hentai*",
 				"satania": "(Varav en är jätterolig)"
 			},
 			"rule34": "Antal bilder på rule34.xxx*",

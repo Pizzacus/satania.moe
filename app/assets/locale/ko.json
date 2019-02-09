@@ -72,38 +72,38 @@
 		"sub-text": "생각해봐 가브? 비네? 라피엘? 응 아니야!",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "사타냐",
 				"gabriel": "가브리엘",
 				"vignette": "비네트",
 				"raphiel": "라피엘"
 			},
 			"goals-in-life": {
-				"cathegory": "삶의 목적",
+				"category": "삶의 목적",
 				"satania": "(소악마의 여왕)",
 				"gabriel": "(아마겟돈 소환)"
 			},
 			"hard-challenges": {
-				"cathegory": "주어진 고난을 극복",
+				"category": "주어진 고난을 극복",
 				"satania": "(강아지 길들이기)"
 			},
 			"tries-her-best": {
-				"cathegory": "천계/하계를 위한 노오력",
+				"category": "천계/하계를 위한 노오력",
 				"vignette": "아마도?"
 			},
 			"powerfull-allies": {
-				"cathegory": "강려크한 조력자",
+				"category": "강려크한 조력자",
 				"satania": "(강아지 &amp; 사타냐 가족)",
 				"vignette": "(비네트 가족)"
 			},
 			"tragic-backstory": {
-				"cathegory": "가슴 아픈 스토리",
+				"category": "가슴 아픈 스토리",
 				"satania": "(괴롭힘 현재진행형)"
 			},
 			"member-favorites": "MyAnimeList에서의 추천 수*",
 			"subreddit-subs": "서브레딧에서의 서브 수*",
 			"e-hentai": {
-				"cathegory": "e-hentai에서의 동인지 수*",
+				"category": "e-hentai에서의 동인지 수*",
 				"satania": "(그 중 하나는 초 개그물)"
 			},
 			"rule34": "rule34.xxx에서의 포스팅 수*",

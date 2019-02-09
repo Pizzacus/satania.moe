@@ -72,38 +72,38 @@
 		"sub-text": "Απλά σκέψου το, γιατί να ήταν η Gabriel,η Raphi ή η Vignette οι καλύτερες?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Έχει στόχους στην ζωή",
+				"category": "Έχει στόχους στην ζωή",
 				"satania": "(Να γίνει η βασίλισσα της κόλασης)",
 				"gabriel": "(Να φέρει τον Αρμαγεδδών)"
 			},
 			"hard-challenges": {
-				"cathegory": "Έχει ξεπεράσει δύσκολες δοκιμασίες",
+				"category": "Έχει ξεπεράσει δύσκολες δοκιμασίες",
 				"satania": "(Εξημέρωσε τον σκύλο.)"
 			},
 			"tries-her-best": {
-				"cathegory": "Προσπαθεί να μην αποτύχει το σχολείο του παραδείσου/της κόλασης.",
+				"category": "Προσπαθεί να μην αποτύχει το σχολείο του παραδείσου/της κόλασης.",
 				"vignette": "Περίπου?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Έχει ισχυρούς σύμμαχους",
+				"category": "Έχει ισχυρούς σύμμαχους",
 				"satania": "(Τον σκύλο &amp; τον σύντροφό της)",
 				"vignette": "(Τον σύντροφό της)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Έχει μια βαθειά, τραγική ιστορία",
+				"category": "Έχει μια βαθειά, τραγική ιστορία",
 				"satania": "(Ήταν θύμα bullying στο σχολείο)"
 			},
 			"member-favorites": "Αριθμός αγαπημένων απο μέλη MAL*",
 			"subreddit-subs": "Αριθμός συνδρομητών στο subreddit τους*",
 			"e-hentai": {
-				"cathegory": "Αριθμός Doujinshi στο e-hentai*",
+				"category": "Αριθμός Doujinshi στο e-hentai*",
 				"satania": "(Ένα απο αυτά είναι ξεκαρδιστικό)"
 			},
 			"rule34": "Αριθμός εικόνων στο rule34.xxx*",

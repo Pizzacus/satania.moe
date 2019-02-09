@@ -71,38 +71,38 @@
 		"sub-text": "Gondolj csak bele: miért is lenne Gabriel, Vignette vagy Raphiel a legjobb??",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Van célja az életben",
+				"category": "Van célja az életben",
 				"satania": "(A pokol királynője legyen)",
 				"gabriel": "(Az armageddon elhozása)"
 			},
 			"hard-challenges": {
-				"cathegory": "Nehéz feladatok elé kellett állnia",
+				"category": "Nehéz feladatok elé kellett állnia",
 				"satania": "(A kutya megszelídítése)"
 			},
 			"tries-her-best": {
-				"cathegory": "Megpróbál nem megbukni a menny/pokol iskolában",
+				"category": "Megpróbál nem megbukni a menny/pokol iskolában",
 				"vignette": "Talán?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Van szövetségese",
+				"category": "Van szövetségese",
 				"satania": "(A kutya, a bajtársa)",
 				"vignette": "(A bajtársa)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Van egy mély, tragikus háttértörténete",
+				"category": "Van egy mély, tragikus háttértörténete",
 				"satania": "(Az iskolában terrorizálják)"
 			},
 			"member-favorites": "\"Kedvencek\" száma a MyAnimeList oldalon*",
 			"subreddit-subs": "Feliratkozások a subredditjén*",
 			"e-hentai": {
-				"cathegory": "Dódzsinsik száma az e-hentai oldalon*",
+				"category": "Dódzsinsik száma az e-hentai oldalon*",
 				"satania": "(Ebből az egyik fergeteges)"
 			},
 			"rule34": "Képek a rule34.xxx oldalon*",

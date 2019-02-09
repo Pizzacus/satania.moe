@@ -72,38 +72,38 @@
 		"sub-text": "Kapēc lai Gabriēla, Rafiēla un Vigne būtu labāki?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriēla",
 				"vignette": "Vignete",
 				"raphiel": "Rafiēla"
 			},
 			"goals-in-life": {
-				"cathegory": "Sasniegumi",
+				"category": "Sasniegumi",
 				"satania": "(Kļut par elles karalieni)",
 				"gabriel": "(Atnest armagedonu)"
 			},
 			"hard-challenges": {
-				"cathegory": "Grūti izaicinājumi",
+				"category": "Grūti izaicinājumi",
 				"satania": "(Savaldīt suni)"
 			},
 			"tries-her-best": {
-				"cathegory": "Mēģina pabeigt skolu",
+				"category": "Mēģina pabeigt skolu",
 				"vignette": "Varbūt?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Ir spēcīgi sabiedrotie",
+				"category": "Ir spēcīgi sabiedrotie",
 				"satania": "(Suns un viņas ģimene)",
 				"vignette": "(Viņas paziņas)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Ir traģiska dzīves stāsts",
+				"category": "Ir traģiska dzīves stāsts",
 				"satania": "(iebiedēta skolā)"
 			},
 			"member-favorites": "Patīk viņu MAL*",
 			"subreddit-subs": "Abonētāji viņu subreddit*",
 			"e-hentai": {
-				"cathegory": "Cik Doujinshi ir uz e-hentai*",
+				"category": "Cik Doujinshi ir uz e-hentai*",
 				"satania": "(Viens ir smieklīgs)"
 			},
 			"rule34": "Bildes uz rule34.xxx*",

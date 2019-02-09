@@ -72,38 +72,38 @@
 		"sub-text": "Mieti vähän, miksi Gabriel, Raphi tai Vignette olisi paras?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Tähtää johonkin elämässään",
+				"category": "Tähtää johonkin elämässään",
 				"satania": "(Helvetin kuningattareksi tuleminen)",
 				"gabriel": "(Harmageddonin tuominen)"
 			},
 			"hard-challenges": {
-				"cathegory": "On ylittänyt vaikeita haasteita",
+				"category": "On ylittänyt vaikeita haasteita",
 				"satania": "(Koiran kesyttäminen)"
 			},
 			"tries-her-best": {
-				"cathegory": "Yrittää parhaansa mukaan olla reputtamatta taivaan/helvetin koulua",
+				"category": "Yrittää parhaansa mukaan olla reputtamatta taivaan/helvetin koulua",
 				"vignette": "Tavallaan?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Vahvoja liittolaisia",
+				"category": "Vahvoja liittolaisia",
 				"satania": "(Koira &amp; apuolento)",
 				"vignette": "(Apuolento)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Syvä ja traaginen taustatarina",
+				"category": "Syvä ja traaginen taustatarina",
 				"satania": "(Koulukiusattu)"
 			},
 			"member-favorites": "Lisäyksiä suosikkihahmoksi MAL:ssä*",
 			"subreddit-subs": "Subredditin tilaajia*",
 			"e-hentai": {
-				"cathegory": "Doujineja e-hentaissa*",
+				"category": "Doujineja e-hentaissa*",
 				"satania": "(Joista yksi on hauska)"
 			},
 			"rule34": "Kuvia rule34.xxx:ssä*",

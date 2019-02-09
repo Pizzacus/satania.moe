@@ -72,38 +72,38 @@
 		"sub-text": "仔细想想吧，凭什么珈百璃、拉菲尔或是薇奈特能称为最好？",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "萨塔妮娅",
 				"gabriel": "珈百璃",
 				"vignette": "薇奈特",
 				"raphiel": "拉菲尔"
 			},
 			"goals-in-life": {
-				"cathegory": "拥有人（?）生目标",
+				"category": "拥有人（?）生目标",
 				"satania": "(成为地狱女王)",
 				"gabriel": "(带来世界末日)"
 			},
 			"hard-challenges": {
-				"cathegory": "有挑战过巨大困难的经验",
+				"category": "有挑战过巨大困难的经验",
 				"satania": "(驯服那条狗)"
 			},
 			"tries-her-best": {
-				"cathegory": "尽最大努力而保住在天使/恶魔学校的学籍",
+				"category": "尽最大努力而保住在天使/恶魔学校的学籍",
 				"vignette": "一点点？"
 			},
 			"powerfull-allies": {
-				"cathegory": "有强大的伙伴",
+				"category": "有强大的伙伴",
 				"satania": "(那条狗 &amp; 家族)",
 				"vignette": "(家族)"
 			},
 			"tragic-backstory": {
-				"cathegory": "有一段悲惨的过去/背景故事",
+				"category": "有一段悲惨的过去/背景故事",
 				"satania": "(校园欺凌)"
 			},
 			"member-favorites": "MyAnimeList* 上的喜爱人数",
 			"subreddit-subs": "subreddit* 上的支持人数",
 			"e-hentai": {
-				"cathegory": "e-hentai* 上的同人本子数目",
+				"category": "e-hentai* 上的同人本子数目",
 				"satania": "(其中有一本非常糟糕)"
 			},
 			"rule34": "rule34.xxx* 上的画像数目",

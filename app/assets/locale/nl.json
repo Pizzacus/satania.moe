@@ -72,38 +72,38 @@
 		"sub-text": "Denk er eens over na, waarom zouden Gabriel, Raphi of Vignette beter zijn ?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Heeft doelen in haar leven",
+				"category": "Heeft doelen in haar leven",
 				"satania": "(De koningin van de Hel worden)",
 				"gabriel": "(Het einde van de wereld brengen)"
 			},
 			"hard-challenges": {
-				"cathegory": "Heeft enorme uitdagingen doorstaan",
+				"category": "Heeft enorme uitdagingen doorstaan",
 				"satania": "(De hond temmen)"
 			},
 			"tries-her-best": {
-				"cathegory": "Doet haar best om Hemel/Hel school af te maken",
+				"category": "Doet haar best om Hemel/Hel school af te maken",
 				"vignette": "Een beetje?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Heeft sterke bondgenoten",
+				"category": "Heeft sterke bondgenoten",
 				"satania": "(de hond &amp; haar demoon)",
 				"vignette": "(Haar demoon)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Heeft een diep, tragisch levensverhaal",
+				"category": "Heeft een diep, tragisch levensverhaal",
 				"satania": "(Gepest op school)"
 			},
 			"member-favorites": "Hoeveelheid favorite karakter op MAL*",
 			"subreddit-subs": "Hoeveelheid subs op hun subreddit*",
 			"e-hentai": {
-				"cathegory": "Hoeveelheid Doujinshi op e-hentai*",
+				"category": "Hoeveelheid Doujinshi op e-hentai*",
 				"satania": "(Waarvan een hilarisch is)"
 			},
 			"rule34": "Hoeveelheid foto's op rule34.xxx*",

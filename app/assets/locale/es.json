@@ -70,38 +70,38 @@
 		"sub-text": "Solo piénsalo, ¿por qué Gabriel, Raphi o Vignette serían las mejores?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Tiene metas en la vida",
+				"category": "Tiene metas en la vida",
 				"satania": "(Convertirse en la reina del infierno)",
 				"gabriel": "(Traer el Armagedón)"
 			},
 			"hard-challenges": {
-				"cathegory": "Ha superado retos difíciles",
+				"category": "Ha superado retos difíciles",
 				"satania": "(Domar al perro)"
 			},
 			"tries-her-best": {
-				"cathegory": "Se esfuerza en no fallar la escuela del infierno/cielo",
+				"category": "Se esfuerza en no fallar la escuela del infierno/cielo",
 				"vignette": "¿Algo?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Tiene poderosos aliados",
+				"category": "Tiene poderosos aliados",
 				"satania": "(El perro y su familiar)",
 				"vignette": "(Su familiar)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Tiene una profunda y trágica historia de fondo",
+				"category": "Tiene una profunda y trágica historia de fondo",
 				"satania": "(Recibió bullying en la escuela)"
 			},
 			"member-favorites": "Número de favoritos en MAL*",
 			"subreddit-subs": "Número de subscritores en sus subreddit*",
 			"e-hentai": {
-				"cathegory": "Número de dujinshi en E-hentai*",
+				"category": "Número de dujinshi en E-hentai*",
 				"satania": "(Uno de ellos es hilarante)"
 			},
 			"rule34": "Número de imágenes en Rule34.xxx*",

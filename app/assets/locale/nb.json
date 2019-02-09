@@ -72,38 +72,38 @@
 		"sub-text": "Bare tenk på det, hvorfor skulle Gabriel, Raphi eller Vignette være den beste?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Har mål i livet",
+				"category": "Har mål i livet",
 				"satania": "(Å bli dronningen av helvete)",
 				"gabriel": "(Få verden til å gå under)"
 			},
 			"hard-challenges": {
-				"cathegory": "Har kommet seg igjennom de vanskeligste utfordringene",
+				"category": "Har kommet seg igjennom de vanskeligste utfordringene",
 				"satania": "(Temme hunden)"
 			},
 			"tries-her-best": {
-				"cathegory": "Prøver sitt beste for å bestå himmels-/helvetesskolen",
+				"category": "Prøver sitt beste for å bestå himmels-/helvetesskolen",
 				"vignette": "På en måte?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Har mektige allierte",
+				"category": "Har mektige allierte",
 				"satania": "(Hunden &amp; hennes familiær)",
 				"vignette": "(Hennes familiær)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Har en tøff bakgrunn",
+				"category": "Har en tøff bakgrunn",
 				"satania": "(Ble mobbet på skolen)"
 			},
 			"member-favorites": "Antall som har favorisert henne på MAL*",
 			"subreddit-subs": "Antall abonnenter*",
 			"e-hentai": {
-				"cathegory": "Antall Doujinshi på e-hentai*",
+				"category": "Antall Doujinshi på e-hentai*",
 				"satania": "(En av de er hysterisk morsom)"
 			},
 			"rule34": "Antall bilder på rule34.xxx*",

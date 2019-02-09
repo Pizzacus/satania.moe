@@ -72,38 +72,38 @@
 		"sub-text": "Lihtsalt mõtle selle peale, kuidas saaksid Gabriel, Vignette või Raphiel olla parimad?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "On eesmärgid elus",
+				"category": "On eesmärgid elus",
 				"satania": "(Saada põrgu kuningannaks)",
 				"gabriel": "(Tuua armageddoni)"
 			},
 			"hard-challenges": {
-				"cathegory": "On ületanud raskeid väljakutseid",
+				"category": "On ületanud raskeid väljakutseid",
 				"satania": "(Sõbrustas tolle koera)"
 			},
 			"tries-her-best": {
-				"cathegory": "Proovib oma parima et läbida paradiisi/põrgu kooli",
+				"category": "Proovib oma parima et läbida paradiisi/põrgu kooli",
 				"vignette": "Natuke?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Võimsad liitlased",
+				"category": "Võimsad liitlased",
 				"satania": "(Koer &amp; familiaar)",
 				"vignette": "(Familiaar)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Sügavmõtteline ja traagiline tagalugu",
+				"category": "Sügavmõtteline ja traagiline tagalugu",
 				"satania": "(Kiusatud koolis)"
 			},
 			"member-favorites": "MAL'i kasutajate favoriitid*",
 			"subreddit-subs": "Tellijaid subredditil*",
 			"e-hentai": {
-				"cathegory": "Doujinshi E-hentail*",
+				"category": "Doujinshi E-hentail*",
 				"satania": "(Nendest üks on eriti naljakas)"
 			},
 			"rule34": "Pilte rule34.xxx'il*",

@@ -72,38 +72,38 @@
 		"sub-text": "Tylko pomyśl o tym, czemu Gabriel, Raphi, lub Vignette miały by być lepsze?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Ma cele w swoim życiu",
+				"category": "Ma cele w swoim życiu",
 				"satania": "(Zostanie królową piekła)",
 				"gabriel": "(Zwołanie Armagedonu)"
 			},
 			"hard-challenges": {
-				"cathegory": "Podołała trudnym wyznaniom",
+				"category": "Podołała trudnym wyznaniom",
 				"satania": "(Ujarzmiła psa)"
 			},
 			"tries-her-best": {
-				"cathegory": "Stara się ze wszystkich sił by nie zostać wyrzucona ze szkoły w Piekle/Niebie",
+				"category": "Stara się ze wszystkich sił by nie zostać wyrzucona ze szkoły w Piekle/Niebie",
 				"vignette": "Niby?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Ma silnych sprzymierzeńców",
+				"category": "Ma silnych sprzymierzeńców",
 				"satania": "(Pies &amp; jej chowaniec)",
 				"vignette": "(Jej bliscy)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Ma głęboką, tragiczną przeszłość",
+				"category": "Ma głęboką, tragiczną przeszłość",
 				"satania": "(Znęcana w szkole)"
 			},
 			"member-favorites": "Liczba ulubieńców na stronie MAL*",
 			"subreddit-subs": "Liczba subów na jej subreddicie*",
 			"e-hentai": {
-				"cathegory": "Liczba Doujinshi na e-hentai*",
+				"category": "Liczba Doujinshi na e-hentai*",
 				"satania": "(jeden z nich jest komiczny)"
 			},
 			"rule34": "Liczba obrazków na rule34.xxx*",

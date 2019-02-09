@@ -72,38 +72,38 @@
 		"sub-text": "Just think about it, why would Gabriel, Raphi or Vignette be the best?",
 		"table": {
 			"names": {
-				"cathegory": "",
+				"category": "",
 				"satania": "Satania",
 				"gabriel": "Gabriel",
 				"vignette": "Vignette",
 				"raphiel": "Raphiel"
 			},
 			"goals-in-life": {
-				"cathegory": "Has goals in life",
+				"category": "Has goals in life",
 				"satania": "(Becoming the queen of hell)",
 				"gabriel": "(Bringing armageddon)"
 			},
 			"hard-challenges": {
-				"cathegory": "Has surmounted hard challenges",
+				"category": "Has surmounted hard challenges",
 				"satania": "(Taming the dog)"
 			},
 			"tries-her-best": {
-				"cathegory": "Tries her best not to fail heaven/hell school",
+				"category": "Tries her best not to fail heaven/hell school",
 				"vignette": "Kinda?"
 			},
 			"powerfull-allies": {
-				"cathegory": "Has powerful allies",
+				"category": "Has powerful allies",
 				"satania": "(The dog &amp; her familiar)",
 				"vignette": "(Her familiar)"
 			},
 			"tragic-backstory": {
-				"cathegory": "Has a deep, tragic backstory",
+				"category": "Has a deep, tragic backstory",
 				"satania": "(Bullied at school)"
 			},
 			"member-favorites": "Number of member favorites on MAL*",
 			"subreddit-subs": "Number of subs on their subreddit*",
 			"e-hentai": {
-				"cathegory": "Number of Doujinshi on e-hentai*",
+				"category": "Number of Doujinshi on e-hentai*",
 				"satania": "(One of which is hilarious)"
 			},
 			"rule34": "Number of pics on rule34.xxx*",
