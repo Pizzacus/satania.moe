@@ -1,5 +1,7 @@
 // I could add more useful comments to my code, but I'm too lazy ¯\_(ツ)_/¯
 
+const defaultLocale = document.documentElement.lang;
+
 var localeSelect = document.getElementById("locale-select"),
 	options = localeSelect.getElementsByTagName("option"),
 	locales = {};
@@ -72,14 +74,14 @@ function generateTranslationTable() {
 	return translationTable;
 }
 
-locales.default = generateTranslationTable();
+locales[defaultLocale] = generateTranslationTable();
 window.generateTranslationTable = generateTranslationTable;
 
-function changeLocale(localeName, skipDefaultLocale) {
+function changeLocale(localeName, skipReset) {
 	// Changes the locale, but reset it first, in case some text in a locale aren't translated in another one
 	// Example: changeLocale("fr")
-	if(!skipDefaultLocale) {
-		changeLocale("default", true);
+	if(!skipReset) {
+		changeLocale(defaultLocale, true);
 	}
 
 	function handleObject(locale, element) {
@@ -99,14 +101,14 @@ function changeLocale(localeName, skipDefaultLocale) {
 
 	handleObject(locales[localeName], document.body);
 	window.javascriptLocales = locales[localeName]._javascriptLocales;
-	document.documentElement.lang = (localeName === "default") ? "en" : localeName;
-
-	if(localeName === "default") {
-		document.documentElement.lang = "en";
-		window.history.pushState('', '', window.location.pathname)
-	} else {
-		document.documentElement.lang = localeName;
-		window.location.hash = localeName;
+	document.documentElement.lang = localeName;
+	
+	if (!skipReset) {
+		if (localeName === defaultLocale) {
+			window.history.pushState('', '', window.location.pathname)
+		} else {
+			window.location.hash = localeName;
+		}
 	}
 
 	dispatchEvent();
@@ -134,7 +136,7 @@ for (const option of options) {
 		shouldSwitch = true;
 	}
 
-	if (option.value !== "default") {
+	if (option.value !== defaultLocale) {
 		const xhr = new XMLHttpRequest();
 		xhr.open("GET", "locale/" + option.value + ".json", true);
 		xhr.onreadystatechange = function() {
@@ -157,8 +159,6 @@ for (const option of options) {
 		if (shouldSwitch) {
 			changeLocale(option.value);
 		}
-
-		console.log(option.value, bestLocale, localeSelect.value);
 
 		if (option.value === bestLocale && localeSelect.value !== option.value) {
 			const translation = locales[bestLocale]['main-intro']['language-protip'];
@@ -187,7 +187,7 @@ document.getElementById("download").onclick = () => {
 	let download = document.createElement("A"),
 		isYAML = formatSelect.value === "yaml";
 	download.href = URL.createObjectURL(new Blob(
-		[isYAML ? prettyYAML(jsyaml.safeDump(locales.default)) : JSON.stringify(locales.default, null, "\t")], 
+		[isYAML ? prettyYAML(jsyaml.safeDump(locales[defaultLocale])) : JSON.stringify(locales[defaultLocale], null, "\t")], 
 		{
 			type : isYAML ? " application/x-yaml" : "application/json"
 		}
@@ -261,7 +261,6 @@ document.getElementById("upload").onclick = () => {
 		accept: ".json, .yaml"
 	}).then(files => {
 		blobToString(files[0]).then(content => {
-			console.log(files[0].type);
 			locales["translator-mode"] = (files[0].type === "application/json") ? JSON.parse(content): jsyaml.safeLoad(content);
 			changeLocale("translator-mode");
 		})
