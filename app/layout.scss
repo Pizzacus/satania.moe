@@ -103,10 +103,18 @@
 	background-size: cover;
 	background-position: top right;
 	background-attachment: fixed;
+
+	.has-webp & {
+		background-image: url("./img/webp/back.webp");
+	}
 }
 
 .end {
 	background-image: url("./img/back_end.jpg");
+
+	.has-webp & {
+		background-image: url("./img/webp/back_end.webp");
+	}
 }
 
 .back-overlay {

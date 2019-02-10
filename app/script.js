@@ -144,24 +144,19 @@ const slideshows = document.getElementsByClassName("slideshow"),
 	preloadedImages = [];
 
 for (let slideshow of slideshows) {
-	let slides = slideshow.getElementsByTagName("img");
+	let slides = slideshow.getElementsByTagName("picture");
 
 	slideshow.currentSlide = 0;
 
-	slideshow.getElementsByClassName("source")[0].href = slides[0].getAttribute("href");
+	slideshow.getElementsByClassName("source")[0].href = slides[0].getAttribute("x-source");
 
 	window.setInterval(() => {
 		slides[slideshow.currentSlide].classList.remove("shown");
 		slideshow.currentSlide = (slideshow.currentSlide + 1) % slides.length;
 		slides[slideshow.currentSlide].classList.add("shown");
 
-		slideshow.getElementsByClassName("source")[0].href = slides[slideshow.currentSlide].getAttribute("href");
+		slideshow.getElementsByClassName("source")[0].href = slides[slideshow.currentSlide].getAttribute("x-source");
 	}, 2500);
-
-	// Image preloading
-	for (let slide of slides) {
-		preloadedImages.push(new Image().src = slide.src);
-	}
 }
 
 /*

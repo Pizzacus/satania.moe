@@ -222,6 +222,11 @@
 		z-index: -1;
 		pointer-events: none;
 
+
+		.has-webp & {
+			background-image: url("./img/webp/satania_dance_spritesheet.webp");
+		}
+
 		@media (max-width: 1024px) {
 			display: none;
 		}
@@ -359,7 +364,7 @@ table {
 .slideshow {
 	text-align: center;
 
-	img {
+	picture, img {
 		display: none;
 		max-width: 100%;
 		animation-name: image-appear;
@@ -367,9 +372,10 @@ table {
 		animation-timing-function: ease-in-out;
 		opacity: 0;
 
-		&.shown {
-			display: inline-block;
-		}
+	}
+
+	picture.shown, .shown img {
+		display: inline-block;
 	}
 
 	.source {
@@ -558,6 +564,17 @@ table {
 		}
 	}
 }
+
+// EVEN POPE FRANCIS LOVES SATANIA -- I hear he's quite popular in the Bible fandom
+.pope-francis {
+	background-image: url('img/pope.jpg');
+	min-height: 50vw;
+
+	.has-webp & {
+		background-image: url('img/webp/pope.webp');
+	}
+}
+
 // FLIPPING CARDS -- You click, they flip, simple enough
 .card-toogle {
 	display: none;
@@ -613,7 +630,7 @@ table {
 		}
 	}
 
-	// because of CSS selector prioritization, this repettion is needed
+	// because of CSS selector prioritisation, this repetition is needed
 	&:active,
 	input.card-toogle:checked ~ &:active {
 		background: #E5E5E5;

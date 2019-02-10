@@ -111,6 +111,11 @@
 </head>
 
 <body>
+	<!-- Webp support detection for CSS -->
+	<img
+		style="position: absolute;top: -1000px;"
+		src="data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA"
+		onload="document.body.classList.add('has-webp')"/>
 	<div i18n-group="main-intro" class="intro">
 		<div class="main">
 			<div class="back-overlay"></div>
@@ -263,7 +268,10 @@
 	<div class="scroll">
 		<div i18n-group="become-a-satania-follower" class="section">
 			<div class="left image">
-				<img src="img/satania_thumbsup.png" alt="" />
+				<picture>
+					<source srcset="img/webp/satania_thumbsup.webp" type="image/webp">
+					<img src="img/satania_thumbsup.png" alt="" />
+				</picture>
 			</div>
 
 			<div class="right">
@@ -281,13 +289,19 @@
 			</div>
 
 			<div class="right image">
-				<img src="img/satania_cute.png" alt="" />
+				<picture>
+					<source srcset="img/webp/satania_cute.webp" type="image/webp">
+					<img src="img/satania_cute.png" alt="" />
+				</picture>
 			</div>
 		</div>
 
 		<div i18n-group="end-the-waifu-war" class="section">
 			<div class="left image">
-				<img src="img/satania_happy.png" alt="" />
+				<picture>
+					<source srcset="img/webp/satania_happy.webp" type="image/webp">
+					<img src="img/satania_happy.png" alt="" />
+				</picture>
 			</div>
 
 			<div class="right">
@@ -305,7 +319,10 @@
 					<span i18n="searchbar-name">satania</span>
 
 					<div class="buttons">
-						<img id="search-by-voice" src="img/google_mic.png" height="24px" />
+						<picture>
+							<source srcset="img/webp/google_mic.webp" type="image/webp">
+							<img id="search-by-voice" src="img/google_mic.png" height="24px" />
+						</picture>
 						<img id="search-button" src="img/google_search.svg" height="24px" />
 					</div>
 				</div><br />
@@ -487,7 +504,10 @@
 
 				<div i18n-group="the-others-are-trash" class="compare">
 					<div i18n-group="gabriel" class="character gabriel">
-						<img src="img/portraits/gabriel.jpg" />
+						<picture>
+							<source srcset="img/webp/portraits/gabriel.webp" type="image/webp">
+							<img src="img/portraits/gabriel.jpg" />
+						</picture>
 						<div class="name">
 							<span i18n="name">Gabriel</span>
 							<div i18n="name-detail" class="small">
@@ -505,7 +525,10 @@
 					</div>
 
 					<div i18n-group="raphiel" class="character raphiel">
-						<img src="img/portraits/sadist.jpg" />
+						<picture>
+							<source srcset="img/webp/portraits/sadist.webp" type="image/webp">
+							<img src="img/portraits/sadist.jpg" />
+						</picture>
 						<div class="name">
 							<span i18n="name">Raphiel</span>
 							<div i18n="name-detail" class="small">
@@ -523,7 +546,10 @@
 					</div>
 
 					<div i18n-group="vignette" class="character vignette">
-						<img src="img/portraits/vignette.jpg" />
+						<picture>
+							<source srcset="img/webp/portraits/vignette.webp" type="image/webp">
+							<img src="img/portraits/vignette.jpg" />
+						</picture>
 						<div class="name">
 							<span i18n="name">Vignette</span>
 							<div i18n="name-detail" class="small">
@@ -545,15 +571,42 @@
 
 		<div i18n-group="fanarts" class="section">
 			<div class="left image slideshow">
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62549900" class="shown" src="img/fanarts/fanart1.jpg" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62828639" src="img/fanarts/fanart2.jpg" alt="" />
-				<img height="500px" href="https://eriyy.deviantart.com/art/Satania-Sama-660744221" src="img/fanarts/fanart3.png" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61218653" src="img/fanarts/fanart4.png" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61476097" src="img/fanarts/fanart5.jpg" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61519696" src="img/fanarts/fanart6.jpg" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62059829" src="img/fanarts/fanart7.jpg" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61362109" src="img/fanarts/fanart8.png" alt="" />
-				<img height="500px" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62195163" src="img/fanarts/fanart9.jpg" alt="" />
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62549900" class="shown">
+					<source srcset="img/webp/fanarts/fanart1.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart1.jpg" alt="" />
+				</picture>
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62828639">
+					<source srcset="img/webp/fanarts/fanart2.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart2.jpg" alt="" />
+				</picture>
+				<picture x-source="https://eriyy.deviantart.com/art/Satania-Sama-660744221">
+					<source srcset="img/webp/fanarts/fanart3.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart3.png" alt="" />
+				</picture>
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61218653">
+					<source srcset="img/webp/fanarts/fanart4.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart4.png" alt="" />
+				</picture>
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61476097">
+					<source srcset="img/webp/fanarts/fanart5.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart5.jpg" alt="" />
+				</picture>
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61519696">
+					<source srcset="img/webp/fanarts/fanart6.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart6.jpg" alt="" />
+				</picture>
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62059829">
+					<source srcset="img/webp/fanarts/fanart7.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart7.jpg" alt="" />
+				</picture>
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61362109">
+					<source srcset="img/webp/fanarts/fanart8.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart8.png" alt="" />
+				</picture>
+				<picture x-source="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62195163">
+					<source srcset="img/webp/fanarts/fanart9.webp" type="image/webp">
+					<img height="500px" src="img/fanarts/fanart9.jpg" alt="" />
+				</picture>
 				<a i18n="source" class="source">Source</a>
 			</div>
 
@@ -573,12 +626,15 @@
 			</div>
 
 			<div class="right image">
-				<img src="img/satania_reindeer.png" alt="" />
+				<picture>
+					<source srcset="img/webp/satania_reindeer.webp" type="image/webp">
+					<img src="img/satania_reindeer.png" alt="" />
+				</picture>
 				<div class="nose-button" onclick="startSnow()"></div>
 			</div>
 		</div>
 
-		<div i18n-group="pope-francis" class="section background" style="background-image: url('img/pope.jpg');min-height: 50vw;">
+		<div i18n-group="pope-francis" class="section background pope-francis">
 			<div class="back-overlay"></div>
 			<div class="center">
 				<h2 i18n="large-text">Even Pope Francis loves Satania.</h2>
@@ -637,7 +693,10 @@
 								How about the <b>greatest demon in the entire universe?</b>
 							</div>
 							<div class="answer">
-								<img width="100%" src="img/debiru.png" alt="" />
+								<picture>
+									<source srcset="img/webp/debiru.webp" type="image/webp">
+									<img width="100%" src="img/debiru.png" alt="" />
+								</picture>
 							</div>
 						</label>
 					</span>
@@ -652,14 +711,20 @@
 			</div>
 
 			<div class="right image">
-				<img src="img/satania_sad.png" alt="" />
+				<picture>
+					<source srcset="img/webp/satania_sad.webp" type="image/webp">
+					<img src="img/satania_sad.png" alt="" />
+				</picture>
 			</div>
 		</div>
 
 
 		<div i18n-group="large-text" class="section">
 			<div class="left image">
-				<img src="img/satania_evil.png" alt="" />
+				<picture>
+					<source srcset="img/webp/satania_evil.webp" type="image/webp">
+					<img src="img/satania_evil.png" alt="" />
+				</picture>
 			</div>
 
 			<div class="right">
@@ -677,7 +742,12 @@
 			</div>
 
 			<div class="footer">
-				<a href="https://github.com/Pizzacus/satania.moe"><img src="img/github_link.png" alt="" /></a>
+				<a href="https://github.com/Pizzacus/satania.moe">
+					<picture>
+						<source srcset="img/webp/github_link.webp" type="image/webp">
+						<img src="img/github_link.png" alt="" />
+					</picture>
+				</a>
 			</div>
 
 			<canvas class="snow full canvas-background"></canvas>
