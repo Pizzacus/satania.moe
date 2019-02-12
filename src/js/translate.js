@@ -137,7 +137,7 @@ for (const option of options) {
 
 	if (option.value !== defaultLocale) {
 		const xhr = new XMLHttpRequest();
-		xhr.open("GET", "locale/" + option.value + ".json", true);
+		xhr.open("GET", "locales/" + option.value + ".json", true);
 		xhr.onreadystatechange = function() {
 			if (xhr.readyState === 4 && xhr.status === 200) {
 				var translation = JSON.parse(xhr.responseText);

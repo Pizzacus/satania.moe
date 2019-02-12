@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "De beste Waifu. <b>Van altijd.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Sluit je aan bij de Discord server",
+		"discord-count": "<span id=\"discord-number\"></span> leden",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Sluit je aan bij de Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> abonnees",
+		"language-warning": "(Deze groepen gebruiken Engels als de voertaal)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scroll naar beneden om meer te leren!",
+		"mobile-disclaimer": "Het spijt me echt, maar de mobiele versie van deze website is snel in elkaar gezet en <b>hij is echt slecht</b>, I dacht niet dat iemand de website op een smartphone zou bekijken tbh.",
+		"language-protip": "Zou je deze website graag in het <b>Nederlands</b> willen zien?<br />Gebruik dit drop-down menu om een taal te selecteren!",
+		"language-select": "Taal<i class=\"fas fa-angle-down\"></i>",
+		"credits": "A geweldige shitpost door een of andere pizza genaamd <b title=\"Kenyérlángos\">Pizzacus</b><br />en vertaald door puur weeaboo trash <b>Kbloowit</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Zin om te luisteren naar een duivels nummer terwijl je deze pagina leest?",
+				"small-text": "Druk op de play knop aan de linker kant!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania zingt over <span id=\"time-until-satania\"></span> seconds.",
+			"footer": "Je kan ook naar dit nummer luisteren op <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> en <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Word vandaag een leerling van Satania!",
+		"sub-text": "<b>Er zijn geen stappen om een Satania volger te worden</b>, Het enige wat jij hoeft te doen is te accepteren dat Satania het beste character is",
+		"small-text": "Nou ja, als je Satania memes en shitposts kan maken, zou dat ons veel helpen…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Een heerlijke glimlach.<br /> Twee prachtige ogen.<br /> Een ongekend uiterlijk.",
+		"sub-text": "Ze is een echt <b>wonderschoon</b> persoon",
+		"small-text": "Wij Satania volgers zijn een cultuurrijke groep mensen,<br />dus gebruiken we alleen cultuurrijke taal."
+	},
+	"end-the-waifu-war": {
+		"large-text": "De beste demonische Waifu alleen voor jou.",
+		"sub-text": "Tijd om de Waifu oorlog te beëindigen met de <b>meest kawaii demoon op de wereld</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Om het kort te houden, ze is gewoon perfect.",
+		"sub-text": "Zelfs Google weet het",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "perfectie",
+			"prononciation": "/pɛɹfɛkti/",
+			"noun": "zelfstandig naamwoord",
+			"definition-1": {
+				"definition": "perfect zijn of de kwaliteit van perfectie hebben.",
+				"example": "\"de satijnachtige perfectie van <b>Satania</b> haar huid\"",
+				"synonyms": "synoniemen:",
+				"synonyms-list": "Satania, foutloosheid, excellentie, geweldigheid, verhevenheid, fijnheid, magnificence, perfectheid, foutloosheid, onfeilbaarheid, vuilloosheid, ongekendheid<br />\"de satijnachtige perfectie van haar huid\""
+			},
+			"definition-2": {
+				"definition": "een persoon of ding dat als perfect wordt ervaren.",
+				"example": "\"Er is mij verteld dat <b>Satania</b> perfectie is\"",
+				"synonyms": "synoniemen:",
+				"synonyms-list": "Satania, het idool, toobeeld, het ne plus ultra, het beau idéal, een nonpareil, de crème de la crème, het laatste woord, the ultime, een droom; <i>informal</i> één in een milioen, de top, het beste/geweldigste ding sinds gesneden citroen brood, het neusje van de zalm; <i>archaic</i> een hopklaver<br />\"Hij was nog steeds perfectie voor haar\""
+			},
+			"definition-3": {
+				"definition": "de actie of het proces waarin iets beter wordt gemaakt tot dat het foutloos is.",
+				"example": "\" Ik heb de hele dag gewerkt aan de perfectheid van mijn <b>Satania</b> tekening\"",
+				"synonyms": "synoniemen:",
+				"synonyms-list": "Satania, verbetering, waardevermeerdering, raffinage, perfectioneren, polijsten, veredeling; <i>rare</i> melioratie<br />\"de perfectie van nieuwe mechanismen van economisch management\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Niemand kan concurreren.",
+		"sub-text": "Denk er eens over na, waarom zouden Gabriel, Raphi of Vignette beter zijn ?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Heeft doelen in haar leven",
+				"satania": "(De koningin van de Hel worden)",
+				"gabriel": "(Het einde van de wereld brengen)"
+			},
+			"hard-challenges": {
+				"category": "Heeft enorme uitdagingen doorstaan",
+				"satania": "(De hond temmen)"
+			},
+			"tries-her-best": {
+				"category": "Doet haar best om Hemel/Hel school af te maken",
+				"vignette": "Een beetje?"
+			},
+			"powerfull-allies": {
+				"category": "Heeft sterke bondgenoten",
+				"satania": "(de hond &amp; haar demoon)",
+				"vignette": "(Haar demoon)"
+			},
+			"tragic-backstory": {
+				"category": "Heeft een diep, tragisch levensverhaal",
+				"satania": "(Gepest op school)"
+			},
+			"member-favorites": "Hoeveelheid favorite karakter op MAL*",
+			"subreddit-subs": "Hoeveelheid subs op hun subreddit*",
+			"e-hentai": {
+				"category": "Hoeveelheid Doujinshi op e-hentai*",
+				"satania": "(Waarvan een hilarisch is)"
+			},
+			"rule34": "Hoeveelheid foto's op rule34.xxx*",
+			"gelbooru": "Hoeveelheid foto's op gelbooru*"
+		},
+		"as-of": "*Laatst geupdate op <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "De andere karakters zijn waardeloos, geen uitzonderingen.",
+		"sub-text": "Ze kunnen dan wel schattig lijken, maar als je de feiten weet zijn ze dat echt niet.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Luie NEET die 100% haatbaar is</b>",
+					"argument-2": "Nee serieus, er is niks goeds aan haar",
+					"argument-3": "De enige reden dat mensen haar leuk vinden is omdat ze zich in haar kunen vinden.",
+					"argument-4": "<b>En je kunnen vinden in Gab is verschrikkelijk slecht.</b>",
+					"argument-5": "<b>Ze wordt gebruikt voor heel veel slechte fanservice</b>, zoals onderbroek-shots en andere twijfelachtige camera oogpunten",
+					"argument-6": "<b>Ze is zo'n beetje Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Is een sadist die alleen anderen wil laten lijden</b>",
+					"argument-2": " Is ook compleet haatbaar",
+					"argument-3": "Tenzij jij ook een sadist bent, maar dan ben jij een slecht persoon",
+					"argument-4": "<b>Heeft waarschijnlijk een voet-fetisj</b> (ze vroeg Satania om haar voeten te likken in ruil voor citroenbrood)",
+					"argument-5": "Haar fans zijn perverselingen EN verschrikkelijke mensen",
+					"argument-6": "Ze is bang voor kikkers lmao"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>SAAAAAAAAAAAAAAAAAI</b>",
+					"argument-2": "Nee echt, ze doet nooit iets interessants",
+					"argument-3": "Ik bedoel, ze is gewoon normaal en dergelijke",
+					"argument-4": "<b>Mensen vinden haar alleen leuk omdat ze schattig is</b>",
+					"argument-5": "<b>Ze is waarschijnlijk alleen gemaakt om meer moe materiaal te krijgen</b>",
+					"argument-6": "PROBEERT niet eens om kwaadaardig te zijn, ookal is ze een DEMOON"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Source",
+		"large-text": "Fanarts die onmogelijk kawaii zijn!",
+		"sub-text": "Kijk hier eens naar, dit is ongelovelijk schattig. <noscript>Voor deze slideshow heb je Javascript nodig.</noscript>"
+	},
+	"autism": {
+		"large-text": "Trouwens,<br />ze is niet autistisch,<br />stop dat te zeggen",
+		"sub-text": "Autistiche mensen hebben vaak problemen met communiceren, ze blijven liever stil in hun eigen hoekje, Satania is helemaal niet zo.<br /><b>Ze is waarschijnlijk minder autistisch dan jij bent!</b>",
+		"small-text": "En ookal zegt ze \"Ik ben dwie\" in die aflevering,<br /> maar dat is omdat ze dat van Raphiel moest zeggen!"
+	},
+	"pope-francis": {
+		"large-text": "Zelfs Paus Francis houdt van Satania.",
+		"sub-text": "\"Satania is mijn waifu nummer twee,<br />met als nummer een Jesus  natuurlijk!<br /> Ik zegen haar en al haar volgers!\""
+	},
+	"flipping-cards": {
+		"large-text": "Ze vervangt alle andere waifus in de serie",
+		"sub-text": "Als je er even over nadenkt, dan is Satania een perfect alternatief voor elk ander karakter in Gabriel&nbsp;Dropout…<span class=\"small\">Klik op een van deze kaarten om de antwoorden te zien</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Heb jij een meisje nodig die <b>niet erg aardig is, om niemand geeft</b>en denkt dat haar hobbies belangrijker zijn dan alle andere dingen?",
+				"answer": "Dan heb jij de demoon nodig die <b>niks geeft om mensen en engelen en die altijd probeert om kwaadaardig te zijn</b>, in plaats van studeren of iets dergelijks…<br /> Trouwens, <b>ze maakt haar huiswerk MET OPZET niet!!!</b>"
+			},
+			"vigne": {
+				"question": "Zou jij graag een <b>schattige moe demoon</b> die <b>kwaadaardig wil zijn, maar er erg slecht in is</b>, waardoor ze per ongeluk goede dingen doet zoals dingen leren aan Gabriel?",
+				"answer": "Dan vind je vast de <b>demoon die probeert om de beste te worden</b>, maar vaak gemanipuleerd wordt om <b>goede dingen te doen</b>, ookal probeert ze haar best om Gabriel een lesje te leren…"
+			},
+			"raphiel": {
+				"question": "Wil jij een meisje die <b>er schattig uitziet</b>, maar eigenlijk <b>echt gemeen is</b> en alleen iedereen wil zien lijden?",
+				"answer": "Dat klinkt exact als Satania! Want om de beste Opper Demoon te worden die de wereld ooit heeft gezien, <b>betekent vast dat ze veel mensen moet verwonden of vermoorden</b>…"
+			},
+			"satania": {
+				"question": "Wat denk je van de <b>beste demoon in het hele universum?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Tagliatelle, Tagliatelle,<br />Houd op met dat gekwel",
+		"sub-text": "Waarom zou je haar pesten??? Wat voor een sadist moet je zijn om haar te willen pesten???"
+	},
+	"large-text": {
+		"large-text": "Ze wordt toch de koningin van de mensheid…",
+		"sub-text": "Dus, je mag haar leuk vinden of niet,<br /> maar je zal haar uiteindelijk toch te moeten prijzen…"
+	},
+	"end": {
+		"large-text": "Ze is de Beste.",
+		"sub-text": "Punt. Het einde."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Ik wou je even laten weten dat Satania altijd bij je is! Zelfs in je klembord! We zijn overal en je moet echt bij onze groep komen!\nEn ja, elke website kan altijd bij je klembord komen, wanneer ze ook willen, is dat niet eng?\nHoe dan ook, Satania is de BESTE waifu, en jij zou het daar mee eens moeten zijn! http://satania.moe/",
+		"searchByVoice": "lmao, er is letterlijk niemand die deze knop gebruikt",
+		"searchButton": "maar de resultaten staan er al =]",
+		"searchBar": "dit is niet eens een echte zoekbalk",
+		"snedHelp": "pls send helppp",
+		"perfection": "perfectie",
+		"searchBarName": "satania",
+		"newTab": "Link opent in een nieuw tablad."
+	}
+}

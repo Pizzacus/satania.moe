@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "サターニャ",
+		"best-waifu-ever": "史上最高の嫁。<b>マジで。</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Discordに参加",
+		"discord-count": "参加者<span id=\"discord-number\"></span>人",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Subredditに参加",
+		"reddit-count": "購読者<span id=\"reddit-number\"></span>人",
+		"language-warning": "（注意：議論・会話には基本的に英語を使用します。）",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>詳細を見る",
+		"mobile-disclaimer": "本当に申し訳ありませんが、<br />このサイトのモバイル版は精錬されていなく、<b>醜いです。</b><br />正直、携帯電話・スマホで<br />このサイトを見ようとする人はいないと思いますが。",
+		"language-protip": "サイトを<b>日本語</b>で閲覧したいですか？<br />このメニューを使って言語を選択できます！",
+		"language-select": "言語選択<i class=\"fas fa-angle-down\"></i>",
+		"credits": "<b title=\"Kenyérlángos\">Pizzacus</b>と名乗るピザの持論（翻訳者：Tomohiro Furusawa）",
+		"music-player": {
+			"intro": {
+				"bold-text": "大悪魔的ソングを聴いてみたいですか？",
+				"small-text": "左の再生ボタンを押してみてください！"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "サターニャの歌声まで<span id=\"time-until-satania\"></span>秒前。",
+			"footer": "<a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a>又は<a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>でも聴くことが出来ます。"
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "サターニャの支援者に<br />なろう！",
+		"sub-text": "<b>支援をするのに特別なことをする<br />必要はありません。<br /></b>ただサターニャを史上最高の嫁だということを、<br />受け入れればいいだけです。",
+		"small-text": "サターニャに関する投稿をしてくれれば、<br />さらなる支援にはなります。"
+	},
+	"she-is-beautiful": {
+		"large-text": "悩殺的な破顔。<br />魅する様な瞳孔。<br />瞠目すべき形貌。",
+		"sub-text": "婀娜たる<b>顔佳人</b>の如し",
+		"small-text": "私たち支援者は高度に鍛えられた文化人であるため、<br />語り口も高度に文化的である事に注意"
+	},
+	"end-the-waifu-war": {
+		"large-text": "あなたのためだけの<br />史上最高の悪魔の嫁",
+		"sub-text": "<b>世界で最もキュートな悪魔と共に、<br /></b>俺の嫁戦争に終止符を打ちましょう！"
+	},
+	"she-is-perfect": {
+		"large-text": "端的に言うと、完璧。",
+		"sub-text": "あのグーグルも理解している事実です。",
+		"searchbar-name": "サターニャ",
+		"google-definition": {
+			"name": "完璧",
+			"prononciation": "（かんぺき）",
+			"noun": "名詞",
+			"definition-1": {
+				"definition": "状態が完全で、欠けている部分がないこと。",
+				"example": "「<b>サターニャ</b>の肌は完璧に輝いている。」",
+				"synonyms": "類義語：",
+				"synonyms-list": "サターニャ、無欠点、最高、極上、完全無欠、秩序<br />「彼女の肌は完璧に輝いている。」"
+			},
+			"definition-2": {
+				"definition": "完全無欠とされる人または物。",
+				"example": "「<b>サターニャ</b>は単独で完璧であると諭される。」",
+				"synonyms": "類義語：",
+				"synonyms-list": "サターニャ、究極、超絶、最終形態、頂点、至高、理想像<br />「サターニャのため、私たち支援者はいつでも完璧である」"
+			},
+			"definition-3": {
+				"definition": "欠点を作らないもの。また、その様。",
+				"example": "「<b>サターニャ</b>への忠誠を完璧なものにするため日々精進する。」",
+				"synonyms": "類義語：",
+				"synonyms-list": "サターニャ、改善、向上<br />「経済政策上の新機構の完璧性」"
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "議論の余地などありません。",
+		"sub-text": "考えてみましょう。なぜガヴリール、ヴィーネ、ラフィエルが<br />史上最高の嫁とはならないのでしょうか。",
+		"table": {
+			"names": {
+				"satania": "サターニャ",
+				"gabriel": "ガヴリール",
+				"vignette": "ヴィーネ",
+				"raphiel": "ラフィエル"
+			},
+			"goals-in-life": {
+				"category": "人生の目的の有無",
+				"satania": "（地獄の女王になる）",
+				"gabriel": "（ハルマゲドンを起こす）"
+			},
+			"hard-challenges": {
+				"category": "困難な挑戦の達成経験",
+				"satania": "（犬を飼いならす）"
+			},
+			"tries-her-best": {
+				"category": "天使学校・悪魔学校で失敗しないための努力",
+				"vignette": "少しは？"
+			},
+			"powerfull-allies": {
+				"category": "力強い仲間の存在",
+				"satania": "（犬と家族）",
+				"vignette": "（家族）"
+			},
+			"tragic-backstory": {
+				"category": "悲しい過去・背景",
+				"satania": "（学校でのいじめ）"
+			},
+			"member-favorites": "MyAnimeListでの支援者数*",
+			"subreddit-subs": "subredditでの支援者数*",
+			"e-hentai": {
+				"category": "e-hentaiにある同人誌の数*",
+				"satania": "（内一つはヤバイ）"
+			},
+			"rule34": "rule34.xxx上での画像数*",
+			"gelbooru": "gelbooru上での画像数*"
+		},
+		"as-of": "*<span id=\"last-updated\"></span>現在"
+	},
+	"the-others-are-trash": {
+		"large-text": "他のキャラはゴミです、<br />例外はありません。",
+		"sub-text": "一見かわいいですが、真実を知ればそうでなくなります。",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "ガヴリール",
+				"name-detail": "天真ホワイト<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>救いのないニートで魅力なし</b>",
+					"argument-2": "存在価値があるかどうかの疑いあり",
+					"argument-3": "親近感のためか支援者はいる",
+					"argument-4": "<b>ガヴリールに親近感が沸くのは非常にまずい</b>",
+					"argument-5": "パンチラや絶妙なカメラアングルなどの、<b>哀れなファンサービスに何度も使われる</b>",
+					"argument-6": "<b>要するにうまるちゃん</b>"
+				}
+			},
+			"raphiel": {
+				"name": "ラフィエル",
+				"name-detail": "白羽エインズワース<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>ドＳで他人の不幸を楽しむ</b>",
+					"argument-2": "どの面から言っても好ましいポイントなし",
+					"argument-3": "ドＳの人向け、どちらにしろ悪い",
+					"argument-4": "<b>足フェチらしい</b> （メロンパンの交換条件として足舐めをサターニャに要求）",
+					"argument-5": "支援者はみな変態で落ちぶれている",
+					"argument-6": "それでカエルが嫌いとか草不可避"
+				}
+			},
+			"vignette": {
+				"name": "ヴィーネ",
+				"name-detail": "月乃瀬エイプリル<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>すげぇ退屈</b>",
+					"argument-2": "本当に面白いこと何一つしない",
+					"argument-3": "普通過ぎて普通",
+					"argument-4": "<b>支援する理由は可愛さだけである</b>",
+					"argument-5": "<b>萌え要素の強調のためだけにいるようなもの</b>",
+					"argument-6": "悪魔なのに悪いことを試そうともしない"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "画像元",
+		"large-text": "ただただキュートな<br />ファンアート集！",
+		"sub-text": "見てください、可愛さの塊です。<noscript>スライドショーにはJavaScriptが必要です。</noscript>"
+	},
+	"autism": {
+		"large-text": "サターニャは自閉症では<br />ありません。",
+		"sub-text": "自閉症の人はコミュニケーション障害を持ち、<br />部屋の片隅で静かにしがちですが、<br />サターニャは違います。<br /><b>少なくともあなたよりは<br />自閉的ではないでしょう！</b>",
+		"small-text": "例の回で「さんちゃい」という発言こそしましたが、<br />それはラフィエルが仕向けただけです！"
+	},
+	"pope-francis": {
+		"large-text": "あのフランシスコ法王も<br />サターニャを愛しています。",
+		"sub-text": "「サターニャは私の中で第二位の嫁である。<br />第一位はもちろんイエス・キリストである。<br />サターニャとその支援者に神の祝福を！」"
+	},
+	"flipping-cards": {
+		"large-text": "サターニャは他の嫁キャラに取って代わる存在です",
+		"sub-text": "考えてみて下さい。<br />サターニャは『ガヴリールドロップアウト』の<br />全てのキャラのおいて完璧な代替案です。<span class=\"small\">カードをクリックして審理を悟りましょう</span>",
+		"cards": {
+			"gabriel": {
+				"question": "<b>優れているわけではなく、周りの人を全く気に掛けない、</b>ただ自分の行動が最優先の女の子がお好みですか？",
+				"answer": "それなら勉強なんかせず、<b>人類も天使も見捨てて、悪になろうとと努力する</b>悪魔はどうでしょう、<br />あと、<b>サターニャは宿題を「故意で」しなかったのです。</b>"
+			},
+			"vigne": {
+				"question": "<b>悪戯をしようとするも、できないで終わり、</b>ガヴリールにものを教えるなどの良い事をして終わる、<b>かわいい萌え悪魔</b>がお好みですか？",
+				"answer": "それなら<b>最強の悪魔になろうとベストを尽くす</b>けど、結果的には<b>良い事をしてしまう</b>悪魔はどうでしょう。良い事をする際もベストを尽くします。"
+			},
+			"raphiel": {
+				"question": "<b>外見はかわいい</b>けれど実際は<b>本当に性格が歪んでいて、</b>周りの不幸を眺めることを楽しむ女の子がお好みですか？",
+				"answer": "それなら答えはサターニャで決まりです！世界最高の悪魔になるということは、<b>多分人々を狩ったり殺したりもするでしょうから。</b>"
+			},
+			"satania": {
+				"question": "<b>全宇宙で最高の悪魔</b>はどうでしょう？"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "もういじめるのは<br />止めて下さい、<br />みじめなだけです",
+		"sub-text": "なんでそんなことするんですか？<br />サターニャをいじめるなんて<br />あなたはどれだけドＳなんですか？"
+	},
+	"large-text": {
+		"large-text": "人類の統制者と<br />なりうる器。",
+		"sub-text": "つまり好き嫌いに関係なく、<br />いつかサターニャの支援者になることは<br />避けられない運命です。"
+	},
+	"end": {
+		"large-text": "史上最高。",
+		"sub-text": "終わり。"
+	},
+	"_javascriptLocales": {
+		"copyMessage": "サターニャはいつでもあなたと共にいます！クリップボードの中身も！私たち支援者は世界中にいます、あなたも一員となりましょう！\n実はウェブサイトはクリップボードをいつでも変更できてしまいます、気味が悪いですね。\nとにかくサターニャは最高の嫁です、認めましょう！http://satania.moe/",
+		"searchByVoice": "草。そのボタン使う人なんていねーぞ",
+		"searchButton": "もうすでに検索結果出てるよ( ´艸｀)",
+		"searchBar": "本当のグーグル検索欄ではないんで",
+		"snedHelp": "もうやめてー",
+		"perfection": "完璧",
+		"searchBarName": "サターニャ",
+		"newTab": "別タブで開きます。"
+	}
+}

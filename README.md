@@ -11,20 +11,30 @@ This repo is for the people interested in the code
 
 ## Getting started
 
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org)
-    * [Brunch](http://brunch.io): `npm install -g brunch` or `yarn global add brunch`
-    * Brunch plugins and app dependencies: `npm install` or `yarn`
-* Run:
-    * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `npm run build` — builds minified project for production
-* About our building system:
-    * We use [Brunch](http://brunch.io) to build satania.moe, brunch performs many tasks such as minifying data, compacting the files, ect...
-    * Honestly now I would like to have used something else but it's too late \>\_\>
-    * `public/` dir is fully auto-generated and served by HTTP server. The code is in the `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * To learn more about Brunch: [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+```bash
+# Clone this repository
+git clone https://github.com/Pizzacus/satania.moe.git # If you work with HTTPS
+git clone git@github.com:Pizzacus/satania.moe.git     # If you work with SSH
 
+# Install the dependencies
+npm install   # For NPM users
+yarn install  # For Yarn men of culture
+
+# You can build a static version of the website, all the files go into `dist/`
+npm run build # On NPM or
+yarn build    # On Yarn
+
+# You can also run a development server that automatically reloads when you change anything!
+npm run serve # On NPM or
+yarn serve    # On yarn
+
+# Finally, use --production to create an optimised build
+# that is smaller and more compatible, but takes way more time to generate
+npm run build --production # On NPM or
+yarn build --production    # On Yarn
+
+# (also works with `serve`)
+```
 ## Translating
 
 * Go to <https://satania.moe/#translator-mode>, new buttons will appear on the top-left

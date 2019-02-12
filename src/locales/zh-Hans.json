@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "萨塔妮娅",
+		"best-waifu-ever": "最好的老婆！ <b>没有之一</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>加入 Discord",
+		"discord-count": "<span id=\"discord-number\"></span> 名成员",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>加入 Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> 订阅者",
+		"language-warning": "(注意：这些论坛都使用英语作为主要语言)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i> 更多",
+		"mobile-disclaimer": "很抱歉！手机页面是赶工做出来的，排版很糟糕，反正我猜也没人用手机来访问这个页面 (￣▽￣) ",
+		"language-protip": " 你想以 <b>简体中文</b> 来查看这个页面吗？<br />用这个下拉菜单来选择语言！",
+		"language-select": "切换语言<i class=\"fas fa-angle-down\"></i>",
+		"credits": "由自称是<b title=\"Kenyérlángos\">Pizzacus</b>的人制作（翻译者：落叶君）",
+		"music-player": {
+			"intro": {
+				"bold-text": "想一边听天籁之音一边浏览这个页面嘛?",
+				"small-text": "点击左侧的播放按钮吧！"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "离萨塔妮娅的歌声还有<span id=\"time-until-satania\"></span>秒",
+			"footer": "你也可以在这些 404 网站听这首歌： <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> 或者 <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>"
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "现在就成为<br />萨塔妮娅的追随者！",
+		"sub-text": "<b>当一位萨塔妮娅的追随者<br />不需要什么特别的步骤</b><br />你所要做的就是<br />接受萨塔妮娅是&nbsp;<b>最好</b>&nbsp;的角色这个事实",
+		"small-text": "当然如果你能做一些关于萨塔妮娅的投稿的话，就是对我们莫大的帮助……"
+	},
+	"she-is-beautiful": {
+		"large-text": "楚楚动人的笑容<br />妩媚迷离的双眼 <br /> 白璧无瑕的外貌",
+		"sub-text": "她正是 <b>灿如春华，皎如秋月</b> 的完美体现",
+		"small-text": "我们的支持者都是受过高等教育的文人，话说也会用高等文明语言"
+	},
+	"end-the-waifu-war": {
+		"large-text": "最好的小恶魔老婆<br />专属于您",
+		"sub-text": "<b>世界最可爱的小恶魔~</b><br />是时候结束每三个月换一次老婆了！！！"
+	},
+	"she-is-perfect": {
+		"large-text": "简而言之，两个字：“完美”",
+		"sub-text": "那是连谷歌都知道的事实",
+		"searchbar-name": "萨塔妮娅",
+		"google-definition": {
+			"name": "完美",
+			"prononciation": "/wánměi/",
+			"noun": "形容词 / 动词",
+			"definition-1": {
+				"definition": "完备美好; 没有缺陷。",
+				"example": "“<b>萨塔妮娅</b>的皮肤很完美。”",
+				"synonyms": "同义词：",
+				"synonyms-list": "萨塔妮娅，无瑕，卓越，气质高尚，精致， 华丽，完美无缺<br /> “萨塔妮娅的皮肤完美无缺。”"
+			},
+			"definition-2": {
+				"definition": "被认为是完美的人或事物。",
+				"example": "“我说过了，<b>萨塔妮娅</b>本身就是完美。”",
+				"synonyms": "同义词：",
+				"synonyms-list": "萨塔妮娅，究极，超级，最终形态，顶点，至高，理想级别<br />“为了萨塔妮娅，我们这些支持者总是完美的。”"
+			},
+			"definition-3": {
+				"definition": "改进某物直到完美为止的行为或过程。",
+				"example": "“我一整天都在忙着完美这副<b>萨塔妮娅</b>的画像。”",
+				"synonyms": "同义词：",
+				"synonyms-list": "萨塔妮娅，改善，改良，精进，进步<br />“这份文件还需要完美一下。”"
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "没有人能比得过她",
+		"sub-text": "仔细想想吧，凭什么珈百璃、拉菲尔或是薇奈特能称为最好？",
+		"table": {
+			"names": {
+				"satania": "萨塔妮娅",
+				"gabriel": "珈百璃",
+				"vignette": "薇奈特",
+				"raphiel": "拉菲尔"
+			},
+			"goals-in-life": {
+				"category": "拥有人（?）生目标",
+				"satania": "(成为地狱女王)",
+				"gabriel": "(带来世界末日)"
+			},
+			"hard-challenges": {
+				"category": "有挑战过巨大困难的经验",
+				"satania": "(驯服那条狗)"
+			},
+			"tries-her-best": {
+				"category": "尽最大努力而保住在天使/恶魔学校的学籍",
+				"vignette": "一点点？"
+			},
+			"powerfull-allies": {
+				"category": "有强大的伙伴",
+				"satania": "(那条狗 &amp; 家族)",
+				"vignette": "(家族)"
+			},
+			"tragic-backstory": {
+				"category": "有一段悲惨的过去/背景故事",
+				"satania": "(校园欺凌)"
+			},
+			"member-favorites": "MyAnimeList* 上的喜爱人数",
+			"subreddit-subs": "subreddit* 上的支持人数",
+			"e-hentai": {
+				"category": "e-hentai* 上的同人本子数目",
+				"satania": "(其中有一本非常糟糕)"
+			},
+			"rule34": "rule34.xxx* 上的画像数目",
+			"gelbooru": "gelbooru* 上的画像数目"
+		},
+		"as-of": "*更新日期为 <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "其他角色都是辣鸡，没有例外",
+		"sub-text": "她们乍一看很可爱，但如果知道真相就不会那样了",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "珈百璃",
+				"name-detail": "天真 · 怀特<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>完全没救了的宅 没有魅力</b>",
+					"argument-2": "很怀疑是否有存在的价值",
+					"argument-3": "喜欢她的人只是因为有一种同类感罢了",
+					"argument-4": "<b>与珈百璃有瓜葛是一件很可怕的事情</b>",
+					"argument-5": "<b>她曾经有一堆劣质的杀必死镜头</b><br />比如胖次镜头和其他的一些奇怪的摄影角度",
+					"argument-6": "<b>基本就是一只小埋</b>"
+				}
+			},
+			"raphiel": {
+				"name": "拉菲尔",
+				"name-detail": "白羽 · 恩兹沃斯<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>抖S，以他人的不幸为乐</b>",
+					"argument-2": "无论从哪个方面说都没有令人满意的点",
+					"argument-3": "除非你也是一个抖 S（M？ 咦惹……）",
+					"argument-4": "<b>极有可能是一个足控</b><br /> (要求萨塔妮娅舔她的脚作为菠萝包的交换条件)",
+					"argument-5": "粉丝都是变态或者很恶心的人",
+					"argument-6": "居然害怕青蛙 233~"
+				}
+			},
+			"vignette": {
+				"name": "薇奈特",
+				"name-detail": "月乃濑 · 艾普利尔<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>太无聊啦</b>",
+					"argument-2": "讲真，她从来不做任何有趣的事",
+					"argument-3": "太过一本正经",
+					"argument-4": "<b>喜欢她的唯一理由就是有点可爱</b>",
+					"argument-5": "<b>塑造这个形象就是为了加一点萌要素</b>",
+					"argument-6": "明明是一个恶魔却一点坏事都不做"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "链接",
+		"large-text": "可爱得一塌糊涂！<br />粉丝作品集",
+		"sub-text": "瞧啊，多么 cute ~ <noscript>图片轮播需要 JavaScript 支持 (～o￣3￣)～ </noscript>"
+	},
+	"autism": {
+		"large-text": "萨塔妮娅不是自闭症<br />别再那样说了",
+		"sub-text": "自闭症患者通常有社交障碍<br />自己躲在角落里自言自语<br />萨塔妮娅可不是这样<br /><b>至少不比你自闭吧</b>",
+		"small-text": "她在那集里说“我是”是因为拉菲尔逼她这么说的！"
+	},
+	"pope-francis": {
+		"large-text": "甚至教皇弗朗西斯都喜欢萨塔妮娅",
+		"sub-text": "“萨塔妮娅在我心中是第二位的老婆，第一位当然是耶稣。<br />为萨塔妮娅及其支持者献上神的祝福！”"
+	},
+	"flipping-cards": {
+		"large-text": "她是取代节目中所有老婆的存在",
+		"sub-text": "请你想一想吧，萨塔妮娅是可以完美替代《珈百璃的堕落》中的所有角色的<span class=\"small\">点击下面的卡片查看答案<noscript>没有 JavaScript 的话你什么都做不了 (～o￣3￣)～</noscript></span>",
+		"cards": {
+			"gabriel": {
+				"question": "你需要那种<br /> <b>不是很优秀<br />对周围的人完全不在意</b><br />认为自己的爱好比任何事都重要的女孩么？",
+				"answer": "那么你需要一只<br /><b> 不爱学习<br />不关心人类和天使<br />总是尝试做恶作剧</b>的萨塔妮娅<br /> 另外， <b>她还“故意”不写家庭作业……</b>"
+			},
+			"vigne": {
+				"question": "你喜欢<br /><b> 想要做恶作剧但是并不擅长</b> <br />反而变成做<br />像珈百璃本应该做的好事的<br /><b> 可爱又萌萌哒 </b><br />恶魔吗？",
+				"answer": "那你一定喜欢这只<br /><b> 野心成为最大恶魔 </b><br />但常常变成<b><br />做好事</b>的<br />萨塔妮娅<br />而且她一直都想好好给珈百璃“上一课”"
+			},
+			"raphiel": {
+				"question": "你想要一位<br /><b> 虽然外表很可爱 </b><br />但实际上<br /><b> 性格很扭曲 </b><br />喜欢看其他人不幸的女孩子吗？",
+				"answer": "那样的话<br />答案非萨塔妮娅<br />莫属！<br />因为一旦她成为<br />大恶魔<br /> <b> 很多人都会受伤或死亡吧 </b>……"
+			},
+			"satania": {
+				"question": "那么<br /><b> 全宇宙最强的大恶魔呢 </b>？"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "嘤嘤嘤，嘤嘤嘤<br />请不要欺负我了",
+		"sub-text": "为什么要那样做？？？ <br />你到底有多抖 S 才能做出欺负她这种事啊？？？"
+	},
+	"large-text": {
+		"large-text": "反正<br />她最后都要统治人类……",
+		"sub-text": "不管你喜不喜欢她，<br /> 成为萨塔妮娅的支持者<br />都是无法避免的命运……"
+	},
+	"end": {
+		"large-text": "史上最强",
+		"sub-text": "以上"
+	},
+	"_javascriptLocales": {
+		"copyMessage": "萨塔妮娅总是和你在一起，甚至在你的剪切板里面！赶快成为我们的一员吧！\n事实上只要它想，任何网站都可以访问您的剪切板，有点可怕哦~ (⊙x⊙;) \n 不管怎么样，萨塔妮娅是最好的老婆，你就承认吧！ http://satania.moe/",
+		"searchByVoice": "233，没人会点这个按钮的啦",
+		"searchButton": "下面已经有结果了，不用再点了",
+		"searchBar": "你难道看不出来这是假的搜索框么？",
+		"snedHelp": "快住手~",
+		"perfection": "完美",
+		"searchBarName": "萨塔妮娅",
+		"newTab": "在新标签页中打开"
+	}
+}

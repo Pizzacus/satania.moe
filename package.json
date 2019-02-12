@@ -1,28 +1,39 @@
 {
-  "name": "satania.moe",
-  "description": ">:3",
-  "private": true,
-  "author": "Pizzacus",
-  "version": "6.6.6",
-  "repository": "https://github.com/Pizzacus/satania.moe",
-  "homepage": "https://satania.moe",
-  "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
-  },
-  "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "fluent-langneg": "^0.1.1",
-    "howler": "^2.0.15"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "auto-reload-brunch": "^2.7.1",
-    "babel-brunch": "^7.0.0",
-    "brunch": "^2.10.17",
-    "clean-css-brunch": "^2.10.0",
-    "sass-brunch": "^2.10.7",
-    "uglify-js-brunch": "^2.10.0"
-  }
+	"name": "satania.moe",
+	"description": ">:3",
+	"private": true,
+	"author": "Pizzacus",
+	"version": "6.6.6",
+	"repository": "https://github.com/Pizzacus/satania.moe",
+	"homepage": "https://satania.moe",
+	"scripts": {
+		"build": "gulp build",
+		"serve": "gulp serve"
+	},
+	"dependencies": {
+		"babel-polyfill": "^6.26.0",
+		"fluent-langneg": "^0.1.1",
+		"gulp-sass": "^4.0.2",
+		"howler": "^2.1.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.3.1",
+		"autoprefixer": "^9.4.7",
+		"browser-sync": "^2.26.3",
+		"del": "^3.0.0",
+		"gulp": "^4.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-csso": "^3.0.1",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-if": "^2.0.2",
+		"gulp-postcss": "^8.0.0",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-uglify": "^3.0.1",
+		"node-sass": "^4.11.0",
+		"stream.pipeline-shim": "^1.0.4",
+		"through2": "^3.0.0",
+		"webpack-stream": "^5.2.1"
+	}
 }

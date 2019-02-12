@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "사타냐",
+		"best-waifu-ever": "사타냐는 최고의 신부라능. <b>레알이다.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>디스코드로 가기",
+		"discord-count": "<span id=\"discord-number\"></span> 명 참여 중 ",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>서브레딧으로 가기",
+		"reddit-count": "<span id=\"reddit-number\"></span> 명 구독 중",
+		"language-warning": "(저 두 곳은 영어가 메인이므로 들어 가실 때 긴장 하시길…)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>내려서 사타냐를 더 알아보자!",
+		"mobile-disclaimer": "죄송합니다만 모바일 버전은 좀 막 만들었거든요… 진짜로 <b>좀 많이 그지 같을 거에요…</b>, 뭐… 모바일로 오는 사람도 별로 없겠지만…",
+		"language-protip": "이 웹사이트를 <b>한국어</b>로 보고 싶으세요?<br />리스트에서 언어를 선택하세요!",
+		"language-select": "언어선택 <i class=\"fas fa-angle-down\"></i>",
+		"credits": "제작자 = 등신 같지만 멋진 \"피자\" <b title=\"Kenyérlángos\">피자커스</b><br />우리말(?) 제작 = <b>스팀팩_마린스</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "이 웹사이트에서 사타냐의<br />악마적인 음악을 듣고 싶다면?",
+				"small-text": "왼쪽 버튼을 클릭해봐!"
+			},
+			"metadata": {
+				"title": "사타냐 드롭",
+				"author": "[리미티드 데이즈]"
+			},
+			"countdown": "<span id=\"time-until-satania\"></span>초 안에 사타냐의 목소리가 나옵니다.",
+			"footer": "<a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">유튜브</a> 와 <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">사운드 클라우드</a> 에서도 들을 수 있습니다!"
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "오늘부터 우린 사타냐에 <br />입덕하는 부분?!",
+		"sub-text": "<b>사타냐 입덕하시려면 한 가지만 필요합니다</b>,<br />사타냐가 최고라는 마음가짐&nbsp;한 가지만&nbsp;<br />인정 하면 됩니다.",
+		"small-text": "에에… 사타냐 덕질이라던지 포스팅 하신다면… 더 좋고요…ㅋ"
+	},
+	"she-is-beautiful": {
+		"large-text": "미소도 사랑스러워.<br />두 눈도 사랑스러워.<br />귀엽기까지도 해!",
+		"sub-text": "아주 그냥 <b>머리부터 발끝까지</b> 사랑스러워!",
+		"small-text": "우리 사타냐 덕후들은 뭘 좀 배우신 분만 있습니다, 그래서 언어들도 아주 고귀하죠."
+	},
+	"end-the-waifu-war": {
+		"large-text": "오직 당신만을 위한 <br />최고의&nbsp;소악마&nbsp;신부.",
+		"sub-text": "자! 1등 신붓감 싸움은 그만하고 <br /><b>사타냐에게 돌아오거라</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "다 필요 없고, 사타냐는 완벽합니다.",
+		"sub-text": "구글도 이미 알고 있는데 뭘.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "perfection",
+			"prononciation": "/pəˈfɛkʃ(ə)n/",
+			"noun": "noun",
+			"definition-1": {
+				"definition": "the state or quality of being perfect.",
+				"example": "\"the satiny perfection of <b>Satania</b>'s skin\"",
+				"synonyms": "synonyms:",
+				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br />\"the satiny perfection of her skin\""
+			},
+			"definition-2": {
+				"definition": "a person or thing considered to be perfect.",
+				"example": "\"I am told that <b>Satania</b> is perfection itself\"",
+				"synonyms": "synonyms:",
+				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br />\"for her, he was still perfection\""
+			},
+			"definition-3": {
+				"definition": "the action or process of improving something until it is faultless.",
+				"example": "\"I worked all day on the perfection of my <b>Satania</b> drawing\"",
+				"synonyms": "synonyms:",
+				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br />\"the perfection of new mechanisms of economic management\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "딴 애들은 상대도 안된다는거지.",
+		"sub-text": "생각해봐 가브? 비네? 라피엘? 응 아니야!",
+		"table": {
+			"names": {
+				"satania": "사타냐",
+				"gabriel": "가브리엘",
+				"vignette": "비네트",
+				"raphiel": "라피엘"
+			},
+			"goals-in-life": {
+				"category": "삶의 목적",
+				"satania": "(소악마의 여왕)",
+				"gabriel": "(아마겟돈 소환)"
+			},
+			"hard-challenges": {
+				"category": "주어진 고난을 극복",
+				"satania": "(강아지 길들이기)"
+			},
+			"tries-her-best": {
+				"category": "천계/하계를 위한 노오력",
+				"vignette": "아마도?"
+			},
+			"powerfull-allies": {
+				"category": "강려크한 조력자",
+				"satania": "(강아지 &amp; 사타냐 가족)",
+				"vignette": "(비네트 가족)"
+			},
+			"tragic-backstory": {
+				"category": "가슴 아픈 스토리",
+				"satania": "(괴롭힘 현재진행형)"
+			},
+			"member-favorites": "MyAnimeList에서의 추천 수*",
+			"subreddit-subs": "서브레딧에서의 서브 수*",
+			"e-hentai": {
+				"category": "e-hentai에서의 동인지 수*",
+				"satania": "(그 중 하나는 초 개그물)"
+			},
+			"rule34": "rule34.xxx에서의 포스팅 수*",
+			"gelbooru": "gelbooru에서의 포스팅 수*"
+		},
+		"as-of": "*<span id=\"last-updated\"></span> 기준"
+	},
+	"the-others-are-trash": {
+		"large-text": "딴 애들은 그냥 쓰레기, 개뚜레기",
+		"sub-text": "귀엽긴 해 근데 팩트를 알게 되면, 개뚜레기로 보이기 시작한다는거지",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "가브리엘",
+				"name-detail": "텐마 화이트<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>있던 호감도 날라갈 암덩어리 니트</b>",
+					"argument-2": "레알 혼모노 암걸린다, 항암제 준비해라",
+					"argument-3": "지금 본인들하고 비슷 해서 좋아 할 뿐…",
+					"argument-4": "<b>가브하고 어울릴 수 있으면…그건 문제야</b>",
+					"argument-5": "<b>주제에 팬서비스는 겁나 많이 함</b>, 판치라 라던지… 겁나 수상한 카메라 앵글이라던지",
+					"argument-6": "<b>그냥… 얜 우마루야…</b>"
+				}
+			},
+			"raphiel": {
+				"name": "라피엘",
+				"name-detail": "시하라 아인스워드<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>남에게 고통 주기 좋아 하는 사디스트</b>",
+					"argument-2": "얘도 좀 이상한 애야…",
+					"argument-3": "얘가 좋다면…좋아하는 너도 그냥 나쁜 놈이야!",
+					"argument-4": "<b>발페티시를 가지고 있을지도…</b><br /> (메론빵 준다고 자기 발을 핥아라 하는걸 보면…)",
+					"argument-5": "라피 팬들은 둘 중 하나야 변태이거나 나쁜 놈들이거나",
+					"argument-6": "근데 개구리를 싫어함ㅋㅋㅋㅋㅋ"
+				}
+			},
+			"vignette": {
+				"name": "비네트",
+				"name-detail": "츠키노세 에이플<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>평범해에에에!!!</b>",
+					"argument-2": "ㄹㅇ 얜 뭐 아무것도 안해",
+					"argument-3": "얘는 그냥 평범한 녀석이야",
+					"argument-4": "<b>그냥 귀여워서 좋아 할 뿐</b><br />근데 좀 귀엽긴 해…",
+					"argument-5": "<b>그냥 미소녀 4인방을 채울려고 만든거 같아…</b>",
+					"argument-6": "악마처럼 굴지도 않아, 악마인데도 말이지!!!"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Source",
+		"large-text": "팬아트도 X나&nbsp;카와이해!!",
+		"sub-text": "그냥 봐도 겁나 카와이해.<noscript>슬라이드쇼를 보기 위해서 자바스크립트가 필요합니다.</noscript>"
+	},
+	"autism": {
+		"large-text": "그리고 사타냐 정박아 <br />아니다, 고딴말&nbsp;그만&nbsp;해라",
+		"sub-text": "진짜로 자폐증이 있으신 분들은 대화에 약간 <br />문제 있으시다고, 사타냐는&nbsp;그런거 아니다.<br /><b>자폐라고 생각하는 너네들이 그런거겠지!!!</b>",
+		"small-text": "에피소드 중에 \"세짤이에염~\"라 한건,<br />라피엘이 시켜서 그런거다!<br />젠장! 근데 그것도 귀엽다아…"
+	},
+	"pope-francis": {
+		"large-text": "심지어 교황님도 사타냐 덕후시다.",
+		"sub-text": "\"사타냐는 제 2번째 신부입니다, 첫번째는 당연히&nbsp;예수님이죠!<br />사타냐와 그 덕후들 모두 축복합니다!!\""
+	},
+	"flipping-cards": {
+		"large-text": "사타냐는 타의추종을 불허한다",
+		"sub-text": "아무리 생각해봐도, 가브릴 드롭아웃에서 모든 캐릭터들을 씹어 드신단 말이지 말입니다… <span class=\"small\">다음 카드들을 참고 해서 숙지하도록!</span>",
+		"cards": {
+			"gabriel": {
+				"question": "무엇보다 자기 취미에만 몰두 하고<b>친절하지도 않고 이기적인</b> 그런 여성분을 원하십니까? ",
+				"answer": "그러면 반대로 <b>천박한 닝겐들이나 엔젤들 따윈 신경 쓰지 않고 악마적 행동에  모든 힘을 쏟고</b>, 공부라던가도 집어 치우고…<br />그보다, <b>일부로 공부 하려고 하지도 않는!!</b>그런 여성분이 나을지도 모르겠군요."
+			},
+			"vigne": {
+				"question": "<b>귀엽고 모에한 소악마가</b><b>악마적 행동을 하고 싶지만 맨날 실패하고</b>, 결국은 노답 가브를 가르치는 그러한 선행(?)을 일삼는(??) 그런 여성분을 원하십니까?",
+				"answer": "그렇다면 반대로 <b>평소에도 모든걸 정복하는 대악마를 꿈꾸지만</b>, 자주 분위기에 휩쓸려 <b>마찬가지로 선행을 일삼고(?)</b>, 가브리엘에게 별의 별걸 가르쳐 주는 그런 분이 나을지도 모르겠군요…"
+			},
+			"raphiel": {
+				"question": "혹은 <b>정말로 귀여운데</b>, 실제로는 <b>도 S에다가</b> 남이 고통받는 모습을 보는걸 좋아하는 그런 분?",
+				"answer": "보아하니 사타냐랑 딱 알맞는 모습이네요! 왜냐면 사타냐는 최고의 아크데몬으로 진화 할테니, <b>아마 많은 남성들의 심장을 정복할지도? (웃음)</b>…"
+			},
+			"satania": {
+				"question": "마지막으로 <b>이 세계에서 최고의 소악마는?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "야메떼 야메떼!,<br />그만 괴롭혀줘엉",
+		"sub-text": "[와장창] 고만해 이 미친 도 S 넘들아!!!"
+	},
+	"large-text": {
+		"large-text": "이미 우린 그녀에게 <br />정ㅋ벅ㅋ 당했습니다…",
+		"sub-text": "좋든 아니든,<br />넌 이미 함락당해 있다…"
+	},
+	"end": {
+		"large-text": "She's the Best.",
+		"sub-text": "반박불가 팩트다!. 설명 끝!"
+	},
+	"_javascriptLocales": {
+		"copyMessage": "여담으로 알려드리는바 사타냐는 세상 모든 곳에 존재합니다! 여러분들 클립보드에도 말이죠! 우리들도 사타냐와 함께 존재 합니다 우리쪽으로 쪼인 하시는게 어떨지?!\n아 그리고 웹사이트는 여러분들의 클립보드에 원하는대로 접근이 가능하다는 점 알고 있죠? 정말 살벌하다!\n뭐 어찌됬든 사타냐는 1등 신붓감이다 동의? 어 보감! http://satania.moe/",
+		"searchByVoice": "ㅋㅋㅋ이거 작동 안됨!",
+		"searchButton": "넌 이미 답을 알고있다",
+		"searchBar": "진짜 검색창 아닙니다!",
+		"snedHelp": "다레가 타스케테!!",
+		"perfection": "perfection",
+		"searchBarName": "사타냐",
+		"newTab": "새 탭에서 링크를 엽니다."
+	}
+}
