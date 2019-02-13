@@ -22,8 +22,8 @@ Thumbs.db
 # NPM packages folder.
 node_modules/
 
-# Brunch output folder.
-public/
+# Gulp output folder.
+dist/
 
 melon-pan-haters/*
 sadistic-angels/*
