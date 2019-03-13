@@ -171,7 +171,7 @@ searchbar.onclick = event => {
 		case "search-by-voice":
 			span.innerText = javascriptLocales.searchByVoice;
 			break;
-		
+
 		case "search-button":
 			span.innerText = javascriptLocales.searchButton;
 			break;
@@ -253,25 +253,9 @@ document.body.onkeyup = event => {
 }
 
 function getContent(url) {
-	return new Promise((resolve, reject) => {
-		let req = new XMLHttpRequest();
-		req.open("GET", url, true);
-		req.onreadystatechange = function () {
-			if (req.readyState !== 4) return;
-
-			const contentType = req.getResponseHeader("content-type") || '';
-
-			let res = contentType.startsWith("application/json") ? JSON.parse(req.responseText) : req.responseText;
-
-			if (req.status.toString().startsWith(2)) {
-				resolve(res);
-			} else {
-				reject(res);
-			}
-		};
-		req.onerror = reject;
-		req.send();
-	});
+	return fetch(url, { cache: "no-store" })
+		.then(response => response.json())
+		.catch(err => console.warn(err))
 }
 
 function discordInfo(invite) {
@@ -305,7 +289,7 @@ function updateCounts() {
 		document.getElementById("reddit-count").style.display = "inline-block";
 	}
 
-	document.getElementById('last-updated').innerText = 
+	document.getElementById('last-updated').innerText =
 		(new Date(1519743162656))
 			.toLocaleDateString(document.body.parentElement.lang, {
 				year: 'numeric',

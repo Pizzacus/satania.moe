@@ -108,7 +108,7 @@ function changeLocale(localeName, skipReset) {
 	handleObject(locales[localeName], document.body);
 	window.javascriptLocales = locales[localeName]._javascriptLocales;
 	document.documentElement.lang = localeName;
-	
+
 	if (!skipReset) {
 		if (localeName === defaultLocale) {
 			window.history.pushState('', '', window.location.pathname)
@@ -136,20 +136,15 @@ for (const option of options) {
 	}
 
 	if (option.value !== defaultLocale) {
-		const xhr = new XMLHttpRequest();
-		xhr.open("GET", "locales/" + option.value + ".json", true);
-		xhr.onreadystatechange = function() {
-			if (xhr.readyState === 4 && xhr.status === 200) {
-				var translation = JSON.parse(xhr.responseText);
+		fetch("locales/" + option.value + ".json", { cache: "no-store" })
+			.then(response => response.json())
+			.then(translation => {
 				locales[option.value] = translation;
 				option.disabled = false;
 
 				postDownload();
-			}
-		};
-
-		xhr.send();
-
+			})
+			.catch(err => console.warn(err))
 	} else {
 		setTimeout(postDownload);
 	}
@@ -187,7 +182,7 @@ document.getElementById("download").onclick = () => {
 	let download = document.createElement("A"),
 		isYAML = formatSelect.value === "yaml";
 	download.href = URL.createObjectURL(new Blob(
-		[isYAML ? prettyYAML(jsyaml.safeDump(locales[defaultLocale])) : JSON.stringify(locales[defaultLocale], null, "\t")], 
+		[isYAML ? prettyYAML(jsyaml.safeDump(locales[defaultLocale])) : JSON.stringify(locales[defaultLocale], null, "\t")],
 		{
 			type : isYAML ? " application/x-yaml" : "application/json"
 		}
@@ -207,12 +202,12 @@ function selectFile(options = {}) {
 		upload.accept = options.accept || "";
 		upload.multiple = options.multiple || false;
 		upload.webkitdirectory = options.directory || false;
-		upload.setAttribute("style", 
+		upload.setAttribute("style",
 			"position:absolute !important;" +
-			"top:-9999vh !important;" + 
-			"opacity:0 !important;" + 
-			"height:0 !important;" + 
-			"width:0 !important; " + 
+			"top:-9999vh !important;" +
+			"opacity:0 !important;" +
+			"height:0 !important;" +
+			"width:0 !important; " +
 			"z-index:-9999 !important;");
 
 		document.body.appendChild(upload);
@@ -268,7 +263,7 @@ document.getElementById("upload").onclick = () => {
 }
 
 if (window.location.hash === "#translator-mode") {
-	loadScript("https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.12.2/js-yaml.min.js")
+	loadScript("https://cdn.rawgit.com/nodeca/js-yaml/bee7e998/dist/js-yaml.min.js")
 		.then(() => {
 			formatSelect.disabled = false;
 		})

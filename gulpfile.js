@@ -1,14 +1,20 @@
 const util = require("util");
 const path = require("path");
 
-const SRC = "./src";
+const SRC_DIR_NAME = "src";
+const SRC = `./${SRC_DIR_NAME}`;
+
 const DEST = "./dist";
 
 const JS_DIR = path.join(SRC, "js/*.js");
 const SCSS_DIR = path.join(SRC, "scss/*.scss");
 const HTML_DIR = path.join(SRC, "*.html");
-const ASSETS_DIR = path.join(SRC, "assets/**/*");
-const LOCALES_DIR = path.join(SRC, "locales/*.json");
+
+const ASSETS_DIR_NAME = "assets";
+const ASSETS_DIR = path.join(SRC, `${ASSETS_DIR_NAME}/**/*`);
+
+const LOCALES_DIR_NAME = "locales";
+const LOCALES_DIR = path.join(SRC, `${LOCALES_DIR_NAME}/*.json`);
 
 // Polyfill of the future stream.pipeline API
 // Can be changed when Node 10.0.0 hits LTS
@@ -18,6 +24,7 @@ const gulp = require("gulp");
 const gulpif = require("gulp-if")
 const sourcemaps = require("gulp-sourcemaps");
 const through = require("through2");
+const rename = require("gulp-rename");
 
 const browserSync = require('browser-sync').create();
 
@@ -91,6 +98,7 @@ function html() {
 	return pipeline(
 		gulp.src(HTML_DIR),
 		htmlmin({collapseWhitespace: true}),
+		rename(file => file.dirname = ""),
 		gulp.dest(DEST)
 	)
 }
@@ -98,6 +106,7 @@ function html() {
 function assets() {
 	return pipeline(
 		gulp.src(ASSETS_DIR),
+		rename(file => file.dirname = file.dirname.replace(`${SRC_DIR_NAME}\\${ASSETS_DIR_NAME}\\`, '')),
 		gulp.dest(DEST)
 	);
 }
@@ -105,6 +114,7 @@ function assets() {
 function locales() {
 	return pipeline(
 		gulp.src(LOCALES_DIR),
+		rename(file => file.dirname = file.dirname.replace(`${SRC_DIR_NAME}\\${LOCALES_DIR_NAME}`, '')),
 		gulp.dest(path.join(DEST, "locales"))
 	);
 }
