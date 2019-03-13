@@ -31,7 +31,6 @@
 		"gulp-htmlmin": "^5.0.1",
 		"gulp-if": "^2.0.2",
 		"gulp-postcss": "^8.0.0",
-		"gulp-rename": "^1.4.0",
 		"gulp-sourcemaps": "^2.6.4",
 		"gulp-uglify": "^3.0.1",
 		"node-sass": "^4.11.0",
