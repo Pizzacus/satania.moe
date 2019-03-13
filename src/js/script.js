@@ -1,4 +1,6 @@
-require('babel-polyfill');
+import "@babel/polyfill";
+import 'whatwg-fetch';
+import "./closest";
 
 window.javascriptLocales = {
 	copyMessage: "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\n" +
@@ -140,8 +142,7 @@ window.onload = () => {
 	SLIDESHOW
 */
 
-const slideshows = document.getElementsByClassName("slideshow"),
-	preloadedImages = [];
+const slideshows = document.getElementsByClassName("slideshow");
 
 for (let slideshow of slideshows) {
 	let slides = slideshow.getElementsByTagName("picture");
@@ -171,7 +172,7 @@ searchbar.onclick = event => {
 		case "search-by-voice":
 			span.innerText = javascriptLocales.searchByVoice;
 			break;
-		
+
 		case "search-button":
 			span.innerText = javascriptLocales.searchButton;
 			break;
@@ -208,23 +209,6 @@ document.getElementById("listen").onclick = () => {
 	}
 }
 
-if (window.Element && !Element.prototype.closest) {
-	// Thanks Mozilla <3 https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
-	// Polyfill for the closest function, since a lot of browsers don't support it
-	// Yes I know I already polyfill this in translate.js, but I want the two files to work independently
-	Element.prototype.closest =
-		function(s) {
-			var matches = (this.document || this.ownerDocument).querySelectorAll(s),
-				i,
-				el = this;
-			do {
-				i = matches.length;
-				while (--i >= 0 && matches.item(i) !== el) {};
-			} while ((i < 0) && (el = el.parentElement));
-			return el;
-		};
-}
-
 var laughKeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
 	laughPos = 0,
 	laughing = false;
@@ -252,34 +236,14 @@ document.body.onkeyup = event => {
 	}
 }
 
-function getContent(url) {
-	return new Promise((resolve, reject) => {
-		let req = new XMLHttpRequest();
-		req.open("GET", url, true);
-		req.onreadystatechange = function () {
-			if (req.readyState !== 4) return;
-
-			const contentType = req.getResponseHeader("content-type") || '';
-
-			let res = contentType.startsWith("application/json") ? JSON.parse(req.responseText) : req.responseText;
-
-			if (req.status.toString().startsWith(2)) {
-				resolve(res);
-			} else {
-				reject(res);
-			}
-		};
-		req.onerror = reject;
-		req.send();
-	});
-}
-
 function discordInfo(invite) {
-	return getContent(`https://discordapp.com/api/v6/invite/${invite}?with_counts=true`);
+	return fetch(`https://discordapp.com/api/v6/invite/${invite}?with_counts=true`)
+		.then(res => res.json());
 }
 
 function subredditInfo(subreddit) {
-	return getContent(`https://www.reddit.com/r/${subreddit}/about.json`)
+	return fetch(`https://www.reddit.com/r/${subreddit}/about.json`)
+		.then(res => res.json());
 }
 
 let guild, subreddit;
@@ -305,7 +269,7 @@ function updateCounts() {
 		document.getElementById("reddit-count").style.display = "inline-block";
 	}
 
-	document.getElementById('last-updated').innerText = 
+	document.getElementById('last-updated').innerText =
 		(new Date(1519743162656))
 			.toLocaleDateString(document.body.parentElement.lang, {
 				year: 'numeric',

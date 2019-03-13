@@ -1,6 +1,7 @@
-// I could add more useful comments to my code, but I'm too lazy ¯\_(ツ)_/¯
-
-const {negotiateLanguages} = require('fluent-langneg');
+import {negotiateLanguages} from 'fluent-langneg';
+import jsyaml from "js-yaml";
+import 'whatwg-fetch';
+import "./closest";
 
 const defaultLocale = document.documentElement.lang;
 
@@ -14,22 +15,6 @@ function dispatchEvent() {
 	const event = document.createEvent('Event');
 	event.initEvent('locale-change', true, true);
 	document.dispatchEvent(event);
-}
-
-if (window.Element && !Element.prototype.closest) {
-	// Thanks Mozilla <3 https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
-	// Polyfill for the closest function, since a lot of browsers don't support it
-	Element.prototype.closest =
-		function(s) {
-			var matches = (this.document || this.ownerDocument).querySelectorAll(s),
-				i,
-				el = this;
-			do {
-				i = matches.length;
-				while (--i >= 0 && matches.item(i) !== el) {};
-			} while ((i < 0) && (el = el.parentElement));
-			return el;
-		};
 }
 
 function generateTranslationTable() {
@@ -108,7 +93,7 @@ function changeLocale(localeName, skipReset) {
 	handleObject(locales[localeName], document.body);
 	window.javascriptLocales = locales[localeName]._javascriptLocales;
 	document.documentElement.lang = localeName;
-	
+
 	if (!skipReset) {
 		if (localeName === defaultLocale) {
 			window.history.pushState('', '', window.location.pathname)
@@ -128,38 +113,31 @@ const bestLocale = negotiateLanguages(
 const languageProtip = document.getElementById('language-protip');
 
 for (const option of options) {
+	// If we should switch to the locale as soon as it's loaded
 	let shouldSwitch = false;
 
+	// Switch if the hash of the URL is the locale's name
 	if (window.location.hash.replace(/^\#/g, "") === option.value) {
 		localeSelect.value = option.value;
 		shouldSwitch = true;
 	}
 
-	if (option.value !== defaultLocale) {
-		const xhr = new XMLHttpRequest();
-		xhr.open("GET", "locales/" + option.value + ".json", true);
-		xhr.onreadystatechange = function() {
-			if (xhr.readyState === 4 && xhr.status === 200) {
-				var translation = JSON.parse(xhr.responseText);
-				locales[option.value] = translation;
-				option.disabled = false;
+	(async () => {
+		if (option.value !== defaultLocale) {
+			const res = await fetch(`locales/${option.value}.json`);
+			const translation = await res.json();
 
-				postDownload();
-			}
-		};
+			locales[option.value] = translation;
+		}
 
-		xhr.send();
+		option.disabled = false;
 
-	} else {
-		setTimeout(postDownload);
-	}
-
-	function postDownload() {
 		if (shouldSwitch) {
 			changeLocale(option.value);
 		}
 
 		if (option.value === bestLocale && localeSelect.value !== option.value) {
+			// Displays the language switch pro tip if this language is more appropriated
 			const translation = locales[bestLocale]['main-intro']['language-protip'];
 
 			if (translation) {
@@ -168,7 +146,7 @@ for (const option of options) {
 				languageProtip.style.display = "block";
 			}
 		}
-	}
+	})();
 }
 
 localeSelect.onchange = function(e) {
@@ -179,15 +157,20 @@ localeSelect.onclick = () => languageProtip.style.display = "none";
 
 function prettyYAML(yaml) {
 	return yaml
-		.replace(/^(\S.*)$/gm, "\n$1")
-		.replace(/\r\n|\r|\n/g, "\r\n");
+	.replace(/^(\S.*)$/gm, "\n$1")
+	.replace(/\r\n|\r|\n/g, "\r\n");
 }
 
 document.getElementById("download").onclick = () => {
-	let download = document.createElement("A"),
-		isYAML = formatSelect.value === "yaml";
+	const formatSelect = document.getElementById("format"),
+		download = document.createElement("A"),
+		isYAML = formatSelect.value === "yaml",
+		content = isYAML
+			? prettyYAML(jsyaml.safeDump(locales[defaultLocale]))
+			: JSON.stringify(locales[defaultLocale], null, "\t");
+		
 	download.href = URL.createObjectURL(new Blob(
-		[isYAML ? prettyYAML(jsyaml.safeDump(locales[defaultLocale])) : JSON.stringify(locales[defaultLocale], null, "\t")], 
+		[content],
 		{
 			type : isYAML ? " application/x-yaml" : "application/json"
 		}
@@ -207,12 +190,12 @@ function selectFile(options = {}) {
 		upload.accept = options.accept || "";
 		upload.multiple = options.multiple || false;
 		upload.webkitdirectory = options.directory || false;
-		upload.setAttribute("style", 
+		upload.setAttribute("style",
 			"position:absolute !important;" +
-			"top:-9999vh !important;" + 
-			"opacity:0 !important;" + 
-			"height:0 !important;" + 
-			"width:0 !important; " + 
+			"top:-9999vh !important;" +
+			"opacity:0 !important;" +
+			"height:0 !important;" +
+			"width:0 !important; " +
 			"z-index:-9999 !important;");
 
 		document.body.appendChild(upload);
@@ -241,40 +224,14 @@ function blobToString(blob) {
 	});
 }
 
-function loadScript(url) {
-	return new Promise((resolve, reject) => {
-		const script = document.createElement("script");
-		script.src = url;
-		script.onload = resolve;
-		script.onerror = reject;
-
-		document.head.appendChild(script);
-	})
-}
-
-const formatSelect = document.getElementById("format");
 
 document.getElementById("upload").onclick = () => {
-	if (formatSelect.disabled) return;
-
 	selectFile({
 		accept: ".json, .yaml"
 	}).then(files => {
 		blobToString(files[0]).then(content => {
 			locales["translator-mode"] = (files[0].type === "application/json") ? JSON.parse(content): jsyaml.safeLoad(content);
 			changeLocale("translator-mode");
-		})
-	})
-}
-
-if (window.location.hash === "#translator-mode") {
-	loadScript("https://cdn.rawgit.com/nodeca/js-yaml/bee7e998/dist/js-yaml.min.js")
-		.then(() => {
-			formatSelect.disabled = false;
-		})
-		.catch(() => {
-			formatSelect.disabled = false;
-			formatSelect.value = "json";
-			document.getElementById("yaml").disabled = true;
 		});
+	});
 }
