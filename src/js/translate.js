@@ -2,6 +2,8 @@
 
 const {negotiateLanguages} = require('fluent-langneg');
 
+const jsyaml = require('js-yaml');
+
 const defaultLocale = document.documentElement.lang;
 
 var localeSelect = document.getElementById("locale-select"),
@@ -236,17 +238,6 @@ function blobToString(blob) {
 	});
 }
 
-function loadScript(url) {
-	return new Promise((resolve, reject) => {
-		const script = document.createElement("script");
-		script.src = url;
-		script.onload = resolve;
-		script.onerror = reject;
-
-		document.head.appendChild(script);
-	})
-}
-
 const formatSelect = document.getElementById("format");
 
 document.getElementById("upload").onclick = () => {
@@ -260,16 +251,4 @@ document.getElementById("upload").onclick = () => {
 			changeLocale("translator-mode");
 		})
 	})
-}
-
-if (window.location.hash === "#translator-mode") {
-	loadScript("https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.12.2/js-yaml.min.js")
-		.then(() => {
-			formatSelect.disabled = false;
-		})
-		.catch(() => {
-			formatSelect.disabled = false;
-			formatSelect.value = "json";
-			document.getElementById("yaml").disabled = true;
-		});
 }

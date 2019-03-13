@@ -106,7 +106,7 @@ function html() {
 function assets() {
 	return pipeline(
 		gulp.src(ASSETS_DIR),
-		rename(file => file.dirname = file.dirname.replace(`${SRC_DIR_NAME}\\${ASSETS_DIR_NAME}\\`, '')),
+		rename(file => file.dirname = file.dirname.replace(`${SRC_DIR_NAME}\\${ASSETS_DIR_NAME}`, '')),
 		gulp.dest(DEST)
 	);
 }

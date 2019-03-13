@@ -1,4 +1,5 @@
 require('babel-polyfill');
+require('whatwg-fetch');
 
 window.javascriptLocales = {
 	copyMessage: "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\n" +
