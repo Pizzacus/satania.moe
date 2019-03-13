@@ -103,19 +103,19 @@
 				display: flex;
 				flex-direction: row;
 				align-items: center;
-				
+
 				.time-bar {
 					height: 10px;
 					background: rgba(0,0,0,0.2);
 					border-radius: 10px;
 					width: 100%;
 					cursor: pointer;
-					
+
 					.elapsed {
 						height: 100%;
 						background: #e66;
 						border-radius: 10px 0 0 10px;
-						
+
 						.slider-tip {
 							float: right;
 							width: 10px;

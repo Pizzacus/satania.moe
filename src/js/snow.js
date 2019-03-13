@@ -41,7 +41,7 @@ function bindSnow(canvas) {
 			ctx.beginPath();
 			ctx.arc(snowflake.x * canvas.width, snowflake.y, minmax(snowflake.size, snowflakeSize), 0, Math.PI * 2);
 			ctx.fill();
-	
+
 			snowflake.x += wind * minmax(1 - snowflake.size, windStrength) * (tickTime / 1000);
 		}
 

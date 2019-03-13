@@ -14,14 +14,16 @@
 		"babel-polyfill": "^6.26.0",
 		"fluent-langneg": "^0.1.1",
 		"gulp-sass": "^4.0.2",
-		"howler": "^2.1.1"
+		"howler": "^2.1.1",
+		"js-yaml": "^3.12.2",
+		"whatwg-fetch": "^3.0.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.0.0",
 		"@babel/preset-env": "^7.3.1",
 		"autoprefixer": "^9.4.7",
 		"browser-sync": "^2.26.3",
-		"del": "^3.0.0",
+		"del": "^4.0.0",
 		"gulp": "^4.0.0",
 		"gulp-babel": "^8.0.0",
 		"gulp-concat": "^2.6.1",
