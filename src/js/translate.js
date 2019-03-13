@@ -268,7 +268,7 @@ document.getElementById("upload").onclick = () => {
 }
 
 if (window.location.hash === "#translator-mode") {
-	loadScript("https://cdn.rawgit.com/nodeca/js-yaml/bee7e998/dist/js-yaml.min.js")
+	loadScript("https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.12.2/js-yaml.min.js")
 		.then(() => {
 			formatSelect.disabled = false;
 		})
