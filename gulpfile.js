@@ -142,11 +142,15 @@ function serve() {
 		return Promise.resolve(); // Instead we return a resolved Promise
 	}
 
-	gulp.watch(JS_DIR, gulp.series(js, reload));
-	gulp.watch(SCSS_DIR, css); // We stream css directly into browserSync
-	gulp.watch(HTML_DIR, gulp.series(html, reload));
-	gulp.watch(ASSETS_DIR, gulp.series(assets, reload));
-	gulp.watch(LOCALES_DIR, gulp.series(locales, reload));
+	const WATCH_OPTS = {
+		cwd: SRC
+	};
+
+	gulp.watch(JS_DIR, WATCH_OPTS, gulp.series(js, reload));
+	gulp.watch(SCSS_DIR, WATCH_OPTS, css); // We stream css directly into browserSync
+	gulp.watch(HTML_DIR, WATCH_OPTS, gulp.series(html, reload));
+	gulp.watch(ASSETS_DIR, WATCH_OPTS, gulp.series(assets, reload));
+	gulp.watch(LOCALES_DIR, WATCH_OPTS, gulp.series(locales, reload));
 }
 
 exports.serve = gulp.series(build, serve);
