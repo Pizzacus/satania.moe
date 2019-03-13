@@ -132,11 +132,17 @@ function serve() {
 		server: DEST
 	});
 
-	gulp.watch(JS_DIR, gulp.series(js, browserSync.reload));
+	function reload() {
+		// We don't return it or else Gulp gets confuzzled
+		browserSync.reload();
+		return Promise.resolve(); // Instead we return a resolved Promise
+	}
+
+	gulp.watch(JS_DIR, gulp.series(js, reload));
 	gulp.watch(SCSS_DIR, css); // We stream css directly into browserSync
-	gulp.watch(HTML_DIR, gulp.series(html, browserSync.reload));
-	gulp.watch(ASSETS_DIR, gulp.series(assets, browserSync.reload));
-	gulp.watch(LOCALES_DIR, gulp.series(locales, browserSync.reload));
+	gulp.watch(HTML_DIR, gulp.series(html, reload));
+	gulp.watch(ASSETS_DIR, gulp.series(assets, reload));
+	gulp.watch(LOCALES_DIR, gulp.series(locales, reload));
 }
 
 exports.serve = gulp.series(build, serve);
