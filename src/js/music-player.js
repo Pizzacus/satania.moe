@@ -130,7 +130,7 @@ function mouseDown(event) {
 	playState.wasPlaying = song.playing();
 
 	song.pause();
-	
+
 	mouseUpdate(event);
 }
 
