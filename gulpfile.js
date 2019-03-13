@@ -1,14 +1,18 @@
 const util = require("util");
 const path = require("path");
 
-const SRC = "./src";
-const DEST = "./dist";
+const SRC = path.join(__dirname, "./src");
+const DEST = path.join(__dirname, "./dist");
 
-const JS_DIR = path.join(SRC, "js/*.js");
-const SCSS_DIR = path.join(SRC, "scss/*.scss");
-const HTML_DIR = path.join(SRC, "*.html");
-const ASSETS_DIR = path.join(SRC, "assets/**/*");
-const LOCALES_DIR = path.join(SRC, "locales/*.json");
+const JS_DIR = "js/*.js";
+const SCSS_DIR = "scss/*.scss";
+const HTML_DIR = "*.html";
+const ASSETS_DIR = "assets/**/*";
+const LOCALES_DIR = "locales/*.json";
+
+const OPTS = {
+	cwd: SRC
+}
 
 // Polyfill of the future stream.pipeline API
 // Can be changed when Node 10.0.0 hits LTS
@@ -40,7 +44,7 @@ function js() {
 	const uglify = require("gulp-uglify");
 
 	return pipeline(
-		gulp.src(JS_DIR),
+		gulp.src(JS_DIR, OPTS),
 		webpack({
 			mode,
 			devtool: "source-map",
@@ -73,7 +77,7 @@ function css() {
 	sass.compiler = require("node-sass");
 
 	return pipeline(
-		gulp.src(SCSS_DIR),
+		gulp.src(SCSS_DIR, OPTS),
 		sourcemaps.init(),
 		sass(),
 		concat("style.css"),
@@ -89,7 +93,7 @@ function html() {
 	const htmlmin = require("gulp-htmlmin");
 
 	return pipeline(
-		gulp.src(HTML_DIR),
+		gulp.src(HTML_DIR, OPTS),
 		htmlmin({collapseWhitespace: true}),
 		gulp.dest(DEST)
 	)
@@ -97,14 +101,14 @@ function html() {
 
 function assets() {
 	return pipeline(
-		gulp.src(ASSETS_DIR),
+		gulp.src(ASSETS_DIR, OPTS),
 		gulp.dest(DEST)
 	);
 }
 
 function locales() {
 	return pipeline(
-		gulp.src(LOCALES_DIR),
+		gulp.src(LOCALES_DIR, OPTS),
 		gulp.dest(path.join(DEST, "locales"))
 	);
 }
