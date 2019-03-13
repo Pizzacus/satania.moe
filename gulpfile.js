@@ -1,20 +1,18 @@
 const util = require("util");
 const path = require("path");
 
-const SRC_DIR_NAME = "src";
-const SRC = `./${SRC_DIR_NAME}`;
+const SRC = path.join(__dirname, "./src");
+const DEST = path.join(__dirname, "./dist");
 
-const DEST = "./dist";
+const JS_DIR = "js/*.js";
+const SCSS_DIR = "scss/*.scss";
+const HTML_DIR = "*.html";
+const ASSETS_DIR = "assets/**/*";
+const LOCALES_DIR = "locales/*.json";
 
-const JS_DIR = path.join(SRC, "js/*.js");
-const SCSS_DIR = path.join(SRC, "scss/*.scss");
-const HTML_DIR = path.join(SRC, "*.html");
-
-const ASSETS_DIR_NAME = "assets";
-const ASSETS_DIR = path.join(SRC, `${ASSETS_DIR_NAME}/**/*`);
-
-const LOCALES_DIR_NAME = "locales";
-const LOCALES_DIR = path.join(SRC, `${LOCALES_DIR_NAME}/*.json`);
+const OPTS = {
+	cwd: SRC
+}
 
 // Polyfill of the future stream.pipeline API
 // Can be changed when Node 10.0.0 hits LTS
@@ -24,7 +22,6 @@ const gulp = require("gulp");
 const gulpif = require("gulp-if")
 const sourcemaps = require("gulp-sourcemaps");
 const through = require("through2");
-const rename = require("gulp-rename");
 
 const browserSync = require('browser-sync').create();
 
@@ -47,7 +44,7 @@ function js() {
 	const uglify = require("gulp-uglify");
 
 	return pipeline(
-		gulp.src(JS_DIR),
+		gulp.src(JS_DIR, OPTS),
 		webpack({
 			mode,
 			devtool: "source-map",
@@ -80,7 +77,7 @@ function css() {
 	sass.compiler = require("node-sass");
 
 	return pipeline(
-		gulp.src(SCSS_DIR),
+		gulp.src(SCSS_DIR, OPTS),
 		sourcemaps.init(),
 		sass(),
 		concat("style.css"),
@@ -96,25 +93,22 @@ function html() {
 	const htmlmin = require("gulp-htmlmin");
 
 	return pipeline(
-		gulp.src(HTML_DIR),
+		gulp.src(HTML_DIR, OPTS),
 		htmlmin({collapseWhitespace: true}),
-		rename(file => file.dirname = ""),
 		gulp.dest(DEST)
 	)
 }
 
 function assets() {
 	return pipeline(
-		gulp.src(ASSETS_DIR),
-		rename(file => file.dirname = file.dirname.replace(`${SRC_DIR_NAME}\\${ASSETS_DIR_NAME}`, '')),
+		gulp.src(ASSETS_DIR, OPTS),
 		gulp.dest(DEST)
 	);
 }
 
 function locales() {
 	return pipeline(
-		gulp.src(LOCALES_DIR),
-		rename(file => file.dirname = file.dirname.replace(`${SRC_DIR_NAME}\\${LOCALES_DIR_NAME}`, '')),
+		gulp.src(LOCALES_DIR, OPTS),
 		gulp.dest(path.join(DEST, "locales"))
 	);
 }
@@ -142,11 +136,17 @@ function serve() {
 		server: DEST
 	});
 
-	gulp.watch(JS_DIR, gulp.series(js, browserSync.reload));
+	function reload() {
+		// We don't return it or else Gulp gets confuzzled
+		browserSync.reload();
+		return Promise.resolve(); // Instead we return a resolved Promise
+	}
+
+	gulp.watch(JS_DIR, gulp.series(js, reload));
 	gulp.watch(SCSS_DIR, css); // We stream css directly into browserSync
-	gulp.watch(HTML_DIR, gulp.series(html, browserSync.reload));
-	gulp.watch(ASSETS_DIR, gulp.series(assets, browserSync.reload));
-	gulp.watch(LOCALES_DIR, gulp.series(locales, browserSync.reload));
+	gulp.watch(HTML_DIR, gulp.series(html, reload));
+	gulp.watch(ASSETS_DIR, gulp.series(assets, reload));
+	gulp.watch(LOCALES_DIR, gulp.series(locales, reload));
 }
 
 exports.serve = gulp.series(build, serve);
