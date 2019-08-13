@@ -536,7 +536,7 @@ table {
 			cursor: pointer;
 		}
 
-		img:first-child {
+		:first-child {
 			margin: 0 16px;
 		}
 	}
@@ -624,7 +624,7 @@ table {
 // EVEN POPE FRANCIS LOVES SATANIA -- I hear he's quite popular in the Bible fandom
 .pope-francis {
 	background-image: url('img/pope.jpg');
-	min-height: 50vw;
+	min-height: 50vw !important;
 
 	.has-webp & {
 		background-image: url('img/webp/pope.webp');

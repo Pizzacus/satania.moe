@@ -18,12 +18,6 @@
 	}
 
 	.language-select {
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-		padding: 10px;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
 		z-index: 100;
 		display: flex;
 	}
@@ -69,51 +63,41 @@
 
 	.footer {
 		position: absolute;
-		bottom: 10px;
-		right: 10px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		align-items: end;
+		justify-content: end;
+		padding: 10px;
 		z-index: 10;
-		font-size: 20px;
-		color: rgba(255,255,255,0.9);
-		text-shadow: 0 1px 5px #000;
-		z-index: 150;
-		text-align: right;
-
-		b {
-			font-size: 22px;
-		}
-
-		a {
-			color: #e66;
-		}
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 
 		img {
-			height: 40px;
+			height: 70px;
+			margin: 10px;
 			opacity: 0.6;
 			transition: 0.1s all linear;
-
+	
 			&:hover {
 				opacity: 1;
 			}
 		}
 	}
-}
 
-.intro {
-	background-image: url("./img/back.jpg");
-	background-size: cover;
-	background-position: top right;
-	background-attachment: fixed;
+	.credits {
+		flex: auto;
+		font-size: 20px;
+		color: rgba(255,255,255,0.9);
+		text-shadow: 0 1px 5px #000;
+		z-index: 150;
+		text-align: right;
+		margin-left: 20px;
 
-	.has-webp & {
-		background-image: url("./img/webp/back.webp");
-	}
-}
+		b {
+			font-size: 22px;
+		}
 
-.end {
-	background-image: url("./img/back_end.jpg");
-
-	.has-webp & {
-		background-image: url("./img/webp/back_end.webp");
 	}
 }
 
@@ -141,7 +125,7 @@
 		font-size: 128px;
 		line-height: 128px;
 		margin: 0;
-		font-weight: normal;
+		font-weight: 600;
 	}
 
 	h2 {
@@ -155,7 +139,7 @@
 	}
 
 	.button-container {
-		margin: 30px 0;
+		margin: 60px;
 
 		& > span {
 			display: inline-block;
@@ -166,6 +150,35 @@
 	#discord-count,
 	#reddit-count {
 		display: none;
+	}
+}
+
+.intro {
+	background-image: url("./img/back.jpg");
+	background-size: cover;
+	background-position: top right;
+	background-attachment: fixed;
+
+	.has-webp & {
+		background-image: url("./img/webp/back.webp");
+	}
+
+	.title h2 {
+		background: #e669;
+		padding: 5px;
+		border-radius: 5px;
+	}
+}
+
+.end {
+	background-image: url("./img/back_end.jpg");
+
+	.has-webp & {
+		background-image: url("./img/webp/back_end.webp");
+	}
+
+	.title h2 {
+		margin-top: 30px;
 	}
 }
 
