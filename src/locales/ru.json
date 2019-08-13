@@ -23,6 +23,14 @@
 			},
 			"countdown": "Секунд до Сатании: <span id=\"time-until-satania\"></span>.",
 			"footer": "Песню можно послушать также на <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o/\">YouTube</a> и <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube/\">SoundCloud</a>."
+		},
+		"dev-announcement": {
+			"line-1": "Нам нужна помощь!",
+			"line-2": "На протяжении уже двух лет наш невероятно дружный сервер Satania&nbsp;Dropout процветает.",
+			"line-3": "Но не останавливаясь, мы смотрим дальше, чтобы расширить наши горизонты!<br />И для этого, <b>мы нуждаемся в веб-разработчиках.</b>",
+			"line-4": "Если у вас есть опыт в <b>веб программировании</b> и хотите узнать больше,<br />посмотрите наш блог-пост!",
+			"line-5": "Надеемся встретиться с вами скоро.",
+			"line-6": "Узнать Больше →"
 		}
 	},
 	"become-a-satania-follower": {

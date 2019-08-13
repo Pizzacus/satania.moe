@@ -240,6 +240,62 @@
 	}
 }
 
+.dev-announcement-container {
+	padding: 10px;
+	background: linear-gradient(
+		-270deg,
+		rgba(35, 169, 208,0.9) 0%,
+		rgba(121, 103, 187, 0.9) 100%
+	);
+
+	.dev-announcement {
+		h2 {
+			display:block;
+			max-width: 450px;
+			margin: auto;
+		}
+		
+		p {
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		p, h1, h2 {
+			margin-top: 0;
+			margin-bottom: 24px;
+		}
+
+		svg {
+			vertical-align: middle;
+			margin: 0 4px;
+		}
+
+		a {
+			font-size: 30px;
+			line-height: 30px;
+			font-weight: 600;
+			color: #FFF;
+			border-bottom: 3px solid #E66;
+			text-decoration: none;
+			transition: all 0.05s ease-out;
+			padding: 0 10px;
+
+			&:hover {
+				background: #E669;
+				border-bottom: 0 solid #E66;
+			}
+
+			&:focus {
+				background: #E663;
+			}
+		}
+
+		color: #fff;
+		margin: 25px auto;
+		text-align: center;
+	}
+}
+
 // TABLE -- Tables are better than chairs lmao
 
 table {

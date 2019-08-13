@@ -23,6 +23,14 @@
 			},
 			"countdown": "Satania <span id=\"time-until-satania\"></span> másodperc múlva fog énekelni.",
 			"footer": "Meghallgathatod <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTubeon</a> és <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloudon</a> is."
+		},
+		"dev-announcement": {
+			"line-1": "A segítségedre van szükségünk!",
+			"line-2": "Az elmúlt két év folyamán, a&nbsp;Satania&nbsp;Dropout egy csodálatos közösség volt, ami több ezer embert összekötött",
+			"line-3": "Most, új szintre akarjuk emelni és új távlatokat nyitni!<br />Ahhoz, hogy ezt megtehessük <b>web fejlesztőket keresünk.</b>",
+			"line-4": "Ha elég jártas vagy a <b>web fejlesztésben</b> és kíváncsi vagy a részletekre,<br />olvasd el a blog bejegyzést!",
+			"line-5": "Remélem, még hallunk felőled.",
+			"line-6": "Tudj meg többet →"
 		}
 	},
 	"become-a-satania-follower": {

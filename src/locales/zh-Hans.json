@@ -23,6 +23,14 @@
 			},
 			"countdown": "离萨塔妮娅的歌声还有<span id=\"time-until-satania\"></span>秒",
 			"footer": "你也可以在这些 404 网站听这首歌： <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> 或者 <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>"
+		},
+		"dev-announcement": {
+			"line-1": "我们需要你的帮助！",
+			"line-2": "在过去的两年里，萨塔妮娅的堕落(Satania&nbsp;Dropout)已经发展成为了一个联系上千人的大社区。",
+			"line-3": "现在，是时候向着更远的目标进发了！<br />为此，<b>我们需要网络工程师的协助。</b>",
+			"line-4": "如果你在<b>网络开发</b>方面有特长并且想了解更多详细信息，<br />请阅读我们关于此的博客。",
+			"line-5": "希望我们不久后能在网络后台页面相见。",
+			"line-6": "了解更多 →"
 		}
 	},
 	"become-a-satania-follower": {
