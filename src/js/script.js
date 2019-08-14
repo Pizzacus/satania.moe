@@ -236,36 +236,30 @@ document.body.onkeyup = event => {
 	}
 }
 
-function discordInfo(invite) {
-	return fetch(`https://discordapp.com/api/v6/invite/${invite}?with_counts=true`)
-		.then(res => res.json());
-}
-
-function subredditInfo(subreddit) {
-	return fetch(`https://www.reddit.com/r/${subreddit}/about.json`)
-		.then(res => res.json());
-}
-
 let guild, subreddit;
 
-discordInfo("rC9ebp7").then(fetchedGuild => {
-	guild = fetchedGuild;
-	updateCounts();
-})
+fetch("/discord.json")
+	.then(res => res.json())
+	.then(fetchedGuild => {
+		guild = fetchedGuild;
+		updateCounts();
+	});
 
-subredditInfo("satania").then(fetchedSubreddit => {
-	subreddit = fetchedSubreddit;
-	updateCounts();
-})
+fetch("/reddit.json")
+	.then(res => res.json())
+	.then(fetchedSubreddit => {
+		subreddit = fetchedSubreddit;
+		updateCounts();
+	});
 
 function updateCounts() {
 	if (guild) {
-		document.getElementById("discord-number").innerText = guild.approximate_member_count;
+		document.getElementById("discord-number").innerText = guild.approximate_member_count.toLocaleString();
 		document.getElementById("discord-count").style.display = "inline-block";
 	}
 
 	if (subreddit) {
-		document.getElementById("reddit-number").innerText = subreddit.data.subscribers;
+		document.getElementById("reddit-number").innerText = subreddit.data.subscribers.toLocaleString();
 		document.getElementById("reddit-count").style.display = "inline-block";
 	}
 

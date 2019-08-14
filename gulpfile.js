@@ -133,7 +133,8 @@ exports.build = build;
 
 function serve() {
 	browserSync.init({
-		server: DEST
+		server: DEST,
+		cors: true
 	});
 
 	function reload() {
