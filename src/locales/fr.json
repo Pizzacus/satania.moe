@@ -22,6 +22,14 @@
 			},
 			"countdown": "Satania chante dans <span id=\"time-until-satania\"></span> secondes.",
 			"footer": "Vous pouvez aussi l&rsquo;écouter sur <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> et <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		},
+		"dev-announcement": {
+			"line-1": "Nous cherchons de l&rsquo;aide&nbsp;!",
+			"line-2": "Pendant plus de deux ans, Satania&nbsp;Dropout fut une communauté géniale qui a connecté des milliers de gens.",
+			"line-3": "Maintenant, nous voulons nous élever vers un nouveau niveau et nous étendre vers de nouveaux horizons&nbsp;!<br />Et pour cela, <b>nous cherchons des développeurs web pour nous aider.</b>",
+			"line-4": "Si vous avez de l&rsquo;expérience en <b>développement web</b> et que vous voulez en apprendre plus,<br />visitez notre blog&nbsp;!",
+			"line-5": "Nous espérons vous revoir bientôt.",
+			"line-6": "En savoir plus →"
 		}
 	},
 	"become-a-satania-follower": {
