@@ -238,7 +238,7 @@ document.body.onkeyup = event => {
 
 let guild, subreddit;
 
-fetch("/discord.json")
+fetch("/discord.json?with_counts=true")
 	.then(res => res.json())
 	.then(fetchedGuild => {
 		guild = fetchedGuild;
