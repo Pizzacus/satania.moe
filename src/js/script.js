@@ -253,13 +253,14 @@ fetch("/reddit.json")
 	});
 
 function updateCounts() {
+	console.dir(document.documentElement.lang);
 	if (guild) {
-		document.getElementById("discord-number").innerText = guild.approximate_member_count.toLocaleString();
+		document.getElementById("discord-number").innerText = guild.approximate_member_count.toLocaleString(document.documentElement.lang);
 		document.getElementById("discord-count").style.display = "inline-block";
 	}
 
 	if (subreddit) {
-		document.getElementById("reddit-number").innerText = subreddit.data.subscribers.toLocaleString();
+		document.getElementById("reddit-number").innerText = subreddit.data.subscribers.toLocaleString(document.documentElement.lang);
 		document.getElementById("reddit-count").style.display = "inline-block";
 	}
 

@@ -76,7 +76,7 @@ function changeLocale(localeName, skipReset) {
 	}
 
 	function handleObject(locale, element) {
-		for(let value in locale) {
+		for (let value in locale) {
 			if(typeof locale[value] === "string") {
 				const match = element.querySelector("[i18n=" + value + "]");
 				if (match && !match.closest("[i18n-skip]")) {
@@ -91,6 +91,14 @@ function changeLocale(localeName, skipReset) {
 	}
 
 	handleObject(locales[localeName], document.body);
+
+	const reformat = document.querySelectorAll("[i18n-reformat]");
+
+	for (const elem of reformat) {
+		const num = parseInt(elem.getAttribute("i18n-reformat"), 10);
+		elem.innerText = num.toLocaleString(localeName);
+	}
+
 	window.javascriptLocales = locales[localeName]._javascriptLocales;
 	document.documentElement.lang = localeName;
 
