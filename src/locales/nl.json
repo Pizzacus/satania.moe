@@ -23,6 +23,14 @@
 			},
 			"countdown": "Satania zingt over <span id=\"time-until-satania\"></span> seconds.",
 			"footer": "Je kan ook naar dit nummer luisteren op <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> en <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		},
+		"dev-announcement": {
+			"line-1": "We zoeken hulp!",
+			"line-2": "Al meer dan twee jaar is Satania&nbsp;Dropout een geweldige online gemeenschap die duizenden mensen heeft verbonden.",
+			"line-3": "Dit willen we naar een nieuw niveau tillen!<br />En daarvoor <b>zijn we op zoek naar web developers om ons te helpen.</b>",
+			"line-4": "Als je redelijk vaardig bent in <b>web programming</b> en meer wil weten,<br />lees dan onze blogpost hierover!",
+			"line-5": "Hopelijk zien we je snel.",
+			"line-6": "Lees Meer →"
 		}
 	},
 	"become-a-satania-follower": {
