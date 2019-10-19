@@ -14,7 +14,7 @@
 		"@babel/polyfill": "^7.2.5",
 		"fluent-langneg": "^0.1.1",
 		"howler": "^2.1.1",
-		"js-yaml": "^3.12.2",
+		"js-yaml": "^3.13.1",
 		"whatwg-fetch": "^3.0.0"
 	},
 	"devDependencies": {
