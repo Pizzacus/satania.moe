@@ -67,8 +67,8 @@
 		left: 0;
 		right: 0;
 		display: flex;
-		align-items: end;
-		justify-content: end;
+		align-items: flex-end;
+		justify-content: flex-end;
 		padding: 10px;
 		z-index: 10;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
