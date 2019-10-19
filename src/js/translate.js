@@ -1,4 +1,4 @@
-import {negotiateLanguages} from 'fluent-langneg';
+import {negotiateLanguages} from '@fluent/langneg';
 import jsyaml from "js-yaml";
 import 'whatwg-fetch';
 import "./closest";
