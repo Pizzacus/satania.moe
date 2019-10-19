@@ -14,9 +14,7 @@ const OPTS = {
 	cwd: SRC
 }
 
-// Polyfill of the future stream.pipeline API
-// Can be changed when Node 10.0.0 hits LTS
-const pipeline = util.promisify(require("stream.pipeline-shim"));
+const pipeline = util.promisify(require("stream").pipeline);
 const gulp = require("gulp");
 
 const gulpif = require("gulp-if")
