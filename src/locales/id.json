@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "Waifu terbaik. <b>Yang Pernah Ada.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Bergabung di Discord",
+		"discord-count": "<span id=\"discord-number\"></span> anggota ",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Bergabung di Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> langganan",
+		"language-warning": "(Komunitas tersebut menggunakan Bahasa Inggris sebagai bahasa utama)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scroll kebawah untuk mengetahui lebih lanjut!",
+		"mobile-disclaimer": "Saya mohon maaf, pembuatan versi mobile web ini terburu-buru dan <b>hasilnya sangat busuk</b>, Menurutku tidak akan ada yang mengunjungi situs ini lewat handphone sih.",
+		"language-protip": "Apakah kamu ingin melihat situs ini dalam <b>Bahasa Indonesia</b>?<br />Gunakan drop-down dibawah untuk memilih bahasa!",
+		"language-select": "Bahasa <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Shitpost elok dari sepotong pizza bernama <b title=\"Kenyérlángos\">Pizzacus&trade;</b><br />Diterjemahkan oleh <b>Arkea</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Mau mendengar lagu yang kejam saat menulusuri laman ini?",
+				"small-text": "Tekan tombol putar di sebelah kiri!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania bernyanyi setelah <span id=\"time-until-satania\"></span>  detik.",
+			"footer": "Kamu juga bisa mendengarkanya di <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> atau di <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Jadilah pengikut Satania sekarang!",
+		"sub-text": "<b>Tidak ada syarat khusus tuk jadi pengikut Satania</b>, yang harus kamu lakukan hanyalah percaya jika Satania adalah&nbsp;karakter&nbsp;terbaik",
+		"small-text": "Dan jika kamu bisa membuat meme dan shitpost Satania, itu akan banyak membantu…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Senyuman indah.<br />Dua bola mata rupawan.<br />Penampilan memesona.",
+		"sub-text": "Ia benar-benar gadis <b>juita</b>",
+		"small-text": "Kami pengikut Satania adalah orang berbudaya, jadi kami hanya menggunakan<br />bahasa yang berbudaya"
+	},
+	"end-the-waifu-war": {
+		"large-text": "Waifu iblis terbaik hanya untukmu.",
+		"sub-text": "Mari kita akhiri perdebatan waifu dengan <b>iblis paling&nbsp;kawaii&nbsp;di&nbsp;dunia</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Singkatnya, ia terlalu sempurna.",
+		"sub-text": "Sampai Google pun tahu.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "kesempurnaan",
+			"prononciation": "/ke·sem·pur·na·an/",
+			"noun": "nomina",
+			"definition-1": {
+				"definition": "keadaan atau kualitas menjadi sempurna.",
+				"example": "\"Kesempurnaan indah kulit <b>Satania</b>\"",
+				"synonyms": "sinonim:",
+				"synonyms-list": "Satania, tanpa cacat, terunggul, terhebat, terindahan, teragung, tercantik, tersempurna, terelok, tanpa kekurangan, terpermai, terteladan<br />\"kesempurnaan indah kulitnya\""
+			},
+			"definition-2": {
+				"definition": "seseorang atau sesuatu yang dianggap sempurna.",
+				"example": "\"Aku diberitahu bahwa <b>Satania</b> adalah kesempurnaan itu sendiri\"",
+				"synonyms": "sinonim:",
+				"synonyms-list": "Satania, ideal, suri teladan, idaman, paradigma, acuan, teladan, dambaan, impian, eksemplar; <i>informal</i> satu dari jutaan, terbaik<br />\"darinya, apapun sempurna\""
+			},
+			"definition-3": {
+				"definition": "tindakan atau proses memperbaiki sesuatu sampai tanpa cacat.",
+				"example": "\"Aku bekerja seharian demi menyempurnakan lukisan <b>Satania</b>ku\"",
+				"synonyms": "sinonim:",
+				"synonyms-list": "Satania, perkembangan, perbaikan, memperbaiki, menyempurnakan, memperindah, memperelok<br />\"kesempurnaan mekanisme baru manajemen ekonomi\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Tidak ada yang bisa bersaing.",
+		"sub-text": "Coba pikirkan kenapa harus Gabriel, Raphi atau Vignette yang harus menjadi terbaik?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Tujuan dalam hidup",
+				"satania": "(Menjadi ratu neraka)",
+				"gabriel": "(Membawakan kiamat)"
+			},
+			"hard-challenges": {
+				"category": "Tantangan berat yang telah dilewati",
+				"satania": "(Menjinakkan anjing)"
+			},
+			"tries-her-best": {
+				"category": "Berusaha sebaik mungkin agar tidak gagal di sekolah surga/neraka",
+				"vignette": "mungkin? eh…"
+			},
+			"powerfull-allies": {
+				"category": "Memiliki sekutu yang kuat",
+				"satania": "(Anjing &amp; pelayannya)",
+				"vignette": "(Pelayannya)"
+			},
+			"tragic-backstory": {
+				"category": "Memiliki latar belakang yang dalam dan tragis",
+				"satania": "(terbully di sekolah)"
+			},
+			"member-favorites": "Total favorit anggota di MAL*",
+			"subreddit-subs": "Total pengikut di subreddit mereka*",
+			"e-hentai": {
+				"category": "Total Doujin di e-hentai*",
+				"satania": "(Yang salah satunya sangatlah lucu)"
+			},
+			"rule34": "Total gambar di rule34.xxx*",
+			"gelbooru": "Total gambar di gelbooru*"
+		},
+		"as-of": "*tertanggal <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "Karakter lain itu sampah, tanpa terkecuali.",
+		"sub-text": "Mereka memang imut, tapi jika kamu tahu faktanya, sebenarnya tidak.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>NEET malas yang 100% sulit disukai</b>",
+					"argument-2": "Beneran, dia tidak punya kualitas yang meyakinkan",
+					"argument-3": "Banyak orang menyukainya karena mungkin dia <i>relateable</i> dengan mereka",
+					"argument-4": "<b>Dan dapat me-<i>relate</i> hidupmu dengan Gab merupakan hal yang menjijikan</b>",
+					"argument-5": "<b>Dia sering digunakan sebagai fanservice murahan</b>, seperti <i>panty-shots</i> dan sudut pengambilan kamera yang dipertanyakan",
+					"argument-6": "<b>Dasarnya dia itu Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Seorang sadis yang hanya ingin melihat orang lain menderita</b>",
+					"argument-2": "Sulit juga untuk disukai",
+					"argument-3": "Kecuali kamu orang yang sadis, yang juga berarti kamu adalah orang yang jahat",
+					"argument-4": "<b>Kemungkinan memiliki fetish kaki</b> (dia meminta Satania menjilat kakinya untuk sebuah roti)",
+					"argument-5": "Penggemarnya adalah orang cabul DAN juga orang yang menjijikan",
+					"argument-6": "Dia takut sama kodok lol"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>MEMBOSAAAAAAANKAAAAAAAN</b>",
+					"argument-2": "Iya, dia tidak pernah melakukan sesuatu yang menarik",
+					"argument-3": "Maksudku, dia itu ndak ngapa-ngapain",
+					"argument-4": "<b>Orang-orang suka sama dia hanya karena dia itu imut</b>",
+					"argument-5": "<b>Kemungkinan besar dia ada hanya sebagai bahan moe tambahan</b>",
+					"argument-6": "Tidak pernah MENCOBA untuk menjadi jahat, meskipun dia itu seorang IBLIS"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Sumber",
+		"large-text": "Fanart yang sangat&nbsp;amat&nbsp;kawaii!",
+		"sub-text": "Nih, lihat… kurang imut apa coba?<noscript>Slideshow butuh JavaScript.</noscript>"
+	},
+	"autism": {
+		"large-text": "Juga, dia itu tidak autis, berhenti berkata&nbsp;seperti&nbsp;itu",
+		"sub-text": "Orang autis cenderung kesulitan berkomunikasi,<br/ >berdiam diri di dunia mereka sendiri setiap saat,<br />Satania sama sekali tidak seperti itu.<br /><b>Kemungkinan kamu lebih autis daripada dia!</b>",
+		"small-text": "Meskipun ia pernah mengatakan \"umuyku tiga\" di suatu episode,<br />itu karena Raphiel membuatnya berkata seperti itu!"
+	},
+	"pope-francis": {
+		"large-text": "Paus Francis pun mencintai Satania.",
+		"sub-text": "\"Satania itu waifu kedua saya, tentu saja yang pertama adalah&nbsp;Jesus!<br />Saya memberkatinya dan semua pengikutnya!\""
+	},
+	"flipping-cards": {
+		"large-text": "Ia menggantikan semua waifu dalam seri itu",
+		"sub-text": "Jika kamu pikirkan lagi, Satania adalah alternatif yang sempurna dari setiap karakter di Gabriel Dropout… <span class=\"small\">Klik kartu di bawah untuk melihat jawabannya</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Apakah kamu perlu seorang gadis yang <b> tidak terlalu baik, tidak peduli dengan siapa pun</b> dan menganggap hobinya lebih penting daripada apa pun?",
+				"answer": "Maka kamu butuh iblis yang <b>tidak peduli tentang manusia atau malaikat dan selalu berusaha untuk menjadi jahat</b>, daripada belajar atau ngapain…<br />Dan juga, <b>ia tidak mengerjakan PR DENGAN SENGAJA!!</b>"
+			},
+			"vigne": {
+				"question": "Apa kamu ingin <b>iblis moe dan imut</b> yang <b>ingin menjadi jahat, tapi sangat buruk dalam hal itu</b>, dan akhirnya melakukan kebaikan seperti mengajari sesuatu pada Gabriel?",
+				"answer": "Maka kamu mungkin akan menyukai <b>iblis yang mencoba sebaik mungkin untuk menjadi yang terhebat</b>, tapi sering dimanipulasi untuk <b>melakukan hal-hal baik</b>, meskipun ia berusaha keras untuk memberi Gabriel pelajaran…"
+			},
+			"raphiel": {
+				"question": "Apa kamu ingin seorang gadis yang <b>terlihat imut</b>, tetapi sebenarnya <b>sangat jahat</b> dan hanya ingin melihat semua orang menderita?",
+				"answer": "Itu sangat terdengar seperti Satania! Karena menjadi Ratu Iblis terhebat di dunia yang pernah ada, <b>mungkin menyiratkan siksaan atau pembunuhan banyak orang</b>…"
+			},
+			"satania": {
+				"question": "Bagaimana dengan <b>iblis terhebat di seluruh alam semesta?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ravioli, ravioli,<br />tolong jgn bulli lagi",
+		"sub-text": "Kenapa kamu tega melakukan ini??? Seberapa sadis dirimu hanya untuk ingin membuli dirinya???"
+	},
+	"large-text": {
+		"large-text": "Lagipula, nanti ia akan menguasai umat manusia…",
+		"sub-text": "Meskipun kamu menyukainya atau tidak,<br />kamu harus memujanya pada suatu saat nanti…"
+	},
+	"end": {
+		"large-text": "Dia itu yang Terbaik.",
+		"sub-text": "Titik. Selesai."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Hanya ingin memberitahumu jika Satania akan selalu bersamamu! Bahkan di dalam clipboardmu! Kami ada dimana-mana dan kamu benar-benar harus bergabung dengan kami!\nOh, iya. Semua situs web bisa mengakses clipboardmu semau mereka, bukankah itu menyeramkan?\nBagaimanapun juga, Satania adalah WAIFU TERBAIK, dan kamu harus setuju! http://satania.moe/",
+		"searchByVoice": "lol, tidak ada yang pakai tombol ini",
+		"searchButton": "tapi hasilnya sudah ada di bawah =]",
+		"searchBar": "ini bukan kotak pencarian asli",
+		"snedHelp": "tlng beri bantuan",
+		"perfection": "kesempurnaan",
+		"searchBarName": "satania",
+		"newTab": "Tautan otomatis dibuka di tab baru."
+	}
+}
