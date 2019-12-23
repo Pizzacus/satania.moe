@@ -1,11 +1,11 @@
 {
-	"name": "satania.moe",
+	"name": "hifum.in",
 	"description": ">:3",
 	"private": true,
 	"author": "Pizzacus",
 	"version": "6.6.6",
-	"repository": "https://github.com/Pizzacus/satania.moe",
-	"homepage": "https://satania.moe",
+	"repository": "https://github.com/akuponcture/hifum.in",
+	"homepage": "https://hifum.in",
 	"scripts": {
 		"build": "gulp build",
 		"serve": "gulp serve"

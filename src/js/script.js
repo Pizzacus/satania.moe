@@ -5,7 +5,7 @@ import "./closest";
 window.javascriptLocales = {
 	copyMessage: "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\n" +
 		"Also yes, any website can access your clipboard however they want, isn't that creepy?\n" +
-		"Regardless, Satania is the BEST WAIFU, and you should agree! http://satania.moe/",
+		"Regardless, Satania is the BEST WAIFU, and you should agree! http://hifum.in/",
 	searchByVoice: "lmao, no one uses this button",
 	searchButton: "but the results are already there =]",
 	searchBar: "this isn't a real search bar",
