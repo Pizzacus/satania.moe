@@ -4,7 +4,7 @@
 		"join-discord": "<i class=\"fab fa-discord\"></i>Participe do Discord",
 		"discord-count": "<span id=\"discord-number\"></span> membros",
 		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Participe do Subreddit",
-		"reddit-count": "<span id=\"reddit-number\"></span> subscritos",
+		"reddit-count": "<span id=\"reddit-number\"></span> inscritos",
 		"language-warning": "(Essas comunidades tem o Inglês como língua principal)",
 		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Desça para saber mais!",
 		"mobile-disclaimer": "Minhas sinceras desculpas, mas a versão mobile desse website foi feita as pressas e é <b>bem horrível</b>, mas, sendo franco, não achei que alguém iria visitá-lo em dessa forma.",
@@ -110,7 +110,7 @@
 	},
 	"the-others-are-trash": {
 		"large-text": "Os outros personagens são um lixo, sem exceções.",
-		"sub-text": "Elas podem ser bonitinhas, mas quando você sabe os fatos, na realidade elas não são.",
+		"sub-text": "Elas podem parecer bonitinhas, mas quando você descobre os fatos, percebe que elas não são." então,
 		"the-others-are-trash": {
 			"gabriel": {
 				"name": "Gabriel",
