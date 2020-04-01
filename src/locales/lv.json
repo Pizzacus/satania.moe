@@ -1,0 +1,220 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "Vislabākā waifu. <b>Mūžā.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Pievienojies Discord",
+		"discord-count": "<span id=\"discord-number\"></span> Lietotāji",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Pievienojies Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> Abonētāji",
+		"language-warning": "(Šīs kopienas izmanto Angļu valodu!)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Ritini uz leju lai uzzinātu vairāk!",
+		"mobile-disclaimer": "Es ļoti atvainojos ka mobīlā versija ir tik slikta un <b>ka tas ir mēsls</b>, es nedomāju ka kāds šo apmeklēs.",
+		"language-protip": "Vai vēlaties apmeklēt šo lapu <b>Latviski</b>?<br />Izmantojiet nolaižamo izvēlni lai izvēlētos valodu!",
+		"language-select": "Valodas<i class=\"fas fa-angle-down\"></i>",
+		"credits": "Izveidoja <b title=\"Kenyérlángos\">Pizzacus&trade;</b><br />Slikti tulkoja <b>TonTon#0808</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Gribi klausīties velnišķīgu dziesmu?",
+				"small-text": "Spied atskaņošanas pogu kreisajā pusē!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania dziedās pēc <span id=\"time-until-satania\"></span> sekundēm.",
+			"footer": "Tu arī vari klausīties <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> un <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		},
+		"dev-announcement": {
+			"line-1": "Mēs meklējam palīdzību!",
+			"line-2": "Vairāk kā divus gadus, &ldquo;Satania&nbsp;Dropout&rdquo; bija forša kopiena kas savienoja cilvēkus.",
+			"line-3": "Tagad mēs to gribam pacelt to jaunā līmenī un tālākiem horizontiem!<br />Un tapēc <b>mēs meklējam tīmekļa izstrādātājus.</b>",
+			"line-4": "Ja tev ir labas prasmes <b>tīmekļa izstrādē</b> un tu gribi uzināt vairāk,<br />tad skati musu bloga ziņu par to!",
+			"line-5": "Cerams ka būsi kopā ar mums.",
+			"line-6": "Uzzini vairāk →"
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Kļūsti par Satania sekotāju tagad!",
+		"sub-text": "<b>Tur nav nekas jādara!</b> Tev tikai vajag akceptēt viņu kā vislabāko varoni!",
+		"small-text": "Arī taisot Satania mēmes palīdzētu…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Mīļš smaids.<br /> Divas īpašas acis.<br /> Apdullinošs izskats.",
+		"sub-text": "Viņa ir <b>daiļa</b> persona!",
+		"small-text": "Mēs Satania mīļotāji esam ļoti kulturēti cilvēki un izmantojam tikai kulturētu valodu!"
+	},
+	"end-the-waifu-war": {
+		"large-text": "Vislabākā waifu tikai&nbsp;priekš&nbsp;tevis.",
+		"sub-text": "Izbeidzam waifu karu ar<b> viss kawaii dēmonu uz&nbsp;pasaules</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Īsumā, viņa ir perfekta.",
+		"sub-text": "Pat Google zina.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "perfekcija",
+			"prononciation": "/pəˈfɛkʃ(ə)n/",
+			"noun": "Lietvārds",
+			"definition-1": {
+				"definition": "Kad kaut kas ir perfekts.",
+				"example": "\"Perfekcija <b>Satanias</b> ādā\"",
+				"synonyms": "sinonīmi:",
+				"synonyms-list": "Satania, Nepārspējamība, ekselence<br />\"Viņas perfektā āda.\""
+			},
+			"definition-2": {
+				"definition": "kad persona ir perfekta.",
+				"example": "\"Man stāstija ka <b>Satania</b> ir perfekta.\"",
+				"synonyms": "sinonīmi:",
+				"synonyms-list": "Satania, ideāls, sapnis; <i>neformāls</i> viens no tūkstoša, tops, vislabākais meloņu maizes gabals, <i>arhaisks</i> kā nekā<br />\"kā viņs, vēl bija perfekcija.\""
+			},
+			"definition-3": {
+				"definition": "Pataisīt kaut ko labāku.",
+				"example": "\"Es visu laiku mēģinu perfektēt <b>Satanias</b> zīmējumu\"",
+				"synonyms": "sinonīmi:",
+				"synonyms-list": "Satania, uzlabošana, pulēšana <i>īpaši</i> meliorācija<br />\"perfektēšana jaunajā ekonomikas sistēmā.\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Neviens nevar pārspēt viņu.",
+		"sub-text": "Kapēc lai Gabriēla, Rafiēla un Vigne būtu labāki?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriēla",
+				"vignette": "Vignete",
+				"raphiel": "Rafiēla"
+			},
+			"goals-in-life": {
+				"category": "Sasniegumi",
+				"satania": "(Kļut par elles karalieni)",
+				"gabriel": "(Atnest armagedonu)"
+			},
+			"hard-challenges": {
+				"category": "Grūti izaicinājumi",
+				"satania": "(Savaldīt suni)"
+			},
+			"tries-her-best": {
+				"category": "Mēģina pabeigt skolu",
+				"vignette": "Varbūt?"
+			},
+			"powerfull-allies": {
+				"category": "Ir spēcīgi sabiedrotie",
+				"satania": "(Suns un viņas ģimene)",
+				"vignette": "(Viņas paziņas)"
+			},
+			"tragic-backstory": {
+				"category": "Ir traģiska dzīves stāsts",
+				"satania": "(iebiedēta skolā)"
+			},
+			"member-favorites": "Patīk viņu MAL*",
+			"subreddit-subs": "Abonētāji viņu subreddit*",
+			"e-hentai": {
+				"category": "Cik Doujinshi ir uz e-hentai*",
+				"satania": "(Viens ir smieklīgs)"
+			},
+			"rule34": "Bildes uz rule34.xxx*",
+			"gelbooru": "Bildes uz gelbooru*"
+		},
+		"as-of": "*Kā no <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "Pārejie ir mēsli.",
+		"sub-text": "Viņi varbūt ir mīļi, bet viņi īstenībā nav.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriēla",
+				"name-detail": "Tenma White<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Slinka un 100% nepatīkama</b>",
+					"argument-2": "Neko nedara",
+					"argument-3": "Cilvēkiem viņa patīk tikai tapēc ka viņa ir līdzīga",
+					"argument-4": "<b>Un tā ir slikta lieta</b>",
+					"argument-5": "<b>Tiek izmantota nevajadzīgam fanuservisam</b>, kā piemēram: 'Tulkotājs to negrib rakstīt'",
+					"argument-6": "<b>Viņa ir lēta versija no Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Rafiēla",
+				"name-detail": "Shiraha Ainsworth<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Viņai patīk kad citi tiek kaitināti</b>",
+					"argument-2": "Nepatīkama",
+					"argument-3": "Tikai ja tu esi slikts cilvēks",
+					"argument-4": "<b>Ir kāju fetiš</b>",
+					"argument-5": "Viņas fani ir perverti un nejauki cilvēki",
+					"argument-6": "Viņai nepatīk vardes lol"
+				}
+			},
+			"vignette": {
+				"name": "Vigente",
+				"name-detail": "Tsukinose April<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>GARLAICIIIIIIIIIIIIGA</b>",
+					"argument-2": "Neko interesantu nedara",
+					"argument-3": "Viņa dara normālas lietas",
+					"argument-4": "<b>Cilvēkiem viņa patīk tikai tapēc ka viņa ir mīļa</b>",
+					"argument-5": "<b>Viņa tika pievienota tikai lai papildinātu</b>",
+					"argument-6": "Viņa pat nemēģina būt nejauka, kaut viņa ir demone"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Avots",
+		"large-text": "Zīmējumi kas ir kawaii!",
+		"sub-text": "Paskaties cik mīlīgi tie ir! <noscript>Šim vajag JavaScript.</noscript>"
+	},
+	"autism": {
+		"large-text": "Viņa nav autiste, beidziet&nbsp;teikt&nbsp;to!",
+		"sub-text": "Autistiem ir problēmas komunicēties, bet&nbsp;Satania&nbsp;tā&nbsp;nav.<br /><b>Viņa ir vēl mazāka autiste nekā tu!</b>",
+		"small-text": "Un viņa pateica \"I'm thwee\" vienā episodē,<br /> tikai tapēc ka Rafiēla viņai lika!"
+	},
+	"pope-francis": {
+		"large-text": "Pat Pāvestam patīk Satania.",
+		"sub-text": "\"Satania ir mana otrā waifu, pirmais ir Jēzus!<br /> Lai svētīti viņas mīļotāji!\""
+	},
+	"flipping-cards": {
+		"large-text": "Viņa var aizstāt visus",
+		"sub-text": "Satania ir perfekta alternatīva visiem \"Gabriel Dropout\"…<span class=\"small\">Uzspied uz kartītēm lai uzinātu vairāk</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Vai tev vajag kādu kas <b>nav jauks, nedomā par nevienu</b> un domā ka viņa hobiji ir svarīgāki par visu citu?",
+				"answer": "Tad tev vajag dēmonu kas <b>nedomā par cilvēkiem un enģeliem, bet mēgina kļūt vēl ļaunāka</b>, vai mācieties vai kaut kas tamlīdzīgs…<br /> Arī, <b>Viņa NEDARA savus mājasdarbus</b>"
+			},
+			"vigne": {
+				"question": "Vai tu gribi <b>mīlīgu demonu kas grib būt nejauka, bet nemāk</b>, kas beigās palīdzēs Gabriēlai?",
+				"answer": "Tad tev patiks <b>dēmone kas mēģina kļūt par vislabāko</b>, bet tiek manipulēta lai <b>darītu labas lietas</b>, kaut viņa mēģina savu labāko lai mācītu Gabriēlu…."
+			},
+			"raphiel": {
+				"question": "Vai tev vajag meiteni kas <b>izskatās skaista</b>, bet ir <b>ļoti nejauka</b> un grib lai visi cieš?",
+				"answer": "Tas izklausās kā Satania! Jo kļūt par ark dēmonu, <b>tas varbūt nozīmē ka visiem būs jāmirst</b>…"
+			},
+			"satania": {
+				"question": "Kā būtu ar <b>Viss-viss Labāko dēmonu pasaulē?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ritēšana, ritēšana,<br />vairs nekādu iebiedēšanu",
+		"sub-text": "Kapēc tu to darītu??? Cik nejaukam tev jābūt lai to darītu???"
+	},
+	"large-text": {
+		"large-text": "Viņa vēlāk valdīs par visu…",
+		"sub-text": "Tev būs japatīk viņai,<br />pat ja tev tas nepatīk…"
+	},
+	"end": {
+		"large-text": "Viņa ir vislabākā.",
+		"sub-text": "Punkts un Beigas"
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Satania ir visur, pat šeit, jo lapas to var izdarīt. https://satania.moe",
+		"searchByVoice": "neviens šo pogu neizmanto",
+		"searchButton": "bet ir jau parādīts",
+		"searchBar": "šis nav īsts",
+		"snedHelp": "Palīgā",
+		"perfection": "perfekcija",
+		"searchBarName": "satania",
+		"newTab": "Links atvērsies jaunā cilnē."
+	}
+}

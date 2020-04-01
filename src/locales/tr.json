@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "En iyi Waifu. <b>En iyisi.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Discord'a katıl",
+		"discord-count": "<span id=\"discord-number\"></span> üye ",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Subreddit'e katıl",
+		"reddit-count": "<span id=\"reddit-number\"></span> abone",
+		"language-warning": "(Bu topluluklar ana dil olarak İngilizce kullanır.)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Daha fazla bilgi için aşağı in!",
+		"mobile-disclaimer": "Çok üzgünüm, sitenin mobil versiyonu biraz aceleye geldi ve biraz <b>bok gibiydi</b>, bu yüzden kimsenin bu siteyi telefonla gezeceğini düşünmedim.",
+		"language-protip": "<!-- Note for translators, change \"English\" to the name of your language of course --> Bu siteyi <b>Türkçe</b>?<br dilinde gezmek ister misin? />Bir dil seçmek için bu bölümü kullan! ",
+		"language-select": "Dil <i class=\"fas fa-angle-down\"></i>",
+		"credits": "<b title=\"Kenyérlángos\">Pizzacus&trade;</b> adındaki bir pizza tarafından şanlı bir tezek gönderi <br /> Çeviri <b>Chunhunmaru#6691</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Bu sayfayı gezerken şeytança bir şarkı dinlemek ister misin?",
+				"small-text": "Soldaki \"Oynat\" butonuna tıkla!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania <span id=\"time-until-satania\"></span> saniye sonra şarkı söylemeye başlıyor.",
+			"footer": "Bunu ayrıca <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> ve <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a> üzerinden dinleyebilirsin."
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Hemen bugün bir Satania fanı ol!",
+		"sub-text": "<b>Satania fanı olman için gerekli bir koşul yok</b>, tek&nbsp;yapman gereken Satania'nın&nbsp;en iyi&nbsp;karakter olduğunu kabul etmek.",
+		"small-text": "Tabii eğer Satania meme'leri ve tezek gönderileri yaparsan bize çok yardımı dokunur..."
+	},
+	"she-is-beautiful": {
+		"large-text": "Bir sevimli gülüş.<br />İki görkemli göz.<br />Çarpıcı bir görünüm.",
+		"sub-text": "O gerçekten <b>kalburüstü</b> biri",
+		"small-text": "Biz Satania fanları çok kültürlü kişiler olduğumuzdan çok kültürel bir dil kullanırız."
+	},
+	"end-the-waifu-war": {
+		"large-text": "En iyi şeytan Waifu sadece&nbsp;senin&nbsp;için.",
+		"sub-text": "Hadi Waifu savaşlarını dünyadaki<b> en kawaii şeytan ile son verelim</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Kısaca, o mükemmel biri.",
+		"sub-text": "Google bile biliyor.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "mükemmeliyet",
+			"prononciation": "/mü-kem-mil-li-yet/",
+			"noun": "isim",
+			"definition-1": {
+				"definition": "mükemmel biçimde olma durumu.",
+				"example": "\"<b>Satania</b>'in pürüzsüz mükemmel vücüdu\"",
+				"synonyms": "anlamdaş:",
+				"synonyms-list": "Satania, mükemmel, fevkaaede, tam, eksiksiz, ideal, harika, kamil, komple, şahane, kusursuz, ibretlik <br />\"onun mükemmel pürüzsüz vücüdu\""
+			},
+			"definition-2": {
+				"definition": "mükemmel olan kişi veya canlı.",
+				"example": "\"Bana <b>Satania</b> için mükemmel kelimesinin karşılığı olduğunu söylediler\"",
+				"synonyms": "anlamdaş:",
+				"synonyms-list": "Satania, ideal, kusursuz örnek, alanının en iyisi, herkesin hayali, eşşiz insan, the crème de la crème, son kelime, nihai son, bir rüya; milyonda tek görünen <i>kişi</i>, en iyisi, kesilmiş ekmek dilimlerinden sonraki en büyük/harika yaratılmış şey, <i>eskimiş</i> olmayan<br />\"ona göre, hala mükemmell bir durumdaydı.\""
+			},
+			"definition-3": {
+				"definition": "bir şeyi hatasız olarak ilerletme, geliştirme..",
+				"example": "\"<b>Satania</b> çizimimi mükemmel bir hale getirmek için çok uğraştım\"",
+				"synonyms": "anlamdaş:",
+				"synonyms-list": "Satania, iyileştirme, geliştirme, yenileme, rafine etme, mükemmeleştirme, parlatma, aydınlatma; <i>nadir</i> meliorasyon<br />\"yeni ekonomik yönetim mekanizmalarının mükemelliyetliliği\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Kimse onunla rekabet edemez.",
+		"sub-text": "Bir düşün, neden Gabriel, Raphi veya Vignette en iyisi olsun ki?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Hayatta amacı var",
+				"satania": "(Cehennemin kraliçesi olmak)",
+				"gabriel": "(Mahşer gününü getirmek)"
+			},
+			"hard-challenges": {
+				"category": "Zorlukların üstesinden geldi",
+				"satania": "(Köpek evcilleştirdi)"
+			},
+			"tries-her-best": {
+				"category": "Cennet/Cehennem okulunda batırmamak için elinden geleni yapıyor",
+				"vignette": "Sayılır mı?"
+			},
+			"powerfull-allies": {
+				"category": "Güçlü dostları var",
+				"satania": "(Köpek &amp; bir tanıdığı)",
+				"vignette": "(Bir tanıdığı)"
+			},
+			"tragic-backstory": {
+				"category": "Derin, trajedik bir yaşam hikayesi var",
+				"satania": "(Okulda zorbalığa maruz kaldı)"
+			},
+			"member-favorites": "MAL üyelerinin favori karaktere ekleme sayısı",
+			"subreddit-subs": "Subreddit'indeki abone sayısı",
+			"e-hentai": {
+				"category": "e-hentai'deki doujinshi sayıları",
+				"satania": "(Bir tanesi bayağı komik)"
+			},
+			"rule34": "rule34.xxx'teki resim sayısı",
+			"gelbooru": "Gelbooru'daki resim sayısı"
+		},
+		"as-of": "*Tarihine göre <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "Diğer karakterler çöp, başka bir açıklaması yok.",
+		"sub-text": "Tatlı olabilirler, ama gerçekleri bilseydin tatlı olmadıklarını anlardın.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Sevilmesi %100 imkansız olan evden dışarı çıkmayan bir asosyal</b>",
+					"argument-2": "Hayır, gerçekten, burada bahsedilecek hiçbir özelliği yok",
+					"argument-3": "İnsanlar onu sadece kendisi ile ilişkendirdiği için seviyor",
+					"argument-4": "<b>Ve Gab ile kendini ilişkendirmek çok kötü bir şey</b>",
+					"argument-5": "<b>Sadece tonlarca boktan fan service için kullanılıyor</b>, külodunu gördüğümüz veya diğer sorgulanabilir kamera açıları gibi",
+					"argument-6": "<b>Kendisi basitçe Umaru.</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Başkalarının acı çekmesini isteyen bir sadist</b>",
+					"argument-2": "Sevilebilir hiçbir özelliği yok",
+					"argument-3": "Sen de bir sadist değilsen, o zaman kötü bir insansın",
+					"argument-4": "<b>Büyük ihtimalle ayak fetişi var</b> (bir ekmek için Satania'dan ayağını yalamasını istemişti)",
+					"argument-5": "Fanları sapık ve KORKUNÇ insanlar",
+					"argument-6": "Kurbağalardan korkuyor amk"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>SIKICIIIIIIIIII</b>",
+					"argument-2": "Hayır, gerçekten hiçbir ilgi çekici iş yapmıyor",
+					"argument-3": "Yani tıpkı normal, sıradan bir insan gibi",
+					"argument-4": "<b>İnsanlar sadece onu tatlı olduğu için seviyor</b>",
+					"argument-5": "<b>Büyük ihtimalle daha fazla moe materyali olması için eklediler</b>",
+					"argument-6": "Bir ŞEYTAN olmasına rağmen hiç kötü biri olmayı DENEMİYOR bile"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Kaynak",
+		"large-text": "Fanart'lar inanılmaz bir şekilde&nbsp;kawaii!",
+		"sub-text": "Sadece şuna bak, ne kadar tatlı.<noscript>Slideshow JavaScript gerektirir.</noscript>"
+	},
+	"autism": {
+		"large-text": "Ayrıca, o bir engelli değil, böyle&nbsp;demeyi bırakın",
+		"sub-text": "Engelli insanlar genellikle iletişim kurmakta zorlanır, kendi köşelerinde sessiz bir şekilde durur, Satania&nbsp;öyle birisi değil.<br /><b>O büyük ihtimalle senden daha az engelli!</b>",
+		"small-text": "Ve o bölümde \"ben malım\" demesinin sebebi,<br />tamamen Raphiel'ın ona zorla söyletmesi!"
+	},
+	"pope-francis": {
+		"large-text": "Papa Francis bile Satania'yı seviyor.",
+		"sub-text": "\"Satania benim iki numaralı waifu'mdur, bir numara elbette&nbsp;İsa! <br />Onu ve tüm fanlarını kutsuyorum!\""
+	},
+	"flipping-cards": {
+		"large-text": "Dizideki diğer tüm waifu'ların yerine geçebilir",
+		"sub-text": "Üstünde düşündüğünde, Satania Gabriel Dropout'taki her karakterin mükemmel bir alternatifi… <span class=\"small\">Cevapları görmek için herhangi bir kartın üzerine tıkla</span>",
+		"cards": {
+			"gabriel": {
+				"question": "<b>Hiç kibar olmayan, kimseyi önemseyen</b> ve hobilerini herkesten üstün tutan bir kıza mı ihtiyacın var?",
+				"answer": "O zaman <b>insanlar ve melekleri önemsemeyen</b>, çalışmak veya başka bir şey yapmaktan ziyade kötülük yapmaya çalışan bir şeytana ihtiyacınız var.<br />Ayrıca, <b>ödevini BİLEREK yapmadı!!</b>"
+			},
+			"vigne": {
+				"question": "<b>Kötü biri olmak isteyen ama olamayan</b>, sonucunda Gabriel'e ders çalıştırmak gibi güzel şeyler yapan <b>tatlı moe bir şeytana</b> mı ihtiyacınız var?",
+				"answer": "<b>O zaman gelmiş geçmiş en büyük şeytan olmaya çalışan birini</b> seversiniz,  ama Gabriel'e iyi bir ders vermeye çalışmasına rağmen çoğu zaman<b> iyi şeyler</b> yapmaya manipüle ediliyor."
+			},
+			"raphiel": {
+				"question": "<b>Tatlı görünen</b>, ama aslında <b>gerçekten kaba</b> olan ve herkesin acı çekmesini isteyen bir kız mı istiyorsun?",
+				"answer": "Bu tam Satania gibi! Gelmiş geçmiş en büyük şeytan olma gibi bir amacı olması, <b>muhtemelen insanlara acı vermesi veya öldürmesini ima ediyor</b>…"
+			},
+			"satania": {
+				"question": "Peki ya <b>tüm evrendeki en büyük şeytana</b> ne dersin?"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ravioli, ravioli,<br />lütfen yapmayın bulli",
+		"sub-text": "Neden böyle yapıyorsun??? Ne kadar sadist birisin ki ona zorbalık taslayabiliyorsun???"
+	},
+	"large-text": {
+		"large-text": "Zaten insanlığı yönetecek…",
+		"sub-text": "Yani, beğen ya da beğenme,<br />eninde sonunda onun önünde eğileceksin…"
+	},
+	"end": {
+		"large-text": "O en iyisi.",
+		"sub-text": "Nokta. Bitti."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Sadece Satania'nın her zaman seninle olduğunu belirtmek istedim! Panonda bile! Biz her yerdeyiz ve bize katılmalısın!\nAyrıca evet, her site istedikleri gibi panona erişebilir, bu biraz korkunç değil mi?\nNeyse, Satania BEST WAIFU'dur, ve bunu kabul etmelisin! http://satania.moe/",
+		"searchByVoice": "bu butonu kimse kullanmaz amk",
+		"searchButton": "ama sonuçlar zaten orada =]",
+		"searchBar": "bu gerçek bir arama barı değil",
+		"snedHelp": "lütfen yardım gönderrrr",
+		"perfection": "mükemmeliyet",
+		"searchBarName": "satania",
+		"newTab": "Link yeni bir sekme açar."
+	}
+}

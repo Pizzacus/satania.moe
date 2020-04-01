@@ -1,140 +1,200 @@
-var javascriptLocales = {
-	"copyMessage": "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\n" +
+import "@babel/polyfill";
+import 'whatwg-fetch';
+import "./closest";
+
+window.javascriptLocales = {
+	copyMessage: "Just wanted to let you know that Satania is always with you! Even inside your clipboard! We are everywhere and you should really join us!\n" +
 		"Also yes, any website can access your clipboard however they want, isn't that creepy?\n" +
 		"Regardless, Satania is the BEST WAIFU, and you should agree! http://satania.moe/",
-	"searchByVoice": "lmao, no one uses this button",
-	"searchButton": "but the results are already there =]",
-	"searchBar": "this isn't a real search bar",
-	"snedHelp": "pls send helppp",
-	"perfection": "perfection"
+	searchByVoice: "lmao, no one uses this button",
+	searchButton: "but the results are already there =]",
+	searchBar: "this isn't a real search bar",
+	snedHelp: "pls send helppp",
+	perfection: "perfection",
+	searchBarName: "satania",
+	newTab: "Link opens in a new tab."
 }
 
-var copied = false;
-document.body.onclick = function() {
-	if (!copied) {
-		var selection = window.getSelection();
+/*
+	CLIPBOARD AUTO-COPY SCRIPT
+*/
 
-		var previousSelection = []; // Array where the previous selections are stored
+function copy(text = "") {
+	const selection = window.getSelection(),
+		previousSelection = []; // Array where the previous selections are stored
 
-		for (let i = 0; i < selection.rangeCount; i++) {
-			// Loops over every selections and add them to the array
-			previousSelection[i] = selection.getRangeAt(i);
-		}
+	for (let i = 0; i < selection.rangeCount; i++) {
+		// Loops over every selections and add them to the array
+		previousSelection[i] = selection.getRangeAt(i);
+	}
 
-		// Clear all the previous selections (we'll re-select them later)
-		selection.removeAllRanges();
+	// Clear all the previous selections (we'll re-select them later)
+	selection.removeAllRanges();
 
-		var range = document.createRange(), // Our new selection that will contain the text to copy
-			selectionElement = document.createElement("span"); // The hidden element that will contain the text that will be selected
+	const range = document.createRange(), // Our new selection that will contain the text to copy
+		selectionElement = document.createElement("span"); // The hidden element that will contain the text that will be selected
 
-		// Add the text to the element
-		selectionElement.innerText = javascriptLocales.copyMessage;
+	// Add the text to the element
+	selectionElement.innerText = text;
 
-		// Add CSS rules that should theorically prevent the hidden element from impacting the page layout in any way
-		selectionElement.setAttribute("style", "position:absolute !important;top:-9999vh !important;opacity:0 !important;height:0 !important;width:0 !important;pointer-events:none !important;z-index:-9999 !important;");
+	// Add CSS rules that should theorically prevent the hidden element from impacting the page layout in any way
+	selectionElement.setAttribute("style", `
+		position:absolute !important;
+		top:-9999vh !important;
+		opacity:0 !important;
+		height:0 !important;
+		width:0 !important;
+		pointer-events:none !important;
+		z-index:-9999 !important;
+	`);
 
-		// Add the element to the document (We hade to, in order to select it)
-		document.body.appendChild(selectionElement);
+	// Add the element to the document (We hade to, in order to select it)
+	document.body.appendChild(selectionElement);
 
-		// Make the range select the entire content of the element
-		range.selectNodeContents(selectionElement);
+	// Make the range select the entire content of the element
+	range.selectNodeContents(selectionElement);
 
-		// Add that range to the selection.
-		selection.addRange(range);
+	// Add that range to the selection.
+	selection.addRange(range);
 
-		// Copy the selection to clipboard.
-		document.execCommand('copy');
+	// Copy the selection to clipboard.
+	document.execCommand('copy');
 
-		// Clear the selection
-		selection.removeAllRanges();
+	// Clear the selection
+	selection.removeAllRanges();
 
-		// Remove the hidden element
-		document.body.removeChild(selectionElement);
+	// Remove the hidden element
+	document.body.removeChild(selectionElement);
 
-		for (let i = 0; i < previousSelection.length; i++) {
-			// Re-select everything that was selected
-			selection.addRange(previousSelection[i]);
-		}
+	for (let i = 0; i < previousSelection.length; i++) {
+		// Re-select everything that was selected
+		selection.addRange(previousSelection[i]);
+	}
+}
 
+let copied = false;
+document.body.onclick = () => {
+	// IE shows a confirmation box when trying to copy, so we must disable the easter egg on this browser
+	if (!copied && !/\b(Trident|MSIE)\b/.test(navigator.userAgent)) {
+		copy(javascriptLocales.copyMessage);
 		copied = true;
 	}
 }
 
-var links = document.getElementsByTagName("a");
+/*
+	LINK THAT OPEN IN NEW TABS
+*/
 
-for (let i = 0; i < links.length; i++) {
-	links[i].onclick = function(e) {
-		e.preventDefault();
-		window.open(this.href, '_blank').focus();
+// Makes a link open in a new tab (or does nothing if the element isn't a link)
+function linkOpenInNewTab(element) {
+	if (element.tagName === "A" && !element.newTabHandled) {
+		element.newTabHandled = true;
+
+		element.addEventListener("click", event => {
+			event.preventDefault();
+			window.open(element.href, '_blank').focus();
+		});
+
+		element.addEventListener("mouseover", event => {
+			element.titleBeforeHover = element.title;
+			element.title = javascriptLocales.newTab || "Link opens in a new tab.";
+		});
+
+		element.addEventListener("mouseout", event => {
+			element.title = element.titleBeforeHover;
+
+			if (element.title === "") {
+				element.removeAttribute("title");
+			}
+		});
 	}
-	links[i].title = "Link opens in a new tab.";
 }
 
-var slideshows = document.getElementsByClassName("slideshow");
-var preloadedImages = [];
+// Same as linkOpenInNewTab, but also make all the child that are link open in a new tab, too
+function refreshLinks(element = document.body) {
+	linkOpenInNewTab(element);
 
-for (let i = 0; i < slideshows.length; i++) {
-	let slideshow = slideshows[i],
-	slides = slideshow.getElementsByTagName("img");
+	const links = element.getElementsByTagName("a");
+	for (let link of links) {
+		linkOpenInNewTab(link);
+	}
+}
+
+window.onload = () => {
+	refreshLinks();
+
+	// Create an observer, which will make sure the links open in a new tab whenever the page changes
+	var observer = new MutationObserver(mutations => {
+		mutations.forEach(mutation => {
+			refreshLinks(mutation.target);
+		});
+	});
+
+	observer.observe(document.body, {
+		attributes: true,
+		childList: true,
+		characterData: false,
+		subtree: true
+	});
+}
+
+/*
+	SLIDESHOW
+*/
+
+const slideshows = document.getElementsByClassName("slideshow");
+
+for (let slideshow of slideshows) {
+	let slides = slideshow.getElementsByTagName("picture");
 
 	slideshow.currentSlide = 0;
 
-	slideshow.getElementsByClassName("source")[0].href = slides[0].getAttribute("href");
+	slideshow.getElementsByClassName("source")[0].href = slides[0].getAttribute("x-source");
 
-	window.setInterval(function() {
+	window.setInterval(() => {
 		slides[slideshow.currentSlide].classList.remove("shown");
 		slideshow.currentSlide = (slideshow.currentSlide + 1) % slides.length;
 		slides[slideshow.currentSlide].classList.add("shown");
 
-		slideshow.getElementsByClassName("source")[0].href = slides[slideshow.currentSlide].getAttribute("href");
+		slideshow.getElementsByClassName("source")[0].href = slides[slideshow.currentSlide].getAttribute("x-source");
 	}, 2500);
-
-	// Image preloading
-	for (let i = 0; i < slides.length; i++) {
-		preloadedImages.push(new Image().src = slides[i].src);
-	}
 }
+
+/*
+	SEARCHBAR
+*/
 
 var searchbar = document.getElementById("searchbar");
 
-searchbar.onclick = function(e) {
-	if (e.target.id === "search-by-voice") {
-		searchbar.getElementsByTagName("span")[0].innerText = javascriptLocales.searchByVoice;
-	} else if (e.target.id === "search-button") {
-		searchbar.getElementsByTagName("span")[0].innerText = javascriptLocales.searchButton;
-	} else {
-		searchbar.getElementsByTagName("span")[0].innerText = javascriptLocales.searchBar;
+searchbar.onclick = event => {
+	let span = searchbar.getElementsByTagName("span")[0];
+	switch (event.target.id) {
+		case "search-by-voice":
+			span.innerText = javascriptLocales.searchByVoice;
+			break;
+
+		case "search-button":
+			span.innerText = javascriptLocales.searchButton;
+			break;
+
+		default:
+			span.innerText = javascriptLocales.searchBar;
+			break;
 	}
 
-	window.setTimeout(function() {
-		searchbar.getElementsByTagName("span")[0].innerText = "satania";
+	window.setTimeout(() => {
+		span.innerText = javascriptLocales.searchBarName || "satania";
 	}, 2000);
-}
-
-// thx http://stackoverflow.com/a/13348618
-// Search by Voice is a Google Chrome only feature, so we must hide the button for unsupported browsers
-
-var isChromium = window.chrome,
-	winNav = window.navigator,
-	vendorName = winNav.vendor,
-	isOpera = winNav.userAgent.indexOf("OPR") > -1,
-	isIEedge = winNav.userAgent.indexOf("Edge") > -1,
-	isIOSChrome = winNav.userAgent.match("CriOS");
-
-
-if (isIOSChrome || (isChromium !== null && isChromium !== undefined && vendorName === "Google Inc." && isOpera == false && isIEedge == false)) {
-	document.getElementById("search-by-voice").style.display = "block";
 }
 
 var audioPlayingAtOnce = 0;
 
-document.getElementById("listen").onclick = function() {
-	"use strict";
+document.getElementById("listen").onclick = () => {
 	var audio = new Audio();
 	audio.src = "perfection.mp3";
 	audio.play();
 
-	audio.addEventListener("ended", function() {
+	audio.addEventListener("ended", () => {
 		audioPlayingAtOnce--;
 
 		if (audioPlayingAtOnce < 8) {
@@ -149,16 +209,71 @@ document.getElementById("listen").onclick = function() {
 	}
 }
 
-document.getElementById("card-container").onclick = function(e) {
-	// It is possible that e.target is a child of the card
-	// Quality code to solve that problem :ok_hand: :ok_hand: :ok_hand:
-	if (e.target.classList.contains("question") || e.target.classList.contains("answer")) {
-		var card = e.target.parentElement;
-	} else if (e.target.tagName.toLowerCase() === "img" || e.target.tagName.toLowerCase() === "b") {
-		var card = e.target.parentElement.parentElement;
-	} else {
-		var card = e.target;
+var laughKeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
+	laughPos = 0,
+	laughing = false;
+
+document.body.onkeyup = event => {
+	if (!laughing) {
+		var key = event.keyCode;
+		if (key === laughKeys[laughPos]) {
+			laughPos++;
+			if (laughPos >= laughKeys.length) {
+				laughPos = 0;
+				laughing = true;
+
+				var audio = new Audio();
+				audio.src = "laugh.mp3";
+				audio.play();
+
+				audio.addEventListener("ended", () => {
+					laughing = false;
+				});
+			}
+		} else {
+			laughPos = 0;
+		}
+	}
+}
+
+let guild, subreddit;
+
+fetch("/discord.json?with_counts=true")
+	.then(res => res.json())
+	.then(fetchedGuild => {
+		guild = fetchedGuild;
+		updateCounts();
+	});
+
+fetch("/reddit.json")
+	.then(res => res.json())
+	.then(fetchedSubreddit => {
+		subreddit = fetchedSubreddit;
+		updateCounts();
+	});
+
+function updateCounts() {
+	console.dir(document.documentElement.lang);
+	if (guild) {
+		document.getElementById("discord-number").innerText = guild.approximate_member_count.toLocaleString(document.documentElement.lang);
+		document.getElementById("discord-count").style.display = "inline-block";
 	}
 
-	card.classList.toggle("flipped");
+	if (subreddit) {
+		document.getElementById("reddit-number").innerText = subreddit.data.subscribers.toLocaleString(document.documentElement.lang);
+		document.getElementById("reddit-count").style.display = "inline-block";
+	}
+
+	document.getElementById('last-updated').innerText =
+		(new Date(1565782812058))
+			.toLocaleDateString(document.body.parentElement.lang, {
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric'
+			});
 }
+
+document.addEventListener("locale-change", updateCounts);
+
+document.getElementById('close-language-protip').onclick =
+	() => document.getElementById('language-protip').style.display = 'none';

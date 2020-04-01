@@ -1,0 +1,220 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "La miglior waifu <b>di sempre</b>.",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Unisciti a Discord",
+		"discord-count": "<span id=\"discord-number\"></span> membri ",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Unisciti al Subreddit",
+		"reddit-count": "<span id=\"reddit-number\"></span> iscritti",
+		"language-warning": "(Queste community usano l'inglese come lingua principale)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Scorri per saperne di più!",
+		"mobile-disclaimer": "Sono davvero dispiaciuto, ma la versione mobile di questo sito  é stata fatta in fretta ed é <b> una vera merda </b>, comunque   non credo che nessuno lo visiti da mobile.",
+		"language-protip": "Ti piacerebbe vedere questo sito in <b>italiano</b>?<br />Usare questo drop-down per selezionare una lingua!",
+		"language-select": "Lingua <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Un glorioso shitpost di una pizza nota come <b title=\"Kenyérlángos\">Pizzacus&trade;</b> <br /> Traduzione di <b title=\"Kenyérlángos\">SHellRoCK20</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Vuoi ascoltare una canzone diabolica mentre scorri questa pagina?",
+				"small-text": "Clicca il tasto play!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania canterá tra <span id=\"time-until-satania\"></span> secondi.",
+			"footer": "Puoi anche ascoltarla su <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> e <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		},
+		"dev-announcement": {
+			"line-1": "Siamo in cerca di aiuto!",
+			"line-2": "Per oltre due anni Satania&nbsp;Dropout è stata un'incredibile community che ha connesso migliaia di persone.",
+			"line-3": "Ora vogliamo portarla al livello successivo ed avviarci verso nuovi orizzonti!<br />Per questo <b>stiamo cercando web developers che ci diano una mano.</b>",
+			"line-4": "Se sei abbastanza abile con la <b>programmazione</b> e hai voglia di imparare,<br />controlla il nostro post a riguardo!",
+			"line-5": "Speriamo di vederti presto.",
+			"line-6": "Ulteriori informazioni →"
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Diventa un seguace di Satania oggi stesso!",
+		"sub-text": "<b>Non ci sono passaggi per diventare un seguace di Satania</b>,<br /> tutto quello che devi fare é accettare che Satania é il personaggio migliore",
+		"small-text": "Beh se potessi fare meme su Satania e shitpost, ci aiuterebbe parecchio…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Un sorriso adorabile.<br />Due occhi magnifici.<br />Un aspetto sbalorditivo.",
+		"sub-text": "Lei é davvero una persona <b>avvenente</b>",
+		"small-text": "Noi seguaci di Satania siamo persone molto acculturate,<br /> perció usiamo solo un linguaggio colto"
+	},
+	"end-the-waifu-war": {
+		"large-text": "La miglior Waifu demone solo per te.",
+		"sub-text": "Mettiamo fine alla guerra per la miglior waifu con il <b>demone più kawaii del mondo</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "In breve, é semplicemente perfetta.",
+		"sub-text": "Persino Google lo sa.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "perfezione",
+			"prononciation": "/per·fe·zió·ne/",
+			"noun": "sostantivo femminile",
+			"definition-1": {
+				"definition": "lo stato o la qualità dell'essere perfetti.",
+				"example": "\"la perfezione satinata della pelle di <b>Satania</b>\"",
+				"synonyms": "sinonimi:",
+				"synonyms-list": "Satania, impeccabilitá, eccellenza, superbia, sublimitá, squisitezza, magnificenza, perfezione, impeccabilitá, immacolatezza, esemplaritá<br />\"la perfezione satinata della sua pelle\""
+			},
+			"definition-2": {
+				"definition": "una persona o una cosa considerata perfetta.",
+				"example": "\"Sto dicendo che <b>Satania</b> é la perfezione stessa\"",
+				"synonyms": "sinonimi:",
+				"synonyms-list": "Satania, l'ideale, un paragone, il non plus ultra, il beau idéal,\n l'impareggiabile, la crème de la crème, l'ultima parola, un sogno;\n<i> informale </ i> uno su un milione, i migliori, la migliore / la più grande; <i> arcaico </ i> senza pari <br /> \"per lei, lui era ancora perfetto\""
+			},
+			"definition-3": {
+				"definition": "l'azione o il processo di migliorare qualcosa finché non è irreprensibile.",
+				"example": "\"Ho lavorato tutto il giorno sulla perfezione del mio disegno di <b>Satania</b>\"",
+				"synonyms": "sinonimi:",
+				"synonyms-list": "Satania, miglioramento, raffinamento, affinamento, perfezionamento \"la perfezione dei nuovi meccanismi di gestione economica\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Nessuno può competere.",
+		"sub-text": "Pensaci, perché Gabriel, Raphi o Vignette dovrebbero essere le migliori?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Ha obiettivi nella vita",
+				"satania": "(Diventare la regina degli inferi)",
+				"gabriel": "(Portare l'armageddon)"
+			},
+			"hard-challenges": {
+				"category": "Ha superato sfide difficili",
+				"satania": "(Domare il cane)"
+			},
+			"tries-her-best": {
+				"category": "Da il suo meglio per non fallire la scuola del paradiso/inferno",
+				"vignette": "Tipo?"
+			},
+			"powerfull-allies": {
+				"category": "Ha alleati potenti",
+				"satania": "(Il cane ed il suo famiglio)",
+				"vignette": "(Il suo famiglio)"
+			},
+			"tragic-backstory": {
+				"category": "Ha un retroscena profondo e tragico",
+				"satania": "(Vittima di bullisnmo a scuola)"
+			},
+			"member-favorites": "Numero di \"Member Favorites\" su MAL*",
+			"subreddit-subs": "Numero di iscritti al loro subreddit*",
+			"e-hentai": {
+				"category": "Numero di Doujinshi su e-hentai*",
+				"satania": "(Uno dei quali è davvero divertente)"
+			},
+			"rule34": "Numero di foto su rule34.xxx*",
+			"gelbooru": "Numero di foto su gelbooru*"
+		},
+		"as-of": "*Aggiornato al <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "Gli altri personaggi sono spazzatura, senza eccezioni.",
+		"sub-text": "Possono sembrare carini, ma quando si conoscono i fatti, in realtà non lo sono.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b> NEET pigro e antipatico al 100%</b>",
+					"argument-2": "No sul serio, non ha qualità salvifiche",
+					"argument-3": "Alla gente piace solo lei perché può essere facilmente riconoscibile per loro",
+					"argument-4": "<b>Essere in grado di relazionarsi con Gab è una cosa orribile</b>",
+					"argument-5": "<b>Lei é usata per un sacco di merdoso fanservice</b>, come foto alle mutandine ed altre inquadrature discutibili",
+					"argument-6": "<b>É fondamentalmente Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>È una sadica che vuole solo la sofferenza altrui</b>",
+					"argument-2": "Non è neanche simpatica",
+					"argument-3": "A meno che anche tu non sia un sadico, ma allora saresti una persona cattiva",
+					"argument-4": "<b>Probabilmente ha un feticismo per i piedi</b> (chiese a Satania di leccarle i piedi per un po' di melon pan)",
+					"argument-5": "I suoi fan sono pervertiti e persone orribili",
+					"argument-6": "Ha paura delle rane lmao"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>NOOOOOOIOSA</b>",
+					"argument-2": "No davvero, non fa mai niente di interessante",
+					"argument-3": "Tipo, è normale e roba del genere",
+					"argument-4": "<b>Alle persone piace solo perché è carina</b>",
+					"argument-5": "<b>Probabilmente è stata fatta solo per aggiungere altro materiale</b>",
+					"argument-6": "Non PROVA nemmeno ad essere malvagia, anche se è un DEMONE"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Fonte",
+		"large-text": "Fanart incredibilmente kawaii!",
+		"sub-text": "Guarda questa, è adorabile.<noscript>La presentazione richiede JavaScript.</noscript>"
+	},
+	"autism": {
+		"large-text": "Inoltre, non è autistica, smettila di dirlo",
+		"sub-text": "Le persone autistiche hanno spesso difficoltà a comunicare, se ne stanno tranquilli nel proprio angolo tutto il tempo, Satania, non è affatto così.<br /><b>Probabilmente é meno autistica di quanto non lo sia tu!</b>",
+		"small-text": "E quando lei dice \"I'm thwee\" in quell'episodio, è perché Raphiel gliel'ha fatto dire!"
+	},
+	"pope-francis": {
+		"large-text": "Anche Papa Francesco ama Satania.",
+		"sub-text": "\"Satania è la mia waifu numero due, il numero uno è Gesù, ovviamente!<br />Benedico lei e tutti i suoi seguaci!\""
+	},
+	"flipping-cards": {
+		"large-text": "Puó sostituire tutte le altre waifu della serie",
+		"sub-text": "Quando ci pensi, Satania è una perfetta alternativa ad ogni personaggio di Gabriel Dropout… <span class=\"small\">Clicca su una di queste carte per vedere le risposte</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Hai bisogno di una ragazza che <b>non è molto carina, non si preoccupa di nessuno</b> e pensa che i suoi hobby siano più importanti di qualsiasi altra cosa?",
+				"answer": "Allora hai bisogno del demone che <b> non si cura degli umani e degli angeli e cerca sempre di essere cattivo </b>, piuttosto che studiare o cose del genere…<br />Anzi, <b>lei non fa i suoi compiti DI PROPOSITO!!</b>"
+			},
+			"vigne": {
+				"question": "Vorresti un <b> demone moe carino </b> che <b> desideri essere malvagio, ma che non é affatto bravo nel farlo </b>, finendo per fare cose carine come insegnare roba a Gabriel?",
+				"answer": "Allora probabilmente ti piacerà il <b> demone che sta facendo del suo meglio per diventare il più grande </b>, ma viene spesso manipolato <b> per fare cose carine </b>, anche se sta facendo del suo meglio per dare a Gabriel una bella lezione…"
+			},
+			"raphiel": {
+				"question": "Vuoi una ragazza che <b> appaia carina </b>, ma in realtà <b> é davvero cattiva </b> e vuole solo vedere tutti soffrire?",
+				"answer": "Sembra esattamente come Satania! Perché diventare il più grande Arci Demone che il mondo abbia mai conosciuto, <b>probabilmente implica ferire o uccidere un sacco di persone</b>…"
+			},
+			"satania": {
+				"question": "Che ne dici del <b> più grande demone dell'intero universo?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ravioli, ravioli,<br />per favore, niente più bulli",
+		"sub-text": "Perché dovresti farlo??? Quanto devi essere sadico per voler fare il prepotente con lei???"
+	},
+	"large-text": {
+		"large-text": "Comunque governerà sull'umanità…",
+		"sub-text": "Quindi, che ti piaccia o no, <br />dovrai lodarla alla fine…"
+	},
+	"end": {
+		"large-text": "Lei è la migliore.",
+		"sub-text": "Fine."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Volevo solo farti sapere che Satania è sempre con te! Anche dentro i tuoi appunti! Siamo ovunque e dovresti davvero unirti a noi!\nInoltre sì, qualsiasi sito web può accedere ai tuoi appunti come vogliono, non è inquietante? Indipendentemente da ciò, Satania è la WAIFU MIGLIORE, e dovresti essere d'accordo! http://satania.moe/",
+		"searchByVoice": "lmao, nessuno usa questo pulsante",
+		"searchButton": "ma i risultati sono già qua =]",
+		"searchBar": "questa non è una vera barra di ricerca",
+		"snedHelp": "aiutoooooooo",
+		"perfection": "perfezione",
+		"searchBarName": "satania",
+		"newTab": "Il link si apre in una nuova scheda"
+	}
+}

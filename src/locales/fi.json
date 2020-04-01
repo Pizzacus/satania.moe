@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "Paras waifu. <b>Ikinä.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Liity Discordiin",
+		"discord-count": "<span id=\"discord-number\"></span> jäsentä",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Liity subreddittiin",
+		"reddit-count": "<span id=\"reddit-number\"></span> tilaajaa",
+		"language-warning": "(Nämä yhteisöt käyttävät englantia pääkielenään)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Vieritä sivua saadaksesi lisätietoa!",
+		"mobile-disclaimer": "Olen todella pahoillani, mutta tämän sivun mobiiliversio on vähän kiirehditty ja <b>se on tosi paska</b>, en oikeastaan ajatellut kenenkään käyvän täällä kännykällä.",
+		"language-protip": "Haluatko nähdä tämän sivun <b>suomeksi</b>?<br />Valitse kieli tästä valikosta!",
+		"language-select": "Kieli <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Henkilön nimeltä <b>lewski</b> suomentama mahtava paskapostaus",
+		"music-player": {
+			"intro": {
+				"bold-text": "Haluatko kuunnella paholaismaista kappaletta selatessasi tätä sivua?",
+				"small-text": "Paina vasemmalla olevaa play-nappia!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania laulaa <span id=\"time-until-satania\"></span> sekunnin päästä.",
+			"footer": "Voit kuunnella myös <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTubessa</a> ja <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">Soundcloudissa</a>."
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Ryhdy Satanian seuraajaksi tänään!",
+		"sub-text": "<b>Satanian seuraajaksi tuleminen ei vaadi toimenpiteitä</b>, sinun täytyy vain hyväksyä, että Satania on paras&nbsp;hahmo",
+		"small-text": "No jos voisit tehdä Sataniameemejä ja -paskapostauksia, se auttaisi meitä paljon…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Ihana hymy.<br />Kaksi upeaa silmää.<br />Tyrmäävä ulkonäkö.",
+		"sub-text": "Hän on todella <b>kaunis</b> henkilö",
+		"small-text": "Äskeisessä lauseessa oli englanniksi sivistyssana, jolle ei suomessa ole yhtä hienoa vastinetta."
+	},
+	"end-the-waifu-war": {
+		"large-text": "Paras demoniwaifu vain&nbsp;sinulle.",
+		"sub-text": "Lopetetaan waifusota <b>maailman kawaiimmalla demonilla</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Lyhyesti, hän on täydellinen.",
+		"sub-text": "Jopa Google tietää.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "täydellisyys",
+			"prononciation": "/tæydellisyys/",
+			"noun": "substantiivi",
+			"definition-1": {
+				"definition": "tila tai ominaisuus, jonka omaava asia on täydellinen.",
+				"example": "\"<b>Satanian</b> ihon satiininen täydellisyys\"",
+				"synonyms": "synonyymejä:",
+				"synonyms-list": "Satania, virheettömyys, erinomaisuus, loistavuus, esimerkillisyys<br />\"hänen ihonsa satiininen täydellisyys\""
+			},
+			"definition-2": {
+				"definition": "henkilö tai asia, jonka ajatellaan olevan täydellinen.",
+				"example": "\"Olen kuullut, että <b>Satania</b> on itse täydellisyys\"",
+				"synonyms": "synonyymejä:",
+				"synonyms-list": "Satania, ihanne-, perikuva, esikuva, äärimmäinen, ylivertainen, perimmäinen<br />\"hänelle mies oli yhä täydellisyys\""
+			},
+			"definition-3": {
+				"definition": "",
+				"example": "",
+				"synonyms": "",
+				"synonyms-list": ""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Kukaan ei pärjää hänelle.",
+		"sub-text": "Mieti vähän, miksi Gabriel, Raphi tai Vignette olisi paras?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Tähtää johonkin elämässään",
+				"satania": "(Helvetin kuningattareksi tuleminen)",
+				"gabriel": "(Harmageddonin tuominen)"
+			},
+			"hard-challenges": {
+				"category": "On ylittänyt vaikeita haasteita",
+				"satania": "(Koiran kesyttäminen)"
+			},
+			"tries-her-best": {
+				"category": "Yrittää parhaansa mukaan olla reputtamatta taivaan/helvetin koulua",
+				"vignette": "Tavallaan?"
+			},
+			"powerfull-allies": {
+				"category": "Vahvoja liittolaisia",
+				"satania": "(Koira &amp; apuolento)",
+				"vignette": "(Apuolento)"
+			},
+			"tragic-backstory": {
+				"category": "Syvä ja traaginen taustatarina",
+				"satania": "(Koulukiusattu)"
+			},
+			"member-favorites": "Lisäyksiä suosikkihahmoksi MAL:ssä*",
+			"subreddit-subs": "Subredditin tilaajia*",
+			"e-hentai": {
+				"category": "Doujineja e-hentaissa*",
+				"satania": "(Joista yksi on hauska)"
+			},
+			"rule34": "Kuvia rule34.xxx:ssä*",
+			"gelbooru": "Kuvia gelboorussa*"
+		},
+		"as-of": "*<span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "Muut hahmot ovat roskaa, poikkeuksetta.",
+		"sub-text": "He voivat olla söpöjä, mutta kun tiedät tosiasiat, he eivät oikeasti ole.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Laiska NEET, joka on 100% epämiellyttävä</b>",
+					"argument-2": "Ei, oikeasti, hänellä ei ole yhtäkään hyvää ominaisuutta",
+					"argument-3": "Ihmiset pitävät hänestä vain, koska hän on heille samaistuttava",
+					"argument-4": "<b>Ja Gabrieliin samaistuminen on kamala asia</b>",
+					"argument-5": "<b>Häntä käytetään paskassa fanservicessä</b>, kuten pantyshoteissa ja muissa kyseenalaisissa kuvakulmissa",
+					"argument-6": "<b>Hän on käytännössä Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Sadisti, joka haluaa vain muiden kärsimystä</b>",
+					"argument-2": "Ei ole myöskään millään tapaa miellyttävä",
+					"argument-3": "Paitsi jos olet itsekin sadisti, mutta silloin olet huono ihminen",
+					"argument-4": "<b>On luultavasti jalkafetissi</b> (hän käski Satanian nuolemaan jalkojaan saadakseen melonileipää)",
+					"argument-5": "Hänen faninsa ovat pervoja JA huonoja ihmisiä",
+					"argument-6": "Hän pelkää sammakoita lmao"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>TYYYYYYYLSÄ</b>",
+					"argument-2": "Oikeasti, hän ei tee koskaan mitään kiinnostavaa",
+					"argument-3": "Niinku, hän on normaali ja sillain",
+					"argument-4": "<b>Hänestä pidetään vain, koska hän on söpö</b>",
+					"argument-5": "<b>Hän varmaan tehtiin vain moemateriaalia varten</b>",
+					"argument-6": "Ei edes YRITÄ olla paha vaikka hän on DEMONI"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Lähde",
+		"large-text": "Fanitaideteoksia, jotka ovat mahdottoman&nbsp;kawaii!",
+		"sub-text": "Katso tätä, tämä on suloista.<noscript>Slideshow tarvitsee JavaScriptin.</noscript>"
+	},
+	"autism": {
+		"large-text": "Hän ei myöskään ole autisti, lakatkaa&nbsp;sanomasta&nbsp;niin",
+		"sub-text": "Autistisilla ihmisillä on usein kommunikointivaikeuksia ja he pysyttelevät omassa nurkassaan, Satania&nbsp;ei ole lainkaan sellainen.<br /><b>Hän on varmaankin vähemmän autistinen kuin sinä!</b>",
+		"small-text": "Ja vaikka hän sanookin yhdessä jaksossa \"I'm thwee\",<br />se johtui siitä, että Raphiel pakotti hänet siihen!"
+	},
+	"pope-francis": {
+		"large-text": "Jopa paavi Franciscus rakastaa Sataniaa.",
+		"sub-text": "\"Satania on kakkoswaifuni, ykkösenä tietenkin&nbsp;Jeesus!<br />Siunaan häntä ja kaikkia hänen seuraajiaan!\""
+	},
+	"flipping-cards": {
+		"large-text": "Hän syrjäyttää ohjelman kaikki muut waifut",
+		"sub-text": "Kun ajattelee sitä vähän, Satania on täydellinen vaihtoehto kaikille Gabriel DropOutin hahmoille… <span class=\"small\">Klikkaa mitä tahansa näistä korteista nähdäksesi vastauksen</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Tarvitsetko tytön joka <b>ei ole kovin mukava, ei välitä kenestäkään</b> ja ajattelee harrastustensa olevan tärkeämpiä kuin mikään muu?",
+				"answer": "Sitten tarvitset demonin joka <b>ei välitä ihmisistä ja enkeleistä ja yrittää aina olla paha</b>, opiskelemisen sijaan…<br />Myöskin, <b>hän jättää läksynsä tekemättä TAHALLAAN!!</b>"
+			},
+			"vigne": {
+				"question": "Haluaisitko <b>söpön moedemonin</b> joka <b>haluaa olla paha mutta on todella huono siinä</b>, tehden loppujen lopuksi hyviä asioita kuten asioiden opettaminen Gabrielille?",
+				"answer": "Sitten pidät varmaan <b>demonista joka tekee kaikkensa tullakseen parhaaksi</b>, mutta joka manipuloidaan usein <b>tekemään hyviä asioita</b> vaikka hän tekee parhaansa antaakseen Gabrielille opetuksen…"
+			},
+			"raphiel": {
+				"question": "Haluatko tytön, joka <b>näyttää söpöltä</b> mutta on oikeasti <b>todella ilkeä</b> ja haluaa oikeasti vain nähdä kaikkien kärsivän?",
+				"answer": "Kuulostaa täsmälleen Satanialta! Sillä kaikkien aikojen suurimmaksi arkkidemoniksi tuleminen <b>luultavasti sisältää monien satuttamista tai tappamista</b>…"
+			},
+			"satania": {
+				"question": "Miten olisi <b>universumin paras demoni?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ravioli, ravioli,<br />pls, älä enää kiusi",
+		"sub-text": "Miksi tekisit niin??? Kuinka sadistinen ihmisen on oltava halutakseen kiusata häntä???"
+	},
+	"large-text": {
+		"large-text": "Hän tulee hallitsemaan ihmiskuntaa joka tapauksessa…",
+		"sub-text": "Joten pidit siitä tai et,<br />joudut ylistämään häntä jossain vaiheessa…"
+	},
+	"end": {
+		"large-text": "Hän on Paras.",
+		"sub-text": "Piste. Loppu."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Halusin vain kertoa, että Satania on aina kanssasi! Jopa leikepöydälläsi! Olemme kaikkialla ja sinun kannattaisi liittyä meihin!\nMyöskin kyllä, mikä tahansa nettisivu pääsee käsiksi leikepöytääsi miten vain, eikö ole pelottavaa?\nJoka tapauksessa, Satania on PARAS WAIFU, ja sinun pitäisi olla samaa mieltä! http://satania.moe/",
+		"searchByVoice": "lmao, kukaan ei käytä tätä nappia",
+		"searchButton": "mutta tulokset ovat jo valmiina =]",
+		"searchBar": "tämä ei ole oikea hakupalkki",
+		"snedHelp": "lähetä apuaaa",
+		"perfection": "täydellisyys",
+		"searchBarName": "satania",
+		"newTab": "Linkki avautuu uudessa välilehdessä."
+	}
+}

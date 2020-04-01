@@ -42,11 +42,10 @@
 			padding: 10px;
 
 			& > h2 {
-				font-size: 36px;
+				margin: 30px 0;
 			}
 
 			& > p {
-				font-size: 18px;
 				font-weight: 400;
 			}
 		}
@@ -54,6 +53,9 @@
 		.image {
 			position: absolute;
 			top: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
 			display: flex;
 			justify-content: center !important;
 			padding: 0;
@@ -61,7 +63,17 @@
 			background: none;
 
 			img {
-				opacity: 0.5;
+				opacity: 0.35;
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				bottom:0;
+				z-index: 99;
+				background: linear-gradient(to bottom, #EAECEE00 0%, #EAECEE 100%);
+				height: 100px;
+				width: 100vw;
 			}
 		}
 
@@ -106,5 +118,34 @@
 		width: 100px;
 		margin-right: -50px;
 		padding: 10px 20px;
+	}
+
+	.nose-button {
+		display: none;
+	}
+}
+
+@media (max-width: 700px) {
+	.main {
+		.footer {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.title .button-container {
+			margin: 90px 60px;
+		}
+
+		.language-select {
+			margin: 10px;
+			
+			.select-wrapper {
+				font-size: 25px;
+			}
+		}
+
+		.scroll-notice {
+			display: none;
+		}
 	}
 }

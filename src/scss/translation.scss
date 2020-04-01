@@ -1,0 +1,20 @@
+[lang|=en] .translate-only {
+	display: none;
+}
+
+.english-only {
+	display: none !important;
+}
+
+[lang|=en] .english-only {
+	display: block !important;
+}
+
+[lang|=fi] .google-definition .definition:last-child {
+	display:none;
+}
+
+[lang|=zh], [lang|=ja], [lang|=ko] {
+	font-family: sans-serif;
+	font-feature-settings: initial;
+}

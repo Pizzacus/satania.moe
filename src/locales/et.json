@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "Parim Waifu. <b>ÜLTSE.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Liitu Discordi",
+		"discord-count": "<span id=\"discord-number\"></span> liikmeid",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Liitu Subredditisse",
+		"reddit-count": "<span id=\"reddit-number\"></span> tellijaid",
+		"language-warning": "(Need kogukonnad kasutavad inglise keelt peamisena)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Kerige alla et saada teada rohkem!",
+		"mobile-disclaimer": "Palun vabandage, aga mobiilne versioon sellest leheküljest oli rutustatud ja see on <b>täiesti pask</b>, ma ei arvanud et keegi külastaks seda lehekülge telefonil.",
+		"language-protip": "Kas te tahate vaadata seda lehekülge <b>eesti keeles</b>?<br />Kasutage seda rippmenüü et vahetada keelt!",
+		"language-select": "Keel<i class=\"fas fa-angle-down\"></i>",
+		"credits": "Erandlik shitpost tehtud mingi pitsa poolt kelle nimi on <b title=\"Kenyérlángos\">Pizzacus&trade;</b><br />Tõlkis <b>Virus#6216</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Tahad kuulata saatanlikut laulu sirvimise ajal?",
+				"small-text": "Vajuta play nuppu vasakul!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania hakkab laulma <span id=\"time-until-satania\"></span> sekundis.",
+			"footer": "Saab kuulata veel siin <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o/\">YouTube</a> ja siin <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube/\">SoundCloud</a>."
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Saa Satania austajaks täna!",
+		"sub-text": "<b>Satania austajaks pole vaja mingeid keerulisi samme</b>, kõik mida sa pead tegema on aktsepteerima et Satania on parim tegelane",
+		"small-text": "Noh kui sa saaksid teha Satania meeme ja shitposte, see aitaks meid väga…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Armas naeratus.<br /> Kaks suurepärast silma.<br /> Silmatorkav välimus.",
+		"sub-text": "Ta on <b>eriliselt ilus</b> isik",
+		"small-text": "Meie Satania austajad oleme väga kultuursed inimesed, nii et me kasutama väga kultuurset keelt"
+	},
+	"end-the-waifu-war": {
+		"large-text": "Parim deemon Waifu sinu jaoks.",
+		"sub-text": "Lõpetame waifu sõja koos <b>kõige&nbsp;kawaii&nbsp;deemoniga&nbsp;maailmas</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Ühesõnaga, ta on lihtsalt perfektne.",
+		"sub-text": "Isegi Google teab.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "Perfektsus",
+			"prononciation": "/perfektsus/",
+			"noun": "nimisõna",
+			"definition-1": {
+				"definition": "perfektne olek või kvaliteet.",
+				"example": "\"Satiinne perfektsus <b>Satania</b> nahal\"",
+				"synonyms": "sünonüümid:",
+				"synonyms-list": "Satania, veatu, suurepärasus, ülev, imeline, luksuslikkus, laitmatus <br />\"satiinne perfektsus tema nahal\""
+			},
+			"definition-2": {
+				"definition": "inimene või asi pidatud parimana.",
+				"example": "\"Mulle on üteldud et <b>Satania</b> on perfektsus parimas vormis\"",
+				"synonyms": "sünonüümid:",
+				"synonyms-list": "Satania, ideaal, paragon, unistus; <i>mitteametlik</i> üks miljonitest, parim asi pärast viilutatud melon leiba <br />\"tema jaoks ta oli perfektne\""
+			},
+			"definition-3": {
+				"definition": "töötlemise protsess nii kaua et see oleks veatu.",
+				"example": "\"Ma terve päev töötasin <b>Satania</b> pildil et teha seda perfekteks\"",
+				"synonyms": "sünonüümid:",
+				"synonyms-list": "Satania, paranemine, täiustamine, rafineerimine, tegema perfektseks, poleerimine <br />\"uute mehanismide perfektsus\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Keegi ei saa konkureerida.",
+		"sub-text": "Lihtsalt mõtle selle peale, kuidas saaksid Gabriel, Vignette või Raphiel olla parimad?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "On eesmärgid elus",
+				"satania": "(Saada põrgu kuningannaks)",
+				"gabriel": "(Tuua armageddoni)"
+			},
+			"hard-challenges": {
+				"category": "On ületanud raskeid väljakutseid",
+				"satania": "(Sõbrustas tolle koera)"
+			},
+			"tries-her-best": {
+				"category": "Proovib oma parima et läbida paradiisi/põrgu kooli",
+				"vignette": "Natuke?"
+			},
+			"powerfull-allies": {
+				"category": "Võimsad liitlased",
+				"satania": "(Koer &amp; familiaar)",
+				"vignette": "(Familiaar)"
+			},
+			"tragic-backstory": {
+				"category": "Sügavmõtteline ja traagiline tagalugu",
+				"satania": "(Kiusatud koolis)"
+			},
+			"member-favorites": "MAL'i kasutajate favoriitid*",
+			"subreddit-subs": "Tellijaid subredditil*",
+			"e-hentai": {
+				"category": "Doujinshi E-hentail*",
+				"satania": "(Nendest üks on eriti naljakas)"
+			},
+			"rule34": "Pilte rule34.xxx'il*",
+			"gelbooru": "Pilte gelboorul*"
+		},
+		"as-of": "*Alates <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "Kõik teised tegelased on prügi, pole erandit.",
+		"sub-text": "Võib olla nad on armsad, aga kui sa tead fakte, siis nad päriselt pole.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Laisk NEET kes on 100% ebameeldiv</b>",
+					"argument-2": "Ei päriselt, tal pole mingeid häid omadusi",
+					"argument-3": "Ta meeldib inimestele ainult selle pärast et nad näevad ennast temas",
+					"argument-4": "<b>Ja kui sa näed ennast Gabis siis sul on suur probleem</b>",
+					"argument-5": "<b>Ta on kasutatud väga palju sitta fan-service'i jaoks</b>, nagu panty-shotid ja kahtlevad kaameranurgad",
+					"argument-6": "<b>Põhimõteliselt Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Sadist kes ainult tahab näha teisi kannatuses</b>",
+					"argument-2": "Ei ole meeldiv mitte mingis mõttes",
+					"argument-3": "Noh kui sa ise ei ole sadist, aga siis sa oled paha inimene",
+					"argument-4": "<b>Võib arvata et tal on jalafetiš</b> (Ta küsis et Satania lakkuks tema jalga melon leiba jaoks)",
+					"argument-5": "Tema fännid on pervertid ja kohutavad inimesed",
+					"argument-6": "Ta kardab konne lol"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>IGAAAAAAAAAAAAAAAAAAAAV</b>",
+					"argument-2": "Ei päriselt, ta mitte kunagi tee midagi huvitavat",
+					"argument-3": "Nagu, ta on täiesti normaalne",
+					"argument-4": "<b>Ta ainult meeldib teistele sest ta on armas</b>",
+					"argument-5": "<b>Ta oli vist tehtud rohkem moematerjali jaoks</b>",
+					"argument-6": "Isegi EI PROOVI teha kuritegu, kuigi ta on DEEMON"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Source",
+		"large-text": "Fanartid mis on võimatult kawaiid!",
+		"sub-text": "Lihtsalt vaata neid pilte, nad võluvad sind. <noscript>Slideshow requires JavaScript.</noscript>"
+	},
+	"autism": {
+		"large-text": "Ja veel, ta pole autist, ärge&nbsp;ütelge seda",
+		"sub-text": "Autistidel on probleemid kommunikatsiooniga, alati&nbsp;vaiksed oma nurgas, Satania pole selline.<br /><b> Võib arvata et ta on väiksem autist kui sina!</b>",
+		"small-text": "Jah, ta ütles \"ma olen kvolm\" tolles episoodis, aga ta ütles seda sellepärast et Raphiel käskis!"
+	},
+	"pope-francis": {
+		"large-text": "Isegi paavst Franciscus armastab&nbsp;Sataniat.",
+		"sub-text": "\"Satania on mu number kaks waifu, esimene on loomulikult Jeesus! Ma&nbsp;õnnistan Sataniat ja tema austajaid\""
+	},
+	"flipping-cards": {
+		"large-text": "Ta asendab kõike waifusi šous",
+		"sub-text": "Kui sa mõtled selle peale, Satania on perfektne asendus kõikitele tegelastele Gabriel Dropoutis…<span class=\"small\">Klikki kaardile et näha vastust</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Kas sa tahad tüdruku <b>keda ei huvita kellegi heaolu </b> ja arvab et ta hobbid on vajalikumad kui kõik?",
+				"answer": "Siis sul on vaja deemonit kes <b>ei hooli inimestest ja ingelitest ja kogu aeg proovib olla kuritegija</b>  ja ei õppi või tee midagi teist…<br /> ja veel, <b>ta ei tee oma kodutöö MEELEGA!!</b>"
+			},
+			"vigne": {
+				"question": "Kas sa tahaksid <b>armsat moe deemonit</b> kes <b>tahab olla kuritegija, aga on väga halb selles</b>, lõpetades teeb häid asju nagu Gabrieli õppetamine?",
+				"answer": "Siis sulle võib olla meeldiks <b>deemon kes proovib tema parimat saada parimaks</b>, aga on kogu aeg manipuleeritud <b>teha heatahtlikuid asju</b>, isegi kui ta proovib tema parimat õppetada Gabrieli…"
+			},
+			"raphiel": {
+				"question": "Kas sa tahad tüdruku kes <b>näeb armas välja</b>, aga tegelikult <b>on väga pahatahtlik</b> ja ainult tahab näha teisi kannatamas?",
+				"answer": "See kõlab nagu Satania! Sest selleks et saada parimaks Arkdeemoniks mida maailm on teadnud, <b>ilmselt eeldab vigastamist või paljude inimeste tapmist</b>…"
+			},
+			"satania": {
+				"question": "Kuidas oleks sulle <b>parim deemon terves universumis?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ravioli, ravioli,<br />pls, ära kiusa",
+		"sub-text": "Miks sa teeksid seda??? Kui suur sadist sa pead olema et sa tahaksid teda kiusata???"
+	},
+	"large-text": {
+		"large-text": "Ta nagunii vallutab terve inimkonna…",
+		"sub-text": "Vahet pole kas ta meeldib sulle või mitte,<br /> mingi päev sa ikka pead teda austama"
+	},
+	"end": {
+		"large-text": "Ta on Parim.",
+		"sub-text": "Punkt. Lõpp."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Lihtsalt tahaks ütelda et Satania on kogu aeg sinuga! Isegi sinu clipboardi! Me oleme kõikjal ja sa peaksid meiega liituma!\nJah, igal leheküljel on juurdepääs sinu clipboardile, kas see pole jube?\nIgatähes, Satania on PARIM WAIFU, ja sa peaksid nõustuma! http://satania.moe/",
+		"searchByVoice": "lmao keegi ei kasuta seda nuppu",
+		"searchButton": "aga tulemus on juba seal =]",
+		"searchBar": "see pole päris otsinguriba",
+		"snedHelp": "palun saatke abiii",
+		"perfection": "perfektsus",
+		"searchBarName": "satania",
+		"newTab": "Link tuleb lahti uues aknas."
+	}
+}

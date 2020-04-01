@@ -1,0 +1,218 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "A legjobb waifu. <b>Aki valaha élt.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Csatlakozz Discord közösségünkhöz!",
+		"discord-count": "<span id=\"discord-number\"></span> tag ",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Csatlakozz a Subredditünkhöz!",
+		"reddit-count": "<span id=\"reddit-number\"></span> feliratkozó",
+		"language-warning": "(Ezeknek a közösségeknek a fő nyelve az angol)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Görgess lejjebb!",
+		"mobile-disclaimer": "Bocs, de az oldal mobil verziója eléggé el lett sietve,  <b>úgyhogy eléggé szar lett</b>. Őszintén szólva, nem gondoltam volna, hogy valaki mengnézni telefonról.",
+		"language-protip": "Inkább <b>magyarul</b> szeretnéd nézni az oldalt?<br />Ezzel a menüvel kiválaszthatod a nyelvet.",
+		"language-select": "Nyelv <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Csodálatos shitpost egy <b title=\"Kenyérlángos\">Pizzacus&trade;</b> nevű pizzától.",
+		"music-player": {
+			"intro": {
+				"bold-text": "Akarsz hallgatni egy igazi ördögi&nbsp;mesterművet?",
+				"small-text": "Kattints a bal oldalon lévő lejátszás gombra."
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania <span id=\"time-until-satania\"></span> másodperc múlva fog énekelni.",
+			"footer": "Meghallgathatod <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTubeon</a> és <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloudon</a> is."
+		},
+		"dev-announcement": {
+			"line-1": "A segítségedre van szükségünk!",
+			"line-2": "Az elmúlt két év folyamán, a&nbsp;Satania&nbsp;Dropout egy csodálatos közösség volt, ami több ezer embert összekötött",
+			"line-3": "Most, új szintre akarjuk emelni és új távlatokat nyitni!<br />Ahhoz, hogy ezt megtehessük <b>web fejlesztőket keresünk.</b>",
+			"line-4": "Ha elég jártas vagy a <b>web fejlesztésben</b> és kíváncsi vagy a részletekre,<br />olvasd el a blog bejegyzést!",
+			"line-5": "Remélem, még hallunk felőled.",
+			"line-6": "Tudj meg többet →"
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Legyél te is egy Satania követő!",
+		"sub-text": "<b>Nem kell semmit tenned azért, hogy Satania követő legyél</b>, csak fogadd el, hogy Satania a legjobb karakter.",
+		"small-text": "Igazából, az is sokat segítene ha csinálnál Satania mémeket és shitpostokat"
+	},
+	"she-is-beautiful": {
+		"large-text": "Egy szerethető mosoly.<br />Két káprázatos szem.<br />Lenyűgöző megjelenés.",
+		"sub-text": "Olyan szép, hogy nem lehet <b>megszentségteleníteni</b>.",
+		"small-text": "Mi, Satania követők nagyon kultúrált emberek vagyunk, ez a szókincsünkből is látszik."
+	},
+	"end-the-waifu-war": {
+		"large-text": "A legjobb démon Waifu, csak neked.",
+		"sub-text": "Vessünk véget a waifu harcnak, <b>a világ legkawaiibb démonjával!</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Röviden, ő egyszerűen tökéletes.",
+		"sub-text": "Még a Google is tudja.",
+		"google-definition": {
+			"name": "Tökély",
+			"prononciation": "(tö-kély)",
+			"noun": "melléknév",
+			"definition-1": {
+				"definition": "Állapot, vagy tulajdonság, midőn valami a maga nemében tökéletes.",
+				"example": "\"Tökéletes, mint <b>Satania</b> atlaszfényű bőre.\"",
+				"synonyms": "szinonímák:",
+				"synonyms-list": "Satania, pompásság, tökéletesség, makulátlanság, hibátlanság, nagyszerűség<br />\"a bőre nyers tökéletessége\""
+			},
+			"definition-2": {
+				"definition": "Egy személy vagy tárgy ami tökéletes.",
+				"example": "\"Úgy hallottam, hogy <b>Satania</b> maga a tökély\"",
+				"synonyms": "szinonímák:",
+				"synonyms-list": "Satania, az ideál, a példakép, egy álom; <i>baráti</i> egy a millióból, a top, a legjobb dolog a dinnyekenyér feltalálása óta; <i>régies</i> páratlan<br />\"számára ő volt maga a tökély\""
+			},
+			"definition-3": {
+				"definition": "egy cselekvés vagy folyamat mely során valamit addig finomítunk míg hibátlan nem lesz",
+				"example": "\"Egész nap dolgoztam, hogy tökélyre fejlesszem a <b>Satania</b> rajzomat\"",
+				"synonyms": "szinonímák:",
+				"synonyms-list": "Satania, javítás, finomítás, tökéletesítés, fejlesztés; <i>ritkán</i> megjavítás<br />\"új mechanizmusok vagy a gazdaság tökélyre fejlesztése\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Senki nem léphet vele versenybe.",
+		"sub-text": "Gondolj csak bele: miért is lenne Gabriel, Vignette vagy Raphiel a legjobb??",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Van célja az életben",
+				"satania": "(A pokol királynője legyen)",
+				"gabriel": "(Az armageddon elhozása)"
+			},
+			"hard-challenges": {
+				"category": "Nehéz feladatok elé kellett állnia",
+				"satania": "(A kutya megszelídítése)"
+			},
+			"tries-her-best": {
+				"category": "Megpróbál nem megbukni a menny/pokol iskolában",
+				"vignette": "Talán?"
+			},
+			"powerfull-allies": {
+				"category": "Van szövetségese",
+				"satania": "(A kutya, a bajtársa)",
+				"vignette": "(A bajtársa)"
+			},
+			"tragic-backstory": {
+				"category": "Van egy mély, tragikus háttértörténete",
+				"satania": "(Az iskolában terrorizálják)"
+			},
+			"member-favorites": "\"Kedvencek\" száma a MyAnimeList oldalon*",
+			"subreddit-subs": "Feliratkozások a subredditjén*",
+			"e-hentai": {
+				"category": "Dódzsinsik száma az e-hentai oldalon*",
+				"satania": "(Ebből az egyik fergeteges)"
+			},
+			"rule34": "Képek a rule34.xxx oldalon*",
+			"gelbooru": "Képek gelbooru-n*"
+		},
+		"as-of": "*<span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "A többi karakter mind szar. Nincs kivétel.",
+		"sub-text": "Lehet, hogy cukinak tűnnek, de ha tudsz olvasni a sorok között, rájössz, hogy annyira talán mégsem.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Lusta NEET aki szerethetetlen.</b>",
+					"argument-2": "Komolyan, nincsen jó adottsága,",
+					"argument-3": "Az emberek csak azért szeretik őt, mert hasonlít rájuk.",
+					"argument-4": "<b>És ha hasonlítasz Gab-ra az egy nagyon rossz dolog.</b>",
+					"argument-5": "<b>Felhasználják őt egy csomó értelmetlen fanservicehez</b>, például bugyivillantás és megkérdőjelezhető kameraállás",
+					"argument-6": "<b>Gyakorlatilag ő Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Egy szadista, aki csak azt akarja, hogy mások szenvedjenek.</b>",
+					"argument-2": "Akárhogy nézzük, szerethetetlen.",
+					"argument-3": "Kivéve, ha egy rossz, szadista ember vagy.",
+					"argument-4": "<b>Minden bizonnyal láb-fétise van</b> (megkérte Sataniát, hogy szopja le a lábát, egy kis dinnyekenyérért)",
+					"argument-5": "A fanjai perverzek ÉS nagyon rossz emberek",
+					"argument-6": "Fél a békáktól lmao"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>UNALMAAAAS</b>",
+					"argument-2": "De most tényleg, soha nem csinál semmi érdekeset",
+					"argument-3": "Teljesen normális, meg ilyenek.",
+					"argument-4": "<b>Az emberek csak azért szeretik, mert cuki</b>",
+					"argument-5": "<b>Gondolom csak azért rakták a műsorba, hogy legyen valami moe tartalom</b>",
+					"argument-6": "Még csak meg sem próbál gonosz lenni, annak ellenére, hogy egy DÉMON"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Forrás",
+		"large-text": "Fanartok, amelyek hihetetlenül KAWAII-k!",
+		"sub-text": "Csak nézz rá! Ugye milyen aranyos?.<noscript>Mi a szart jelent az, hogy atlaszfényű?</noscript>"
+	},
+	"autism": {
+		"large-text": "Amúgymeg, ő nem egy autista. Ne mondjatok ilyeneket!",
+		"sub-text": "Az autistáknak általában problémái vannak a kommunikációval, inkább csak ott ülnek, csendben, a saját kis sarkukban. Satania&nbsp;egyáltalán nem ilyen.<br /><b>Lehet, hogy igazából nálad is kevésbé autista!</b>",
+		"small-text": "Annak ellenére, hogy abban az egy részben azt mondja, hogy \"Már három éves vagyok!\" <br />Az csak azért volt, mert Raphiel rávette!"
+	},
+	"pope-francis": {
+		"large-text": "Még Ferenc pápa is szereti Sataniát.",
+		"sub-text": "\"Satania a másodszámú waifum, míg az első természetesen maga Jézus.<br />Isten áldja őt és a követőit!\""
+	},
+	"flipping-cards": {
+		"large-text": "A show minden más waifuját helyettesíti",
+		"sub-text": "Ha belegondolsz, Satania egy tökéletes alternatíva akármelyik Gabriel Dropout karakterre <span class=\"small\">Kattints a kártyákra, hogy meglásd a válaszokat</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Akarsz egy lányt, aki <b>nem éppen kedves, senki más nem érdekli őt</b> és azt gondolja, hogy a hobbija fontosabb, mint minden más??",
+				"answer": "Akkor neked egy olyan démon kell, akit <b>nem érdekelnek az emberek és az angyalok, csak az, hogy folyamatosan gonoszkodjon</b>, ahelyett hogy tanulna, vagy valami ilyesmi….<br />Ja, és <b>a házi feladatát se csinálja meg, DIREKT!</b>"
+			},
+			"vigne": {
+				"question": "Akarsz egy <b>cuki moe démont</b> aki <b>gonosz akar lenni, de nem nagyon sikerül neki,</b> ezért a végén csak jó dolgokat tanít Gabrielnek?",
+				"answer": "Akkor tuti szeretni fogod a <b>démont, aki el akarja érni, hogy ő legyen a legnagyobb</b>, de általában ráveszik arra, hogy <b>jó dolgokat csináljon</b>, pedig igazából csak jól megakarja leckéztetni Gabrielt."
+			},
+			"raphiel": {
+				"question": "Akarsz egy lányt, aki <b>cukin néz ki</b>, de igazából <b>rosszindulatú</b> és csak azt akarja, hogy mások szenvedjenek?",
+				"answer": "Ez pont úgy hangzik, mintha neked is kéne Satania az életedbe! A fő-démonná válás sok dologgal jár, például azzal, <b>hogy sok embert kell megölnöd vagy megsértened</b>…"
+			},
+			"satania": {
+				"question": "Na és mondjuk… <b>A legnagyobb démon az egész univerzumban?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Paprika, Paprika,<br />Ne bántsd többet, te szadista!",
+		"sub-text": "Most ezt miért csináltad??? Mennyire kell elvetemültnek lenned ahhoz, hogy terrorizáld ezt a jámbor lelket???"
+	},
+	"large-text": {
+		"large-text": "Igazából mindegy is… Egy nap úgyis uralkodni fog az emberek fölött",
+		"sub-text": "Tehát ha akarod, ha nem,<br />akkor is isteníteni fogod előbb vagy utóbb"
+	},
+	"end": {
+		"large-text": "Ő a legjobb",
+		"sub-text": "Pont. Mondtat vége."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Csak szólni szerettem volna, hogy Satania mindig veled van, még a vágólapodon is. Mindenhol ott vagyunk, és tényleg, igazán csatlakozhatnál már hozzánk.\nAmúgymeg igen, a weboldalak probléma nélkül elérhetik a vágólapodat. Nem bajjós ez egy kicsit?\nSatania a LEGBJOBB WAIFU, és neked is így kéne gondolnod! http://satania.moe/",
+		"searchByVoice": "lmao, senki sem használja ezt a gombot",
+		"searchButton": "dehát a találatok már itt vannak előtted =]",
+		"searchBar": "Ez nem is egy igazi kereső sor",
+		"snedHelp": "kérlek segíííííts!!!!",
+		"perfection": "Tökély",
+		"newTab": "Link megnyitása új lapon."
+	}
+}

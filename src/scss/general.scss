@@ -1,19 +1,30 @@
-// GENERAL -- Every boring rules that applies to the whole page or small elements used repeatly goes here
+// GENERAL -- Every boring rule that applies to the whole page or small elements used repeatedly goes here
 
 * {
 	box-sizing: border-box;
 }
 
-body {
-	font-family: 'Source Sans Pro', sans-serif;
+html {
+	font-family: source-sans-pro, sans-serif;
+	// Set 3 of Source Sans Pro makes the g letter looks nicer
+	font-feature-settings: "ss03" 1;
 	color: rgba(0, 0, 0, 0.87);
 	margin: 0;
 	overflow-x: hidden;
 	max-width: 100%;
 }
 
+[lang|=el] {
+	// Set 3 must be disabled in Greek as it affects the lowercase θ letter in a bad way
+	font-feature-settings: "ss03" 0 !important;
+}
+
 img {
 	vertical-align: middle; // Fixes a slight 3px margin bug with img
+}
+
+a {
+	color: #e66;
 }
 
 .mobile {
@@ -31,13 +42,12 @@ img {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.25), inset 0 -4px 0 rgba(0,0,0,0.2);
 	text-shadow: none;
 	font-weight: 500;
-	margin: 5px;
+	margin: 10px;
 	transition: all linear 0.1s;
 
-	.mdi {
-		font-size: 36px;
-		vertical-align: middle;
-		margin-right: 5px;
+	.fas, .fab {
+		font-size: 32px;
+		margin-right: 10px;
 		vertical-align: sub;
 	}
 
@@ -55,24 +65,55 @@ img {
 	}
 }
 
+.language-select #language-protip {
+	position: absolute;
+	bottom: 100%;
+	display: none;
+	margin-bottom: 10px;
+	padding: 20px 35px 20px 25px;
+	background: #E66; 
+	border-radius: 5px;
+	color: #fff;
+	line-height: 1.25;
+	font-size: 16px;
+
+	#close-language-protip {
+		position: absolute;
+		top: 7.5px;
+		right: 7.5px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+
+	&::after {
+		content: "";
+		border: 10px transparent solid;
+		border-top: 10px #E66 solid;
+		position: absolute;
+		top: 100%;
+		left: 55px;
+	}
+}
+
 .select-wrapper {
+	font-size: 20px;
+
 	.select-button {
 		background: #eee;
-		padding: 0 20px;
-		padding-right: 60px;
+		padding: 0 1em;
+		padding-right: 3em;
 		box-shadow: 0 3px 6px rgba(0,0,0,0.25);
-		font-size:18px;
-		height: 40px;
+		height: 2em;
 		display: flex;
 		align-items: center;
 
 
-		.mdi {
-			position:absolute;
-			top:0;
-			right:0;
-			width: 40px;
-			height:40px;
+		.fas {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 2em;
+			height: 2em;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -88,6 +129,7 @@ img {
 		height: 100%;
 		opacity: 0;
 		cursor: pointer;
+		font-size: 16px;
 	}
 
 	position: relative;
@@ -101,6 +143,25 @@ img {
 	opacity: 0.65;
 }
 
-html[lang=en] .translate-only {
-	display: none;
+.canvas-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	filter: blur(1.5px);
+	transition: background-color 0.5s ease-out;
+}
+
+.nose-button {
+	cursor: pointer;
+	position: absolute;
+	top: calc(50% + 10px);
+	left: calc(50% + 235px);
+	height: 40px;
+	width: 55px;
+}
+
+::selection {
+	background: #e66;
+	color: #fff;
 }

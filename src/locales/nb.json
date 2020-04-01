@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "Den beste waifuen. <b>Noensinne.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Besøk Discorden",
+		"discord-count": "<span id=\"discord-number\"></span> medlemmer",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Besøk subredditen",
+		"reddit-count": "<span id=\"reddit-number\"></span> abonnenter",
+		"language-warning": "(Disse nettsamfunnene er i hovedsak engelskspråklige.)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Bla ned for mer informasjon!",
+		"mobile-disclaimer": "Jeg beklager så mye, men mobilversjonen av denne nettsiden er opptimal og den er egentlig <b>helt for jævlig dårlig</b>. Jeg trodde ikke at noen skulle besøken den på en mobil enhet fåvæ.",
+		"language-protip": "Har du lyst til å se denne nettsiden på <b>Norsk</b>?<br />Bruk denne menyen for å velge et språk!",
+		"language-select": "Språk<i class=\"fas fa-angle-down\"></i>",
+		"credits": "En kvalitetsshitpost av en fyr som heter <b title=\"Kenyérlángos\">Pizzacus&trade;</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Vil du høre på en ondskapsfull sang mens du utforsker nettsiden?",
+				"small-text": "Trykk på avspillingsknappen til vensre!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Satania synger om <span id=\"time-until-satania\"></span> sekunder.",
+			"footer": "Du kan også høre denne på <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> og <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Bli en Sataniatilhenger i dag!",
+		"sub-text": "<b>Du må ikke gjøre noe spesielt for å bli en Sataniatilhenger</b>,&nbsp;det eneste du må gjøre er å akseptere at Satania er den&nbsp;beste&nbsp;karakteren som finnes",
+		"small-text": "Vel, om du kunne laget noen Satania memer og shitpostet litt, så hadde jo det vært veldig til hjelp da…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Et uimotståelig smil.<br /> To vakre øyne.<br /> Et fantastisk utseende.",
+		"sub-text": "Hun er en <b>prektig</b> person",
+		"small-text": "Oss Sataniatilhengere er veldig kulturerte mennesker,<br />så vi formulerer oss bare på en kulturell måte."
+	},
+	"end-the-waifu-war": {
+		"large-text": "Den beste demonwaifuen&nbsp;for&nbsp;deg.",
+		"sub-text": "La oss avslutte waifukrigen med den <b>mest kawaii demonen i verden</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Kort sagt, hun er rett og slett bare perfekt.",
+		"sub-text": "Til og med Google er enig.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "perfeksjon",
+			"prononciation": "/pærfeksjo:n /",
+			"noun": "substantiv",
+			"definition-1": {
+				"definition": "tilstanden eller egenskapen av å være perfekt.",
+				"example": "\"perfeksjonen av <b>Satania</b> sin hud\"",
+				"synonyms": "synonymer:",
+				"synonyms-list": "Satania, plettfrihet, fortreffelighet, overlegenhet, majestetisk, storslåtthet, feilfri, impeccability eksemplarisk<br />\"perfeksjonen av huden hennes\""
+			},
+			"definition-2": {
+				"definition": "en person eller ting som blir sett på som perfekt.",
+				"example": "\"Jeg har blitt fortalt at <b>Satania</b> er perfeksjon i seg selv\"",
+				"synonyms": "synonymer:",
+				"synonyms-list": "Satania, idealet, the ne plus ultra, beau idéal, a nonpareil, krementoppen av kremen, det siste ord, det ultimate, en drøm; <i>uformell</i> en av en million, toppers, det beste som har hendt siden melonbrød ble oppfunnet, prikken over i-en; <i>arkaisk</i> ingen erstatning<br />\"for hun, så var han fortsatt perfeksjon\""
+			},
+			"definition-3": {
+				"definition": "prossesen av å forbedre noe helt til det har ingen feil med seg.",
+				"example": "\"Jeg jobbet hele dagen med å perfeksjonere denne <b>Satania</b> tegningen\"",
+				"synonyms": "synonymer:",
+				"synonyms-list": "Satania, forbedring, rensing; <i>rare</i> polering<br />\"perfeksjoneringen av nye mekanismer av økonomihåndtering\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Ingen kan konkurrere med henne.",
+		"sub-text": "Bare tenk på det, hvorfor skulle Gabriel, Raphi eller Vignette være den beste?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Har mål i livet",
+				"satania": "(Å bli dronningen av helvete)",
+				"gabriel": "(Få verden til å gå under)"
+			},
+			"hard-challenges": {
+				"category": "Har kommet seg igjennom de vanskeligste utfordringene",
+				"satania": "(Temme hunden)"
+			},
+			"tries-her-best": {
+				"category": "Prøver sitt beste for å bestå himmels-/helvetesskolen",
+				"vignette": "På en måte?"
+			},
+			"powerfull-allies": {
+				"category": "Har mektige allierte",
+				"satania": "(Hunden &amp; hennes familiær)",
+				"vignette": "(Hennes familiær)"
+			},
+			"tragic-backstory": {
+				"category": "Har en tøff bakgrunn",
+				"satania": "(Ble mobbet på skolen)"
+			},
+			"member-favorites": "Antall som har favorisert henne på MAL*",
+			"subreddit-subs": "Antall abonnenter*",
+			"e-hentai": {
+				"category": "Antall Doujinshi på e-hentai*",
+				"satania": "(En av de er hysterisk morsom)"
+			},
+			"rule34": "Antall bilder på rule34.xxx*",
+			"gelbooru": "Antall bilder på gelbooru*"
+		},
+		"as-of": "*Data hentet den <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "De andre karakteren er dritt, punktum.",
+		"sub-text": "De er kanskje søte, men det synes du bare helt frem til alle faktaene ligger på bordet.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /> <span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Lat NAUT som er 100% ubrukelig</b>",
+					"argument-2": "Seriøst, hun har ingen gode trekk ved seg",
+					"argument-3": "Folk liker hun bare fordi de kan relatere seg til henne",
+					"argument-4": "<b>Og det å kunne relatere til Gab er ikke en positiv ting</b>",
+					"argument-5": "<b>Hun brukes bare for massse dårlig fanservice</b>, De bruker lewd kameravinkler, som blant annet viser undertøyet hennes",
+					"argument-6": "<b>Hun er rett og slett en Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /> <span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>En sadist som bare vil at andre skal lide</b>",
+					"argument-2": "Har heller ikke noen likbare trekk ved seg",
+					"argument-3": "Med mindre du også er en sadist, men da er du også en dårlig person",
+					"argument-4": "<b>Hun har mest sannsynlig en fotfetisj</b> (hun ba Satania om å slikke foten hennes for litt melonbrød)",
+					"argument-5": "Tilhengerene hennes er perverse OG de er forferdelige mennesker",
+					"argument-6": "Hun er redd for frosker lmao"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /> <span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>KJEEEEDELIIIIIIG</b>",
+					"argument-2": "Seriøst, hun driver aldri med noe interessant",
+					"argument-3": "Hun er liksom bare helt normal",
+					"argument-4": "<b>Folk liker henne bare fordi hun er søt</b>",
+					"argument-5": "<b>Hun ble nok skapt bare sånn at de kunne få stappet inn mer moe innhold i serien</b>",
+					"argument-6": "Hun PRØVER IKKE å være ondskapsfull engang, selv om hun er en DEMON"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Kilde",
+		"large-text": "Fanarts som er utrolig&nbsp;kawaii!",
+		"sub-text": "Bare se her, hun er jo kjempesøt. <noscript>Bildefremvisningen krever JavaScript.</noscript>"
+	},
+	"autism": {
+		"large-text": "Hun er ikke en autist. Slutt&nbsp;og&nbsp;si&nbsp;det.",
+		"sub-text": "Autister har ofte problemer med å kommunisere med andre, og holder seg vekk fra andre hele tiden. Satania&nbsp;er ikke sånn i det hele tatt.<br /><b>Hun er sikkert mindre autistisk enn deg!</b>",
+		"small-text": "Og selv om hun sa \"I'm thwee\" i den ene episdoen,<br /> så er det fordi Raphiel fikk hun til å gjøre det!"
+	},
+	"pope-francis": {
+		"large-text": "Til og med pave Francis elsker henne.",
+		"sub-text": "\"Satania er min waifu nummer 2, Jesus tar første plass&nbsp;så klart!<br /> Jeg frelser henne og alle tilhengerene hennes også!\""
+	},
+	"flipping-cards": {
+		"large-text": "Hun erstatter alle de andre waifuene i serien",
+		"sub-text": "Når du tenker over det, så er Satania det perfekte alternativet til alle karakteren i Gabriel Dropout…<span class=\"small\">Trykk på hvilken som helst av kortene for å se svarene</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Trenger du ei jente som <b>ikke er så snill, bryr seg ikke om noen</b> og prioriteter hobbiene sine over alt annet?",
+				"answer": "Da trenger du en demon som <b>ikke bryr seg om mennesker eller engler og prøver alltid å være ondskapsfull, istedenfor å studere eller noe sånt…<br /> <b>Hun gjør ikke engang leksene sine, MED VILJE!!</b>"
+			},
+			"vigne": {
+				"question": "Vil du ha en <b>søt moe demon</b> som <b>vil være ond, men suger til det</b>, og ender opp med å gjøre snille ting som å være læreren til Gabriel?",
+				"answer": "Da trenger du en <b>demon som prøver sitt beste på å bli den mest ondskapsfulle i verden</b>, men som blir ofte manipulert til å gjøre <b>snille ting</b>. Selv om hun prøver å gi Gabriel en lærepenge…"
+			},
+			"raphiel": {
+				"question": "Vil du ha ei jente som <b>ser søt ut</b>, men er egentlig <b>veldig slem</b> og bare vil at alle andre skal lide?",
+				"answer": "Det høres helt ut som Satania! For å bli den mest ondskapsfulle demonen i verden, <b>så må man nok skade eller drepe noen folk</b>…"
+			},
+			"satania": {
+				"question": "Hva med <b>den mest ondskapsfulle demonen i universet?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ravioli, Ravioli,<br />slutt å vær dårlig",
+		"sub-text": "Hvordan kan du gjøre noe sånt??? Hva slags saddist må du være for å ha hjerte til å mobbe henne???"
+	},
+	"large-text": {
+		"large-text": "Hun kommer til å herske over menneskeheten en gang uansett…",
+		"sub-text": "Så om du ikke liker henne, <br /> så kommer du til å bli tvunget til å hylle henne før eller senere…"
+	},
+	"end": {
+		"large-text": "Hun er best.",
+		"sub-text": "Punktum. Ferdig snakka."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Ville bare fortelle deg at Satania er alltid i nærheten! Til og med i utklippstavlen din! Vi er overalt og du bør virkelig bli med oss!\nOg ja, alle nettsider har tilgang til utklipstavlen din, er ikke det skummelt?\nUansett, Satania er den BESTE WAIFUEN, og det er best for deg at du er enig! http://satania.moe/",
+		"searchByVoice": "lmao, ingen bruker denne knappen",
+		"searchButton": "men resultatene er jo allerede der =]",
+		"searchBar": "dette er ikke et ekte søkefelt",
+		"snedHelp": "send hjelp pls",
+		"perfection": "perfeksjon",
+		"searchBarName": "satania",
+		"newTab": "Lenken åpnes i en ny fane."
+	}
+}

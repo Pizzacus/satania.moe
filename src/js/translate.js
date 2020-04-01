@@ -1,23 +1,20 @@
-// I could add more useful comments to my code, but I'm too lazy ¯\_(ツ)_/¯
+import {negotiateLanguages} from '@fluent/langneg';
+import jsyaml from "js-yaml";
+import 'whatwg-fetch';
+import "./closest";
+
+const defaultLocale = document.documentElement.lang;
 
 var localeSelect = document.getElementById("locale-select"),
 	options = localeSelect.getElementsByTagName("option"),
 	locales = {};
 
-if (window.Element && !Element.prototype.closest) {
-	// Thanks Mozilla <3 https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
-	// Polyfill for the closest function, since a lot of browsers don't support it
-	Element.prototype.closest =
-		function(s) {
-			var matches = (this.document || this.ownerDocument).querySelectorAll(s),
-				i,
-				el = this;
-			do {
-				i = matches.length;
-				while (--i >= 0 && matches.item(i) !== el) {};
-			} while ((i < 0) && (el = el.parentElement));
-			return el;
-		};
+window.locales = locales;
+
+function dispatchEvent() {
+	const event = document.createEvent('Event');
+	event.initEvent('locale-change', true, true);
+	document.dispatchEvent(event);
 }
 
 function generateTranslationTable() {
@@ -48,7 +45,9 @@ function generateTranslationTable() {
 	for (let i = 0; i < translatedElements.length; i++) {
 		var element = translatedElements[i],
 			path = [element.getAttribute("i18n")],
-			text = element.innerHTML;
+			text = element.innerHTML
+				.replace(/[\n\r\t]/g, '')
+				.replace(/<br\/?>/g, "<br />");
 
 		while (element.closest("[i18n-group]")) {
 			let groupElement = element.closest("[i18n-group]");
@@ -66,21 +65,22 @@ function generateTranslationTable() {
 	return translationTable;
 }
 
-locales.default = generateTranslationTable()
+locales[defaultLocale] = generateTranslationTable();
+window.generateTranslationTable = generateTranslationTable;
 
-function changeLocale(localeName, skipDefaultLocale) {
-	"use strict";
+function changeLocale(localeName, skipReset) {
 	// Changes the locale, but reset it first, in case some text in a locale aren't translated in another one
 	// Example: changeLocale("fr")
-	if(!skipDefaultLocale) {
-		changeLocale("default", true);
+	if(!skipReset) {
+		changeLocale(defaultLocale, true);
 	}
 
 	function handleObject(locale, element) {
-		for(let value in locale) {
+		for (let value in locale) {
 			if(typeof locale[value] === "string") {
-				if (element.querySelector("[i18n=" + value + "]")) {
-					element.querySelector("[i18n=" + value + "]").innerHTML = locale[value];
+				const match = element.querySelector("[i18n=" + value + "]");
+				if (match && !match.closest("[i18n-skip]")) {
+					match.innerHTML = locale[value];
 				}
 			} else {
 				if (element.querySelector("[i18n-group=" + value + "]")) {
@@ -91,37 +91,155 @@ function changeLocale(localeName, skipDefaultLocale) {
 	}
 
 	handleObject(locales[localeName], document.body);
-	javascriptLocales = locales[localeName]._javascriptLocales;
-	document.documentElement.lang = (localeName === "default") ? "en" : localeName;
 
-	if(localeName === "default") {
-		document.documentElement.lang = "en";
-		window.history.pushState('', '', window.location.pathname)
-	} else {
-		document.documentElement.lang = localeName;
-		window.location.hash = localeName;
+	const reformat = document.querySelectorAll("[i18n-reformat]");
+
+	for (const elem of reformat) {
+		const num = parseInt(elem.getAttribute("i18n-reformat"), 10);
+		elem.innerText = num.toLocaleString(localeName);
 	}
+
+	window.javascriptLocales = locales[localeName]._javascriptLocales;
+	document.documentElement.lang = localeName;
+
+	if (!skipReset) {
+		if (localeName === defaultLocale) {
+			window.history.pushState('', '', window.location.pathname)
+		} else {
+			window.location.hash = localeName;
+		}
+	}
+
+	dispatchEvent();
 }
 
-for (let i = 0; i < options.length; i++) {
-	if (options[i].value !== "default") {
-		let xhr = new XMLHttpRequest();
-		xhr.open("GET", "locale/" + options[i].value + ".json", true);
-		xhr.onreadystatechange = function() {
-			if (xhr.readyState === 4 && xhr.status === 200) {
-				var translation = JSON.parse(xhr.responseText);
-				locales[options[i].value] = translation;
-				options[i].disabled = false;
+const bestLocale = negotiateLanguages(
+	navigator.languages || [window.navigator.userLanguage || window.navigator.language],
+	[...options].map(option => option.lang)
+)[0];
 
-				if (window.location.hash.replace(/^\#/g, "") === options[i].value) {
-					changeLocale(options[i].value);
-				}
-			}
-		};
-		xhr.send();
+const languageProtip = document.getElementById('language-protip');
+
+for (const option of options) {
+	// If we should switch to the locale as soon as it's loaded
+	let shouldSwitch = false;
+
+	// Switch if the hash of the URL is the locale's name
+	if (window.location.hash.replace(/^\#/g, "") === option.value) {
+		localeSelect.value = option.value;
+		shouldSwitch = true;
 	}
+
+	(async () => {
+		if (option.value !== defaultLocale) {
+			const res = await fetch(`locales/${option.value}.json`);
+			const translation = await res.json();
+
+			locales[option.value] = translation;
+		}
+
+		option.disabled = false;
+
+		if (shouldSwitch) {
+			changeLocale(option.value);
+		}
+
+		if (option.value === bestLocale && localeSelect.value !== option.value) {
+			// Displays the language switch pro tip if this language is more appropriated
+			const translation = locales[bestLocale]['main-intro']['language-protip'];
+
+			if (translation) {
+				languageProtip.querySelector('#language-protip-text').innerHTML = translation;
+				languageProtip.lang = option.value;
+				languageProtip.style.display = "block";
+			}
+		}
+	})();
 }
 
 localeSelect.onchange = function(e) {
 	changeLocale(e.target.value);
+}
+
+localeSelect.onclick = () => languageProtip.style.display = "none";
+
+function prettyYAML(yaml) {
+	return yaml
+	.replace(/^(\S.*)$/gm, "\n$1")
+	.replace(/\r\n|\r|\n/g, "\r\n");
+}
+
+document.getElementById("download").onclick = () => {
+	const formatSelect = document.getElementById("format"),
+		download = document.createElement("A"),
+		isYAML = formatSelect.value === "yaml",
+		content = isYAML
+			? prettyYAML(jsyaml.safeDump(locales[defaultLocale]))
+			: JSON.stringify(locales[defaultLocale], null, "\t");
+		
+	download.href = URL.createObjectURL(new Blob(
+		[content],
+		{
+			type : isYAML ? " application/x-yaml" : "application/json"
+		}
+	));
+	download.download = isYAML ? "locale.yaml" : "locale.json";
+	//download.setAttribute("style", "position:absolute !important;top:-9999vh !important;opacity:0 !important;height:0 !important;width:0 !important;z-index:-9999 !important;");
+
+	document.body.appendChild(download);
+	download.click();
+	document.body.removeChild(download);
+}
+
+function selectFile(options = {}) {
+	return new Promise((resolve, reject) => {
+		const upload = document.createElement("input");
+		upload.type = "file";
+		upload.accept = options.accept || "";
+		upload.multiple = options.multiple || false;
+		upload.webkitdirectory = options.directory || false;
+		upload.setAttribute("style",
+			"position:absolute !important;" +
+			"top:-9999vh !important;" +
+			"opacity:0 !important;" +
+			"height:0 !important;" +
+			"width:0 !important; " +
+			"z-index:-9999 !important;");
+
+		document.body.appendChild(upload);
+
+		upload.click();
+
+		upload.onchange = () => {
+			let files = upload.files;
+			document.body.removeChild(upload);
+
+			if (typeof options.array === "undefined" || options.array) {
+				files = Array(...files);
+			}
+
+			resolve(files);
+		}
+	});
+}
+
+function blobToString(blob) {
+	return new Promise((resolve, reject) => {
+		const reader = new FileReader();
+		reader.addEventListener("loadend", event => resolve(event.target.result));
+		reader.addEventListener("error", reject);
+		reader.readAsText(blob);
+	});
+}
+
+
+document.getElementById("upload").onclick = () => {
+	selectFile({
+		accept: ".json, .yaml"
+	}).then(files => {
+		blobToString(files[0]).then(content => {
+			locales["translator-mode"] = (files[0].type === "application/json") ? JSON.parse(content): jsyaml.safeLoad(content);
+			changeLocale("translator-mode");
+		});
+	});
 }

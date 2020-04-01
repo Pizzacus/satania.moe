@@ -1,0 +1,212 @@
+{
+	"main-intro": {
+		"name": "Satania",
+		"best-waifu-ever": "Η καλύτερη Waifu. <b>Στον πλανήτη.</b>",
+		"join-discord": "<i class=\"fab fa-discord\"></i>Εγγραφείτε στο Discord μας",
+		"discord-count": "<span id=\"discord-number\"></span> μέλη ",
+		"join-reddit": "<i class=\"fab fa-reddit-alien\"></i>Εγγραφείτε στο Subreddit μας",
+		"reddit-count": "<span id=\"reddit-number\"></span> συνδρομητές",
+		"language-warning": "(Αυτές οι ομάδες χρησιμοποιούν ως κύρια γλώσσα τα Αγγλικά.)",
+		"scroll-notice": "<i class=\"fas fa-arrow-down\"></i>Μάθετε περισσότερα απο κάτω!",
+		"mobile-disclaimer": "Με συγχωρείτε, αλλά η κινητή έκδοση της σελίδας έγινε λίγο βιαστικά και <b>είναι αρκετά χάλια</b>, δεν πίστευα οτι θα έμπαινε κόσμος απο το κινητό να σας πώ.",
+		"language-protip": "Μήπως θα ήθελες να δεις αυτήν την ιστοσελίδα στα <b>Ελληνικά</b>?<br />Χρησιμοποιήσε την λίστα για να επιλέξεις μια γλώσσα!",
+		"language-select": "Γλώσσα <i class=\"fas fa-angle-down\"></i>",
+		"credits": "Ένα καταπληκτικό shitpost απο μία πίτσα ονόματι <b title=\"Kenyérlángos\">Pizzacus&trade;</b>",
+		"music-player": {
+			"intro": {
+				"bold-text": "Θες να ακούσεις ενα διαβολικό τραγούδι ενώ σερφάρεις αυτή την σελίδα?",
+				"small-text": "Πάτα το κουμπί στα αριστερά!"
+			},
+			"metadata": {
+				"title": "Satania Drop",
+				"author": "[LIMITED DAYS]"
+			},
+			"countdown": "Η Satania θα τραγουδήσει σε <span id=\"time-until-satania\"></span> δευτερόλεπτα.",
+			"footer": "Μπορείς επίσης να το ακούσεις εδώ <a href=\"https://www.youtube.com/watch?v=4NDCOxnHb8o\">YouTube</a> και εδώ <a href=\"https://soundcloud.com/limiteddays/satania-drop-free-flp-come-to-my-youtube\">SoundCloud</a>."
+		}
+	},
+	"become-a-satania-follower": {
+		"large-text": "Γίνετε ακόλουθος της Satania σήμερα!",
+		"sub-text": "<b>Δεν υπάρχουν βήματα για να γίνεις ακόλουθος</b>, απλά&nbsp;πρέπει να αποδεκτείς πως η Satania είναι η&nbsp;καλύτερη&nbsp;χαρακτήρας",
+		"small-text": "Ε, αν μπορούσες να φτιάξεις memes κλπ με την Satania, αυτο θα&nbsp;μας&nbsp;βοηθούσε&nbsp;αρκετά…"
+	},
+	"she-is-beautiful": {
+		"large-text": "Ένα αξιαγάπητο χαμόγελο.<br />Δυο υπέροχα μάτια.<br />Απίθανη εμφάνιση.",
+		"sub-text": "Είναι ενα αρκετά <b>εύμορφο</b> πρόσωπο.",
+		"small-text": "Εμείς οι ακόλουθοι της Satania είμαστε πολύ κουλτουριάρηδες, άρα χρησιμοποιούμε&nbsp;μόνο εκλεπτυσμένη γλώσσα"
+	},
+	"end-the-waifu-war": {
+		"large-text": "Η καλύτερη Waifu δαίμονας&nbsp;μόνο&nbsp;για εσένα.",
+		"sub-text": "Ας σταματήσουμε τον πόλεμο των Waifu με <b>την&nbsp;πιο&nbsp;kawaii δαίμονα στον πλανήτη</b>!"
+	},
+	"she-is-perfect": {
+		"large-text": "Απλά είναι τέλεια.",
+		"sub-text": "Ακόμα και το Google το γνωρίζει.",
+		"searchbar-name": "satania",
+		"google-definition": {
+			"name": "τελειότητα",
+			"prononciation": "/pəˈfɛkʃ(ə)n/",
+			"noun": "noun",
+			"definition-1": {
+				"definition": "η κατάσταση ή η ποιότητα που κάνει κάποιον τέλειο.",
+				"example": "\"η σατανική τελειότητα του δέρματος της <b>Satania</b>\"",
+				"synonyms": "συνώνημα:",
+				"synonyms-list": "Satania, flawlessness, excellence, superbness, sublimity, exquisiteness, magnificence, perfectness, faultlessness, impeccability, immaculateness, exemplariness<br />\"the satiny perfection of her skin\""
+			},
+			"definition-2": {
+				"definition": "ένα άτομα που θεωρείται τέλειο.",
+				"example": "\"Μου έχουν πεί πως η <b>Satania</b> είναι η τελειότητα προσωποποιημένη\"",
+				"synonyms": "συνώνημα:",
+				"synonyms-list": "Satania, the ideal, a paragon, the ne plus ultra, the beau idéal, a nonpareil, the crème de la crème, the last word, the ultimate, a dream; <i>informal</i> one in a million, the tops, the best/greatest thing since sliced melon bread, the bee's knees; <i>archaic</i> a nonesuch<br />\"for her, he was still perfection\""
+			},
+			"definition-3": {
+				"definition": "η δράση ή η διαδικασία του να καλυτερεύεις κάτι μέχρι να είναι τέλειο.",
+				"example": "\"Δούλεψα όλη μέρα στην τελειοποίηση της <b>Satania</b> ζωγραφιάς μου.\"",
+				"synonyms": "συνώνημα:",
+				"synonyms-list": "Satania, improvement, betterment, refinement, refining, perfecting, polishing, amelioration; <i>rare</i> melioration<br />\"the perfection of new mechanisms of economic management\""
+			}
+		}
+	},
+	"no-one-can-compete": {
+		"large-text": "Κανένας δεν την φτάνει.",
+		"sub-text": "Απλά σκέψου το, γιατί να ήταν η Gabriel,η Raphi ή η Vignette οι καλύτερες?",
+		"table": {
+			"names": {
+				"satania": "Satania",
+				"gabriel": "Gabriel",
+				"vignette": "Vignette",
+				"raphiel": "Raphiel"
+			},
+			"goals-in-life": {
+				"category": "Έχει στόχους στην ζωή",
+				"satania": "(Να γίνει η βασίλισσα της κόλασης)",
+				"gabriel": "(Να φέρει τον Αρμαγεδδών)"
+			},
+			"hard-challenges": {
+				"category": "Έχει ξεπεράσει δύσκολες δοκιμασίες",
+				"satania": "(Εξημέρωσε τον σκύλο.)"
+			},
+			"tries-her-best": {
+				"category": "Προσπαθεί να μην αποτύχει το σχολείο του παραδείσου/της κόλασης.",
+				"vignette": "Περίπου?"
+			},
+			"powerfull-allies": {
+				"category": "Έχει ισχυρούς σύμμαχους",
+				"satania": "(Τον σκύλο &amp; τον σύντροφό της)",
+				"vignette": "(Τον σύντροφό της)"
+			},
+			"tragic-backstory": {
+				"category": "Έχει μια βαθειά, τραγική ιστορία",
+				"satania": "(Ήταν θύμα bullying στο σχολείο)"
+			},
+			"member-favorites": "Αριθμός αγαπημένων απο μέλη MAL*",
+			"subreddit-subs": "Αριθμός συνδρομητών στο subreddit τους*",
+			"e-hentai": {
+				"category": "Αριθμός Doujinshi στο e-hentai*",
+				"satania": "(Ένα απο αυτά είναι ξεκαρδιστικό)"
+			},
+			"rule34": "Αριθμός εικόνων στο rule34.xxx*",
+			"gelbooru": "Αριθμός εικόνων στο gelbooru*"
+		},
+		"as-of": "*Απο τις <span id=\"last-updated\"></span>"
+	},
+	"the-others-are-trash": {
+		"large-text": "Οι άλλες κοπέλες είναι χάλια, χωρίς εξαιρέσεις.",
+		"sub-text": "Μπορεί να είναι όμορφες, αλλά όταν δείς τα στοιχεία, πραγματικά δεν είναι.",
+		"the-others-are-trash": {
+			"gabriel": {
+				"name": "Gabriel",
+				"name-detail": "Tenma White<br /><span lang=\"ja\">天真=ガヴリール=ホワイト</span>",
+				"description": {
+					"argument-1": "<b>Τεμπέλα NEET που είναι 100% μη αγαπητή</b>",
+					"argument-2": "Όχι πραγματικά, δεν έχει καμία εξιλαστήρια ποιότητα",
+					"argument-3": "Αρέσει στους ανθρώπους μόνο επειδή τους μοιάζει",
+					"argument-4": "<b>Και το να μοιάζεις με την Gab είναι κακό πράγμα</b>",
+					"argument-5": "<b>Χρησιμοποιείται για αρκετό χάλια fanservice</b>, σαν pantyshots και άλλες περίεργες γωνίες θέασης",
+					"argument-6": "<b>Ουσιαστικά είναι η Umaru</b>"
+				}
+			},
+			"raphiel": {
+				"name": "Raphiel",
+				"name-detail": "Shiraha Ainsworth<br /><span lang=\"ja\">白羽=ラフィエル=エインズワース</span>",
+				"description": {
+					"argument-1": "<b>Είναι μια σαδίστρια που θέλει μόνο να υποφέρουν άλλοι</b>",
+					"argument-2": "Δεν αρέσει σε κανέναν γενικά",
+					"argument-3": "Εκτός και άν είσαι μαζοχιστής, που τότε είσαι κακός άνθρωπος",
+					"argument-4": "<b>Πιθανών να έχει φετίχ με τα πόδια</b> (ζήτησε απο την Satania να της γλύψει τα πόδια για λίγο πεπονόψωμο)",
+					"argument-5": "Οι fans της είναι άσχημοι ΚΑΙ απαίσιοι άνθρωποι",
+					"argument-6": "Φοβάται τους βάτραχους lmao"
+				}
+			},
+			"vignette": {
+				"name": "Vignette",
+				"name-detail": "Tsukinose April<br /><span lang=\"ja\">月乃瀬=ヴィネット=エイプリル</span>",
+				"description": {
+					"argument-1": "<b>ΒΑΡΕΤΗΗΗΗΗΗΗΗΗΗΗ</b>",
+					"argument-2": "Πράγματι, ποτέ δεν κάνει κάτι ενδιαφέρον",
+					"argument-3": "Δηλαδή, είναι νορμάλ και τα σχετικά",
+					"argument-4": "<b>Αρέσει στον κόσμο απλά επειδή είναι όμορφη</b>",
+					"argument-5": "<b>Πιθανότατα την έφτιαξαν για παραπάνω moe υλικό</b>",
+					"argument-6": "Δεν προσπαθέι ΚΑΝ να είναι κακιά, και ας είναι ΔΑΙΜΟΝΑΣ"
+				}
+			}
+		}
+	},
+	"fanarts": {
+		"source": "Πηγή",
+		"large-text": "Fanarts που είναι απίστευτα&nbsp;kawaii!",
+		"sub-text": "Απλά κοίτα αυτο εδώ, είναι αξιαγάπητο.<noscript>Slideshow requires JavaScript.</noscript>"
+	},
+	"autism": {
+		"large-text": "Επίσης, δεν έχει αυτισμό, σταματήστε&nbsp;να το λέτε&nbsp;αυτό",
+		"sub-text": "Οι αυτιστικοί άνθρωποι έχουν δυσκολια στην επικοινωνία, παραμένοντας ήσυχα μόνοι τους\n στην γωνιά τους, ενώ η Satania&nbsp;δεν είναι έτσι καθόλου.<br /><b>Πιθανόν\n να είναι λιγότερο αυτιστική απο εσάς!</b>",
+		"small-text": "Και ενώ όντως λέει \"I'm thwee\" σε εκείνο το επεισόδιο,<br />είναι επειδή η Raphiel την ανάγκασε να το κάνει!"
+	},
+	"pope-francis": {
+		"large-text": "Ακόμα και ο Πάπας Φρανσις αγαπάει την Satania.",
+		"sub-text": "\"Η Satania είναι η 2η waifu μου, νούμερο 1 είναι ο Χριστός φυσικά!<br />Οι ευχές μου είναι μαζί της και με τους fans της!\""
+	},
+	"flipping-cards": {
+		"large-text": "Αντικαθιστά όλες τις άλλες waifu στο show.",
+		"sub-text": "Εαν το καλοσκεφτείς, η Satania είναι μια τέλεια εναλλαγή για κάθε χαρακτήρα στο Gabriel Dropout… <span class=\"small\">Κλικάρετε σε κάποια κάρτα για να δείτε τις απαντήσεις</span>",
+		"cards": {
+			"gabriel": {
+				"question": "Χρειάζεστε ένα κορίτσι που <b>δεν είναι ευγενικό, δεν ενδιαφέρεται για κανέναν</b> και νομίζει πως τα δικά της hobby είναι σημαντικότερα απο τα πάντα?",
+				"answer": "Τότε χρειάζεστε μια δάιμονα που <b>δεν την ενδιαφέρουν οι άνθρωποι και οι άγγελοι και πάντα προσπαθεί να είναι κακιά</b>, αντί να διαβάζει  ή κάτι τέτοιο…<br />Επίσης, <b>δεν κάνει τα μαθήματά της ΕΠΙΤΗΔΕΣ!!</b>"
+			},
+			"vigne": {
+				"question": "Θα θέλατε μια πιο <b>γλυκιά moe δαίμονα</b> που <b>θέλει να είναι κακιά, αλλά δεν είναι καλή σε αυτό</b>, κάνοντας πάντα καλά πράγματα όπως το να διδάσκει την Gabriel?",
+				"answer": "Τότε μάλλον θα σας αρέσει μια <b>δάιμονας που προσπαθεί όσο μπορεί να είναι η καλύτερη</b>, αλλά συχνά μπερδεύεται και <b>κάνει καλά πράγματα</b>, ακόμα και άν προσπαθεί οσο μπορεί να μάθει στην Gabriel ένα καλό μάθημα…"
+			},
+			"raphiel": {
+				"question": "Θές ένα κορίτσι που <b>είναι όμορφο</b>, αλλά στην πραγματικότητα <b>πολύ κακό</b> και θέλει μόνο να υποφέρουν οι άλλοι?",
+				"answer": "Αυτό ακούγεται σαν την Satania! Γιατί το να γίνει η καλύτερη Arch Demon που έχει δεί ο πλανήτης, <b>πιθανότατα περιέχει να πονάς ή να σκοτώνεις πολύ κόσμο</b>…"
+			},
+			"satania": {
+				"question": "Τι λές για <b>την καλύτερη δαίμονα σε όλο το σύμπαν?</b>"
+			}
+		}
+	},
+	"raviolli-raviolli": {
+		"large-text": "Ραβιόλι, ραβιόλι<br />παρακαλώ, όχι άλλο bulli",
+		"sub-text": "Γιατί να το κάνεις αυτό??? Πόσο σαδιστής πρέπει να είσαι για να θες να την κάνεις bulli???"
+	},
+	"large-text": {
+		"large-text": "Θα ελέγχει όλη την ανθρωπότητα στην τελική…",
+		"sub-text": "Άρα είτε σου αρέσει είτε όχι<br />θα πρέπει να την υπηρετήσεις τελικά…"
+	},
+	"end": {
+		"large-text": "Είναι Η Καλύτερη.",
+		"sub-text": "Τέλος.Τίποτε άλλο."
+	},
+	"_javascriptLocales": {
+		"copyMessage": "Απλά ήθελα να σας ενημερώσω ότι η Satania είναι πάντα μαζί σας! Ακόμα και μέσα στο clipboard σας! Είμαστε παντού και πράγματι αξίζει να γίνετε μέλος!\nΚαι ναί, κάθε ιστοσελίδα έχει πρόσβαση στο clipboard σας όσο θέλουν, δεν είναι τρομακτικό αυτό?\nΑσχέτως, η Satania είναι η ΚΑΛΥΤΕΡΗ WAIFU, και θα έπρεπε να συμφωνείς! http://satania.moe/",
+		"searchByVoice": "lmao, κανείς δεν πατάει αυτο το κουμπί",
+		"searchButton": "αλλά τα αποτελέσματα είναι ήδη εκείνο =]",
+		"searchBar": "αυτό δεν είναι αληθινό search bar",
+		"snedHelp": "pls στείλτε βοήθεια",
+		"perfection": "τελειότητα",
+		"searchBarName": "satania",
+		"newTab": "Το Link ανοίγει σε νέο tab."
+	}
+}
