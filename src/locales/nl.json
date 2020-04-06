@@ -11,7 +11,7 @@
 		"mobile-disclaimer": "Het spijt me echt, maar de mobiele versie van deze website is snel in elkaar gezet en <b>hij is echt slecht</b>, I dacht niet dat iemand de website op een smartphone zou bekijken tbh.",
 		"language-protip": "Zou je deze website graag in het <b>Nederlands</b> willen zien?<br />Gebruik dit drop-down menu om een taal te selecteren!",
 		"language-select": "Taal<i class=\"fas fa-angle-down\"></i>",
-		"credits": "A geweldige shitpost door een of andere pizza genaamd <b title=\"Kenyérlángos\">Pizzacus&trade;</b><br />en vertaald door puur weeaboo trash <b>Kbloowit</b>",
+		"credits": "A geweldige shitpost door een of andere pizza genaamd <b title=\"Kenyérlángos\">Pizzacus&trade;</b><br />en vertaald door puur weeaboo trash <b>Kbloowit</b> (Correcties: <b>Chuunibyou</b>)",
 		"music-player": {
 			"intro": {
 				"bold-text": "Zin om te luisteren naar een duivels nummer terwijl je deze pagina leest?",
@@ -111,7 +111,7 @@
 			"subreddit-subs": "Hoeveelheid subs op hun subreddit*",
 			"e-hentai": {
 				"category": "Hoeveelheid Doujinshi op e-hentai*",
-				"satania": "(Waarvan een hilarisch is)"
+				"satania": "(Waarvan er een hilarisch is)"
 			},
 			"rule34": "Hoeveelheid foto's op rule34.xxx*",
 			"gelbooru": "Hoeveelheid foto's op gelbooru*"
@@ -119,7 +119,7 @@
 		"as-of": "*Laatst geupdate op <span id=\"last-updated\"></span>"
 	},
 	"the-others-are-trash": {
-		"large-text": "De andere karakters zijn waardeloos, geen uitzonderingen.",
+		"large-text": "De andere karakters zijn waardeloos, er zijn geen uitzonderingen.",
 		"sub-text": "Ze kunnen dan wel schattig lijken, maar als je de feiten weet zijn ze dat echt niet.",
 		"the-others-are-trash": {
 			"gabriel": {
@@ -141,7 +141,7 @@
 					"argument-1": "<b>Is een sadist die alleen anderen wil laten lijden</b>",
 					"argument-2": " Is ook compleet haatbaar",
 					"argument-3": "Tenzij jij ook een sadist bent, maar dan ben jij een slecht persoon",
-					"argument-4": "<b>Heeft waarschijnlijk een voet-fetisj</b> (ze vroeg Satania om haar voeten te likken in ruil voor citroenbrood)",
+					"argument-4": "<b>Heeft waarschijnlijk een voet-fetisj</b> (ze vroeg Satania om haar voeten te likken in ruil voor een \"melonpan\")",
 					"argument-5": "Haar fans zijn perverselingen EN verschrikkelijke mensen",
 					"argument-6": "Ze is bang voor kikkers lmao"
 				}
@@ -155,7 +155,7 @@
 					"argument-3": "Ik bedoel, ze is gewoon normaal en dergelijke",
 					"argument-4": "<b>Mensen vinden haar alleen leuk omdat ze schattig is</b>",
 					"argument-5": "<b>Ze is waarschijnlijk alleen gemaakt om meer moe materiaal te krijgen</b>",
-					"argument-6": "PROBEERT niet eens om kwaadaardig te zijn, ookal is ze een DEMOON"
+					"argument-6": "PROBEERT niet eens om kwaadaardig te zijn, ook al is ze een DEMOON"
 				}
 			}
 		}
@@ -163,10 +163,10 @@
 	"fanarts": {
 		"source": "Source",
 		"large-text": "Fanarts die onmogelijk kawaii zijn!",
-		"sub-text": "Kijk hier eens naar, dit is ongelovelijk schattig. <noscript>Voor deze slideshow heb je Javascript nodig.</noscript>"
+		"sub-text": "Kijk hier eens naar, deze zijn ongelovelijk schattig. <noscript>Voor deze slideshow heb je Javascript nodig.</noscript>"
 	},
 	"autism": {
-		"large-text": "Trouwens,<br />ze is niet autistisch,<br />stop dat te zeggen",
+		"large-text": "Trouwens,<br />ze is niet autistisch,<br />stop met dat te zeggen",
 		"sub-text": "Autistiche mensen hebben vaak problemen met communiceren, ze blijven liever stil in hun eigen hoekje, Satania is helemaal niet zo.<br /><b>Ze is waarschijnlijk minder autistisch dan jij bent!</b>",
 		"small-text": "En ookal zegt ze \"Ik ben dwie\" in die aflevering,<br /> maar dat is omdat ze dat van Raphiel moest zeggen!"
 	},
