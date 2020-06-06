@@ -82,63 +82,6 @@ document.body.onclick = () => {
 }
 
 /*
-	LINK THAT OPEN IN NEW TABS
-*/
-
-// Makes a link open in a new tab (or does nothing if the element isn't a link)
-function linkOpenInNewTab(element) {
-	if (element.tagName === "A" && !element.newTabHandled) {
-		element.newTabHandled = true;
-
-		element.addEventListener("click", event => {
-			event.preventDefault();
-			window.open(element.href, '_blank').focus();
-		});
-
-		element.addEventListener("mouseover", event => {
-			element.titleBeforeHover = element.title;
-			element.title = javascriptLocales.newTab || "Link opens in a new tab.";
-		});
-
-		element.addEventListener("mouseout", event => {
-			element.title = element.titleBeforeHover;
-
-			if (element.title === "") {
-				element.removeAttribute("title");
-			}
-		});
-	}
-}
-
-// Same as linkOpenInNewTab, but also make all the child that are link open in a new tab, too
-function refreshLinks(element = document.body) {
-	linkOpenInNewTab(element);
-
-	const links = element.getElementsByTagName("a");
-	for (let link of links) {
-		linkOpenInNewTab(link);
-	}
-}
-
-window.onload = () => {
-	refreshLinks();
-
-	// Create an observer, which will make sure the links open in a new tab whenever the page changes
-	var observer = new MutationObserver(mutations => {
-		mutations.forEach(mutation => {
-			refreshLinks(mutation.target);
-		});
-	});
-
-	observer.observe(document.body, {
-		attributes: true,
-		childList: true,
-		characterData: false,
-		subtree: true
-	});
-}
-
-/*
 	SLIDESHOW
 */
 
