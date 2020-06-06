@@ -52,6 +52,7 @@ function bindSnow(canvas) {
 
 	window.setInterval(() => {
 		const canvasMargin = (canvas.height / snowflakeSpeed.max) * windStrength.max;
+
 		snowflakes.push({
 			created: performance.now(),
 			x: (Math.random() * (1 + (canvasMargin * 2))) - canvasMargin,

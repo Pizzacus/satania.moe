@@ -4,10 +4,9 @@ import 'whatwg-fetch';
 import "./closest";
 
 const defaultLocale = document.documentElement.lang;
-
-var localeSelect = document.getElementById("locale-select"),
-	options = localeSelect.getElementsByTagName("option"),
-	locales = {};
+const localeSelect = document.getElementById("locale-select");
+const options = localeSelect.getElementsByTagName("option");
+const locales = {};
 
 window.locales = locales;
 
@@ -17,44 +16,40 @@ function dispatchEvent() {
 	document.dispatchEvent(event);
 }
 
-function generateTranslationTable() {
-	"use strict";
-	// Function that uses the page's content to generate a translation table
+function setValue(object, path, value) {
+	// Function that changes the value of an object based on a path contained in an array
+	// For example: "setValue(obj, ["foo", "bar"], 123)" is the same as "obj.foo.bar = 123;"
 
-	function setValue(object, path, value) {
-		// Function that changes the value of an object based on a path contained in an array
-		// For example: "setValue(obj, ["foo", "bar"], 123)" is the same as "obj.foo.bar = 123;"
+	const property = path.pop();
 
-		// <3 https://stackoverflow.com/a/20240290
-		for (var i = 0; i < path.length - 1; i++) {
-			var key = path[i];
-			if (key in object) {
-				object = object[key];
-			} else {
-				object[key] = {};
-				object = object[key];
-			}
+	for (const key of path) {
+		if (!(key in object)) {
+			object[key] = {};
 		}
-		object[path[path.length - 1]] = value;
+
+		object = object[key];
 	}
 
+	object[property] = value;
+}
 
-	var translatedElements = document.querySelectorAll("[i18n]"),
-		translationTable = {};
+function generateTranslationTable() {
+	// Function that uses the page's content to generate a translation table
 
-	for (let i = 0; i < translatedElements.length; i++) {
-		var element = translatedElements[i],
-			path = [element.getAttribute("i18n")],
-			text = element.innerHTML
+	const translatedElements = document.querySelectorAll("[i18n]");
+	const translationTable = {};
+
+	for (let element of translatedElements) {
+		const path = [element.getAttribute("i18n")];
+		const text = element.innerHTML
 				.replace(/[\n\r\t]/g, '')
 				.replace(/<br\/?>/g, "<br />");
 
-		while (element.closest("[i18n-group]")) {
-			let groupElement = element.closest("[i18n-group]");
+		let groupNode;
 
-			path.unshift(groupElement.getAttribute("i18n-group"));
-
-			element = groupElement.parentElement;
+		while (groupNode = element.closest("[i18n-group]")) {
+			path.unshift(groupNode.getAttribute("i18n-group"));
+			element = groupNode.parentElement;
 		}
 
 		setValue(translationTable, path, text);
@@ -66,7 +61,6 @@ function generateTranslationTable() {
 }
 
 locales[defaultLocale] = generateTranslationTable();
-window.generateTranslationTable = generateTranslationTable;
 
 function changeLocale(localeName, skipReset) {
 	// Changes the locale, but reset it first, in case some text in a locale aren't translated in another one
@@ -79,12 +73,15 @@ function changeLocale(localeName, skipReset) {
 		for (let value in locale) {
 			if(typeof locale[value] === "string") {
 				const match = element.querySelector("[i18n=" + value + "]");
+
 				if (match && !match.closest("[i18n-skip]")) {
 					match.innerHTML = locale[value];
 				}
 			} else {
-				if (element.querySelector("[i18n-group=" + value + "]")) {
-					handleObject(locale[value], element.querySelector("[i18n-group=" + value + "]"));
+				const match = element.querySelector("[i18n-group=" + value + "]");
+
+				if (match) {
+					handleObject(locale[value], match);
 				}
 			}
 		}
@@ -95,7 +92,7 @@ function changeLocale(localeName, skipReset) {
 	const reformat = document.querySelectorAll("[i18n-reformat]");
 
 	for (const elem of reformat) {
-		const num = parseInt(elem.getAttribute("i18n-reformat"), 10);
+		const num = parseFloat(elem.getAttribute("i18n-reformat"));
 		elem.innerText = num.toLocaleString(localeName);
 	}
 
@@ -157,23 +154,25 @@ for (const option of options) {
 	})();
 }
 
-localeSelect.onchange = function(e) {
-	changeLocale(e.target.value);
-}
+localeSelect.addEventListener("change", event => {
+	changeLocale(event.target.value);
+}),
 
-localeSelect.onclick = () => languageProtip.style.display = "none";
+localeSelect.addEventListener("click", () => {
+	languageProtip.style.display = "none";
+}),
 
 function prettyYAML(yaml) {
 	return yaml
-	.replace(/^(\S.*)$/gm, "\n$1")
-	.replace(/\r\n|\r|\n/g, "\r\n");
+		.replace(/^(\S.*)$/gm, "\n$1")
+		.replace(/\r\n|\r|\n/g, "\r\n");
 }
 
-document.getElementById("download").onclick = () => {
-	const formatSelect = document.getElementById("format"),
-		download = document.createElement("A"),
-		isYAML = formatSelect.value === "yaml",
-		content = isYAML
+document.getElementById("download").addEventListener("click", () => {
+	const formatSelect = document.getElementById("format");
+	const download = document.createElement("A");
+	const isYAML = formatSelect.value === "yaml";
+	const content = isYAML
 			? prettyYAML(jsyaml.safeDump(locales[defaultLocale]))
 			: JSON.stringify(locales[defaultLocale], null, "\t");
 		
@@ -184,16 +183,16 @@ document.getElementById("download").onclick = () => {
 		}
 	));
 	download.download = isYAML ? "locale.yaml" : "locale.json";
-	//download.setAttribute("style", "position:absolute !important;top:-9999vh !important;opacity:0 !important;height:0 !important;width:0 !important;z-index:-9999 !important;");
 
 	document.body.appendChild(download);
 	download.click();
 	document.body.removeChild(download);
-}
+});
 
 function selectFile(options = {}) {
 	return new Promise((resolve, reject) => {
 		const upload = document.createElement("input");
+
 		upload.type = "file";
 		upload.accept = options.accept || "";
 		upload.multiple = options.multiple || false;
@@ -210,16 +209,18 @@ function selectFile(options = {}) {
 
 		upload.click();
 
-		upload.onchange = () => {
+		upload.addEventListener("change", () => {
 			let files = upload.files;
 			document.body.removeChild(upload);
-
+	
 			if (typeof options.array === "undefined" || options.array) {
-				files = Array(...files);
+				files = [...files];
 			}
-
+	
 			resolve(files);
-		}
+		});
+
+		upload.addEventListener("error", reject)
 	});
 }
 
@@ -232,8 +233,7 @@ function blobToString(blob) {
 	});
 }
 
-
-document.getElementById("upload").onclick = () => {
+document.getElementById("upload").addEventListener("click", () => {
 	selectFile({
 		accept: ".json, .yaml"
 	}).then(files => {
@@ -242,4 +242,4 @@ document.getElementById("upload").onclick = () => {
 			changeLocale("translator-mode");
 		});
 	});
-}
+});

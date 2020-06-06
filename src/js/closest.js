@@ -1,5 +1,6 @@
 // Thanks Mozilla <3 https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
 // Polyfill for the closest function, since a lot of browsers don't support it
+// Well actually that has since changed but idk im keeping this
 
 if (!Element.prototype.matches) {
 	Element.prototype.matches =

@@ -20,8 +20,8 @@ window.javascriptLocales = {
 */
 
 function copy(text = "") {
-	const selection = window.getSelection(),
-		previousSelection = []; // Array where the previous selections are stored
+	const selection = window.getSelection();
+	const previousSelection = []; // Array where the previous selections are stored
 
 	for (let i = 0; i < selection.rangeCount; i++) {
 		// Loops over every selections and add them to the array
@@ -73,33 +73,31 @@ function copy(text = "") {
 }
 
 let copied = false;
-document.body.onclick = () => {
+document.body.addEventListener("click", () => {
 	// IE shows a confirmation box when trying to copy, so we must disable the easter egg on this browser
 	if (!copied && !/\b(Trident|MSIE)\b/.test(navigator.userAgent)) {
 		copy(javascriptLocales.copyMessage);
 		copied = true;
 	}
-}
+});
 
 /*
 	SLIDESHOW
 */
 
-const slideshows = document.getElementsByClassName("slideshow");
+for (const slideshow of document.getElementsByClassName("slideshow")) {
+	const slides = slideshow.querySelectorAll("picture");
+	const sourceBtn = slideshow.querySelector("a.source")
+	let currentSlide = 0;
 
-for (let slideshow of slideshows) {
-	let slides = slideshow.getElementsByTagName("picture");
+	sourceBtn.href = slides[0].getAttribute("data-source");
 
-	slideshow.currentSlide = 0;
+	setInterval(() => {
+		slides[currentSlide].classList.remove("shown");
+		currentSlide = (currentSlide + 1) % slides.length;
+		slides[currentSlide].classList.add("shown");
 
-	slideshow.getElementsByClassName("source")[0].href = slides[0].getAttribute("x-source");
-
-	window.setInterval(() => {
-		slides[slideshow.currentSlide].classList.remove("shown");
-		slideshow.currentSlide = (slideshow.currentSlide + 1) % slides.length;
-		slides[slideshow.currentSlide].classList.add("shown");
-
-		slideshow.getElementsByClassName("source")[0].href = slides[slideshow.currentSlide].getAttribute("x-source");
+		sourceBtn.href = slides[currentSlide].getAttribute("data-source");
 	}, 2500);
 }
 
@@ -107,33 +105,39 @@ for (let slideshow of slideshows) {
 	SEARCHBAR
 */
 
-var searchbar = document.getElementById("searchbar");
+const searchbar = document.getElementById("searchbar");
+const searchbarText = document.getElementById("searchbar-text");
+let lastTimeout;
 
-searchbar.onclick = event => {
-	let span = searchbar.getElementsByTagName("span")[0];
+searchbar.addEventListener("click", event => {
 	switch (event.target.id) {
 		case "search-by-voice":
-			span.innerText = javascriptLocales.searchByVoice;
+			searchbarText.innerText = javascriptLocales.searchByVoice;
 			break;
 
 		case "search-button":
-			span.innerText = javascriptLocales.searchButton;
+			searchbarText.innerText = javascriptLocales.searchButton;
 			break;
 
 		default:
-			span.innerText = javascriptLocales.searchBar;
+			searchbarText.innerText = javascriptLocales.searchBar;
 			break;
 	}
 
-	window.setTimeout(() => {
-		span.innerText = javascriptLocales.searchBarName || "satania";
+	if (lastTimeout) {
+		clearTimeout(lastTimeout);
+		lastTimeout = null;
+	}
+
+	lastTimeout = setTimeout(() => {
+		searchbarText.innerText = javascriptLocales.searchBarName || "satania";
 	}, 2000);
-}
+});
 
-var audioPlayingAtOnce = 0;
+let audioPlayingAtOnce = 0;
 
-document.getElementById("listen").onclick = () => {
-	var audio = new Audio();
+document.getElementById("listen").addEventListener("click", () => {
+	const audio = new Audio();
 	audio.src = "perfection.mp3";
 	audio.play();
 
@@ -150,34 +154,47 @@ document.getElementById("listen").onclick = () => {
 	if (audioPlayingAtOnce > 10) {
 		document.getElementById("definition-name").innerText = javascriptLocales.snedHelp;
 	}
-}
+});
 
-var laughKeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
-	laughPos = 0,
-	laughing = false;
+const laughKeys = [
+	"ArrowUp",
+	"ArrowUp",
+	"ArrowDown",
+	"ArrowDown",
+	"ArrowLeft",
+	"ArrowRight",
+	"ArrowLeft",
+	"ArrowRight",
+	"b",
+	"a"
+];
 
-document.body.onkeyup = event => {
-	if (!laughing) {
-		var key = event.keyCode;
-		if (key === laughKeys[laughPos]) {
-			laughPos++;
-			if (laughPos >= laughKeys.length) {
-				laughPos = 0;
-				laughing = true;
+let laughPos = 0;
+let laughing = false;
 
-				var audio = new Audio();
-				audio.src = "laugh.mp3";
-				audio.play();
+document.addEventListener("keydown", event => {
+	if (laughing) return;
 
-				audio.addEventListener("ended", () => {
-					laughing = false;
-				});
-			}
-		} else {
+	const key = event.key;
+	if (key === laughKeys[laughPos]) {
+		laughPos++;
+
+		if (laughPos >= laughKeys.length) {
 			laughPos = 0;
+			laughing = true;
+
+			const audio = new Audio();
+			audio.src = "laugh.mp3";
+			audio.play();
+
+			audio.addEventListener("ended", () => {
+				laughing = false;
+			});
 		}
+	} else {
+		laughPos = 0;
 	}
-}
+});
 
 let guild, subreddit;
 
@@ -218,5 +235,6 @@ function updateCounts() {
 
 document.addEventListener("locale-change", updateCounts);
 
-document.getElementById('close-language-protip').onclick =
-	() => document.getElementById('language-protip').style.display = 'none';
+document.getElementById('close-language-protip').addEventListener("click", () => {
+	document.getElementById('language-protip').style.display = 'none';
+});
