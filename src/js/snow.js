@@ -94,4 +94,5 @@ function bindFull(canvas) {
 const fullCanvas = [...document.querySelectorAll("canvas.full")];
 fullCanvas.map(bindFull);
 
+window.startSnow = startSnow;
 module.exports = startSnow;
