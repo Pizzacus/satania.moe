@@ -1,4 +1,4 @@
-The Satania Daiakuma License 1.0 (SDL 1.0)
+The Satania Daiakuma License 1.1 (SDL 1.1)
 
 Satania-Moe
 Copyright 2017 Pizzacus
@@ -6,6 +6,8 @@ Copyright 2017 Pizzacus
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 THIS SOFTWARE MUST NOT BE USED TO PROMOTE ANY CHARACTERS FROM THE ANIME GABRIEL DROPOUT IN ANY WAY EXCEPT SATANIA. Characters from other shows are fine, but the ones from Gabriel Dropout are not, these include, but aren't limited to: Gabriel, Vignette, Raphiel, Tapris, Iinchou, Haniel, Martiel, Master, Tanaka, Ueno, Zelel, or any other character that could be revealed in the future.
+
+THIS SOFTWARE MUST NOT BE USED FOR PREJUDICE AGAINST SATANIA, carrying out acts of propaganda against Satania, or otherwise damaging her honor or public image in any way, shape or form. Violators expose themselves to legal action being taken against them, under provision of the right of publicity (Haelan Laboratories, Inc. v. Topps Chewing Gum, Inc., 202 F.2d 866 (2d Cir. 1953)) in several states in the United States and other countries, or any applicable equivalent.
 
 DO NOT USE THIS SOFTWARE TO ANTI-PROMOTE SATANIA, is that a word? I couldn't think of anything, but... you know... anti-promotion is like the reverse of promotion, like, when you anti-promote something you're trying to get people to hate it, or just like it less, so if you used this website to say, for instance, that Satania is a bad waifu, it would be a violation of this license.
 
