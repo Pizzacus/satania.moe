@@ -66,7 +66,7 @@ function js() {
 }
 
 function css() {
-	const sass = require("gulp-sass");
+	const sass = require("gulp-sass")(require('node-sass'));
 	const csso = require("gulp-csso");
 	const concat = require("gulp-concat");
 	const postcss = require("gulp-postcss");
@@ -111,9 +111,9 @@ function locales() {
 	);
 }
 
-function clean() {
-	const del = require("del");
-	return del(DEST);
+async function clean() {
+	const del = await import('del');
+	return del.deleteSync(DEST);
 }
 
 exports.js = js;
